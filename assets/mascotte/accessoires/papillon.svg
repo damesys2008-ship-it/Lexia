@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « papillon » pour Pompon, emplacement col. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M120 226 L102 216 L102 236 Z M120 226 L138 216 L138 236 Z" fill="#D6246E" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="120" cy="226" r="4.5" fill="#8E1249" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

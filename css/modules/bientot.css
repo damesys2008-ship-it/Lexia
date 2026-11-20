@@ -1,0 +1,61 @@
+/* Écran « Bientôt disponible » : une colonne centrée de 800 px, la bulle de Pompon, Pompon, un message sobre, un retour. */
+
+.bientot.contenu__centre {
+  max-width: 50rem; /* 800 px */
+}
+
+.bientot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espace-4);
+  text-align: center;
+}
+
+.bientot .bulle {
+  max-width: 32rem;
+  font-size: 1.0625rem;
+}
+
+/* Pompon se tient sur une ombre grise, ce n'est pas l'ombre rose des écrans de jeu. */
+.bientot__pompon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bientot__pompon .mascotte {
+  width: 13.75rem; /* 220 px */
+}
+
+.bientot__pompon::after {
+  content: '';
+  width: 13.75rem;
+  height: 1.25rem;
+  margin-top: calc(-1 * var(--espace-2));
+  background: var(--trait-doux);
+  border-radius: 50%;
+}
+
+.bientot h1,
+.bientot p {
+  margin: 0;
+}
+
+.bientot h1 {
+  font-family: var(--police-titre);
+  font-size: 3rem; /* 48 px */
+  line-height: 1.1;
+}
+
+.bientot p {
+  max-width: 32rem;
+  font-size: 1.1875rem; /* 19 px */
+  line-height: 1.6;
+}
+
+@media (max-width: 1180px) {
+  .bientot p {
+    font-size: 1.25rem; /* 20 px */
+  }
+}

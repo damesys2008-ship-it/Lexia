@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « masque » pour Pompon, emplacement visage. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M84 178 Q104 166 120 178 Q136 166 156 178 Q154 196 136 196 Q124 196 120 189 Q116 196 104 196 Q86 196 84 178 Z" fill="#C94A1F" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="104" cy="185" rx="8" ry="6.5" fill="#fff"/>
+    <ellipse cx="136" cy="185" rx="8" ry="6.5" fill="#fff"/>
+    <circle cx="104" cy="185" r="5" fill="#241B4B"/>
+    <circle cx="136" cy="185" r="5" fill="#241B4B"/>
+    <circle cx="102.5" cy="183.5" r="1.6" fill="#fff"/>
+    <circle cx="134.5" cy="183.5" r="1.6" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « fleurs » pour Pompon, emplacement tete. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M90 138 Q120 126 150 138" fill="none" stroke="#0E7C66" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="92.0" cy="131.1" r="3.6" fill="#FF8CBA" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="96.3" cy="134.2" r="3.6" fill="#FF8CBA" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="94.7" cy="139.2" r="3.6" fill="#FF8CBA" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="89.3" cy="139.2" r="3.6" fill="#FF8CBA" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="87.7" cy="134.2" r="3.6" fill="#FF8CBA" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="92" cy="135.6" r="2.4" fill="#fff" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="106.0" cy="128.3" r="3.6" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="110.3" cy="131.5" r="3.6" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="108.7" cy="136.4" r="3.6" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="103.3" cy="136.4" r="3.6" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="101.7" cy="131.5" r="3.6" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="106" cy="132.8" r="2.4" fill="#fff" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="120.0" cy="125.5" r="3.6" fill="#6B4BD8" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="124.3" cy="128.7" r="3.6" fill="#6B4BD8" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="122.7" cy="133.6" r="3.6" fill="#6B4BD8" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="117.3" cy="133.6" r="3.6" fill="#6B4BD8" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="115.7" cy="128.7" r="3.6" fill="#6B4BD8" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="120" cy="130.0" r="2.4" fill="#fff" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="134.0" cy="128.3" r="3.6" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="138.3" cy="131.5" r="3.6" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="136.7" cy="136.4" r="3.6" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="131.3" cy="136.4" r="3.6" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="129.7" cy="131.5" r="3.6" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="134" cy="132.8" r="2.4" fill="#fff" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="148.0" cy="131.1" r="3.6" fill="#FF8CBA" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="152.3" cy="134.2" r="3.6" fill="#FF8CBA" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="150.7" cy="139.2" r="3.6" fill="#FF8CBA" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="145.3" cy="139.2" r="3.6" fill="#FF8CBA" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="143.7" cy="134.2" r="3.6" fill="#FF8CBA" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="148" cy="135.6" r="2.4" fill="#fff" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

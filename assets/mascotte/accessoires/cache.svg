@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « cache » pour Pompon, emplacement pompons. Même viewBox que pompon.svg. -->
+  <g>
+    <circle cx="97" cy="108" r="19" fill="#FFB8D6" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M85 102 Q97 96 109 102 M83 110 Q97 104 111 110 M86 118 Q97 112 108 118" fill="none" stroke="#241B4B" stroke-width="1.6"/>
+    <circle cx="143" cy="108" r="19" fill="#FFB8D6" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M131 102 Q143 96 155 102 M129 110 Q143 104 157 110 M132 118 Q143 112 154 118" fill="none" stroke="#241B4B" stroke-width="1.6"/>
+  </g>
+</svg>

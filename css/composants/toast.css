@@ -1,0 +1,25 @@
+/* Toast (js/ui/toast.js) : placé dans #zone-toasts, qui est fixée en bas à droite (composants.css). */
+
+.toast {
+  margin: 0;
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--prune);
+  color: var(--blanc);
+  border-radius: 1.375rem; /* 22 px : comme la bulle de Pompon */
+  box-shadow: var(--ombre-douce);
+  font-size: 1.0625rem; /* 17 px */
+  line-height: 1.45;
+  animation: toast-entree var(--duree-moyenne) ease-out;
+}
+
+@keyframes toast-entree {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

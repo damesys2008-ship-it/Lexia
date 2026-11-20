@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « echarpe » pour Pompon, emplacement col. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M72 220 Q120 238 168 220 L168 232 Q120 250 72 232 Z" fill="#0E7C66" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M136 236 L150 264 L162 258 L150 230 Z" fill="#0E7C66" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M86 226 L86 238 M104 230 L104 242 M122 231 L122 243 M140 228 L140 240 M156 224 L156 236" stroke="#fff" stroke-width="3"/>
+  </g>
+</svg>

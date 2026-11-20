@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « casquette » pour Pompon, emplacement tete. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M94 138 Q94 115 120 115 Q146 115 146 138 Z" fill="#D9B384" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M104 120 L104 137 M120 115 L120 137 M136 120 L136 137 M96 127 L144 127" stroke="#A86B3C" stroke-width="1.6"/>
+    <path d="M96 138 Q120 132 144 138 Q120 146 96 138 Z" fill="#D9B384" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

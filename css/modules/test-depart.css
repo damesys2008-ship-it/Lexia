@@ -1,0 +1,177 @@
+/*
+ * Test de départ « La grande aventure » (maquettes 19 PC et 41 tablette) :
+ * « Continuer plus tard » en haut, Pompon et sa bulle à gauche, la carte d'étape puis la carte d'exercice à droite.
+ * Le contenu des exercices est plus large que celui des hubs : 1240 px sur PC, 1100 px sur tablette (marges comprises).
+ */
+
+main:has(.test-depart__disposition) {
+  --largeur-contenu: 83.5rem;
+}
+
+@media (max-width: 1180px) {
+  main:has(.test-depart__disposition) {
+    --largeur-contenu: 73.25rem;
+  }
+}
+
+.test-depart {
+  display: flex;
+  flex-direction: column;
+  gap: var(--marge-haut-page);
+}
+
+.test-depart__plus-tard {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--hauteur-bouton);
+  color: var(--framboise);
+  font-family: var(--police-titre);
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.test-depart__disposition {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--marge-haut-page);
+  align-items: flex-start;
+}
+
+.test-depart__compagnon {
+  flex: 0 0 15.625rem; /* 250 px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espace-3);
+}
+
+.test-depart__compagnon .mascotte {
+  max-width: 100%;
+}
+
+.test-depart__zone {
+  flex: 1 1 35rem; /* 560 px */
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-4);
+}
+
+/* ---------- Carte d'étape : la couleur de la matière en cours ---------- */
+
+.test-depart__etape-carte {
+  --matiere: var(--prune);
+  --matiere-clair: var(--bonbon);
+  padding: var(--espace-4) var(--espace-5);
+  background: var(--matiere-clair);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+  box-shadow: var(--ombre-carte);
+}
+
+.test-depart__etape-carte--orthographe {
+  --matiere: var(--module-orthographe);
+  --matiere-clair: var(--module-orthographe-clair);
+}
+
+.test-depart__etape-carte--vocabulaire {
+  --matiere: var(--module-vocabulaire);
+  --matiere-clair: var(--module-vocabulaire-clair);
+}
+
+.test-depart__etape-carte--lecture {
+  --matiere: var(--module-lecture);
+  --matiere-clair: var(--module-lecture-clair);
+}
+
+.test-depart__etape-carte--grammaire {
+  --matiere: var(--module-grammaire);
+  --matiere-clair: var(--module-grammaire-clair);
+}
+
+.test-depart__etape-carte--conjugaison {
+  --matiere: var(--module-conjugaison);
+  --matiere-clair: var(--module-conjugaison-clair);
+}
+
+.test-depart__etape-carte--dictee {
+  --matiere: var(--module-dictee);
+  --matiere-clair: var(--module-dictee-clair);
+}
+
+.test-depart__etape {
+  margin: 0 0 var(--espace-3);
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-3);
+}
+
+.test-depart__etape--fin {
+  font-size: var(--taille-titre-2);
+}
+
+.test-depart__segments {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: var(--espace-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.test-depart__barre {
+  display: block;
+  height: 0.75rem; /* 12 px */
+  background: var(--trait-doux);
+  border-radius: 99px;
+}
+
+.test-depart__segment--fait .test-depart__barre {
+  background: var(--matiere);
+}
+
+.test-depart__libelle {
+  display: block;
+  margin-top: var(--espace-1);
+  font-size: 0.8125rem; /* 13 px */
+  text-align: center;
+}
+
+.test-depart__segment--courant .test-depart__libelle {
+  font-weight: 700;
+}
+
+/* ---------- La question et la correction ---------- */
+
+.test-depart__texte,
+.test-depart__enonce {
+  margin: 0 0 var(--espace-3);
+  font-size: var(--taille-exercice);
+}
+
+.test-depart__enonce {
+  font-weight: 700;
+}
+
+.test-depart__verdict {
+  margin: 0 0 var(--espace-2);
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+}
+
+.test-depart__explication {
+  margin: 0;
+  font-size: var(--taille-exercice);
+}
+
+.test-depart__niveaux {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--taille-exercice);
+}

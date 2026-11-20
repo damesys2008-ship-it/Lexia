@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « bouee » pour Pompon, emplacement corps. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M52 236 A68 18 0 0 0 188 236 L172 236 A52 10 0 0 1 68 236 Z" fill="#FFC93C" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M80 248 L84 241 M120 254 L120 246 M160 248 L156 241" stroke="#D6246E" stroke-width="5"/>
+  </g>
+</svg>

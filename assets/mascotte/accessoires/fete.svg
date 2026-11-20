@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « fete » pour Pompon, emplacement tete. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M106 138 L120 86 L134 138 Z" fill="#2563C9" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M110 124 L130 120 M113 110 L127 107" stroke="#fff" stroke-width="3"/>
+    <circle cx="120" cy="85" r="6" fill="#FFC93C" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

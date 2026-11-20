@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « lunettes » pour Pompon, emplacement visage. Même viewBox que pompon.svg. -->
+  <g>
+    <circle cx="104" cy="185" r="12" fill="#fff" fill-opacity=".25" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="136" cy="185" r="12" fill="#fff" fill-opacity=".25" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M116 185 Q120 181 124 185" fill="none" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

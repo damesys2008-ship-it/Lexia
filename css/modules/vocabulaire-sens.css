@@ -1,0 +1,35 @@
+/* Vocabulaire, un mot plusieurs sens : la phrase avec son mot en valeur, « Écouter » et « Vérifier ». */
+
+/* La phrase et son bouton « Écouter » sur une ligne : les définitions restent à l'écran sur un portable. */
+.vocabulaire-sens__entete {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espace-3);
+  margin-bottom: var(--espace-2);
+}
+
+.vocabulaire-sens__phrase {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-3);
+  font-weight: 600;
+}
+
+/* Le mot : gras, souligné et sur fond clair. Jamais la couleur seule. */
+.vocabulaire-sens__mot {
+  padding: 0 var(--espace-1);
+  color: var(--prune);
+  background: var(--module-vocabulaire-clair);
+  border-radius: var(--rayon-petit);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.2em;
+}
+
+.vocabulaire-sens__actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--espace-1);
+}

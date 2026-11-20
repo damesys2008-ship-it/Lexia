@@ -1,0 +1,32 @@
+/* Proposition de changement de niveau (js/ui/proposition-niveau.js), sur l'écran d'accueil d'un module. */
+
+.proposition-niveau {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-3);
+  width: 100%;
+  padding: var(--espace-4) var(--espace-5);
+  background: var(--soleil-clair);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+  box-shadow: var(--ombre-carte);
+  color: var(--prune);
+}
+
+.proposition-niveau__titre {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-3);
+}
+
+.proposition-niveau__texte,
+.proposition-niveau__confirmation {
+  margin: 0;
+  font-size: var(--taille-exercice);
+}
+
+.proposition-niveau__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-3);
+}

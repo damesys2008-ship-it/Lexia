@@ -1,0 +1,129 @@
+/*
+ * Grammaire, la chasse aux fonctions : la légende, la phrase en mots touchables et les groupes colorés.
+ * Une couleur par fonction (texte --prune, contraste >= 4,5 voir tokens.css) ET un sigle : jamais la couleur seule.
+ */
+
+.fonctions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-4);
+  font-size: var(--taille-exercice);
+}
+
+.fonctions__aide {
+  margin: 0;
+  color: var(--texte-discret);
+  font-size: var(--taille-texte);
+}
+
+.fonctions__legende,
+.fonctions__phrase {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-2);
+  margin: 0;
+}
+
+/* Une fois l'étape terminée, la consigne, la légende et l'annonce ne servent plus : la place va à la correction. */
+.fonctions--terminee .fonctions__aide,
+.fonctions--terminee .fonctions__legende,
+.fonctions--terminee .fonctions__annonce {
+  display: none;
+}
+
+.fonctions__annonce {
+  min-height: 1.5em;
+  margin: 0;
+  font-size: var(--taille-texte);
+}
+
+/* --- Les couleurs des fonctions, partagées par la légende et les mots --- */
+
+.fonctions__mot {
+  background: var(--blanc);
+  /* Le doigt glisse d'un mot à l'autre : la page ne défile pas pendant le geste. */
+  touch-action: none;
+}
+
+/* Fonds clairs (ou soleil) : le texte prune garde un contraste d'au moins 10, le sigle porte l'information. */
+.fonctions__couleur--verbe { background: var(--corail-clair); }
+.fonctions__couleur--sujet { background: var(--soleil); }
+.fonctions__couleur--cod { background: var(--menthe-clair); }
+.fonctions__couleur--coi { background: var(--lilas-clair); }
+.fonctions__couleur--cc { background: var(--ciel-clair); }
+
+.fonctions__fonction,
+.fonctions__mot {
+  min-height: var(--cible-minimale);
+  padding: var(--espace-1) var(--espace-3);
+  color: var(--prune);
+  font: inherit;
+  border: var(--bordure);
+  border-radius: var(--rayon-petit);
+  cursor: pointer;
+}
+
+.fonctions__fonction[aria-pressed="true"] {
+  font-weight: 700;
+  outline: 3px solid var(--prune);
+  outline-offset: 2px;
+}
+
+.fonctions__fonction:disabled,
+.fonctions__mot:disabled {
+  cursor: default;
+}
+
+/* Le sigle (V, S, COD, COI, CC, plus ✓ ou ✗) : un petit badge sombre, lisible sans la couleur. */
+.fonctions__sigle {
+  display: inline-block;
+  margin-right: var(--espace-1);
+  padding: 0 var(--espace-2);
+  color: var(--blanc);
+  font-size: var(--taille-petite);
+  font-weight: 700;
+  background: var(--prune);
+  border-radius: var(--rayon-rond);
+}
+
+/* --- Les mots --- */
+
+/* Les mots d'un même groupe se touchent : le groupe se lit comme un seul bloc. */
+.fonctions__mot--suite {
+  margin-left: calc(var(--espace-2) * -1);
+  border-left-style: dashed;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.fonctions__mot--attente {
+  outline: 3px dashed var(--prune);
+  outline-offset: 2px;
+}
+
+.fonctions__mot--juste {
+  border-color: var(--menthe);
+  border-width: 3px;
+}
+
+.fonctions__mot--faux {
+  background: var(--soleil-clair);
+  border-color: var(--soleil-fonce);
+  border-width: 3px;
+  border-style: dashed;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fonctions__mot,
+  .fonctions__fonction {
+    transition: background-color var(--duree-courte) ease;
+  }
+}
+
+.grammaire-fonctions__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-3);
+  justify-content: flex-end;
+  margin-top: var(--espace-4);
+}

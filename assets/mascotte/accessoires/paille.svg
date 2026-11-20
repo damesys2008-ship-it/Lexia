@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « paille » pour Pompon, emplacement tete. Même viewBox que pompon.svg. -->
+  <g>
+    <ellipse cx="120" cy="137" rx="46" ry="10" fill="#F2D27A" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M100 137 Q100 115 120 115 Q140 115 140 137 Z" fill="#F2D27A" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M100 130 Q120 134 140 130 L140 136 Q120 140 100 136 Z" fill="#FF8CBA" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

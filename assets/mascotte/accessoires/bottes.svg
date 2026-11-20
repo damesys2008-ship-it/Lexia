@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « bottes » pour Pompon, emplacement pieds. Même viewBox que pompon.svg. -->
+  <g>
+    <ellipse cx="102" cy="268" rx="21" ry="12" fill="#C94A1F" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="138" cy="268" rx="21" ry="12" fill="#C94A1F" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M84 262 Q102 256 120 262 M120 262 Q138 256 156 262" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

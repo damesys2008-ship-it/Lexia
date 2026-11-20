@@ -1,0 +1,33 @@
+/* Modale (js/ui/modale.js), basée sur <dialog> : le navigateur gère l'arrière-plan et le focus. */
+
+.modale {
+  width: min(32rem, calc(100vw - 2 * var(--espace-4)));
+  padding: var(--espace-5);
+  background: var(--fond-exercice);
+  color: var(--texte);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+  box-shadow: var(--ombre-carte);
+  font-size: var(--taille-exercice);
+}
+
+.modale::backdrop {
+  background: rgb(43 19 66 / 65%); /* prune à 65 % */
+}
+
+.modale__titre {
+  margin-bottom: var(--espace-3);
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-3);
+}
+
+.modale__corps {
+  margin-bottom: var(--espace-5);
+}
+
+.modale__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: var(--espace-3);
+}

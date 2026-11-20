@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « cape » pour Pompon, emplacement dos. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M72 160 Q38 232 56 280 L184 280 Q202 232 168 160 Z" fill="#C94A1F" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

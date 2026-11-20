@@ -1,0 +1,159 @@
+/* Composant « déposer » (js/ui/deposer.js) : une réserve d'étiquettes et des zones où les ranger. */
+
+.deposer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-3);
+  font-size: 1.5rem; /* 24 px : les mots à ranger */
+}
+
+.deposer__zones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: var(--espace-3);
+}
+
+.deposer__zone {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-1);
+  min-width: 0;
+  padding: var(--espace-2);
+  background: var(--blanc);
+  border: var(--epaisseur-bordure) dashed var(--prune);
+  border-radius: 1.375rem; /* 22 px */
+  transition: background-color var(--duree-courte) ease;
+}
+
+.deposer__zone--reserve {
+  background: var(--creme);
+}
+
+/* Les boîtes de la grammaire ont la couleur de leur classe de mots. */
+.deposer__zone[data-zone="nom"] { --couleur-zone: var(--ciel); --fond-zone: var(--ciel-clair); }
+.deposer__zone[data-zone="verbe"] { --couleur-zone: var(--corail); --fond-zone: var(--corail-clair); }
+.deposer__zone[data-zone="adjectif"] { --couleur-zone: var(--menthe); --fond-zone: var(--menthe-clair); }
+.deposer__zone[data-zone="determinant"] { --couleur-zone: var(--lilas); --fond-zone: var(--lilas-clair); }
+
+.deposer__zone[data-zone="nom"],
+.deposer__zone[data-zone="verbe"],
+.deposer__zone[data-zone="adjectif"],
+.deposer__zone[data-zone="determinant"] {
+  background: var(--fond-zone);
+  border-color: var(--couleur-zone);
+}
+
+.deposer__zone--survolee {
+  background: var(--bonbon);
+  border-style: solid;
+}
+
+/* Le titre de la zone est un bouton : le toucher dépose l'étiquette choisie. */
+.deposer__cible {
+  min-height: var(--cible-minimale);
+  padding: var(--espace-1) var(--espace-3);
+  background: none;
+  border: 0;
+  border-radius: var(--rayon-petit);
+  color: var(--couleur-zone, var(--framboise));
+  font: inherit;
+  font-size: 1.25rem; /* 20 px */
+  font-family: var(--police-titre);
+  font-weight: 700;
+  text-align: start;
+  cursor: pointer;
+}
+
+.deposer__cible:hover:not(:disabled) {
+  background: var(--blanc);
+}
+
+/* Le titre de la réserve est discret : « Mots à ranger » en petit, sans couleur de classe de mots. */
+.deposer__zone--reserve .deposer__cible {
+  color: var(--prune-doux);
+  font-family: var(--police-texte);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.deposer__liste {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-2);
+  min-height: var(--cible-minimale);
+  align-content: flex-start;
+}
+
+/* Une zone ordonnée se lit comme une phrase, de gauche à droite. */
+.deposer__zone--ordonnee {
+  grid-column: 1 / -1;
+}
+
+.deposer__etiquette {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espace-2);
+  box-sizing: border-box;
+  max-width: 100%;
+  min-height: var(--cible-minimale);
+  padding: var(--espace-1) var(--espace-3);
+  overflow-wrap: anywhere;
+  background: var(--soleil);
+  border: var(--bordure);
+  border-radius: var(--rayon-petit);
+  box-shadow: 0 4px 0 var(--prune);
+  color: var(--prune);
+  font: inherit;
+  font-family: var(--police-titre);
+  font-weight: 600;
+  cursor: grab;
+  touch-action: none; /* le doigt glisse l'étiquette au lieu de faire défiler la page */
+  user-select: none;
+  transition: transform var(--duree-courte) ease;
+}
+
+.deposer__etiquette--choisie {
+  border-color: var(--framboise);
+  box-shadow: 0 4px 0 var(--framboise);
+  transform: scale(1.05);
+}
+
+.deposer__etiquette--en-deplacement {
+  position: relative;
+  z-index: 10;
+  transform: translate(var(--decalage-x, 0), var(--decalage-y, 0));
+  box-shadow: var(--ombre-carte);
+  cursor: grabbing;
+  transition: none;
+}
+
+/* Juste : menthe sur fond menthe clair, avec le ✓. */
+.deposer__etiquette--juste {
+  background: var(--menthe-clair);
+  border-color: var(--menthe);
+  box-shadow: 0 4px 0 var(--menthe);
+  cursor: default;
+}
+
+/* « Presque ! » : fond jaune clair, filet jaune foncé pointillé, texte prune, avec le symbole. */
+.deposer__etiquette--faux {
+  background: var(--soleil-clair);
+  border: var(--epaisseur-bordure) dashed var(--soleil-fonce);
+  box-shadow: 0 4px 0 var(--soleil-fonce);
+  cursor: default;
+}
+
+.deposer__symbole {
+  font-family: var(--police-symboles);
+  font-weight: 800;
+}
+
+.deposer.est-desactive .deposer__etiquette,
+.deposer.est-desactive .deposer__cible {
+  cursor: default;
+}
+
+/* Réserve vide : seul son titre reste, pour pouvoir y remettre une étiquette. */
+.deposer__zone--reserve.deposer__zone--vide .deposer__liste {
+  display: none;
+}

@@ -1,0 +1,395 @@
+/*
+ * Écran « Garde-robe » (maquettes 20 PC et 42 tablette).
+ * PC : le panneau de Pompon est au-dessus, la grille est à 4 colonnes.
+ * Tablette (largeur <= 1180 px) : le panneau est à gauche, la grille à 2 colonnes à droite.
+ * Le placement vient du flex-wrap : la colonne de droite passe sous le panneau quand elle n'a plus la place.
+ */
+
+.garde-robe {
+  --largeur-panneau: 31.25rem;
+  --largeur-minimale-droite: 36.5rem; /* assez large pour passer sous le panneau sur PC (contenu de 1120 px) */
+  --largeur-minimale-carte: 13.5rem; /* 4 colonnes sur PC, 2 à droite du panneau sur tablette */
+  display: flex;
+  flex-direction: column;
+  gap: var(--marge-haut-page);
+}
+
+.garde-robe > .bouton {
+  align-self: flex-start;
+}
+
+.garde-robe__titre {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-1);
+  line-height: 1.1;
+}
+
+.garde-robe__corps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--marge-haut-page);
+  align-items: flex-start;
+}
+
+/* ---------- Panneau de Pompon ---------- */
+
+.garde-robe__panneau {
+  flex: 0 0 var(--largeur-panneau);
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 1.375rem;
+  background: var(--bonbon);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+  box-shadow: var(--ombre-carte);
+}
+
+.garde-robe__apercu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Le socle rose, derrière les pieds de Pompon. */
+.garde-robe__apercu::before {
+  content: "";
+  position: absolute;
+  bottom: 0.25rem;
+  width: 21.25rem;
+  max-width: 90%;
+  height: 4rem;
+  border-radius: 50%;
+  background: var(--socle-pompon);
+  opacity: 0.75;
+}
+
+.garde-robe__apercu .mascotte {
+  position: relative;
+  max-width: 25rem;
+}
+
+.garde-robe__demos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  justify-content: center;
+}
+
+.garde-robe__demos .bouton {
+  min-height: var(--cible-minimale);
+  padding: 0.5rem 1.125rem;
+  font-size: var(--taille-exercice);
+}
+
+.garde-robe__cases {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8.75rem, 1fr));
+  gap: 0.625rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.garde-robe__case {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5rem 0.75rem;
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: 1.125rem;
+}
+
+.garde-robe__case--vide {
+  border-color: var(--trait-moyen);
+}
+
+.garde-robe__case-emplacement {
+  font-size: var(--taille-texte);
+  color: var(--texte-discret);
+}
+
+.garde-robe__case-nom {
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.garde-robe__case--vide .garde-robe__case-nom {
+  color: var(--gris-eteint);
+}
+
+.garde-robe__case .bouton {
+  min-height: var(--cible-minimale);
+  padding: 0;
+  font-size: var(--taille-texte);
+}
+
+/* ---------- Colonne de droite : solde, filtres, grille, ensembles ---------- */
+
+.garde-robe__droite {
+  flex: 1 1 var(--largeur-minimale-droite);
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.garde-robe__solde {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.garde-robe__puce {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem 1.25rem;
+  background: var(--soleil-clair);
+  border: var(--bordure);
+  border-radius: 1.5rem;
+}
+
+.garde-robe__etoile {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.garde-robe__nombre {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: 2.125rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.garde-robe__legende,
+.garde-robe__explication {
+  margin: 0;
+  color: var(--texte-discret);
+}
+
+.garde-robe__explication {
+  max-width: 19rem;
+  font-size: var(--taille-exercice);
+  line-height: 1.5;
+}
+
+.garde-robe__retour {
+  margin: 0;
+  font-size: var(--taille-exercice);
+  font-weight: 600;
+}
+
+.garde-robe__retour:empty {
+  display: none;
+}
+
+.garde-robe__grille {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.garde-robe__filtres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+}
+
+/* Pilules : « Tout » (ou le filtre choisi) est plein, les autres sont blanches. */
+.garde-robe__filtre {
+  min-height: var(--cible-minimale);
+  padding: 0 1.375rem;
+  background: var(--blanc);
+  color: var(--prune);
+  border: var(--bordure);
+  border-radius: var(--rayon-rond);
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.garde-robe__filtre[aria-pressed="true"] {
+  background: var(--prune);
+  color: var(--blanc);
+}
+
+/* ---------- Cartes d'accessoires ---------- */
+
+.garde-robe__liste,
+.garde-robe__liste-ensembles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--largeur-minimale-carte), 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.garde-robe__carte,
+.garde-robe__ensemble {
+  min-width: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 0.75rem;
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: 1.625rem;
+}
+
+.garde-robe__carte[hidden] {
+  display: none;
+}
+
+.garde-robe__carte--porte,
+.garde-robe__ensemble--debloque {
+  border-color: var(--menthe);
+}
+
+.garde-robe__vignette {
+  position: relative;
+  height: 9.375rem;
+  overflow: hidden;
+  background: var(--bonbon);
+  border-radius: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.garde-robe__carte--porte .garde-robe__vignette {
+  background: var(--menthe-clair);
+}
+
+/* La vignette est un Pompon figé : pas de respiration ni de clignement dans la grille. */
+.garde-robe__vignette .mascotte,
+.garde-robe__vignette .mascotte * {
+  animation: none !important;
+}
+
+.garde-robe__vignette .mascotte {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  overflow: hidden;
+}
+
+.garde-robe__prix {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.625rem;
+  background: var(--soleil-clair);
+  border: 2px solid var(--prune);
+  border-radius: var(--rayon-rond);
+  font-family: var(--police-titre);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.garde-robe__prix .etoiles__symbole {
+  width: 1rem;
+  height: 1rem;
+}
+
+.garde-robe__nom {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.garde-robe__emplacement,
+.garde-robe__progression,
+.garde-robe__condition {
+  margin: 0;
+  font-size: var(--taille-texte);
+  color: var(--texte-discret);
+}
+
+.garde-robe__action {
+  margin-top: auto;
+}
+
+.garde-robe__action .bouton,
+.garde-robe__ensemble .bouton {
+  width: 100%;
+  min-height: var(--cible-minimale);
+  padding-block: 0.5rem;
+  font-size: var(--taille-exercice);
+}
+
+/* « Porté » : menthe sur blanc, avec la coche : la couleur ne porte jamais seule l'information. */
+.garde-robe__porte {
+  border-color: var(--menthe);
+  color: var(--menthe);
+  box-shadow: none;
+}
+
+/* « Encore N étoiles » : une information douce, ni bouton ni rouge. */
+.garde-robe__manque {
+  margin: 0;
+  padding: 0.5rem;
+  background: var(--soleil-clair);
+  border-radius: var(--rayon-moyen);
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 600;
+  text-align: center;
+}
+
+/* ---------- Ensembles ---------- */
+
+.garde-robe__ensembles {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: var(--espace-4);
+}
+
+.garde-robe__sous-titre {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-2);
+}
+
+.garde-robe__debloque {
+  margin: 0;
+  color: var(--menthe);
+  font-weight: 700;
+}
+
+/* ---------- Tablette : panneau à gauche (440 px), grille à 2 colonnes ---------- */
+
+@media (max-width: 1180px) {
+  .garde-robe {
+    --largeur-panneau: 27.5rem;
+  }
+
+  .garde-robe__demos .bouton {
+    min-height: 3.5rem;
+  }
+}
+
+.garde-robe__prix[hidden] {
+  display: none;
+}

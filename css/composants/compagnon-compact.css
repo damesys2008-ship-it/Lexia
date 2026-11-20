@@ -1,0 +1,17 @@
+/* Le compagnon de la séance (mascotte et bulle) se met en ligne et rapetisse tant qu'un de ces écrans est
+   affiché : les boîtes, les mots ou le champ de saisie doivent tenir sur un portable (1366 x 768).
+   Les feuilles de ces écrans l'importent ; la règle n'existe qu'ici. */
+
+.orthographe__compagnon:has(+ .zone-exercice :is(
+    .deposer, .fonctions, .grammaire-transformations__source, .vocabulaire-synonymes__relier, .choix
+  )) {
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-bottom: var(--espace-2);
+}
+
+.orthographe__compagnon:has(+ .zone-exercice :is(
+    .deposer, .fonctions, .grammaire-transformations__source, .vocabulaire-synonymes__relier, .choix
+  )) .mascotte {
+  max-width: 4.5rem;
+}

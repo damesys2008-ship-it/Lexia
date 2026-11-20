@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « nuit » pour Pompon, emplacement tete. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M94 140 Q96 110 124 106 Q150 104 160 126 Q146 116 136 122 Q140 130 146 140 Z" fill="#B9A6F2" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="162" cy="130" r="7" fill="#fff" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="112" cy="124" r="2" fill="#fff"/>
+    <circle cx="128" cy="116" r="2" fill="#fff"/>
+  </g>
+</svg>

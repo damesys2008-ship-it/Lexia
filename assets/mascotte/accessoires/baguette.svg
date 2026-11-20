@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « baguette » pour Pompon, emplacement main. Dessiné en coordonnées du viewBox ; le groupe ci-dessous compense le décalage (170, 195) du bras droit, où l'emplacement est rattaché. -->
+  <g>
+    <g transform="translate(-170 -195)">
+      <path d="M182 222 L202 180" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M204.0,162.0 L207.2,169.6 L215.4,170.3 L209.1,175.7 L211.1,183.7 L204.0,179.4 L196.9,183.7 L198.9,175.7 L192.6,170.3 L200.8,169.6 Z" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

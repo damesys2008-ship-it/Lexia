@@ -1,0 +1,91 @@
+/*
+ * Module Lecture : Pompon à gauche, la carte d'exercice à droite ; titre du texte, texte et question.
+ * Les composants (carte d'exercice, choix, texte surlignable) gardent leurs propres feuilles.
+ */
+
+/* Le contenu des exercices est plus large que celui des hubs : 1240 px sur PC, 1100 px sur tablette (marges comprises). */
+main:has(.lecture__disposition) {
+  --largeur-contenu: 83.5rem;
+}
+
+@media (max-width: 1180px) {
+  main:has(.lecture__disposition) {
+    --largeur-contenu: 73.25rem;
+  }
+}
+
+.lecture__disposition {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--marge-haut-page);
+  align-items: flex-start;
+}
+
+.lecture__compagnon {
+  flex: 0 0 15.625rem; /* 250 px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espace-2);
+}
+
+.lecture__compagnon .mascotte {
+  max-width: 100%;
+}
+
+.lecture__disposition > .carte-exercice {
+  flex: 1 1 35rem; /* 560 px */
+  min-width: 0;
+}
+
+.lecture__vide {
+  margin: 0 0 var(--espace-4);
+  font-size: var(--taille-exercice);
+}
+
+.lecture__titre {
+  margin: 0 0 var(--espace-3);
+  font-family: var(--police-titre);
+  font-size: 1.625rem;
+  font-weight: 600;
+  color: var(--framboise);
+}
+
+/* Le texte à lire, dans une carte crème. */
+.lecture__disposition .texte-surlignable {
+  padding: 1.25rem 1.5rem;
+  background: var(--creme);
+  border-radius: var(--rayon-moyen);
+  font-size: 1.1875rem;
+  line-height: 1.85;
+}
+
+.lecture__question {
+  margin: var(--espace-4) 0 var(--espace-3);
+  font-family: var(--police-titre);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Le retour : « Presque ! » (classe .presque, avec son symbole) ou ✓ sur fond menthe clair ; jamais la couleur seule. */
+.lecture__verdict {
+  margin: 0;
+  font-size: var(--taille-exercice);
+}
+
+.lecture__verdict--juste {
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--menthe-clair);
+  color: var(--prune);
+  border-radius: var(--rayon-moyen);
+  font-weight: 600;
+}
+
+/* Question de vocabulaire : la phrase du mot est en gras, soulignée et sur fond clair. */
+.lecture__phrase-du-mot {
+  background: var(--bonbon);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.2em;
+}

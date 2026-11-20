@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « drapeau » pour Pompon, emplacement main. Dessiné en coordonnées du viewBox ; le groupe ci-dessous compense le décalage (170, 195) du bras droit, où l'emplacement est rattaché. -->
+  <g>
+    <g transform="translate(-170 -195)">
+      <path d="M184 226 L184 162" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M184 164 L214 170 L184 184 Z" fill="#2563C9" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M194.0,169.0 L195.1,171.5 L197.8,171.8 L195.7,173.6 L196.4,176.2 L194.0,174.8 L191.6,176.2 L192.3,173.6 L190.2,171.8 L192.9,171.5 Z" fill="#FFC93C"/>
+    </g>
+  </g>
+</svg>

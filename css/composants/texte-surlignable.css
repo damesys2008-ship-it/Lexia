@@ -1,0 +1,64 @@
+/* Composant « texte surlignable » (js/ui/texte-surlignable.js) : chaque phrase est une cible à choisir. */
+
+.texte-surlignable {
+  font-size: var(--taille-exercice);
+  line-height: 2.2; /* interligne large : les cibles ne se touchent pas */
+}
+
+.texte-surlignable__paragraphe {
+  margin: 0 0 var(--espace-4);
+}
+
+.texte-surlignable__phrase {
+  margin-inline-end: 0.35em;
+  padding-block: 0.4em; /* agrandit la zone tactile vers 44 px sans changer la mise en page */
+  cursor: pointer;
+  border-bottom: 2px dotted var(--prune-doux);
+  /* Une phrase longue passe à la ligne en gardant fond et soulignement sur chaque ligne. */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  /* Pas de sélection libre de texte ni de poignées de sélection au toucher. */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.texte-surlignable__phrase:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* Choisie : fond bonbon et soulignement épais, en plus de la couleur (aria-pressed porte le sens). */
+.texte-surlignable__phrase.est-choisie {
+  background: var(--bonbon);
+  border-bottom: 4px solid var(--prune);
+}
+
+/* Juste : fond menthe clair, soulignement menthe et « ✓ preuve ». */
+.texte-surlignable__phrase.est-juste {
+  background: var(--menthe-clair);
+  border-bottom: 4px solid var(--menthe);
+}
+
+/* « Presque ! » : fond jaune clair, texte prune, soulignement jaune foncé pointillé et « ✗ ». */
+.texte-surlignable__phrase.est-faux {
+  background: var(--soleil-clair);
+  color: var(--prune);
+  border-bottom: 3px dashed var(--soleil-fonce);
+  cursor: default;
+}
+
+.texte-surlignable__marque {
+  margin-inline-start: 0.35em;
+  font-size: var(--taille-petite);
+  font-weight: 700;
+}
+
+.texte-surlignable__marque:empty {
+  display: none;
+}
+
+.texte-surlignable.est-desactive .texte-surlignable__phrase {
+  cursor: default;
+}

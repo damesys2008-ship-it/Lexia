@@ -1,0 +1,457 @@
+/*
+ * Composants de base réutilisés par tous les modules.
+ *
+ * Convention de noms (BEM simplifié, en français, sans accent) :
+ *   .bloc                   un composant           .bouton, .carte, .etiquette-module
+ *   .bloc__element          une partie du composant .entete__titre
+ *   .bloc--variante         une variante            .bouton--principal
+ *   .est-etat               un état posé en JS      .est-actif, .est-juste, .est-faux
+ * Les classes de réglages sur <html> sont `texte-grand` et `animations-reduites` (voir tokens.css).
+ * Un module ajoute ses propres classes dans css/modules/<module>.css avec son préfixe (ex. .dictee-…).
+ */
+
+/* ---------- Utilitaires ---------- */
+
+.sr-seulement {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Boutons ---------- */
+
+/* Relief « 3D » : une ombre pleine sans flou, de la couleur --ombre-bouton (posée par chaque variante). */
+.bouton {
+  --ombre-bouton: var(--prune);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--espace-2);
+  min-width: var(--cible-minimale);
+  min-height: var(--hauteur-bouton);
+  padding: 0.875rem 1.875rem;
+  border: var(--epaisseur-bordure) solid transparent;
+  border-radius: var(--rayon-moyen);
+  box-shadow: 0 5px 0 var(--ombre-bouton);
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform var(--duree-courte) ease, box-shadow var(--duree-courte) ease;
+}
+
+.bouton:hover:not([disabled]) {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 0 var(--ombre-bouton);
+}
+
+/* Appuyé : le bouton s'enfonce dans son ombre. */
+.bouton:active:not([disabled]) {
+  transform: translateY(3px);
+  box-shadow: 0 2px 0 var(--ombre-bouton);
+}
+
+/* Le double anneau du focus (base.css) remplace l'ombre : on garde le relief en plus. */
+.bouton:focus-visible {
+  box-shadow: 0 5px 0 var(--ombre-bouton), 0 0 0 6px var(--blanc);
+}
+
+.bouton[disabled],
+.bouton[aria-disabled="true"] {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Principal : texte blanc sur framboise (contraste 4,84). */
+.bouton--principal {
+  --ombre-bouton: var(--framboise-fonce);
+  background: var(--framboise);
+  color: var(--blanc);
+}
+
+/* Jaune (« Continuer ») : texte prune sur soleil (contraste 10,73). */
+.bouton--soleil {
+  --ombre-bouton: var(--soleil-fonce);
+  background: var(--soleil);
+  color: var(--prune);
+}
+
+.bouton--secondaire {
+  background: var(--blanc);
+  color: var(--prune);
+  border-color: var(--prune);
+}
+
+.bouton--discret {
+  background: transparent;
+  color: var(--prune);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  box-shadow: none;
+}
+
+.bouton--discret:hover:not([disabled]) {
+  background: var(--bonbon);
+}
+
+/* Pas de relief 3D pour le bouton discret, ni au survol, ni à l'appui. */
+.bouton--discret:hover:not([disabled]),
+.bouton--discret:active:not([disabled]) {
+  transform: none;
+  box-shadow: none;
+}
+
+.bouton--discret:focus-visible {
+  box-shadow: 0 0 0 6px var(--blanc);
+}
+
+/* Bouton rond, pour une icône seule (le libellé est dans aria-label). */
+.bouton--icone {
+  padding: var(--espace-2);
+  width: var(--cible-minimale);
+  height: var(--cible-minimale);
+}
+
+/* Lien « Retour » : framboise, avec un chevron (un lien, pas un bouton). */
+.lien-retour {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: var(--espace-2);
+  min-height: var(--hauteur-bouton);
+  color: var(--framboise);
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.lien-retour::before {
+  content: "";
+  width: 0.625rem;
+  height: 0.625rem;
+  border-bottom: 3px solid currentcolor;
+  border-left: 3px solid currentcolor;
+  transform: rotate(45deg);
+}
+
+.lien-retour:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Cartes et zone d'exercice ---------- */
+
+/* Style « sticker » : bordure prune de 3 px et ombre pleine de 7 px. */
+.carte {
+  padding: var(--espace-5);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+  box-shadow: var(--ombre-carte);
+}
+
+/* Fond bonbon : le contour prune empêche la carte de se fondre dans la page. */
+.carte--rose {
+  background: var(--bonbon);
+  color: var(--prune);
+}
+
+/* Zone d'exercice : fond blanc, jamais de rose dessous (cahier §3.2). */
+.zone-exercice {
+  padding: 2.5rem;
+  background: var(--fond-exercice);
+  color: var(--texte);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+  box-shadow: var(--ombre-carte);
+  font-size: var(--taille-exercice);
+  line-height: var(--interligne);
+}
+
+@media (max-width: 1180px) {
+  .zone-exercice {
+    padding: 1.75rem;
+  }
+}
+
+/* ---------- Étiquettes de module ---------- */
+
+/* Fond clair de la matière, texte prune (lisible) ; la couleur d'identité est portée par la pastille. */
+.etiquette-module {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espace-2);
+  padding: 0.375rem 0.875rem;
+  background: var(--couleur-module-clair, var(--blanc));
+  color: var(--prune);
+  border-radius: var(--rayon-rond);
+  font-family: var(--police-titre);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.etiquette-module::before {
+  content: "";
+  width: 0.75em;
+  height: 0.75em;
+  border-radius: 50%;
+  background: var(--couleur-module, var(--prune));
+}
+
+.etiquette-module--dictee { --couleur-module: var(--module-dictee); --couleur-module-clair: var(--module-dictee-clair); }
+.etiquette-module--conjugaison { --couleur-module: var(--module-conjugaison); --couleur-module-clair: var(--module-conjugaison-clair); }
+.etiquette-module--orthographe { --couleur-module: var(--module-orthographe); --couleur-module-clair: var(--module-orthographe-clair); }
+.etiquette-module--grammaire { --couleur-module: var(--module-grammaire); --couleur-module-clair: var(--module-grammaire-clair); }
+.etiquette-module--vocabulaire { --couleur-module: var(--module-vocabulaire); --couleur-module-clair: var(--module-vocabulaire-clair); }
+.etiquette-module--lecture { --couleur-module: var(--module-lecture); --couleur-module-clair: var(--module-lecture-clair); }
+
+/* ---------- Barre d'état (étoiles) ---------- */
+
+.barre-etat {
+  display: flex;
+  align-items: center;
+  gap: var(--espace-3);
+}
+
+/* Chip d'étoiles : un lien vers la garde-robe. Étoile dessinée en fond (image « data: » autorisée par la CSP). */
+.etoiles {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espace-2);
+  min-height: var(--hauteur-bouton);
+  padding: 0.375rem 1.125rem;
+  background: var(--soleil-clair);
+  color: var(--prune);
+  border: var(--bordure);
+  border-radius: var(--rayon-rond);
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-3);
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.etoiles__symbole {
+  flex: none;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2.5 14.9 8.8 21.8 9.5 16.6 14.1 18.1 20.9 12 17.4 5.9 20.9 7.4 14.1 2.2 9.5 9.1 8.8Z' fill='%23ffc93c' stroke='%232b1342' stroke-width='1.8' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+/* ---------- États juste / faux : couleur ET symbole ---------- */
+
+.etat {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espace-2);
+  font-weight: 700;
+}
+
+.etat--juste {
+  color: var(--menthe);
+}
+
+.etat--juste::before {
+  content: "\2713"; /* ✓ */
+  font-family: var(--police-symboles);
+}
+
+.etat--faux {
+  color: var(--prune);
+}
+
+.etat--faux::before {
+  content: "\2717"; /* ✗ */
+  font-family: var(--police-symboles);
+}
+
+.etat--attention {
+  color: var(--prune);
+}
+
+.etat--attention::before {
+  content: "!";
+  font-family: var(--police-titre);
+}
+
+/* ---------- « Presque ! » : l'erreur en douceur, jamais de rouge ---------- */
+
+/* Fond soleil-clair, filet soleil-fonce, texte prune (14,64). Le « ! » dans un disque jaune est le symbole. */
+.presque {
+  display: flex;
+  align-items: center;
+  gap: var(--espace-3);
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--soleil-clair);
+  color: var(--prune);
+  border: var(--epaisseur-bordure) solid var(--soleil-fonce);
+  border-radius: var(--rayon-moyen);
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 600;
+}
+
+.presque::before {
+  content: "!";
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--soleil);
+  border-radius: 50%;
+  font-size: var(--taille-titre-3);
+  font-weight: 700;
+}
+
+/* ---------- Coquille de la page ---------- */
+
+.entete {
+  background: var(--blanc);
+  color: var(--prune);
+  border-bottom: var(--bordure);
+}
+
+.entete__contenu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espace-3) var(--espace-5);
+  padding: var(--marge-haut-entete) var(--marge-page);
+}
+
+.entete__lien {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espace-3);
+  min-height: var(--cible-minimale);
+  color: var(--prune);
+  text-decoration: none;
+}
+
+/* Tête de Pompon (carrée) : 72 px de haut, comme la maquette, pour une en-tête d'environ 100 px. */
+.entete__logo {
+  flex: none;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.entete__titre {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-marque);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.entete__outils {
+  display: flex;
+  align-items: center;
+  gap: var(--espace-3);
+}
+
+/* Bouton son : rond blanc à bordure prune, sans relief. */
+.bouton-muet {
+  width: var(--taille-pastille-son);
+  height: var(--taille-pastille-son);
+  padding: 0;
+  background: var(--blanc);
+  color: var(--prune);
+  border-color: var(--prune);
+  border-radius: 50%;
+  box-shadow: none;
+}
+
+.bouton-muet:hover:not([disabled]),
+.bouton-muet:active:not([disabled]) {
+  box-shadow: none;
+}
+
+.bouton-muet:focus-visible {
+  box-shadow: 0 0 0 6px var(--blanc);
+}
+
+.bouton-muet svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: none;
+  stroke: currentcolor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bouton-muet__barre {
+  display: none;
+}
+
+.bouton-muet[aria-pressed="true"] .bouton-muet__barre {
+  display: inline;
+}
+
+.contenu {
+  flex: 1;
+  padding-block: var(--marge-haut-page) 4.5rem;
+}
+
+
+.contenu__centre {
+  max-width: 48rem;
+  margin-inline: auto;
+}
+
+.avertissement-noscript {
+  margin: var(--espace-5) auto;
+  max-width: 40rem;
+  padding: var(--espace-5);
+  background: var(--creme);
+  border: var(--bordure);
+  border-radius: var(--rayon-moyen);
+  font-size: var(--taille-exercice);
+}
+
+/* Conteneurs des toasts, modales et bannières (remplis par les composants de js/ui). */
+.zone-toasts {
+  position: fixed;
+  inset: auto var(--espace-4) var(--espace-4) auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-2);
+  max-width: min(24rem, calc(100vw - 2 * var(--espace-4)));
+  z-index: 30;
+}
+
+.zone-bannieres {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.zone-modale {
+  position: relative;
+  z-index: 40;
+}
+
+@media print {
+  .entete,
+  .zone-toasts,
+  .zone-bannieres {
+    display: none;
+  }
+
+  body {
+    background: var(--blanc);
+  }
+}

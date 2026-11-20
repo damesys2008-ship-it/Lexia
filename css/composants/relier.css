@@ -1,0 +1,214 @@
+/* Composant « relier » (js/ui/relier.js) : deux colonnes, des pastilles, des traits SVG par-dessus. */
+
+.relier {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.25rem; /* 36 px */
+  font-family: var(--police-titre);
+  font-size: 1.5rem; /* 24 px */
+  font-weight: 600;
+}
+
+.relier__colonne {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem; /* 14 px */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.relier__carte {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espace-3);
+  min-height: 3.5rem; /* 56 px */
+  padding: var(--espace-2) var(--espace-3);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-moyen);
+  box-shadow: 0 5px 0 var(--prune);
+}
+
+/* Une carte reliée prend le fond teinté de sa paire (la couleur de la paire à 13 %, comme la maquette). */
+.relier__carte[class*="relier__paire-"] {
+  background: color-mix(in srgb, var(--couleur-paire) 13%, var(--blanc));
+}
+
+/* À droite, la pastille est du côté de la colonne de gauche, pour que les traits restent courts. */
+.relier__colonne--droite .relier__carte {
+  flex-direction: row-reverse;
+}
+
+.relier__texte {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+
+/* Au-dessus des traits (z-index 2) : un trait qui finit au centre d'une pastille ne doit jamais prendre son clic. */
+.relier__pastille {
+  position: relative;
+  z-index: 3;
+  flex: none;
+  width: var(--cible-minimale);
+  height: var(--cible-minimale);
+  padding: 0;
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: 50%;
+  color: var(--blanc);
+  font-family: var(--police-titre);
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+  touch-action: none; /* le doigt glisse la pastille au lieu de faire défiler la page */
+  transition: background-color var(--duree-courte) ease, transform var(--duree-courte) ease;
+}
+
+.relier__pastille:hover:not(:disabled):not(.relier__pastille--reliee) {
+  background: var(--bonbon);
+}
+
+.relier__pastille:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+/* Reliée : le rond prend la couleur de sa paire et affiche son numéro (blanc sur couleur : contraste >= 4,68). */
+.relier__pastille--reliee {
+  background: var(--couleur-paire, var(--framboise));
+}
+
+.relier__pastille--selectionnee {
+  background: var(--soleil);
+  color: var(--prune);
+  transform: scale(1.15);
+}
+
+.relier__pastille--verrouillee {
+  cursor: default;
+}
+
+.relier.est-desactive .relier__pastille {
+  cursor: default;
+}
+
+/* Traits : au-dessus des colonnes, sans gêner les clics sur les pastilles (sauf le trait lui-même). */
+.relier__traits {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Les couleurs des paires : lilas, menthe, corail, ciel (dans cet ordre, comme la maquette). */
+.relier__paire-0 {
+  --couleur-paire: var(--lilas);
+}
+
+.relier__paire-1 {
+  --couleur-paire: var(--menthe);
+}
+
+.relier__paire-2 {
+  --couleur-paire: var(--corail);
+}
+
+.relier__paire-3 {
+  --couleur-paire: var(--ciel);
+}
+
+.relier__ligne,
+.relier__trait-provisoire {
+  stroke: var(--couleur-paire, var(--framboise));
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+.relier__trait-provisoire {
+  stroke-dasharray: 2 8;
+}
+
+.relier__zone-clic {
+  stroke: transparent;
+  stroke-width: 28;
+  pointer-events: stroke;
+  cursor: pointer;
+}
+
+.relier__trait--juste .relier__ligne {
+  stroke: var(--menthe);
+}
+
+/* « Presque ! » : un trait jaune foncé en pointillés, avec le ✗ au milieu. */
+.relier__trait--faux .relier__ligne {
+  stroke: var(--soleil-fonce);
+  stroke-dasharray: 10 6;
+}
+
+.relier__trait--juste .relier__zone-clic,
+.relier__trait--faux .relier__zone-clic {
+  pointer-events: none;
+}
+
+/* Marque au milieu du trait : le symbole porte l'information, pas seulement la couleur. */
+.relier__marque-rond {
+  fill: var(--blanc);
+  stroke-width: 3;
+}
+
+.relier__trait--juste .relier__marque-rond {
+  stroke: var(--menthe);
+}
+
+.relier__trait--faux .relier__marque-rond {
+  fill: var(--soleil-clair);
+  stroke: var(--soleil-fonce);
+}
+
+.relier__marque-symbole {
+  font-family: var(--police-symboles);
+  font-size: 18px;
+  font-weight: 700;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+.relier__trait--juste .relier__marque-symbole {
+  fill: var(--menthe);
+}
+
+.relier__trait--faux .relier__marque-symbole {
+  fill: var(--prune);
+}
+
+/* Symbole de résultat écrit sur la carte de gauche (le ✓ ou ✗ ne dépend pas du croisement des traits). */
+.relier__resultat {
+  flex: none;
+  font-family: var(--police-symboles);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.relier__resultat--juste {
+  color: var(--menthe);
+}
+
+.relier__resultat--faux {
+  color: var(--prune);
+}
+
+@media (max-width: 1180px) {
+  .relier {
+    font-size: 1.5625rem; /* 25 px */
+  }
+
+  .relier__carte {
+    min-height: 4.25rem; /* 68 px */
+  }
+}

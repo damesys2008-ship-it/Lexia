@@ -1,0 +1,170 @@
+/*
+ * Tokens de Lexia : toutes les valeurs de design (couleurs, espaces, rayons, ombres, durées, tailles).
+ * Les autres feuilles n'écrivent jamais une couleur ou une taille en dur : elles utilisent ces variables.
+ *
+ * Contrastes WCAG 2.x (AA : 4,5 pour le texte, 3 pour le grand texte gras de 18,66 px ou plus et les éléments graphiques)
+ *   Texte prune          sur crème 15,66 · blanc 16,48 · bonbon 13,81 · soleil-clair 14,64 · soleil 10,73
+ *                        sur menthe-clair 14,51 · lilas-clair 13,83 · corail-clair 13,71 · ciel-clair 13,82
+ *   Texte prune-doux     sur crème 9,66 · blanc 10,16 · bonbon 8,52 · soleil-clair 9,03
+ *   Texte blanc          sur framboise 4,84 · prune 16,48 · menthe 5,13 · lilas 5,80 · corail 4,68 · ciel 5,67
+ *   Texte de couleur     framboise sur blanc 4,84, sur crème 4,60 · menthe sur blanc 5,13 · lilas sur blanc 5,80
+ *                        corail sur blanc 4,68 · ciel sur blanc 5,67
+ *   Texte gris-eteint    #6F5E80 sur blanc 5,85, sur crème 5,56 (le gris #8B7A9A de la maquette n'atteignait que 3,93)
+ *
+ * SOUS AA : à éviter ou réservé au grand texte gras
+ *   framboise sur bonbon 4,06 · framboise sur soleil-clair 4,30 : jamais en petit texte
+ *   corail sur corail-clair 3,90 : grand texte gras seulement (étiquettes de 20 px)
+ *   blanc sur soleil 1,54 · prune sur framboise 3,40 · prune sur corail 3,52 · prune sur ciel 2,91
+ *   prune sur lilas 2,84 · prune sur menthe 3,21 : ne jamais poser ces textes sur ces fonds
+ *   soleil-fonce (#C98F00) sur blanc 2,83 · sur soleil-clair 2,52 · sur crème 2,69 : JAMAIS en texte, seulement filet ou ombre
+ *   trait-doux, trait-moyen, trait-bascule sur blanc (1,31 à 1,88) : décor et segments vides, jamais seuls porteurs de sens
+ *
+ * La couleur ne porte jamais l'information seule : toujours un symbole ou un mot en plus (cahier §10).
+ * Il n'y a aucun rouge : une erreur s'appelle « Presque ! » (soleil-clair, filet soleil-fonce, texte prune).
+ */
+:root {
+  /* Palette de l'identité */
+  --framboise: #d6246e;
+  --framboise-fonce: #8e1249;
+  --prune: #2b1342;
+  --prune-doux: #4b3a5e;
+  --bonbon: #ffe4ef;
+  --creme: #fff8f2;
+  --blanc: #ffffff;
+  --soleil: #ffc93c;
+  --soleil-clair: #fff1c7;
+  --soleil-fonce: #c98f00;
+  --menthe: #0e7c66;
+  --menthe-clair: #ddf6ee;
+  --lilas: #6b4bd8;
+  --lilas-clair: #eee8ff;
+  --corail: #c94a1f;
+  --corail-clair: #ffe5da;
+  --ciel: #2563c9;
+  --ciel-clair: #e0ecff;
+
+  /* Traits et gris : décor, jamais du texte (sauf --gris-eteint) */
+  --trait-doux: #eadcf0;
+  --trait-moyen: #c9b6d6;
+  --trait-bascule: #d9cbe3;
+  --gris-eteint: #6f5e80;
+  --lavande: #f3eaf6;
+  --ombre-secondaire: #e7b4cb;
+  --socle-pompon: #ffb8d6; /* ellipse rose sous Pompon (opacité 0,7) */
+
+  /* « Presque ! » : l'erreur en jaune. --erreur est un trait, --erreur-fonce le texte (prune). */
+  --erreur: var(--soleil-fonce);
+  --erreur-fonce: var(--prune);
+  --attention: var(--soleil);
+  --attention-fonce: var(--prune);
+
+  /* Couleur d'identité de chaque module, et sa version claire (fonds de pastilles et de lignes) */
+  --module-dictee: var(--framboise);
+  --module-conjugaison: var(--lilas);
+  --module-orthographe: var(--menthe);
+  --module-grammaire: var(--soleil);
+  --module-vocabulaire: var(--corail);
+  --module-lecture: var(--ciel);
+  --module-dictee-clair: var(--bonbon);
+  --module-conjugaison-clair: var(--lilas-clair);
+  --module-orthographe-clair: var(--menthe-clair);
+  --module-grammaire-clair: var(--soleil-clair);
+  --module-vocabulaire-clair: var(--corail-clair);
+  --module-lecture-clair: var(--ciel-clair);
+
+  /* Rôles */
+  --fond-page: var(--creme);
+  --fond-exercice: var(--blanc);
+  --texte: var(--prune);
+  --texte-discret: var(--prune-doux);
+  --lien: var(--framboise);
+  --focus: var(--prune);
+
+  /* Typographie : Fredoka pour les titres, boutons et nombres, Lexend pour le texte */
+  --police-titre: "Fredoka", system-ui, "Segoe UI", sans-serif;
+  --police-texte: "Lexend", system-ui, "Segoe UI", sans-serif;
+  --police-symboles: "Segoe UI Symbol", "Apple Symbols", "Noto Sans Symbols 2", system-ui, sans-serif;
+  --interligne: 1.7;
+  --taille-petite: 0.9rem;
+  --taille-texte: 1rem;
+  --taille-exercice: 1.25rem; /* 20 px : minimum des exercices (cahier §3.3) */
+  --taille-titre-3: 1.5rem;
+  --taille-titre-2: 2rem;
+  --taille-titre-1: 2.75rem;
+  --taille-marque: 2rem;
+
+  /* Espacements (échelle de 4 px) */
+  --espace-1: 0.25rem;
+  --espace-2: 0.5rem;
+  --espace-3: 0.75rem;
+  --espace-4: 1rem;
+  --espace-5: 1.5rem;
+  --espace-6: 2rem;
+  --espace-7: 3rem;
+
+  /* Formes : bordures prune de 3 px, ombres pleines décalées, jamais de flou */
+  --rayon-petit: 0.875rem;
+  --rayon-moyen: 1.25rem;
+  --rayon-grand: 2rem;
+  --rayon-rond: 999px;
+  --epaisseur-bordure: 3px;
+  --bordure: var(--epaisseur-bordure) solid var(--prune);
+  --ombre-douce: 0 4px 0 var(--prune);
+  --ombre-carte: 0 7px 0 var(--prune);
+
+  /* Tailles tactiles et mise en page (version PC ; la tablette est plus bas) */
+  --cible-minimale: 2.75rem; /* 44 px */
+  --hauteur-bouton: 3rem; /* 48 px */
+  --taille-pastille-son: 3rem;
+  --largeur-contenu: 76rem; /* 1216 px : 1120 px de contenu + 2 marges de 48 px */
+  --marge-page: 3rem;
+  --marge-haut-page: 2.5rem;
+  --marge-haut-entete: 0.75rem;
+
+  /* Durées : entre 150 et 300 ms (cahier §3.5) */
+  --duree-courte: 150ms;
+  --duree-moyenne: 220ms;
+  --duree-longue: 300ms;
+}
+
+/* Tablette (1180 px et moins) : cibles tactiles plus grandes, marges plus étroites. */
+@media (max-width: 1180px) {
+  :root {
+    --hauteur-bouton: 3.75rem; /* 60 px */
+    --taille-pastille-son: 3.75rem;
+    --largeur-contenu: 70.75rem; /* 1132 px : 1060 px de contenu + 2 marges de 36 px */
+    --marge-page: 2.25rem;
+    --marge-haut-page: 1.75rem;
+  }
+}
+
+/* Lettres faciles à lire : lettres et mots plus espacés (en em : l'espace suit la taille de chaque texte). */
+:root {
+  --espacement-lettres: 0.05em;
+  --espacement-mots: 0.16em;
+}
+
+html.lettres-faciles :where(body, body *) {
+  letter-spacing: var(--espacement-lettres);
+  word-spacing: var(--espacement-mots);
+}
+
+/* Texte plus grand (+20 %) : toutes les tailles sont en rem, elles suivent la taille de la racine. */
+html.texte-grand {
+  font-size: 120%;
+}
+
+/* Animations réduites : réglage de l'appli et préférence du système, même effet. */
+html.animations-reduites {
+  --duree-courte: 0ms;
+  --duree-moyenne: 0ms;
+  --duree-longue: 0ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duree-courte: 0ms;
+    --duree-moyenne: 0ms;
+    --duree-longue: 0ms;
+  }
+}

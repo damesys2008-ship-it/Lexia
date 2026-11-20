@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « ailes » pour Pompon, emplacement dos. Même viewBox que pompon.svg. -->
+  <g>
+    <ellipse cx="52" cy="176" rx="22" ry="36" transform="rotate(-25 52 176)" fill="#FFB8D6" fill-opacity=".9" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="188" cy="176" rx="22" ry="36" transform="rotate(25 188 176)" fill="#FFB8D6" fill-opacity=".9" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="58" cy="214" rx="13" ry="20" transform="rotate(-40 58 214)" fill="#EEE8FF" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="182" cy="214" rx="13" ry="20" transform="rotate(40 182 214)" fill="#EEE8FF" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

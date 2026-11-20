@@ -1,0 +1,450 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "dep-orth-n1-001",
+      "module": "orthographe",
+      "niveau": 1,
+      "competence": "homophone-mais-mes",
+      "motCle": "mais",
+      "enonce": "Je voulais sortir, ___ il pleuvait.",
+      "choix": [
+        "mais",
+        "mes",
+        "mets"
+      ],
+      "reponse": "mais",
+      "explication": "« mais » oppose deux idées : je voulais sortir, mais il pleuvait. « mes » veut dire « les miens » et se met devant un nom."
+    },
+    {
+      "id": "dep-orth-n1-002",
+      "module": "orthographe",
+      "niveau": 1,
+      "competence": "homophone-pret-pres",
+      "motCle": "prêt",
+      "enonce": "Je suis ___ à partir en voyage.",
+      "choix": [
+        "près",
+        "prêt",
+        "pré"
+      ],
+      "reponse": "prêt",
+      "explication": "« prêt » veut dire « préparé » : je suis préparé à partir. « près » veut dire « pas loin » et « pré » est une petite prairie."
+    },
+    {
+      "id": "dep-orth-n2-003",
+      "module": "orthographe",
+      "niveau": 2,
+      "competence": "accord-attribut-sujet",
+      "motCle": "fatiguées",
+      "enonce": "Mes sœurs sont très ___ ce matin.",
+      "choix": [
+        "fatigué",
+        "fatigués",
+        "fatiguées"
+      ],
+      "reponse": "fatiguées",
+      "explication": "L'adjectif s'accorde avec « mes sœurs » : féminin pluriel, donc -ées."
+    },
+    {
+      "id": "dep-orth-n2-004",
+      "module": "orthographe",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "motCle": "climat",
+      "enonce": "Le ___ de ce pays est très doux.",
+      "choix": [
+        "climat",
+        "clima",
+        "climas"
+      ],
+      "reponse": "climat",
+      "explication": "On entend le t dans « climatique » : « climat » se termine donc par un t muet."
+    },
+    {
+      "id": "dep-orth-n3-005",
+      "module": "orthographe",
+      "niveau": 3,
+      "competence": "accord-participe-avoir",
+      "motCle": "racontées",
+      "enonce": "Les histoires que ma mère m'a ___ étaient drôles.",
+      "choix": [
+        "raconté",
+        "racontées",
+        "racontés"
+      ],
+      "reponse": "racontées",
+      "explication": "Avec avoir, le participe passé s'accorde avec le complément placé avant lui. Ici « que » remplace « les histoires » : féminin pluriel, donc « racontées »."
+    },
+    {
+      "id": "dep-voc-n1-001",
+      "module": "vocabulaire",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "motCle": "ruisseau",
+      "enonce": "Que veut dire le mot « ruisseau » ?",
+      "choix": [
+        "un grand sommet",
+        "une sorte d'outil",
+        "un petit cours d'eau"
+      ],
+      "reponse": "un petit cours d'eau",
+      "explication": "Un ruisseau est un tout petit cours d'eau qui coule dans la campagne ou en forêt."
+    },
+    {
+      "id": "dep-voc-n1-002",
+      "module": "vocabulaire",
+      "niveau": 1,
+      "competence": "relation-contraires-adjectifs",
+      "motCle": "léger",
+      "enonce": "Quel mot veut dire le contraire de « léger » ?",
+      "choix": [
+        "lourd",
+        "mince",
+        "rapide"
+      ],
+      "reponse": "lourd",
+      "explication": "Ce qui n'est pas léger est lourd : les deux mots s'opposent."
+    },
+    {
+      "id": "dep-voc-n2-003",
+      "module": "vocabulaire",
+      "niveau": 2,
+      "competence": "affixe-prefixe-sous",
+      "motCle": "sous-marin",
+      "enonce": "Que veut dire « sous-marin » dans « un câble sous-marin » ?",
+      "choix": [
+        "sur la mer",
+        "sous la mer",
+        "loin de la mer"
+      ],
+      "reponse": "sous la mer",
+      "explication": "Le préfixe « sous- » veut dire « en dessous » : un câble sous-marin est posé sous la mer."
+    },
+    {
+      "id": "dep-voc-n2-004",
+      "module": "vocabulaire",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "motCle": "mine",
+      "enonce": "Dans « La mine de mon crayon est cassée. », que veut dire « mine » ?",
+      "choix": [
+        "un lieu où l'on creuse la terre",
+        "un air triste",
+        "la partie qui écrit"
+      ],
+      "reponse": "la partie qui écrit",
+      "explication": "Le mot « crayon » montre le sens : la mine est la tige qui laisse une trace sur le papier."
+    },
+    {
+      "id": "dep-voc-n3-005",
+      "module": "vocabulaire",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "motCle": "compromis",
+      "enonce": "Dans « Cette décision est un compromis. », que veut dire « compromis » ?",
+      "choix": [
+        "un accord où chacun cède un peu",
+        "une victoire totale",
+        "une grosse erreur"
+      ],
+      "reponse": "un accord où chacun cède un peu",
+      "explication": "Un compromis est un accord trouvé quand chacun accepte de céder un peu."
+    },
+    {
+      "id": "dep-lec-n1-001",
+      "module": "lecture",
+      "niveau": 1,
+      "competence": "lecture-qui",
+      "texte": "Samedi, Inès est allée au marché avec son père. Elle a choisi des fraises rouges et une grosse pastèque. Le marchand lui a offert un petit panier en paille. Elle l'a rangé dans son sac avant de rentrer à la maison. Son père a porté les fruits jusqu'à la voiture.",
+      "enonce": "Qui a offert un panier à Inès ?",
+      "choix": [
+        "son père",
+        "le marchand",
+        "sa voisine"
+      ],
+      "reponse": "le marchand",
+      "explication": "Le texte dit : « Le marchand lui a offert un petit panier en paille. »"
+    },
+    {
+      "id": "dep-lec-n1-002",
+      "module": "lecture",
+      "niveau": 1,
+      "competence": "lecture-quand",
+      "texte": "Dans le jardin de Tom, un hérisson vit sous le vieux tas de bois. Le jour, il dort bien caché. La nuit, il sort pour chercher des vers et des limaces. Tom lui laisse un bol d'eau près de la haie. Le matin, le bol est toujours un peu moins plein.",
+      "enonce": "Quand le hérisson cherche-t-il à manger ?",
+      "choix": [
+        "le jour",
+        "à midi",
+        "la nuit"
+      ],
+      "reponse": "la nuit",
+      "explication": "Le texte dit : « La nuit, il sort pour chercher des vers et des limaces. »"
+    },
+    {
+      "id": "dep-lec-n2-003",
+      "module": "lecture",
+      "niveau": 2,
+      "competence": "lecture-consequence",
+      "texte": "Le club de voile organise une sortie en mer dimanche. Les enfants devront arriver à neuf heures, car la marée sera haute à dix heures. Chacun apportera un gilet de sauvetage et une casquette. Si le vent devient trop fort, la sortie sera reportée à la semaine suivante. Les parents pourront regarder le départ depuis le quai.",
+      "enonce": "Que se passe-t-il si le vent est trop fort ?",
+      "choix": [
+        "la sortie est reportée",
+        "la sortie est raccourcie",
+        "les enfants restent sur le quai"
+      ],
+      "reponse": "la sortie est reportée",
+      "explication": "Le texte dit : « Si le vent devient trop fort, la sortie sera reportée à la semaine suivante. »"
+    },
+    {
+      "id": "dep-lec-n2-004",
+      "module": "lecture",
+      "niveau": 2,
+      "competence": "lecture-deduire",
+      "texte": "Léo regarde le ciel gris par la fenêtre. Il range son cerf-volant au fond du placard et sort ses bottes jaunes. Sa mère lui tend un grand parapluie. « Prends aussi ton écharpe », dit-elle. Léo soupire, puis il ouvre la porte de la maison.",
+      "enonce": "Quel temps fait-il probablement ?",
+      "choix": [
+        "Il y a du grand soleil.",
+        "Il va bientôt pleuvoir.",
+        "Le vent est parfait pour le cerf-volant."
+      ],
+      "reponse": "Il va bientôt pleuvoir.",
+      "explication": "Le ciel est gris, Léo met des bottes et prend un parapluie : on comprend qu'il va pleuvoir, même si le texte ne le dit pas."
+    },
+    {
+      "id": "dep-lec-n3-005",
+      "module": "lecture",
+      "niveau": 3,
+      "competence": "lecture-implicite",
+      "texte": "Quand Anaïs arrive au refuge, la cheminée est froide et les vitres sont couvertes de givre. Sur la table, une tasse de thé est encore tiède, près d'un mot écrit à la hâte : « Parti chercher du bois, je reviens vite. » Anaïs pose son sac et sourit : elle n'est pas seule dans la montagne.",
+      "enonce": "Que comprend Anaïs grâce à la tasse encore tiède ?",
+      "choix": [
+        "Le refuge est abandonné depuis longtemps.",
+        "Le thé a été préparé hier.",
+        "Quelqu'un est parti il y a peu de temps."
+      ],
+      "reponse": "Quelqu'un est parti il y a peu de temps.",
+      "explication": "Une tasse encore tiède a été remplie récemment : la personne qui a écrit le mot vient juste de partir."
+    },
+    {
+      "id": "dep-gram-n1-001",
+      "module": "grammaire",
+      "niveau": 1,
+      "competence": "tri-nature-verbe",
+      "enonce": "Dans « Mon voisin arrose ses tomates. », quelle est la nature du mot « arrose » ?",
+      "choix": [
+        "un verbe",
+        "un nom",
+        "un adjectif"
+      ],
+      "reponse": "un verbe",
+      "explication": "Le mot « arrose » dit ce que fait le voisin, et il change si on dit « hier » ou « demain » : c'est un verbe."
+    },
+    {
+      "id": "dep-gram-n1-002",
+      "module": "grammaire",
+      "niveau": 1,
+      "competence": "fonctions-sujet",
+      "enonce": "Dans « Les enfants chantent une chanson douce. », quel est le sujet du verbe ?",
+      "choix": [
+        "une chanson douce",
+        "Les enfants",
+        "chantent"
+      ],
+      "reponse": "Les enfants",
+      "explication": "On trouve le sujet avec « qui est-ce qui chante ? » : ce sont « les enfants »."
+    },
+    {
+      "id": "dep-gram-n2-003",
+      "module": "grammaire",
+      "niveau": 2,
+      "competence": "transformation-pluriel",
+      "enonce": "Quelle phrase est « Le vélo rouge est neuf. » mise au pluriel ?",
+      "choix": [
+        "Les vélos rouge sont neufs.",
+        "Les vélos rouges est neufs.",
+        "Les vélos rouges sont neufs."
+      ],
+      "reponse": "Les vélos rouges sont neufs.",
+      "explication": "Tous les mots qui s'accordent passent au pluriel : le déterminant, le nom, l'adjectif et le verbe."
+    },
+    {
+      "id": "dep-gram-n2-004",
+      "module": "grammaire",
+      "niveau": 2,
+      "competence": "tri-nature-adverbe",
+      "enonce": "Dans « Il parle doucement. », quelle est la nature du mot « doucement » ?",
+      "choix": [
+        "un adverbe",
+        "un adjectif",
+        "un nom"
+      ],
+      "reponse": "un adverbe",
+      "explication": "Le mot « doucement » dit comment il parle et il ne change jamais : c'est un adverbe."
+    },
+    {
+      "id": "dep-gram-n3-005",
+      "module": "grammaire",
+      "niveau": 3,
+      "competence": "fonctions-cod",
+      "enonce": "Dans « Camille a rangé ses livres sur l'étagère. », quelle est la fonction du groupe « ses livres » ?",
+      "choix": [
+        "sujet",
+        "complément d'objet direct",
+        "complément circonstanciel de lieu"
+      ],
+      "reponse": "complément d'objet direct",
+      "explication": "On pose la question « Camille a rangé quoi ? » : la réponse est « ses livres ». C'est le complément d'objet direct du verbe."
+    },
+    {
+      "id": "dep-conj-n1-001",
+      "module": "conjugaison",
+      "niveau": 1,
+      "competence": "conj-present",
+      "verbe": "chercher",
+      "temps": "present",
+      "enonce": "Choisis la bonne forme du verbe. Nous ___ nos clés partout.",
+      "choix": [
+        "cherchez",
+        "cherchent",
+        "cherchons"
+      ],
+      "reponse": "cherchons",
+      "explication": "Avec « nous », les verbes en -er se terminent par -ons au présent : nous cherchons."
+    },
+    {
+      "id": "dep-conj-n1-002",
+      "module": "conjugaison",
+      "niveau": 1,
+      "competence": "conj-imparfait",
+      "verbe": "marcher",
+      "temps": "imparfait",
+      "enonce": "Choisis la bonne forme du verbe. Hier, je ___ dans le parc.",
+      "choix": [
+        "marchais",
+        "marchait",
+        "marche"
+      ],
+      "reponse": "marchais",
+      "explication": "À l'imparfait, « je » se termine par -ais : je marchais. « marchait » va avec « il » ou « elle »."
+    },
+    {
+      "id": "dep-conj-n2-003",
+      "module": "conjugaison",
+      "niveau": 2,
+      "competence": "conj-futur",
+      "verbe": "ouvrir",
+      "temps": "futur",
+      "enonce": "Choisis la bonne forme du verbe. Demain, tu ___ la porte.",
+      "choix": [
+        "ouvrira",
+        "ouvriras",
+        "ouvrirais"
+      ],
+      "reponse": "ouvriras",
+      "explication": "Au futur, on ajoute -as à l'infinitif quand le sujet est « tu » : tu ouvriras."
+    },
+    {
+      "id": "dep-conj-n2-004",
+      "module": "conjugaison",
+      "niveau": 2,
+      "competence": "conj-passe-compose",
+      "verbe": "lire",
+      "temps": "passe-compose",
+      "enonce": "Choisis la bonne forme du verbe. Hier soir, nous ___ un long roman.",
+      "choix": [
+        "avons lis",
+        "sommes lu",
+        "avons lu"
+      ],
+      "reponse": "avons lu",
+      "explication": "Le verbe « lire » se conjugue avec avoir au passé composé, et son participe passé est « lu » : nous avons lu."
+    },
+    {
+      "id": "dep-conj-n3-005",
+      "module": "conjugaison",
+      "niveau": 3,
+      "competence": "conj-conditionnel",
+      "verbe": "croire",
+      "temps": "conditionnel-present",
+      "enonce": "Choisis la bonne forme du verbe. Si tu me le disais, je te ___.",
+      "choix": [
+        "croirais",
+        "croyais",
+        "croirai"
+      ],
+      "reponse": "croirais",
+      "explication": "Après « si » à l'imparfait, on utilise le conditionnel : le radical « croir- » suivi de -ais."
+    },
+    {
+      "id": "dep-dic-n1-001",
+      "module": "dictee",
+      "niveau": 1,
+      "competence": "dictee-phrase-correcte",
+      "enonce": "Quelle phrase est écrite sans faute ?",
+      "choix": [
+        "Mon petit frère rangent ses jouets.",
+        "Mon petit frère range ses jouets.",
+        "Mon petit frère range ses jouet."
+      ],
+      "reponse": "Mon petit frère range ses jouets.",
+      "explication": "Le verbe s'accorde avec « mon petit frère » (il range), et « ses jouets » est au pluriel."
+    },
+    {
+      "id": "dep-dic-n1-002",
+      "module": "dictee",
+      "niveau": 1,
+      "competence": "dictee-phrase-correcte",
+      "enonce": "Quelle phrase est écrite sans faute ?",
+      "choix": [
+        "La girafe à mangé les feuilles du grand arbre.",
+        "La girafe a mangé les feuilles du grand arbres.",
+        "La girafe a mangé les feuilles du grand arbre."
+      ],
+      "reponse": "La girafe a mangé les feuilles du grand arbre.",
+      "explication": "« a » sans accent est le verbe avoir (elle avait mangé), et « un arbre » reste au singulier."
+    },
+    {
+      "id": "dep-dic-n2-003",
+      "module": "dictee",
+      "niveau": 2,
+      "competence": "dictee-phrase-correcte",
+      "enonce": "Quelle phrase est écrite sans faute ?",
+      "choix": [
+        "Mes voisins sont arrivés hier soir, fatigués.",
+        "Mes voisins sont arrivé hier soir, fatigués.",
+        "Mes voisins son arrivés hier soir, fatigués."
+      ],
+      "reponse": "Mes voisins sont arrivés hier soir, fatigués.",
+      "explication": "« sont » est le verbe être, et le participe « arrivés » s'accorde avec « mes voisins » (pluriel)."
+    },
+    {
+      "id": "dep-dic-n2-004",
+      "module": "dictee",
+      "niveau": 2,
+      "competence": "dictee-phrase-correcte",
+      "enonce": "Quelle phrase est écrite sans faute ?",
+      "choix": [
+        "Nous avons entendu des oiseaux chantés près de la rivière.",
+        "Nous avons entendu des oiseaux chanter près de la rivière.",
+        "Nous avont entendu des oiseaux chanter près de la rivière."
+      ],
+      "reponse": "Nous avons entendu des oiseaux chanter près de la rivière.",
+      "explication": "Avec « nous », « avoir » devient « avons », et le verbe « chanter » reste à l'infinitif après « entendu des oiseaux »."
+    },
+    {
+      "id": "dep-dic-n3-005",
+      "module": "dictee",
+      "niveau": 3,
+      "competence": "dictee-phrase-correcte",
+      "enonce": "Quelle phrase est écrite sans faute ?",
+      "choix": [
+        "Les cerises que mon oncle a rapporté étaient délicieuses.",
+        "Les cerises que mon oncle a rapportés étaient délicieuses.",
+        "Les cerises que mon oncle a rapportées étaient délicieuses."
+      ],
+      "reponse": "Les cerises que mon oncle a rapportées étaient délicieuses.",
+      "explication": "Le participe s'accorde avec « que » qui remplace « les cerises », placé avant le verbe : féminin pluriel, donc « rapportées »."
+    }
+  ]
+}

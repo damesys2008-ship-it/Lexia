@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « loupe » pour Pompon, emplacement main. Dessiné en coordonnées du viewBox ; le groupe ci-dessous compense le décalage (170, 195) du bras droit, où l'emplacement est rattaché. -->
+  <g>
+    <g transform="translate(-170 -195)">
+      <path d="M180 224 L194 206" stroke="#241B4B" stroke-width="9" stroke-linecap="round"/>
+      <path d="M180 224 L194 206" stroke="#A86B3C" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="202" cy="194" r="12" fill="#B9D6FA" fill-opacity=".5" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+/* Vocabulaire, synonymes et contraires (maquettes 16 PC et 38 tablette) : le titre de la relation, « Vérifier ».
+   Les paires numérotées et colorées viennent du composant relier ; la mise en page de Pompon vient de la séance. */
+
+/* Le titre, « Écouter » et « Vérifier » sur une ligne, et des cartes resserrées : six paires tiennent
+   à l'écran sur un portable (1366 x 768) sans défilement. */
+.vocabulaire-synonymes__entete {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espace-3);
+  margin-bottom: var(--espace-3);
+}
+
+.vocabulaire-synonymes__titre {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-3);
+  font-weight: 700;
+}
+
+/* Le signe = ou ≠ dans un rond prune de 34 px : le sens de la relation se lit sans la couleur. */
+.vocabulaire-synonymes__signe {
+  display: grid;
+  place-items: center;
+  width: 2.125rem;
+  height: 2.125rem;
+  background: var(--prune);
+  border-radius: 50%;
+  color: var(--blanc);
+  font-size: var(--taille-exercice);
+  line-height: 1;
+}
+
+.vocabulaire-synonymes__actions {
+  margin-left: auto;
+}
+
+/* Une carte = la pastille tactile (44 px) et ses bordures : aucune marge de plus. */
+.vocabulaire-synonymes__relier .relier__colonne {
+  gap: var(--espace-2);
+}
+
+.vocabulaire-synonymes__relier .relier__carte {
+  min-height: 0;
+  padding-block: 0;
+}

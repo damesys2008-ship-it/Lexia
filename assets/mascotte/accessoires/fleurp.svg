@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « fleurp » pour Pompon, emplacement pompons. Même viewBox que pompon.svg. -->
+  <g>
+    <circle cx="97" cy="92" r="5" fill="#fff" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="97" cy="92" r="2" fill="#FFC93C"/>
+    <circle cx="143" cy="92" r="5" fill="#fff" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="143" cy="92" r="2" fill="#FFC93C"/>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+/* Conjugaison, niveau A (maquettes 10 PC et 32 tablette) : la disposition commune est dans conjugaison.css. */
+
+.carte-exercice__zone .relier {
+  margin-top: var(--espace-3);
+}

@@ -1,0 +1,147 @@
+/* Orthographe : styles communs aux exercices qui passent par js/modules/orthographe/seance.js
+   (orthographe, mais aussi grammaire, vocabulaire et la lecture flash).
+   Mise en page : Pompon et sa bulle à gauche, la carte d'exercice à droite (largeur 1240 px sur PC, 1100 px sur tablette).
+   Contrastes : texte prune sur menthe clair et sur soleil clair ; menthe en texte seulement sur fond blanc ou clair. */
+
+/* Les exercices sont plus larges que les hubs : 1240 px de contenu sur PC, 1100 px sur tablette (marges comprises). */
+main:has(.orthographe__page) {
+  --largeur-contenu: 83.5rem;
+}
+
+@media (max-width: 1180px) {
+  main:has(.orthographe__page) {
+    --largeur-contenu: 73.25rem;
+  }
+}
+
+.orthographe__page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2.5rem; /* 40 px */
+  width: 100%;
+  max-width: 77.5rem; /* 1240 px */
+  margin-inline: auto;
+}
+
+.orthographe__compagnon {
+  display: flex;
+  flex: 0 0 15.625rem; /* 250 px */
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espace-3);
+}
+
+.orthographe__compagnon .mascotte {
+  width: 100%;
+  max-width: 15.625rem;
+  height: auto;
+}
+
+.orthographe__page > .carte-exercice {
+  flex: 1 1 35rem; /* 560 px */
+  min-width: 0;
+}
+
+.orthographe__vide {
+  margin: 0 0 var(--espace-4);
+  font-size: var(--taille-exercice);
+}
+
+/* Le retour de la séance : toujours une marque (✓ ou ✗) et un texte, jamais la couleur seule. */
+.orthographe__verdict {
+  margin: 0;
+  font-size: var(--taille-exercice);
+}
+
+.orthographe__verdict--juste {
+  color: var(--prune);
+}
+
+.orthographe__verdict--faux {
+  color: var(--prune);
+  font-weight: 600;
+}
+
+/* La zone de retour prend la couleur du verdict : menthe clair quand c'est juste, « Presque ! » jaune sinon. */
+.carte-exercice__retour:has(.orthographe__verdict--juste) {
+  background: var(--menthe-clair);
+  border-color: var(--menthe);
+}
+
+.carte-exercice__retour:has(.orthographe__verdict--faux) {
+  background: var(--soleil-clair);
+  border-color: var(--soleil-fonce);
+}
+
+/* Briques communes que les exercices peuvent reprendre. */
+.orthographe__phrase {
+  margin: 0;
+  font-size: 1.875rem; /* 30 px */
+  line-height: 1.6;
+}
+
+.orthographe__choix {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-4);
+}
+
+.orthographe__choix .bouton {
+  min-width: var(--cible-minimale);
+  min-height: 3.5rem; /* 56 px */
+  font-size: 1.5rem; /* 24 px */
+}
+
+/* États d'une réponse : fond + marque devant le texte (la couleur ne porte jamais seule le sens). */
+.orthographe__etat--juste {
+  --ombre-bouton: var(--menthe);
+  color: var(--prune);
+  background: var(--menthe-clair);
+  border: var(--epaisseur-bordure) solid var(--menthe);
+}
+
+.orthographe__etat--juste::before {
+  content: "✓ ";
+  color: var(--menthe);
+}
+
+/* « Presque ! » : fond jaune clair, filet jaune foncé pointillé, texte prune. */
+.orthographe__etat--faux {
+  --ombre-bouton: var(--soleil-fonce);
+  color: var(--prune);
+  background: var(--soleil-clair);
+  border: var(--epaisseur-bordure) dashed var(--soleil-fonce);
+}
+
+.orthographe__etat--faux::before {
+  content: "✗ ";
+}
+
+.orthographe__reponse-juste {
+  color: var(--menthe);
+  font-weight: 700;
+}
+
+/* Tablette : Pompon plus étroit, textes +1 px, cibles plus grandes. */
+@media (max-width: 1180px) {
+  .orthographe__page {
+    max-width: 68.75rem; /* 1100 px */
+    gap: 1.75rem; /* 28 px */
+  }
+
+  .orthographe__compagnon {
+    flex-basis: 13.125rem; /* 210 px */
+  }
+
+  .orthographe__phrase {
+    font-size: 1.9375rem; /* 31 px */
+  }
+
+  .orthographe__choix .bouton {
+    min-height: 4.25rem; /* 68 px */
+    font-size: 1.5625rem; /* 25 px */
+  }
+}
+
+/* Aucune animation dans ces styles : rien à couper pour .animations-reduites ou prefers-reduced-motion. */

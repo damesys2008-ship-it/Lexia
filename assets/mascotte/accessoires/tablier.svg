@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « tablier » pour Pompon, emplacement corps. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M96 220 L96.5 217.7 L97.8 215.8 L99.7 214.5 L102 214 L138 214 L140.3 214.5 L142.2 215.8 L143.5 217.7 L144 220 L144 258.2 L142.1 258.8 L139.6 259.5 L137 260.2 L134.3 260.8 L131.6 261.2 L128.8 261.6 L125.9 261.8 L123 262 L120 262 L117 262 L114.1 261.8 L111.2 261.6 L108.4 261.2 L105.7 260.8 L103 260.2 L100.4 259.5 L97.9 258.8 L96 258.2 Z" fill="#fff"/><path d="M96 220 L96.5 217.7 L97.8 215.8 L99.7 214.5 L102 214 L138 214 L140.3 214.5 L142.2 215.8 L143.5 217.7 L144 220 L144 258.2 M96 258.2 L96 220" fill="none" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="108" y="238" width="24" height="12" rx="3" fill="#FFB8D6" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M96 222 L70 218 M144 222 L170 218" fill="none" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

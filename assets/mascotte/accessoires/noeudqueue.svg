@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « noeudqueue » pour Pompon, emplacement queue. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M184 224 L170 214 L170 234 Z M184 224 L198 214 L198 234 Z" fill="#2563C9" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="184" cy="224" r="4" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

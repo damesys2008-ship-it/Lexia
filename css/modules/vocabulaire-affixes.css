@@ -1,0 +1,50 @@
+/* Vocabulaire, préfixes et suffixes : la ligne de titre et de boutons, puis la correction à la fin. */
+
+/* Le titre, « Écouter » et « Vérifier » sur une ligne : les morceaux et les définitions restent à l'écran. */
+.vocabulaire-affixes__entete {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espace-3);
+  margin-bottom: var(--espace-3);
+}
+
+.vocabulaire-affixes__titre {
+  flex: 1 1 14rem;
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-3);
+  font-weight: 700;
+}
+
+.vocabulaire-affixes__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-3);
+}
+
+/* Une fois le mot construit, les morceaux se cachent (ils restent dans la page : le compagnon reste petit). */
+.deposer.vocabulaire-affixes__cache {
+  display: none;
+}
+
+.vocabulaire-affixes__correction {
+  margin-top: var(--espace-4);
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-moyen);
+  box-shadow: 0 5px 0 var(--prune);
+  font-size: var(--taille-exercice);
+}
+
+.vocabulaire-affixes__correction-titre {
+  margin: 0 0 var(--espace-2);
+  font-size: var(--taille-exercice);
+}
+
+.vocabulaire-affixes__correction-liste {
+  margin: 0;
+  padding-left: var(--espace-5);
+}

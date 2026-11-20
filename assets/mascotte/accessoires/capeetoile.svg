@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « capeetoile » pour Pompon, emplacement dos. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M72 160 Q38 232 56 280 L184 280 Q202 232 168 160 Z" fill="#3A2A55" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M56.0,245.0 L57.3,248.2 L60.8,248.5 L58.1,250.7 L58.9,254.0 L56.0,252.2 L53.1,254.0 L53.9,250.7 L51.2,248.5 L54.7,248.2 Z" fill="#FFC93C"/>
+    <path d="M66.0,211.0 L67.3,214.2 L70.8,214.5 L68.1,216.7 L68.9,220.0 L66.0,218.2 L63.1,220.0 L63.9,216.7 L61.2,214.5 L64.7,214.2 Z" fill="#FFC93C"/>
+    <path d="M182.0,243.0 L183.3,246.2 L186.8,246.5 L184.1,248.7 L184.9,252.0 L182.0,250.2 L179.1,252.0 L179.9,248.7 L177.2,246.5 L180.7,246.2 Z" fill="#FFC93C"/>
+    <path d="M172.0,207.0 L173.3,210.2 L176.8,210.5 L174.1,212.7 L174.9,216.0 L172.0,214.2 L169.1,216.0 L169.9,212.7 L167.2,210.5 L170.7,210.2 Z" fill="#FFC93C"/>
+  </g>
+</svg>

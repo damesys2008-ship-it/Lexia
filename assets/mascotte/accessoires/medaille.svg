@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « medaille » pour Pompon, emplacement col. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M108 218 L120 230 L132 218" fill="none" stroke="#2563C9" stroke-width="4"/>
+    <circle cx="120" cy="236" r="9" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M120.0,231.0 L121.3,234.2 L124.8,234.5 L122.1,236.7 L122.9,240.0 L120.0,238.2 L117.1,240.0 L117.9,236.7 L115.2,234.5 L118.7,234.2 Z" fill="#fff"/>
+  </g>
+</svg>

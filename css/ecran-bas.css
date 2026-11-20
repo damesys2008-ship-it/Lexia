@@ -1,0 +1,119 @@
+/*
+ * Écrans bas (hauteur de fenêtre de 800 px ou moins, par exemple un portable en 1366 x 768).
+ *
+ * Les maquettes sont dessinées pour une fenêtre de 900 px de haut ou plus : en-tête de 96 px, marges de 40 px,
+ * carte à 40 px de marge, boutons de 56 px. Sur un écran bas, une séance d'exercice ne tiendrait plus sans défilement.
+ * Cette feuille compacte alors l'en-tête, les marges, la carte et les boutons, sans jamais descendre sous 44 px de cible
+ * tactile et sans toucher aux feuilles des écrans. À partir de 801 px de haut, rien ne change.
+ *
+ * Elle est chargée dans index.html après composants.css, mais les feuilles de chaque écran sont ajoutées plus tard :
+ * pour passer devant elles sans `!important`, les règles commencent par `body` (spécificité plus forte).
+ */
+
+@media (max-height: 800px) {
+  :root {
+    --marge-haut-entete: 0.375rem;
+    --marge-haut-page: 1rem;
+    --hauteur-bouton: 2.75rem; /* 44 px : la cible minimale */
+    --taille-pastille-son: 2.75rem;
+  }
+
+  /* En-tête : la tête de Pompon passe de 72 à 48 px. */
+  body .entete__logo {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  body .contenu {
+    padding-block-end: 1.5rem;
+  }
+
+  /* Carte d'exercice : marge intérieure et espaces réduits de moitié. */
+  body .zone-exercice {
+    padding: 1.25rem;
+  }
+
+  body .carte-exercice {
+    gap: var(--espace-2);
+  }
+
+  body .carte-exercice__texte {
+    font-size: var(--taille-titre-3);
+  }
+
+  /* Pompon et sa bulle : plus petits, la colonne ne doit pas dépasser la carte. */
+  body .orthographe__page {
+    gap: 1.5rem;
+  }
+
+  body .orthographe__compagnon {
+    gap: var(--espace-2);
+  }
+
+  body .orthographe__compagnon .mascotte {
+    max-width: 9rem;
+  }
+
+  /* Phrases et réponses : 20 px, le minimum des exercices. */
+  body .orthographe__phrase {
+    font-size: var(--taille-titre-3);
+    line-height: 1.5;
+  }
+
+  body .orthographe__choix .bouton,
+  body .choix__option {
+    min-height: var(--cible-minimale);
+    font-size: var(--taille-exercice);
+  }
+
+  body .relier,
+  body .deposer {
+    font-size: var(--taille-exercice);
+  }
+
+  body .relier__colonne,
+  body .choix,
+  body .deposer {
+    gap: var(--espace-2);
+  }
+
+  body .relier__carte {
+    min-height: var(--cible-minimale);
+    padding-block: var(--espace-1);
+  }
+
+  /* Le tri des mots : les boîtes de couleur sont moins hautes (elles s'agrandissent avec les mots rangés). */
+  body .grammaire-tri__boites:not(.grammaire-tri__boites--nombreuses) .deposer__zone:not(.deposer__zone--reserve) {
+    min-height: 5.5rem;
+  }
+}
+
+/*
+ * Tablette en portrait (820 px de large) : la carte d'exercice passe sous Pompon, qui prend toute la largeur.
+ * Pompon et sa bulle se rangent alors côte à côte et plus petits, pour que la séance tienne sans défilement.
+ */
+@media (max-width: 900px) {
+  body .orthographe__compagnon {
+    flex: 1 1 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  body .orthographe__compagnon .mascotte {
+    max-width: 7.5rem;
+  }
+
+  /* Marges du bas de page et de la carte réduites, comme sur un écran bas. */
+  body .contenu {
+    padding-block-end: 1.5rem;
+  }
+
+  body .zone-exercice {
+    padding: 1.25rem;
+  }
+
+  /* Le tri des mots : boîtes moins hautes, comme sur un écran bas. */
+  body .grammaire-tri__boites:not(.grammaire-tri__boites--nombreuses) .deposer__zone:not(.deposer__zone--reserve) {
+    min-height: 5.5rem;
+  }
+}

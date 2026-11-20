@@ -1,0 +1,24 @@
+/*
+ * Bulle de parole de la mascotte : rectangle arrondi prune, sans pointe, texte blanc (contraste 16,48).
+ */
+
+.bulle {
+  max-width: 22rem;
+  padding: var(--espace-3) var(--espace-4);
+  border-radius: 1.375rem;
+  background: var(--prune);
+  color: var(--blanc);
+}
+
+/* Vide : la région reste dans la page (annonce par les lecteurs d'écran) mais ne se voit pas. */
+.bulle--vide {
+  padding: 0;
+  background: transparent;
+}
+
+.bulle__texte {
+  margin: 0;
+  font-family: var(--police-texte);
+  font-size: 1.0625rem;
+  line-height: 1.45;
+}

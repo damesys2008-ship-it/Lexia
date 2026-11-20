@@ -1,0 +1,254 @@
+/*
+ * Pompon et ses animations.
+ * js/ui/mascotte.js pose deux attributs sur le SVG :
+ *   data-expression  le visage affiché : content, bravo, presque, reflechis, waouh, fier, dodo, calin
+ *   data-etat        le mouvement : repos, content, encourage, pense, fete, fier, dodo, calin, coucou
+ * Mouvements :
+ *   repos      il respire, cligne des yeux, ses pompons bougent doucement (toujours actifs)
+ *   content    petit saut
+ *   encourage  tête penchée
+ *   pense      tête penchée, regard de côté
+ *   fete       saut et confettis
+ *   fier       torse bombé
+ *   dodo       respiration lente, pompons tombants
+ *   coucou     un bras levé qui salue
+ * Animations réduites : classe `animations-reduites` sur <html> ou préférence du système.
+ * Les poses (visage, pompons, tête penchée, bras levé, confettis) restent, seul le mouvement disparaît.
+ */
+
+.mascotte {
+  display: block;
+  width: 100%;
+  max-width: 16rem;
+  height: auto;
+  overflow: visible;
+}
+
+.mascotte .pompon__oeil,
+.mascotte .pompon__joue,
+.mascotte .pompon__confetti {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+
+/* ---------- Visages : un seul visible, selon data-expression ---------- */
+
+.mascotte .pompon__visage {
+  display: none;
+}
+
+.mascotte[data-expression="content"] .pompon__visage--content,
+.mascotte[data-expression="bravo"] .pompon__visage--bravo,
+.mascotte[data-expression="presque"] .pompon__visage--presque,
+.mascotte[data-expression="reflechis"] .pompon__visage--reflechis,
+.mascotte[data-expression="waouh"] .pompon__visage--waouh,
+.mascotte[data-expression="fier"] .pompon__visage--fier,
+.mascotte[data-expression="dodo"] .pompon__visage--dodo,
+.mascotte[data-expression="calin"] .pompon__visage--calin {
+  display: inline;
+}
+
+/* Joues plus larges quand il est très heureux. */
+.mascotte[data-expression="bravo"] .pompon__joue,
+.mascotte[data-expression="calin"] .pompon__joue {
+  transform: scale(1.25);
+}
+
+/* ---------- Pompons d'oreilles : l'humeur règle leur ouverture ---------- */
+
+.mascotte {
+  --ouverture-oreilles: 0deg;
+}
+
+.mascotte[data-expression="bravo"],
+.mascotte[data-expression="fier"],
+.mascotte[data-expression="calin"] {
+  --ouverture-oreilles: 18deg; /* écartés : content */
+}
+
+.mascotte[data-expression="waouh"] {
+  --ouverture-oreilles: -7deg; /* dressés : surpris */
+}
+
+.mascotte[data-expression="dodo"] {
+  --ouverture-oreilles: 62deg; /* tombants : il dort */
+}
+
+.mascotte .pompon__oreille--gauche {
+  --sens: -1;
+}
+
+.mascotte .pompon__oreille--droite {
+  --sens: 1;
+}
+
+.mascotte .pompon__oreille {
+  transform: rotate(calc(var(--sens) * var(--ouverture-oreilles)));
+  transition: transform var(--duree-moyenne) ease;
+}
+
+/* ---------- Repos : respiration, clignement, pompons qui bougent ---------- */
+
+.mascotte .pompon__respire {
+  animation: mascotte-respiration 4s ease-in-out infinite;
+}
+
+.mascotte[data-etat="dodo"] .pompon__respire {
+  animation-duration: 7s;
+}
+
+.mascotte .pompon__oeil {
+  animation: mascotte-clignement 5s ease-in-out infinite;
+}
+
+.mascotte[data-etat="repos"] .pompon__oreille {
+  animation: mascotte-pompons 3s ease-in-out infinite;
+}
+
+@keyframes mascotte-respiration {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+
+  50% {
+    transform: scaleY(1.025);
+  }
+}
+
+@keyframes mascotte-clignement {
+  0%,
+  92%,
+  100% {
+    transform: scaleY(1);
+  }
+
+  96% {
+    transform: scaleY(0.1);
+  }
+}
+
+@keyframes mascotte-pompons {
+  0%,
+  100% {
+    transform: rotate(calc(var(--sens) * var(--ouverture-oreilles)));
+  }
+
+  50% {
+    transform: rotate(calc(var(--sens) * (var(--ouverture-oreilles) + 4deg)));
+  }
+}
+
+/* ---------- Content et fête : petit saut ---------- */
+
+.mascotte[data-etat="content"],
+.mascotte[data-etat="fete"] {
+  animation: mascotte-saut var(--duree-longue) ease-out 2;
+}
+
+@keyframes mascotte-saut {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-16px);
+  }
+
+  70% {
+    transform: translateY(-3px);
+  }
+}
+
+/* ---------- Poses du corps : tête penchée, torse bombé ---------- */
+
+.mascotte .pompon__penche {
+  transition: transform var(--duree-moyenne) ease;
+}
+
+.mascotte[data-etat="encourage"] .pompon__penche,
+.mascotte[data-etat="pense"] .pompon__penche {
+  transform: rotate(-6deg);
+}
+
+.mascotte[data-etat="fier"] .pompon__penche {
+  transform: scale(1.04);
+}
+
+/* ---------- Coucou : le bras droit se lève et salue ---------- */
+
+.mascotte .pompon__bras {
+  transition: transform var(--duree-moyenne) ease;
+}
+
+.mascotte[data-etat="coucou"] .pompon__penche {
+  transform: rotate(-4deg);
+}
+
+.mascotte[data-etat="coucou"] .pompon__bras--droit {
+  transform: rotate(-150deg);
+  animation: mascotte-coucou 600ms ease-in-out 4 alternate;
+}
+
+@keyframes mascotte-coucou {
+  from {
+    transform: rotate(-150deg);
+  }
+
+  to {
+    transform: rotate(-175deg);
+  }
+}
+
+/* ---------- Fête : confettis ---------- */
+
+.mascotte .pompon__confettis {
+  opacity: 0;
+}
+
+.mascotte[data-etat="fete"] .pompon__confettis {
+  opacity: 1;
+}
+
+.mascotte[data-etat="fete"] .pompon__confetti {
+  animation: mascotte-confetti 1.4s ease-in 1 both;
+}
+
+.mascotte .pompon__confetti:nth-child(3n) {
+  animation-delay: 120ms;
+}
+
+.mascotte .pompon__confetti:nth-child(3n + 1) {
+  animation-delay: 240ms;
+}
+
+@keyframes mascotte-confetti {
+  0% {
+    transform: translateY(-30px) rotate(0deg);
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(140px) rotate(300deg);
+    opacity: 0;
+  }
+}
+
+/* ---------- Animations réduites : poses seulement ---------- */
+
+html.animations-reduites .mascotte,
+html.animations-reduites .mascotte * {
+  animation: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mascotte,
+  .mascotte * {
+    animation: none !important;
+  }
+}

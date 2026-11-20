@@ -1,0 +1,435 @@
+/*
+ * Écran « Carnet » (maquettes 22 PC et 44 tablette) : la semaine en sept ronds, trois tuiles de chiffres,
+ * les niveaux par matière, les sujets à retravailler et les badges gagnés. Aucune animation.
+ * Imprimé (@media print), il tient sur une page A4, sans couleurs de fond.
+ */
+
+.carnet {
+  display: flex;
+  flex-direction: column;
+  gap: var(--marge-haut-page);
+}
+
+.carnet__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espace-3);
+}
+
+.carnet__entete {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-1);
+}
+
+.carnet__titre,
+.carnet__sous-titre {
+  margin: 0;
+  font-family: var(--police-titre);
+}
+
+.carnet__titre {
+  font-size: var(--taille-titre-1);
+  line-height: 1.1;
+}
+
+.carnet__sous-titre {
+  font-size: var(--taille-titre-3);
+}
+
+.carnet__date,
+.carnet__phrase {
+  margin: 0;
+  font-size: var(--taille-exercice);
+}
+
+.carnet__date {
+  font-size: var(--taille-texte);
+  color: var(--texte-discret);
+}
+
+/* Chaque bloc est une carte blanche : bordure prune, ombre pleine. */
+.carnet__section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-3);
+  padding: 1.375rem 1.5rem;
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+  box-shadow: var(--ombre-carte);
+}
+
+/* « Mes progrès » et « À retravailler » côte à côte (l'un sous l'autre quand la place manque). */
+.carnet__duo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--marge-haut-page);
+  align-items: stretch;
+}
+
+.carnet__duo > .carnet__section {
+  flex: 1 1 22rem;
+}
+
+/* La semaine : sept colonnes, du lundi au dimanche. */
+.carnet__semaine {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: var(--espace-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carnet__jour-visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espace-1);
+}
+
+.carnet__pastille {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--cible-minimale);
+  height: var(--cible-minimale);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-color: var(--trait-moyen);
+  border-radius: var(--rayon-rond);
+  color: var(--gris-eteint);
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+}
+
+/* Un jour fait : rond menthe avec une coche. Aujourd'hui, pas encore fait : rond soleil (double contour soleil clair). */
+.carnet__jour--fait .carnet__pastille {
+  background: var(--menthe);
+  border-color: var(--prune);
+  color: var(--blanc);
+}
+
+.carnet__jour--aujourdhui .carnet__pastille {
+  outline: 4px solid var(--soleil-clair);
+}
+
+.carnet__jour:not(.carnet__jour--fait).carnet__jour--aujourdhui .carnet__pastille {
+  background: var(--soleil);
+  border-color: var(--prune);
+  color: var(--prune);
+}
+
+.carnet__jour-nom {
+  font-size: var(--taille-petite);
+  color: var(--texte-discret);
+}
+
+.carnet__coche {
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+}
+
+/* Les trois tuiles de chiffres. */
+.carnet__tuiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carnet__tuile {
+  flex: 1 1 12rem;
+  padding: var(--espace-2) var(--espace-4);
+  border-radius: var(--rayon-moyen);
+}
+
+.carnet__tuile--semaine {
+  background: var(--menthe-clair);
+}
+
+.carnet__tuile--mois {
+  background: var(--lilas-clair);
+}
+
+.carnet__tuile--etoiles {
+  background: var(--soleil-clair);
+}
+
+.carnet__nombre {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-2);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.carnet__legende {
+  margin: 0;
+  font-size: var(--taille-petite);
+}
+
+/* Les niveaux : le nom de la matière, puis trois segments (autant de pleins que le niveau). */
+.carnet__progres {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carnet__matiere {
+  --couleur-matiere: var(--prune);
+  --couleur-matiere-claire: var(--trait-doux);
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  align-items: center;
+  gap: var(--espace-3);
+}
+
+.carnet__matiere--orthographe {
+  --couleur-matiere: var(--module-orthographe);
+  --couleur-matiere-claire: var(--module-orthographe-clair);
+}
+
+.carnet__matiere--conjugaison {
+  --couleur-matiere: var(--module-conjugaison);
+  --couleur-matiere-claire: var(--module-conjugaison-clair);
+}
+
+.carnet__matiere--grammaire {
+  --couleur-matiere: var(--module-grammaire);
+  --couleur-matiere-claire: var(--module-grammaire-clair);
+}
+
+.carnet__matiere--vocabulaire {
+  --couleur-matiere: var(--module-vocabulaire);
+  --couleur-matiere-claire: var(--module-vocabulaire-clair);
+}
+
+.carnet__matiere--lecture {
+  --couleur-matiere: var(--module-lecture);
+  --couleur-matiere-claire: var(--module-lecture-clair);
+}
+
+.carnet__matiere--dictee {
+  --couleur-matiere: var(--module-dictee);
+  --couleur-matiere-claire: var(--module-dictee-clair);
+}
+
+.carnet__matiere-nom {
+  font-family: var(--police-titre);
+  font-size: var(--taille-texte);
+  font-weight: 600;
+}
+
+.carnet__segments {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--espace-1);
+}
+
+.carnet__segment {
+  height: 1.125rem; /* 18 px */
+  background: var(--couleur-matiere-claire);
+  border-radius: 99px;
+}
+
+.carnet__segment--plein {
+  background: var(--couleur-matiere);
+}
+
+/* À retravailler : des pilules jaune clair. */
+.carnet__pilules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carnet__pilule {
+  padding: var(--espace-1) var(--espace-3);
+  background: var(--soleil-clair);
+  border: var(--bordure);
+  border-radius: var(--rayon-rond);
+  font-family: var(--police-titre);
+  font-size: var(--taille-texte);
+  font-weight: 600;
+}
+
+/* Mes badges gagnés : des pilules aussi. Le « Gagné ! » reste lu par les lecteurs d'écran, sans être affiché. */
+.carnet .liste-badges {
+  gap: var(--espace-2);
+}
+
+.carnet .liste-badges__carte {
+  flex: 0 0 auto;
+  gap: var(--espace-2);
+  padding: var(--espace-1) var(--espace-3) var(--espace-1) var(--espace-1);
+  background: var(--soleil-clair);
+  border-color: var(--prune);
+  border-radius: var(--rayon-rond);
+  box-shadow: none;
+}
+
+.carnet .liste-badges__disque {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.carnet .liste-badges__nom {
+  font-size: var(--taille-texte);
+}
+
+.carnet .liste-badges__etat {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Téléphone : seule la lettre du jour reste visible (le nom complet est lu par les lecteurs d'écran). */
+@media (max-width: 30rem) {
+  .carnet__jour-nom {
+    display: none;
+  }
+
+  .carnet__pastille {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 15mm;
+  }
+
+  /* Ni boutons ni lien de retour : seulement le contenu du carnet. */
+  .carnet__actions {
+    display: none;
+  }
+
+  .carnet {
+    gap: var(--espace-3);
+    color: var(--prune);
+    background: var(--blanc);
+  }
+
+  .carnet__section,
+  .liste-badges__carte {
+    break-inside: avoid;
+  }
+
+  /* Sans fonds d'arrière-plan (réglage par défaut du papier) : un jour fait a un trait épais, un jour sans
+     entraînement un trait fin en pointillés ; la coche et le texte disent déjà la même chose. */
+  .carnet__jour--fait .carnet__pastille {
+    background: var(--blanc);
+    color: var(--prune);
+    border-width: 5px;
+  }
+
+  .carnet__jour:not(.carnet__jour--fait) .carnet__pastille {
+    border-style: dashed;
+  }
+
+  /* Tailles réduites : le Carnet doit tenir sur une page, même avec tous les badges. */
+  .carnet__titre {
+    font-size: var(--taille-titre-3);
+  }
+
+  .carnet__sous-titre {
+    font-size: var(--taille-exercice);
+  }
+
+  .carnet__date,
+  .carnet__phrase {
+    font-size: var(--taille-texte);
+  }
+
+  /* Les cartes de l'écran deviennent de simples blocs : pas d'ombre, peu d'espace. */
+  .carnet__section {
+    gap: var(--espace-1);
+    padding: var(--espace-2);
+    box-shadow: none;
+    border-width: 1px;
+  }
+
+  .carnet__duo {
+    flex-wrap: nowrap;
+    gap: var(--espace-2);
+  }
+
+  .carnet__tuiles,
+  .carnet__progres {
+    gap: var(--espace-1);
+  }
+
+  .carnet__tuile {
+    padding: 0;
+    background: none;
+  }
+
+  .carnet__nombre {
+    font-size: var(--taille-exercice);
+  }
+
+  .carnet__segment {
+    height: 0.5rem;
+    border: 1px solid var(--prune);
+  }
+
+  .carnet__segment--plein {
+    background: var(--prune);
+  }
+
+  .carnet__pilule {
+    padding: 0 var(--espace-2);
+    background: none;
+    border-width: 1px;
+  }
+
+  .carnet .liste-badges__disque {
+    display: none;
+  }
+
+  /* Les badges : une ligne chacun (nom, « Gagné. », texte). */
+  .contenu {
+    padding-block: 0;
+  }
+
+  .carnet .liste-badges {
+    grid-template-columns: 1fr;
+    gap: var(--espace-1);
+  }
+
+  .carnet .liste-badges__carte {
+    flex-flow: row wrap;
+    align-items: baseline;
+    padding: var(--espace-1) var(--espace-2);
+    background: var(--blanc);
+    border-color: var(--prune);
+    box-shadow: none;
+  }
+
+  .carnet .liste-badges__nom {
+    font-size: var(--taille-texte);
+  }
+
+  .carnet .liste-badges__etat,
+  .carnet .liste-badges__texte {
+    font-size: var(--taille-petite);
+  }
+}

@@ -1,0 +1,67 @@
+/*
+ * Lecture, « Remets dans l'ordre » : une liste de paragraphes en cartes, chacun avec ses deux flèches.
+ * Juste = menthe avec ✓ ; « Presque ! » = jaune clair avec ✗ (jamais de rouge, jamais la couleur seule).
+ */
+
+.lecture__ordre {
+  display: grid;
+  gap: var(--espace-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lecture__paragraphe {
+  display: grid;
+  gap: var(--espace-2);
+  padding: var(--espace-3);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-moyen);
+  box-shadow: 0 5px 0 var(--prune);
+}
+
+.lecture__paragraphe--juste {
+  background: var(--menthe-clair);
+  border-color: var(--menthe);
+  box-shadow: 0 5px 0 var(--menthe);
+}
+
+.lecture__paragraphe--faux {
+  background: var(--soleil-clair);
+  border-color: var(--soleil-fonce);
+  box-shadow: 0 5px 0 var(--soleil-fonce);
+}
+
+.lecture__paragraphe-texte {
+  margin: 0;
+  font-size: var(--taille-exercice);
+  line-height: 1.7;
+}
+
+.lecture__fleches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-2);
+}
+
+.lecture__fleches .bouton {
+  min-height: var(--cible-minimale);
+  padding: 0.5rem 1.125rem;
+  font-size: var(--taille-texte);
+}
+
+.lecture__marque {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+}
+
+.lecture__marque--juste {
+  color: var(--menthe);
+}
+
+.lecture__marque--faux {
+  color: var(--prune);
+}

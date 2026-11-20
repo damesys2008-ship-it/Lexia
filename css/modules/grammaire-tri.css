@@ -1,0 +1,83 @@
+/* Grammaire, le tri des mots : la phrase, le bouton « Vérifier » et le bon tri affiché à la fin. */
+
+/* La phrase et son bouton « Écouter » sur une ligne : les boîtes restent à l'écran sur un portable. */
+.grammaire-tri__entete {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espace-3);
+  margin-bottom: var(--espace-3);
+}
+
+/* La phrase se lit comme du texte (pas en gras) ; le bouton « Écouter la phrase » est petit à côté. */
+.grammaire-tri__entete .grammaire-tri__phrase {
+  margin: 0;
+  font-family: var(--police-texte);
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+
+.grammaire-tri__entete .bouton {
+  min-height: var(--cible-minimale);
+  padding: 0.5rem 1.125rem;
+  font-size: 1.0625rem;
+}
+
+/* Les boîtes se rangent par trois ; la quatrième s'étire sur toute la largeur en dessous (maquette 14). */
+.grammaire-tri__boites:not(.grammaire-tri__boites--nombreuses) .deposer__zones {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grammaire-tri__boites:not(.grammaire-tri__boites--nombreuses) .deposer__zone:not(.deposer__zone--reserve) {
+  flex: 1 1 14rem;
+  min-height: 9.75rem;
+}
+
+.grammaire-tri__actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--espace-4);
+}
+
+.grammaire-tri__solution {
+  margin-top: var(--espace-4);
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-moyen);
+  font-size: var(--taille-exercice);
+}
+
+.grammaire-tri__solution-titre {
+  margin: 0 0 var(--espace-2);
+  font-size: var(--taille-exercice);
+}
+
+.grammaire-tri__solution-liste {
+  margin: 0;
+  padding-left: var(--espace-5);
+}
+
+/* Niveau 3 : 8 boîtes sur 4 colonnes (deux rangées) au lieu de 6 colonnes trop étroites où un mot était coupé. */
+.grammaire-tri__boites--nombreuses .deposer__zones {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Même niveau : espaces resserrés (les cibles restent à 44 px) pour gagner de la hauteur sur un portable. */
+.grammaire-tri__boites--nombreuses {
+  gap: var(--espace-2);
+}
+
+.grammaire-tri__boites--nombreuses .deposer__zones {
+  gap: var(--espace-2);
+}
+
+.grammaire-tri__boites--nombreuses .deposer__zone {
+  gap: 0;
+  padding-block: var(--espace-1);
+}
+
+.grammaire-tri__boites--nombreuses .deposer__zone--reserve.deposer__zone--vide {
+  padding-block: 0;
+}

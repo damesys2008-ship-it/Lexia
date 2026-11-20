@@ -1,0 +1,148 @@
+/*
+ * Conjugaison (niveaux A, B et C ; maquettes 10 PC et 32 tablette pour le niveau A) :
+ * Pompon et sa bulle à gauche, la carte d'exercice à droite, la grille de saisie et le tableau correct.
+ * Le contenu des exercices est plus large que celui des hubs : 1240 px sur PC, 1100 px sur tablette (marges comprises).
+ */
+
+main:has(.conjugaison__disposition) {
+  --largeur-contenu: 83.5rem;
+}
+
+@media (max-width: 1180px) {
+  main:has(.conjugaison__disposition) {
+    --largeur-contenu: 73.25rem;
+  }
+}
+
+.conjugaison__disposition {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--marge-haut-page);
+  align-items: flex-start;
+}
+
+.conjugaison__compagnon {
+  flex: 0 0 15.625rem; /* 250 px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espace-2);
+}
+
+.conjugaison__compagnon .mascotte {
+  max-width: 100%;
+}
+
+.conjugaison__disposition > .carte-exercice {
+  flex: 1 1 35rem; /* 560 px */
+  min-width: 0;
+}
+
+.conjugaison__grille {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-3);
+}
+
+/* Une ligne : pronom, radical donné, champ, puis la marque ✓ ou ✗ (jamais la couleur seule). */
+.conjugaison__ligne {
+  display: grid;
+  grid-template-columns: minmax(6rem, 9rem) auto minmax(8rem, 1fr);
+  align-items: start;
+  gap: var(--espace-2);
+  padding: var(--espace-2) var(--espace-3);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-moyen);
+  box-shadow: 0 5px 0 var(--prune);
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 600;
+}
+
+.conjugaison__pronom,
+.conjugaison__radical {
+  display: flex;
+  align-items: center;
+  min-height: var(--cible-minimale);
+}
+
+.conjugaison__radical {
+  font-weight: 700;
+  color: var(--framboise-fonce);
+}
+
+.conjugaison__marque:empty {
+  display: none;
+}
+
+.conjugaison__marque {
+  grid-column: 1 / -1;
+  min-height: 1.5em;
+  font-size: var(--taille-texte);
+  font-weight: 700;
+}
+
+.conjugaison__ligne--juste {
+  background: var(--menthe-clair);
+}
+
+.conjugaison__ligne--juste .conjugaison__marque {
+  color: var(--menthe);
+}
+
+/* « Presque ! » : fond jaune clair, texte prune (jamais de rouge). */
+.conjugaison__ligne--fausse {
+  background: var(--soleil-clair);
+}
+
+.conjugaison__ligne--fausse .conjugaison__marque {
+  color: var(--prune);
+}
+
+/* « Presque ! » dans la zone de retour de la carte d'exercice (niveau A). */
+.carte-exercice__retour.presque {
+  background: var(--soleil-clair);
+  border-color: var(--soleil-fonce);
+}
+
+/* Une seule barre d'accents : celle de la dernière ligne touchée. Elle reste en place quand le focus
+   part (sur « Vérifier »), sinon la mise en page bougerait entre l'appui et le relâchement du doigt. */
+.conjugaison__ligne:not(.conjugaison__ligne--active) .barre-accents {
+  display: none;
+}
+
+.conjugaison__correct {
+  margin-bottom: var(--espace-4);
+}
+
+.conjugaison__titre-correct {
+  margin: 0 0 var(--espace-3);
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-3);
+  color: var(--framboise-fonce);
+}
+
+.conjugaison__liste-correcte {
+  margin: 0 0 var(--espace-3);
+  padding: 0;
+  list-style: none;
+  font-size: var(--taille-exercice);
+}
+
+.conjugaison__ligne-correcte {
+  padding: var(--espace-1) 0;
+}
+
+.conjugaison__regle {
+  margin: 0;
+  padding: var(--espace-3);
+  border-left: 4px solid var(--module-conjugaison);
+  background: var(--fond-exercice);
+}
+
+@media (max-width: 540px) {
+  .conjugaison__ligne {
+    grid-template-columns: 1fr;
+  }
+}

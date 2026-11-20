@@ -1,0 +1,298 @@
+/*
+ * Hubs des six matières (js/ui/hub-matiere.js) et, sur l'accueil, le titre des tuiles « Ma bulle à moi ».
+ * Largeur de contenu : celle de `main` (1120 px sur PC, 1060 px sur tablette).
+ */
+
+.hub {
+  --couleur-matiere: var(--prune);
+  --couleur-claire: var(--trait-doux);
+  display: flex;
+  flex-direction: column;
+  gap: var(--marge-haut-page);
+  width: 100%;
+}
+
+.hub--dictee { --couleur-matiere: var(--module-dictee); --couleur-claire: var(--module-dictee-clair); }
+.hub--conjugaison { --couleur-matiere: var(--module-conjugaison); --couleur-claire: var(--module-conjugaison-clair); }
+.hub--orthographe { --couleur-matiere: var(--module-orthographe); --couleur-claire: var(--module-orthographe-clair); }
+.hub--grammaire { --couleur-matiere: var(--module-grammaire); --couleur-claire: var(--module-grammaire-clair); }
+.hub--vocabulaire { --couleur-matiere: var(--module-vocabulaire); --couleur-claire: var(--module-vocabulaire-clair); }
+.hub--lecture { --couleur-matiere: var(--module-lecture); --couleur-claire: var(--module-lecture-clair); }
+
+/* ---------- Retour, titre et niveau ---------- */
+
+.hub__retour {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: var(--espace-2);
+  min-height: var(--hauteur-bouton);
+  color: var(--framboise);
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hub__retour::before {
+  content: "";
+  width: 0.625rem;
+  height: 0.625rem;
+  border-bottom: 3px solid currentcolor;
+  border-left: 3px solid currentcolor;
+  transform: rotate(45deg);
+}
+
+.hub__retour:hover {
+  text-decoration: underline;
+}
+
+.hub__entete {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem 2rem;
+}
+
+.hub__identite {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.hub__titre {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-1);
+  line-height: 1.1;
+}
+
+/* Icône de la matière : un dessin blanc (prune pour la grammaire) sur la couleur de la matière. */
+.hub__icone {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 5.25rem;
+  height: 5.25rem;
+  background: var(--couleur-matiere);
+  border: var(--bordure);
+  border-radius: 1.75rem;
+}
+
+.hub__image {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+/* « Ton niveau : N » : le texte seul est dans l'élément (la proposition de niveau le réécrit) ;
+   les trois points sont dessinés d'après data-niveau. */
+.hub__niveau {
+  --point-1: var(--trait-doux);
+  --point-2: var(--trait-doux);
+  --point-3: var(--trait-doux);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espace-3);
+  margin: 0;
+  padding: 0.5rem 1.125rem;
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-rond);
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 600;
+}
+
+.hub__niveau[data-niveau="1"] { --point-1: var(--couleur-matiere); }
+.hub__niveau[data-niveau="2"] { --point-1: var(--couleur-matiere); --point-2: var(--couleur-matiere); }
+.hub__niveau[data-niveau="3"] { --point-1: var(--couleur-matiere); --point-2: var(--couleur-matiere); --point-3: var(--couleur-matiere); }
+
+.hub__niveau::after {
+  content: "";
+  width: 3.375rem;
+  height: 0.875rem;
+  background:
+    radial-gradient(circle, var(--point-1) 0 5px, var(--prune) 5.5px 7px, transparent 7.5px) 0 0 / 0.875rem 0.875rem no-repeat,
+    radial-gradient(circle, var(--point-2) 0 5px, var(--prune) 5.5px 7px, transparent 7.5px) 1.25rem 0 / 0.875rem 0.875rem no-repeat,
+    radial-gradient(circle, var(--point-3) 0 5px, var(--prune) 5.5px 7px, transparent 7.5px) 2.5rem 0 / 0.875rem 0.875rem no-repeat;
+}
+
+.hub__message {
+  margin: 0;
+  font-size: var(--taille-exercice);
+}
+
+.hub__message:empty {
+  display: none;
+}
+
+/* ---------- Cartes de jeu ---------- */
+
+.hub__cartes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.carte-jeu {
+  flex: 1 1 18.125rem;
+  min-width: 0;
+  min-height: 9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  padding: var(--espace-5);
+  background: var(--blanc);
+  color: var(--prune);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+  box-shadow: var(--ombre-carte);
+  text-decoration: none;
+  transition: transform var(--duree-courte) ease;
+}
+
+.carte-jeu:hover {
+  transform: translateY(-3px);
+}
+
+.carte-jeu:focus-visible {
+  box-shadow: var(--ombre-carte), 0 0 0 6px var(--blanc);
+}
+
+.carte-jeu__entete,
+.carte-jeu__pied {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.carte-jeu .hub__icone {
+  width: 3.75rem;
+  height: 3.75rem;
+  border: 0;
+  border-radius: var(--rayon-moyen);
+}
+
+.carte-jeu .hub__image {
+  width: 2rem;
+  height: 2rem;
+}
+
+.carte-jeu__titre {
+  font-family: var(--police-titre);
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.carte-jeu__description {
+  flex: 1;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  color: var(--prune-doux);
+}
+
+.carte-jeu__pied {
+  gap: var(--espace-3);
+}
+
+.hub__points {
+  display: flex;
+  gap: 0.375rem;
+}
+
+.hub__point {
+  width: 0.875rem;
+  height: 0.875rem;
+  background: var(--trait-doux);
+  border: 2px solid var(--prune);
+  border-radius: 50%;
+}
+
+.hub__point.est-plein {
+  background: var(--couleur-matiere);
+}
+
+.carte-jeu__niveau {
+  font-size: 0.9375rem;
+  color: var(--prune-doux);
+}
+
+/* Le rond-flèche à droite : un chevron prune sur la couleur claire de la matière. */
+.carte-jeu__fleche {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-left: auto;
+  background: var(--couleur-claire);
+  border-radius: 50%;
+}
+
+.carte-jeu__fleche::before {
+  content: "";
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-right: 0.25rem;
+  border-top: 3px solid var(--prune);
+  border-right: 3px solid var(--prune);
+  transform: rotate(45deg);
+}
+
+/* Jeu indisponible (la dictée audio sans voix) : la carte est grisée, le message dessous explique. */
+.carte-lien--inactive {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.carte-lien--inactive:hover {
+  transform: none;
+}
+
+/* ---------- Pompon et sa bulle, en bas à droite ---------- */
+
+.hub__compagnon {
+  align-self: flex-end;
+  width: 13.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  margin-top: auto;
+}
+
+.hub__compagnon .bulle {
+  text-align: center;
+}
+
+/* Le dessin de Pompon garde de la place vide au-dessus de sa tête (pour ses sauts) : on la rattrape. */
+.hub__compagnon .mascotte {
+  margin-top: -3rem;
+}
+
+/* ---------- Titre de carte réutilisé par les tuiles de l'accueil ---------- */
+
+.carte-lien__titre {
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-3);
+  font-weight: 700;
+}
+
+/* ---------- Tablette : textes d'un pixel de plus, cibles plus grandes ---------- */
+
+@media (max-width: 1180px) {
+  .carte-jeu__description {
+    font-size: 1.125rem;
+  }
+
+  .carte-jeu__niveau {
+    font-size: 1rem;
+  }
+
+  .carte-jeu__fleche {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}

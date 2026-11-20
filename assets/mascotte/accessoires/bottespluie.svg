@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « bottespluie » pour Pompon, emplacement pieds. Même viewBox que pompon.svg. -->
+  <g>
+    <ellipse cx="102" cy="268" rx="21" ry="12" fill="#FFC93C" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="138" cy="268" rx="21" ry="12" fill="#FFC93C" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

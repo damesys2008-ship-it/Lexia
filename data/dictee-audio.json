@@ -1,0 +1,2861 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "dic-n1-001",
+      "niveau": 1,
+      "theme": "Le goûter",
+      "phrases": [
+        {
+          "texte": "Léa a faim après l'école.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            }
+          ]
+        },
+        {
+          "texte": "Elle ouvre le placard et prend des biscuits.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        },
+        {
+          "texte": "Son frère est déjà à la table.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            },
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            }
+          ]
+        },
+        {
+          "texte": "Ils mangent ensemble en riant.",
+          "pieges": [
+            {
+              "mot": "mangent",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « ils » : le verbe prend -ent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-002",
+      "niveau": 1,
+      "theme": "Les chiens de la voisine",
+      "phrases": [
+        {
+          "texte": "Les chiens de ma voisine aboient dans le jardin.",
+          "pieges": [
+            {
+              "mot": "aboient",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « les chiens » : le verbe prend -ent."
+            }
+          ]
+        },
+        {
+          "texte": "Ils ont peur du facteur.",
+          "pieges": [
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            }
+          ]
+        },
+        {
+          "texte": "Quand il passe, ils se mettent à courir.",
+          "pieges": [
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            }
+          ]
+        },
+        {
+          "texte": "Le soir, on les rentre à la maison.",
+          "pieges": [
+            {
+              "mot": "on",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « il » à la place : c'est le pronom, donc on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-003",
+      "niveau": 1,
+      "theme": "Au marché",
+      "phrases": [
+        {
+          "texte": "Mon père achète des pommes et des poires.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        },
+        {
+          "texte": "La marchande est très aimable.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            }
+          ]
+        },
+        {
+          "texte": "Elle donne un petit cadeau à chaque enfant.",
+          "pieges": [
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            }
+          ]
+        },
+        {
+          "texte": "Les légumes sont frais et colorés.",
+          "pieges": [
+            {
+              "mot": "sont",
+              "competence": "homophone-son-sont",
+              "indice": "son ou sont",
+              "explication": "On peut dire « étaient » à la place : c'est le verbe être, donc sont."
+            },
+            {
+              "mot": "colorés",
+              "competence": "accord-adjectif",
+              "indice": "Accord de l'adjectif",
+              "explication": "L'adjectif s'accorde avec « les légumes » : il prend -és."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-004",
+      "niveau": 1,
+      "theme": "La rentrée",
+      "phrases": [
+        {
+          "texte": "Les garçons sont contents de se revoir.",
+          "pieges": [
+            {
+              "mot": "sont",
+              "competence": "homophone-son-sont",
+              "indice": "son ou sont",
+              "explication": "On peut dire « étaient » à la place : c'est le verbe être, donc sont."
+            },
+            {
+              "mot": "contents",
+              "competence": "accord-adjectif",
+              "indice": "Accord de l'adjectif",
+              "explication": "L'adjectif s'accorde avec « les garçons » : il prend -s."
+            }
+          ]
+        },
+        {
+          "texte": "Noé a un nouveau cartable bleu.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            }
+          ]
+        },
+        {
+          "texte": "Il le pose sur son bureau et sort sa trousse.",
+          "pieges": [
+            {
+              "mot": "son",
+              "competence": "homophone-son-sont",
+              "indice": "son ou sont",
+              "explication": "On peut dire « mon » à la place : son est un déterminant, donc son."
+            },
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-005",
+      "niveau": 1,
+      "theme": "Un jour de pluie",
+      "phrases": [
+        {
+          "texte": "Les gouttes tombent sur les toits.",
+          "pieges": [
+            {
+              "mot": "tombent",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « les gouttes » : le verbe prend -ent."
+            }
+          ]
+        },
+        {
+          "texte": "Nous restons à la maison pour jouer.",
+          "pieges": [
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            },
+            {
+              "mot": "jouer",
+              "competence": "infinitif-participe",
+              "indice": "Infinitif ou participe passé",
+              "explication": "On peut dire « vendre » à la place : c'est un infinitif, donc -er."
+            }
+          ]
+        },
+        {
+          "texte": "On sort les jeux de société et les puzzles.",
+          "pieges": [
+            {
+              "mot": "On",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « il » à la place : c'est le pronom, donc on."
+            },
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        },
+        {
+          "texte": "Papa prépare du chocolat chaud pour tout le monde.",
+          "pieges": [
+            {
+              "mot": "chaud",
+              "competence": "lettre-muette",
+              "indice": "Lettre finale muette",
+              "explication": "Le féminin « chaude » fait entendre la dernière lettre : elle s'écrit aussi à la fin de « chaud »."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-006",
+      "niveau": 1,
+      "theme": "Le vélo",
+      "phrases": [
+        {
+          "texte": "Malo apprend à faire du vélo.",
+          "pieges": [
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            },
+            {
+              "mot": "faire",
+              "competence": "infinitif-participe",
+              "indice": "Infinitif ou participe passé",
+              "explication": "« faire » est un infinitif : on peut dire « vendre » à la place, donc on écrit faire et non fait."
+            }
+          ]
+        },
+        {
+          "texte": "Sa sœur court derrière lui et le tient par la selle.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            },
+            {
+              "mot": "sœur",
+              "competence": "orthographe-mot",
+              "indice": "Mot à retenir",
+              "explication": "On écrit « sœur » avec œ, comme « cœur » et « œuf »."
+            }
+          ]
+        },
+        {
+          "texte": "Les roues tournent de plus en plus vite.",
+          "pieges": [
+            {
+              "mot": "tournent",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « les roues » : le verbe prend -ent."
+            }
+          ]
+        },
+        {
+          "texte": "Il est fier et ne veut plus s'arrêter.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-007",
+      "niveau": 1,
+      "theme": "Les saisons",
+      "phrases": [
+        {
+          "texte": "En hiver, les arbres perdent leurs feuilles.",
+          "pieges": [
+            {
+              "mot": "perdent",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « les arbres » : le verbe prend -ent."
+            }
+          ]
+        },
+        {
+          "texte": "Le printemps arrive et la nature se réveille.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        },
+        {
+          "texte": "Les oiseaux chantent et construisent des nids.",
+          "pieges": [
+            {
+              "mot": "construisent",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « les oiseaux » : le verbe prend -ent."
+            }
+          ]
+        },
+        {
+          "texte": "L'été, on se baigne dans la rivière.",
+          "pieges": [
+            {
+              "mot": "on",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « il » à la place : c'est le pronom, donc on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-008",
+      "niveau": 1,
+      "theme": "La boulangerie",
+      "phrases": [
+        {
+          "texte": "Chaque matin, le boulanger prépare le pain.",
+          "pieges": []
+        },
+        {
+          "texte": "Il sort le pain du four quand sa croûte est dorée.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            }
+          ]
+        },
+        {
+          "texte": "Les clients font la queue devant la porte.",
+          "pieges": [
+            {
+              "mot": "font",
+              "competence": "homophone-font-fond",
+              "indice": "font ou fond",
+              "explication": "On peut dire « faisaient » à la place : c'est le verbe faire, donc font."
+            }
+          ]
+        },
+        {
+          "texte": "Ma mère achète une baguette et deux croissants.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            },
+            {
+              "mot": "croissants",
+              "competence": "pluriel-nom",
+              "indice": "Pluriel du nom",
+              "explication": "« deux » indique plusieurs : le nom prend un s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-009",
+      "niveau": 1,
+      "theme": "Au parc",
+      "phrases": [
+        {
+          "texte": "Les enfants jouent sur le toboggan.",
+          "pieges": [
+            {
+              "mot": "jouent",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « les enfants » : le verbe prend -ent."
+            }
+          ]
+        },
+        {
+          "texte": "Yanis a perdu son ballon dans les buissons.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            }
+          ]
+        },
+        {
+          "texte": "Sa petite sœur l'aide à le chercher.",
+          "pieges": [
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            },
+            {
+              "mot": "chercher",
+              "competence": "infinitif-participe",
+              "indice": "Infinitif ou participe passé",
+              "explication": "On peut dire « vendre » à la place : c'est un infinitif, donc -er."
+            }
+          ]
+        },
+        {
+          "texte": "Ils le retrouvent sous un banc et ils repartent en courant.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-010",
+      "niveau": 1,
+      "theme": "Le zoo",
+      "phrases": [
+        {
+          "texte": "Nous avons visité le zoo avec la classe.",
+          "pieges": [
+            {
+              "mot": "visité",
+              "competence": "infinitif-participe",
+              "indice": "Infinitif ou participe passé",
+              "explication": "On peut dire « vendu » à la place : c'est un participe passé, donc -é."
+            }
+          ]
+        },
+        {
+          "texte": "Les singes sautent de branche en branche.",
+          "pieges": [
+            {
+              "mot": "sautent",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « les singes » : le verbe prend -ent."
+            }
+          ]
+        },
+        {
+          "texte": "Le lion est couché à l'ombre.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            },
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            }
+          ]
+        },
+        {
+          "texte": "Les girafes mangent les feuilles des grands arbres.",
+          "pieges": [
+            {
+              "mot": "grands",
+              "competence": "accord-adjectif",
+              "indice": "Accord de l'adjectif",
+              "explication": "L'adjectif s'accorde avec « arbres » : il prend -s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-011",
+      "niveau": 1,
+      "theme": "Une recette",
+      "phrases": [
+        {
+          "texte": "Pour faire des crêpes, il faut de la farine et des œufs.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        },
+        {
+          "texte": "On mélange le tout avec un fouet.",
+          "pieges": [
+            {
+              "mot": "On",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « il » à la place : c'est le pronom, donc on."
+            }
+          ]
+        },
+        {
+          "texte": "Il faut laisser reposer la pâte.",
+          "pieges": [
+            {
+              "mot": "reposer",
+              "competence": "infinitif-participe",
+              "indice": "Infinitif ou participe passé",
+              "explication": "On peut dire « vendre » à la place : c'est un infinitif, donc -er."
+            }
+          ]
+        },
+        {
+          "texte": "Ensuite, elle cuit à la poêle.",
+          "pieges": [
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-012",
+      "niveau": 1,
+      "theme": "Le camping",
+      "phrases": [
+        {
+          "texte": "Cet été, ma famille a dormi sous la tente.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            }
+          ]
+        },
+        {
+          "texte": "Le soir, nous allumons un feu et nous chantons.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        },
+        {
+          "texte": "Les étoiles brillent dans le ciel noir.",
+          "pieges": [
+            {
+              "mot": "brillent",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « les étoiles » : le verbe prend -ent."
+            }
+          ]
+        },
+        {
+          "texte": "On entend le vent dans les arbres.",
+          "pieges": [
+            {
+              "mot": "On",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « il » à la place : c'est le pronom, donc on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-013",
+      "niveau": 1,
+      "theme": "Mon chat",
+      "phrases": [
+        {
+          "texte": "Mon chat s'appelle Moustache.",
+          "pieges": [
+            {
+              "mot": "chat",
+              "competence": "lettre-muette",
+              "indice": "Lettre finale muette",
+              "explication": "Le féminin « chatte » fait entendre la dernière lettre : elle s'écrit aussi à la fin de « chat »."
+            }
+          ]
+        },
+        {
+          "texte": "Il dort sur le canapé et ronronne.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        },
+        {
+          "texte": "Quand il a faim, il miaule devant sa gamelle.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            }
+          ]
+        },
+        {
+          "texte": "Ses griffes sont très pointues.",
+          "pieges": [
+            {
+              "mot": "sont",
+              "competence": "homophone-son-sont",
+              "indice": "son ou sont",
+              "explication": "On peut dire « étaient » à la place : c'est le verbe être, donc sont."
+            },
+            {
+              "mot": "pointues",
+              "competence": "accord-adjectif",
+              "indice": "Accord de l'adjectif",
+              "explication": "L'adjectif s'accorde avec « ses griffes » : il prend -es."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-014",
+      "niveau": 1,
+      "theme": "À la piscine",
+      "phrases": [
+        {
+          "texte": "Lina met son maillot de bain et son bonnet.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        },
+        {
+          "texte": "Les nageurs plongent dans l'eau fraîche.",
+          "pieges": [
+            {
+              "mot": "plongent",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « les nageurs » : le verbe prend -ent."
+            }
+          ]
+        },
+        {
+          "texte": "Le maître nageur est très attentif.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            }
+          ]
+        },
+        {
+          "texte": "Elle a réussi à nager sans les bouées.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "nager",
+              "competence": "infinitif-participe",
+              "indice": "Infinitif ou participe passé",
+              "explication": "On peut dire « vendre » à la place : c'est un infinitif, donc -er."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-015",
+      "niveau": 1,
+      "theme": "La forêt",
+      "phrases": [
+        {
+          "texte": "Hugo se promène dans la forêt avec son grand-père.",
+          "pieges": [
+            {
+              "mot": "son",
+              "competence": "homophone-son-sont",
+              "indice": "son ou sont",
+              "explication": "On peut dire « mon » à la place : son est un déterminant, donc son."
+            }
+          ]
+        },
+        {
+          "texte": "Ils cherchent des champignons et des châtaignes.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            }
+          ]
+        },
+        {
+          "texte": "Les feuilles craquent sous leurs pas.",
+          "pieges": [
+            {
+              "mot": "craquent",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « les feuilles » : le verbe prend -ent."
+            }
+          ]
+        },
+        {
+          "texte": "Un écureuil grimpe à toute vitesse dans un chêne.",
+          "pieges": [
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n1-016",
+      "niveau": 1,
+      "theme": "Le marché de Noël",
+      "phrases": [
+        {
+          "texte": "Les chalets sont décorés de guirlandes.",
+          "pieges": [
+            {
+              "mot": "sont",
+              "competence": "homophone-son-sont",
+              "indice": "son ou sont",
+              "explication": "On peut dire « étaient » à la place : c'est le verbe être, donc sont."
+            }
+          ]
+        },
+        {
+          "texte": "Une odeur de pain d'épices flotte dans l'air.",
+          "pieges": [
+            {
+              "mot": "flotte",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « une odeur » : le verbe prend -e."
+            }
+          ]
+        },
+        {
+          "texte": "Jade a envie de goûter une gaufre chaude.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            }
+          ]
+        },
+        {
+          "texte": "Elle la mange à petites bouchées.",
+          "pieges": [
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-001",
+      "niveau": 2,
+      "theme": "La tempête",
+      "phrases": [
+        {
+          "texte": "Les vagues se sont brisées contre les rochers.",
+          "pieges": [
+            {
+              "mot": "brisées",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « les vagues »."
+            }
+          ]
+        },
+        {
+          "texte": "Les mouettes ont quitté la côte avant l'orage.",
+          "pieges": [
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            },
+            {
+              "mot": "quitté",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Une marcheuse est tombée sur les galets.",
+          "pieges": [
+            {
+              "mot": "tombée",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « une marcheuse »."
+            }
+          ]
+        },
+        {
+          "texte": "Elle a perdu ses lunettes dans le vent.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "perdu",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            },
+            {
+              "mot": "ses",
+              "competence": "homophone-ses-ces",
+              "indice": "ses ou ces",
+              "explication": "On peut dire « mes » à la place : ses indique ce qui appartient à quelqu'un, donc ses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-002",
+      "niveau": 2,
+      "theme": "Le déménagement",
+      "phrases": [
+        {
+          "texte": "Mes voisins ont déménagé la semaine dernière.",
+          "pieges": [
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            },
+            {
+              "mot": "déménagé",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Leur nouvelle maison est près de la mer.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            }
+          ]
+        },
+        {
+          "texte": "Ils ont rempli leurs cartons de livres.",
+          "pieges": [
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            },
+            {
+              "mot": "leurs",
+              "competence": "homophone-leur-leurs",
+              "indice": "leur ou leurs",
+              "explication": "Le nom « cartons » est au pluriel : leurs prend un s."
+            }
+          ]
+        },
+        {
+          "texte": "Ces cartons sont lourds, c'est sûr.",
+          "pieges": [
+            {
+              "mot": "lourds",
+              "competence": "accord-adjectif",
+              "indice": "Accord de l'adjectif",
+              "explication": "L'adjectif s'accorde avec « ces cartons » : il prend -s."
+            },
+            {
+              "mot": "c'est",
+              "competence": "homophone-c-est-s-est",
+              "indice": "c'est ou s'est",
+              "explication": "On peut dire « cela est » à la place : c'est."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-003",
+      "niveau": 2,
+      "theme": "Les vacances",
+      "phrases": [
+        {
+          "texte": "Ma cousine Camille est partie en vacances chez sa grand-mère.",
+          "pieges": [
+            {
+              "mot": "partie",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « ma cousine Camille »."
+            },
+            {
+              "mot": "sa",
+              "competence": "homophone-ca-sa",
+              "indice": "ça ou sa",
+              "explication": "On peut dire « ma » à la place : sa est un déterminant, donc sa."
+            }
+          ]
+        },
+        {
+          "texte": "Elle s'est réveillée tôt pour aller à la plage.",
+          "pieges": [
+            {
+              "mot": "s'est",
+              "competence": "homophone-c-est-s-est",
+              "indice": "c'est ou s'est",
+              "explication": "On peut dire « s'était » à la place : s'est."
+            },
+            {
+              "mot": "réveillée",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « elle »."
+            }
+          ]
+        },
+        {
+          "texte": "Ses cousines sont arrivées par le train.",
+          "pieges": [
+            {
+              "mot": "arrivées",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « ses cousines »."
+            }
+          ]
+        },
+        {
+          "texte": "Elles jouent ensemble toute la journée.",
+          "pieges": [
+            {
+              "mot": "jouent",
+              "competence": "accord-sujet-verbe",
+              "indice": "Accord du verbe avec son sujet",
+              "explication": "Le sujet est « elles » : le verbe prend -ent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-004",
+      "niveau": 2,
+      "theme": "Le musée",
+      "phrases": [
+        {
+          "texte": "Notre classe est allée au musée des sciences.",
+          "pieges": [
+            {
+              "mot": "allée",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « notre classe »."
+            }
+          ]
+        },
+        {
+          "texte": "Le guide nous a montré des squelettes de dinosaures.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "montré",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Les élèves ont écouté ses explications avec attention.",
+          "pieges": [
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            },
+            {
+              "mot": "écouté",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            },
+            {
+              "mot": "ses",
+              "competence": "homophone-ses-ces",
+              "indice": "ses ou ces",
+              "explication": "On peut dire « mes » à la place : ses indique ce qui appartient à quelqu'un, donc ses."
+            }
+          ]
+        },
+        {
+          "texte": "Ils sont repartis ravis de leur visite.",
+          "pieges": [
+            {
+              "mot": "repartis",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « ils »."
+            },
+            {
+              "mot": "leur",
+              "competence": "homophone-leur-leurs",
+              "indice": "leur ou leurs",
+              "explication": "Le nom « visite » est au singulier : leur s'écrit sans s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-005",
+      "niveau": 2,
+      "theme": "L'anniversaire de Maëlle",
+      "phrases": [
+        {
+          "texte": "Maëlle a invité tous ses amis chez elle.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "invité",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            },
+            {
+              "mot": "ses",
+              "competence": "homophone-ses-ces",
+              "indice": "ses ou ces",
+              "explication": "On peut dire « mes » à la place : ses indique ce qui appartient à quelqu'un, donc ses."
+            }
+          ]
+        },
+        {
+          "texte": "Ils sont venus avec des cadeaux emballés.",
+          "pieges": [
+            {
+              "mot": "venus",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « ils »."
+            },
+            {
+              "mot": "emballés",
+              "competence": "accord-adjectif",
+              "indice": "Accord de l'adjectif",
+              "explication": "L'adjectif s'accorde avec « cadeaux » : il prend -és."
+            }
+          ]
+        },
+        {
+          "texte": "Sa mère a préparé un gâteau au chocolat.",
+          "pieges": [
+            {
+              "mot": "Sa",
+              "competence": "homophone-ca-sa",
+              "indice": "ça ou sa",
+              "explication": "On peut dire « ma » à la place : sa est un déterminant, donc sa."
+            },
+            {
+              "mot": "préparé",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Quand les bougies se sont éteintes, tout le monde a chanté.",
+          "pieges": [
+            {
+              "mot": "éteintes",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « les bougies »."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-006",
+      "niveau": 2,
+      "theme": "Le match",
+      "phrases": [
+        {
+          "texte": "Les joueurs sont entrés sur le terrain sous les applaudissements.",
+          "pieges": [
+            {
+              "mot": "entrés",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « les joueurs »."
+            }
+          ]
+        },
+        {
+          "texte": "Le public s'est levé pour acclamer son équipe.",
+          "pieges": [
+            {
+              "mot": "s'est",
+              "competence": "homophone-c-est-s-est",
+              "indice": "c'est ou s'est",
+              "explication": "On peut dire « s'était » à la place : s'est."
+            },
+            {
+              "mot": "acclamer",
+              "competence": "infinitif-participe",
+              "indice": "Infinitif ou participe passé",
+              "explication": "On peut dire « vendre » à la place : c'est un infinitif, donc -er."
+            }
+          ]
+        },
+        {
+          "texte": "Leur capitaine a marqué le premier but.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "marqué",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Ses coéquipiers ont porté le héros en triomphe.",
+          "pieges": [
+            {
+              "mot": "Ses",
+              "competence": "homophone-ses-ces",
+              "indice": "ses ou ces",
+              "explication": "On peut dire « mes » à la place : ses indique ce qui appartient à quelqu'un, donc ses."
+            },
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-007",
+      "niveau": 2,
+      "theme": "Le jardin",
+      "phrases": [
+        {
+          "texte": "Grand-père a planté des tomates et des carottes.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "planté",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Les fleurs se sont ouvertes grâce au soleil.",
+          "pieges": [
+            {
+              "mot": "ouvertes",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « les fleurs »."
+            }
+          ]
+        },
+        {
+          "texte": "Ces plantes ont besoin de beaucoup d'eau.",
+          "pieges": [
+            {
+              "mot": "Ces",
+              "competence": "homophone-ses-ces",
+              "indice": "ses ou ces",
+              "explication": "On peut dire « ceux-ci » à la place : ces sert à montrer, donc ces."
+            },
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            }
+          ]
+        },
+        {
+          "texte": "Il arrose les plantes quand il fait chaud.",
+          "pieges": [
+            {
+              "mot": "quand",
+              "competence": "homophone-quand-quant",
+              "indice": "quand ou quant",
+              "explication": "On peut dire « lorsque » à la place : quand."
+            },
+            {
+              "mot": "chaud",
+              "competence": "lettre-muette",
+              "indice": "Lettre finale muette",
+              "explication": "Le féminin « chaude » fait entendre la dernière lettre : elle s'écrit aussi à la fin de « chaud »."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-008",
+      "niveau": 2,
+      "theme": "La bibliothèque",
+      "phrases": [
+        {
+          "texte": "Inès est allée à la bibliothèque avec sa grande sœur.",
+          "pieges": [
+            {
+              "mot": "allée",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « Inès »."
+            },
+            {
+              "mot": "sa",
+              "competence": "homophone-ca-sa",
+              "indice": "ça ou sa",
+              "explication": "On peut dire « ma » à la place : sa est un déterminant, donc sa."
+            }
+          ]
+        },
+        {
+          "texte": "Elles ont emprunté des romans et des bandes dessinées.",
+          "pieges": [
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            },
+            {
+              "mot": "emprunté",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Le silence est important, c'est la règle.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            },
+            {
+              "mot": "c'est",
+              "competence": "homophone-c-est-s-est",
+              "indice": "c'est ou s'est",
+              "explication": "On peut dire « cela est » à la place : c'est."
+            }
+          ]
+        },
+        {
+          "texte": "Elles sont heureuses, ça se voit sur leurs visages.",
+          "pieges": [
+            {
+              "mot": "ça",
+              "competence": "homophone-ca-sa",
+              "indice": "ça ou sa",
+              "explication": "On peut dire « cela » à la place : ça, avec une cédille."
+            },
+            {
+              "mot": "leurs",
+              "competence": "homophone-leur-leurs",
+              "indice": "leur ou leurs",
+              "explication": "Le nom « visages » est au pluriel : leurs prend un s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-009",
+      "niveau": 2,
+      "theme": "Le train",
+      "phrases": [
+        {
+          "texte": "Le train est parti à l'heure exacte.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            },
+            {
+              "mot": "parti",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « le train »."
+            }
+          ]
+        },
+        {
+          "texte": "Les voyageurs se sont installés dans le wagon.",
+          "pieges": [
+            {
+              "mot": "installés",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « les voyageurs »."
+            }
+          ]
+        },
+        {
+          "texte": "Ils ont rangé leurs valises sur les porte-bagages.",
+          "pieges": [
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            },
+            {
+              "mot": "rangé",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            },
+            {
+              "mot": "leurs",
+              "competence": "homophone-leur-leurs",
+              "indice": "leur ou leurs",
+              "explication": "Le nom « valises » est au pluriel : leurs prend un s."
+            }
+          ]
+        },
+        {
+          "texte": "On ne sait pas où il s'arrête.",
+          "pieges": [
+            {
+              "mot": "On",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « il » à la place : c'est le pronom, donc on."
+            },
+            {
+              "mot": "où",
+              "competence": "ou-ou",
+              "indice": "ou ou où",
+              "explication": "On ne peut pas dire « ou bien » : où indique un lieu ou un moment, donc où avec un accent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-010",
+      "niveau": 2,
+      "theme": "L'orage",
+      "phrases": [
+        {
+          "texte": "Le ciel est devenu sombre en quelques minutes.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            },
+            {
+              "mot": "devenu",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « le ciel »."
+            }
+          ]
+        },
+        {
+          "texte": "Les oiseaux se sont cachés sous les feuillages.",
+          "pieges": [
+            {
+              "mot": "cachés",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « les oiseaux »."
+            }
+          ]
+        },
+        {
+          "texte": "Ça gronde au loin, puis la pluie arrive.",
+          "pieges": [
+            {
+              "mot": "Ça",
+              "competence": "homophone-ca-sa",
+              "indice": "ça ou sa",
+              "explication": "On peut dire « cela » à la place : ça, avec une cédille."
+            }
+          ]
+        },
+        {
+          "texte": "Nous avons couru pour rentrer à la maison.",
+          "pieges": [
+            {
+              "mot": "couru",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            },
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-011",
+      "niveau": 2,
+      "theme": "La classe de mer",
+      "phrases": [
+        {
+          "texte": "Notre classe a passé une semaine au bord de la mer.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "passé",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Les élèves ont ramassé des coquillages sur la plage.",
+          "pieges": [
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            },
+            {
+              "mot": "ramassé",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Leurs maîtres leur ont expliqué les marées.",
+          "pieges": [
+            {
+              "mot": "leur",
+              "competence": "homophone-leur-leurs",
+              "indice": "leur ou leurs",
+              "explication": "Il est placé devant un verbe et remplace « à eux » : il reste invariable."
+            },
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            }
+          ]
+        },
+        {
+          "texte": "Moi, j'ai préféré la pêche à pied.",
+          "pieges": [
+            {
+              "mot": "préféré",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-012",
+      "niveau": 2,
+      "theme": "Le spectacle",
+      "phrases": [
+        {
+          "texte": "Les danseuses sont entrées en scène sous les lumières.",
+          "pieges": [
+            {
+              "mot": "entrées",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « les danseuses »."
+            }
+          ]
+        },
+        {
+          "texte": "La musique s'est arrêtée un instant.",
+          "pieges": [
+            {
+              "mot": "s'est",
+              "competence": "homophone-c-est-s-est",
+              "indice": "c'est ou s'est",
+              "explication": "On peut dire « s'était » à la place : s'est."
+            },
+            {
+              "mot": "arrêtée",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « la musique »."
+            }
+          ]
+        },
+        {
+          "texte": "Le public a retenu son souffle.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "retenu",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Quand le rideau est tombé, tout le monde a applaudi.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            },
+            {
+              "mot": "tombé",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « le rideau »."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-013",
+      "niveau": 2,
+      "theme": "La neige",
+      "phrases": [
+        {
+          "texte": "Cette nuit, il est tombé beaucoup de neige.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            },
+            {
+              "mot": "tombé",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « il »."
+            }
+          ]
+        },
+        {
+          "texte": "Les garçons se sont levés très tôt.",
+          "pieges": [
+            {
+              "mot": "levés",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « les garçons »."
+            }
+          ]
+        },
+        {
+          "texte": "Ils ont enfilé leurs bottes et leurs bonnets.",
+          "pieges": [
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            },
+            {
+              "mot": "enfilé",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Leur père a sorti le traîneau du garage.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "sorti",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-014",
+      "niveau": 2,
+      "theme": "La cuisine",
+      "phrases": [
+        {
+          "texte": "Papa a coupé les légumes en petits morceaux.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "coupé",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Ma sœur et moi, nous avons mis la table.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            },
+            {
+              "mot": "mis",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Ça sent bon dans toute la maison.",
+          "pieges": [
+            {
+              "mot": "Ça",
+              "competence": "homophone-ca-sa",
+              "indice": "ça ou sa",
+              "explication": "On peut dire « cela » à la place : ça, avec une cédille."
+            }
+          ]
+        },
+        {
+          "texte": "Ceux qui ont faim peuvent se servir.",
+          "pieges": [
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-015",
+      "niveau": 2,
+      "theme": "Le concert",
+      "phrases": [
+        {
+          "texte": "Sacha a joué du violon devant ses grands-parents.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "joué",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            },
+            {
+              "mot": "ses",
+              "competence": "homophone-ses-ces",
+              "indice": "ses ou ces",
+              "explication": "On peut dire « mes » à la place : ses indique ce qui appartient à quelqu'un, donc ses."
+            }
+          ]
+        },
+        {
+          "texte": "Ses doigts glissaient sur les cordes et la musique est née.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            },
+            {
+              "mot": "née",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « la musique »."
+            }
+          ]
+        },
+        {
+          "texte": "Tout le monde a applaudi, ou presque.",
+          "pieges": [
+            {
+              "mot": "a",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On peut dire « avait » à la place : c'est le verbe avoir, donc a sans accent."
+            },
+            {
+              "mot": "ou",
+              "competence": "ou-ou",
+              "indice": "ou ou où",
+              "explication": "On peut dire « ou bien » à la place : ou sans accent."
+            }
+          ]
+        },
+        {
+          "texte": "Les sœurs de Sacha et ses cousines sont rentrées à pied après le concert.",
+          "pieges": [
+            {
+              "mot": "rentrées",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « les sœurs de Sacha et ses cousines »."
+            },
+            {
+              "mot": "à",
+              "competence": "homophone-a-a",
+              "indice": "a ou à",
+              "explication": "On ne peut pas dire « avait » à la place : c'est un petit mot de liaison, donc à avec un accent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n2-016",
+      "niveau": 2,
+      "theme": "Les inventeurs",
+      "phrases": [
+        {
+          "texte": "Deux frères inventeurs ont construit un ballon.",
+          "pieges": [
+            {
+              "mot": "ont",
+              "competence": "homophone-on-ont",
+              "indice": "on ou ont",
+              "explication": "On peut dire « avaient » à la place : c'est le verbe avoir, donc ont."
+            },
+            {
+              "mot": "construit",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Ils ne savaient pas où il atterrirait.",
+          "pieges": [
+            {
+              "mot": "où",
+              "competence": "ou-ou",
+              "indice": "ou ou où",
+              "explication": "On ne peut pas dire « ou bien » : où indique un lieu ou un moment, donc où avec un accent."
+            }
+          ]
+        },
+        {
+          "texte": "Le ballon est monté très haut dans le ciel.",
+          "pieges": [
+            {
+              "mot": "est",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On peut dire « était » à la place : c'est le verbe être, donc est."
+            },
+            {
+              "mot": "monté",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « le ballon »."
+            }
+          ]
+        },
+        {
+          "texte": "Un mouton, un canard et un coq se sont envolés.",
+          "pieges": [
+            {
+              "mot": "et",
+              "competence": "homophone-et-est",
+              "indice": "et ou est",
+              "explication": "On ne peut pas dire « était » à la place : c'est le mot qui relie, donc et."
+            },
+            {
+              "mot": "envolés",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « un mouton, un canard et un coq »."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-001",
+      "niveau": 3,
+      "theme": "Le cap dans la brume",
+      "phrases": [
+        {
+          "texte": "Les marins ont aperçu les rochers que la brume avait cachés.",
+          "pieges": [
+            {
+              "mot": "cachés",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les rochers) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Quelle que soit la force du vent, ils gardent le cap.",
+          "pieges": [
+            {
+              "mot": "Quelle que",
+              "competence": "quelle-que",
+              "indice": "quelle que ou quelque",
+              "explication": "Devant le verbe être au subjonctif, on écrit quel(le)(s) que en deux mots, et quel s'accorde avec le sujet."
+            }
+          ]
+        },
+        {
+          "texte": "Il faut que le capitaine soit prudent.",
+          "pieges": [
+            {
+              "mot": "soit",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « il faut que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Peut-être que la tempête s'éloignera demain.",
+          "pieges": [
+            {
+              "mot": "Peut-être",
+              "competence": "peut-etre",
+              "indice": "peut-être ou peut être",
+              "explication": "On ne peut pas dire « pouvait être » : c'est un adverbe, écrit avec un trait d'union."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-002",
+      "niveau": 3,
+      "theme": "La rivière",
+      "phrases": [
+        {
+          "texte": "La rivière que nous avons traversée était glacée.",
+          "pieges": [
+            {
+              "mot": "traversée",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (la rivière) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Les enfants s'y baignent quoique l'eau soit froide.",
+          "pieges": [
+            {
+              "mot": "quoique",
+              "competence": "quoique",
+              "indice": "quoique ou quoi que",
+              "explication": "« quoique » veut dire « bien que » : un seul mot."
+            },
+            {
+              "mot": "soit",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « quoique », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Les poissons ont disparu sans que personne s'en aperçoive.",
+          "pieges": [
+            {
+              "mot": "s'en",
+              "competence": "sans-s-en",
+              "indice": "s'en ou sans",
+              "explication": "On peut dire « se » + « en » : s'en, avec une apostrophe."
+            },
+            {
+              "mot": "aperçoive",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « sans que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Quelques canards restent encore près du pont.",
+          "pieges": [
+            {
+              "mot": "Quelques",
+              "competence": "quelque-quelques",
+              "indice": "quelque ou quelques",
+              "explication": "Quelques est suivi d'un nom pluriel (canards) : il prend un s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-003",
+      "niveau": 3,
+      "theme": "L'expédition",
+      "phrases": [
+        {
+          "texte": "Les explorateurs avaient tout prévu, même les imprévus.",
+          "pieges": [
+            {
+              "mot": "tout",
+              "competence": "accord-tout",
+              "indice": "Accord de tout",
+              "explication": "Ici tout est un pronom qui signifie « toutes les choses » : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Les tentes qu'ils ont dressées résistent au vent.",
+          "pieges": [
+            {
+              "mot": "dressées",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les tentes) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Ils sont tout étonnés de voir tant de neige.",
+          "pieges": [
+            {
+              "mot": "tout",
+              "competence": "accord-tout",
+              "indice": "Accord de tout",
+              "explication": "Devant un adjectif masculin, tout est un adverbe qui signifie « très » : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Ils auraient pu partir plus tôt plutôt que d'attendre.",
+          "pieges": [
+            {
+              "mot": "plus tôt",
+              "competence": "plus-tot-plutot",
+              "indice": "plus tôt ou plutôt",
+              "explication": "« plus tôt » s'oppose à « plus tard » : deux mots."
+            },
+            {
+              "mot": "plutôt",
+              "competence": "plus-tot-plutot",
+              "indice": "plus tôt ou plutôt",
+              "explication": "« plutôt » veut dire « de préférence » : un seul mot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-004",
+      "niveau": 3,
+      "theme": "La fête du village",
+      "phrases": [
+        {
+          "texte": "Les lanternes que les enfants ont fabriquées brillent.",
+          "pieges": [
+            {
+              "mot": "fabriquées",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les lanternes) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Il faut que chacun prenne un gâteau.",
+          "pieges": [
+            {
+              "mot": "prenne",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « il faut que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Personne n'y manquerait pour rien au monde.",
+          "pieges": [
+            {
+              "mot": "n'y",
+              "competence": "n-y-ni",
+              "indice": "ni ou n'y",
+              "explication": "« n'y » = « ne » + « y » : le verbe est à la forme négative."
+            }
+          ]
+        },
+        {
+          "texte": "Ni la pluie ni le froid ne les arrêteront.",
+          "pieges": [
+            {
+              "mot": "ni",
+              "competence": "n-y-ni",
+              "indice": "ni ou n'y",
+              "explication": "« ni » s'emploie par deux pour relier des éléments dans une phrase négative : ni l'un ni l'autre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-005",
+      "niveau": 3,
+      "theme": "Le mystère du grenier",
+      "phrases": [
+        {
+          "texte": "La clé que Maya avait cherchée était sous le tapis.",
+          "pieges": [
+            {
+              "mot": "cherchée",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (la clé) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Elle ne savait pas quelle porte elle devait ouvrir.",
+          "pieges": [
+            {
+              "mot": "quelle",
+              "competence": "quelle-qu-elle",
+              "indice": "quelle ou qu'elle",
+              "explication": "« quelle » est suivi du nom « porte » : on peut dire « quel » au masculin."
+            }
+          ]
+        },
+        {
+          "texte": "Il fallait qu'elle prenne celle du fond.",
+          "pieges": [
+            {
+              "mot": "qu'elle",
+              "competence": "quelle-qu-elle",
+              "indice": "quelle ou qu'elle",
+              "explication": "« qu'elle » = « que » + « elle » : on peut dire « qu'il » au masculin."
+            },
+            {
+              "mot": "prenne",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « il fallait que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Elle a découvert au grenier des malles pleines de vieux jouets.",
+          "pieges": [
+            {
+              "mot": "pleines",
+              "competence": "accord-adjectif",
+              "indice": "Accord de l'adjectif",
+              "explication": "L'adjectif s'accorde avec « malles » : il prend -es."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-006",
+      "niveau": 3,
+      "theme": "La météo",
+      "phrases": [
+        {
+          "texte": "Quelle que soit la saison, il pleut souvent ici.",
+          "pieges": [
+            {
+              "mot": "Quelle que",
+              "competence": "quelle-que",
+              "indice": "quelle que ou quelque",
+              "explication": "Devant le verbe être au subjonctif, on écrit quel(le)(s) que en deux mots, et quel s'accorde avec le sujet."
+            }
+          ]
+        },
+        {
+          "texte": "Les nuages que le vent a poussés arrivent vite.",
+          "pieges": [
+            {
+              "mot": "poussés",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les nuages) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Bien que la température soit basse, nous sortons.",
+          "pieges": [
+            {
+              "mot": "soit",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « bien que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Le soleil revient quelque temps après.",
+          "pieges": [
+            {
+              "mot": "quelque",
+              "competence": "quelque-quelques",
+              "indice": "quelque ou quelques",
+              "explication": "Devant « temps », qui est au singulier, quelque ne prend pas de s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-007",
+      "niveau": 3,
+      "theme": "Le laboratoire",
+      "phrases": [
+        {
+          "texte": "Les expériences que la classe a réalisées ont réussi.",
+          "pieges": [
+            {
+              "mot": "réalisées",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les expériences) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Les filles ont noté les résultats dans un cahier.",
+          "pieges": [
+            {
+              "mot": "noté",
+              "competence": "accord-participe-avoir",
+              "indice": "Participe passé avec avoir",
+              "explication": "Avec avoir, le participe ne s'accorde pas avec le sujet et il n'y a pas de COD placé avant : il reste invariable."
+            }
+          ]
+        },
+        {
+          "texte": "Il faut que chaque fille fasse attention aux produits.",
+          "pieges": [
+            {
+              "mot": "fasse",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « il faut que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Elles se sont lavé les mains avant de partir.",
+          "pieges": [
+            {
+              "mot": "lavé",
+              "competence": "accord-participe-pronominal",
+              "indice": "Participe passé pronominal",
+              "explication": "Le COD « les mains » est placé après le verbe : le participe reste invariable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-008",
+      "niveau": 3,
+      "theme": "Les bergers",
+      "phrases": [
+        {
+          "texte": "Les moutons que le berger a comptés sont là.",
+          "pieges": [
+            {
+              "mot": "comptés",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les moutons) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Le chien les a conduits dans le pré.",
+          "pieges": [
+            {
+              "mot": "conduits",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « les (les moutons) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Peut-être que l'orage n'arrivera pas ce soir.",
+          "pieges": [
+            {
+              "mot": "Peut-être",
+              "competence": "peut-etre",
+              "indice": "peut-être ou peut être",
+              "explication": "On ne peut pas dire « pouvait être » : c'est un adverbe, écrit avec un trait d'union."
+            }
+          ]
+        },
+        {
+          "texte": "Le berger reste éveillé bien que la nuit soit froide.",
+          "pieges": [
+            {
+              "mot": "soit",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « bien que », on emploie le subjonctif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-009",
+      "niveau": 3,
+      "theme": "Les astronautes",
+      "phrases": [
+        {
+          "texte": "Les deux sœurs astronautes sont revenues de la station spatiale.",
+          "pieges": [
+            {
+              "mot": "revenues",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « les deux sœurs astronautes »."
+            }
+          ]
+        },
+        {
+          "texte": "La mission qu'elles ont accomplie a duré six mois.",
+          "pieges": [
+            {
+              "mot": "accomplie",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (la mission) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Il faut que la capsule atterrisse en douceur.",
+          "pieges": [
+            {
+              "mot": "atterrisse",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « il faut que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Elles se sont serré la main avant le départ.",
+          "pieges": [
+            {
+              "mot": "serré",
+              "competence": "accord-participe-pronominal",
+              "indice": "Participe passé pronominal",
+              "explication": "Le COD « la main » est placé après le verbe : le participe reste invariable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-010",
+      "niveau": 3,
+      "theme": "Le débat",
+      "phrases": [
+        {
+          "texte": "Les arguments qu'Anaïs a présentés étaient solides.",
+          "pieges": [
+            {
+              "mot": "présentés",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les arguments) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Quelles que soient vos idées, écoutez les autres.",
+          "pieges": [
+            {
+              "mot": "Quelles que",
+              "competence": "quelle-que",
+              "indice": "quelle que ou quelque",
+              "explication": "Devant le verbe être au subjonctif, on écrit quel(le)(s) que en deux mots, et quel s'accorde avec le sujet."
+            }
+          ]
+        },
+        {
+          "texte": "Je veux qu'on fasse attention à la parole de chacun.",
+          "pieges": [
+            {
+              "mot": "fasse",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « je veux que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Bien que la salle soit bruyante, personne ne s'en va.",
+          "pieges": [
+            {
+              "mot": "soit",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « bien que », on emploie le subjonctif."
+            },
+            {
+              "mot": "s'en",
+              "competence": "sans-s-en",
+              "indice": "s'en ou sans",
+              "explication": "On peut dire « se » + « en » : s'en, avec une apostrophe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-011",
+      "niveau": 3,
+      "theme": "Le château",
+      "phrases": [
+        {
+          "texte": "Les pierres que les maçons ont taillées sont blanches.",
+          "pieges": [
+            {
+              "mot": "taillées",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les pierres) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Il est dommage que le toit soit en si mauvais état.",
+          "pieges": [
+            {
+              "mot": "soit",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « il est dommage que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Quelques visiteurs ont escaladé les remparts.",
+          "pieges": [
+            {
+              "mot": "Quelques",
+              "competence": "quelque-quelques",
+              "indice": "quelque ou quelques",
+              "explication": "Quelques est suivi d'un nom pluriel (visiteurs) : il prend un s."
+            }
+          ]
+        },
+        {
+          "texte": "Ils sont tout surpris de la hauteur des tours.",
+          "pieges": [
+            {
+              "mot": "tout",
+              "competence": "accord-tout",
+              "indice": "Accord de tout",
+              "explication": "Devant un adjectif masculin, tout est un adverbe qui signifie « très » : il reste invariable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-012",
+      "niveau": 3,
+      "theme": "Les secours",
+      "phrases": [
+        {
+          "texte": "Les pompiers sont arrivés plus tôt que prévu.",
+          "pieges": [
+            {
+              "mot": "plus tôt",
+              "competence": "plus-tot-plutot",
+              "indice": "plus tôt ou plutôt",
+              "explication": "« plus tôt » s'oppose à « plus tard » : deux mots."
+            }
+          ]
+        },
+        {
+          "texte": "Ils ont éteint les flammes qu'ils avaient aperçues.",
+          "pieges": [
+            {
+              "mot": "aperçues",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les flammes) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Il faut que chaque habitant sorte de la maison.",
+          "pieges": [
+            {
+              "mot": "sorte",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « il faut que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Plutôt que de rester, les habitants ont suivi les consignes.",
+          "pieges": [
+            {
+              "mot": "Plutôt",
+              "competence": "plus-tot-plutot",
+              "indice": "plus tôt ou plutôt",
+              "explication": "« plutôt » veut dire « de préférence » : un seul mot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-013",
+      "niveau": 3,
+      "theme": "La lecture",
+      "phrases": [
+        {
+          "texte": "Les livres qu'Ilyes a empruntés sont passionnants.",
+          "pieges": [
+            {
+              "mot": "empruntés",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les livres) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Il voulait finir son chapitre avant que sa mère vienne.",
+          "pieges": [
+            {
+              "mot": "vienne",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « avant que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Elle s'est aperçue qu'il lisait encore.",
+          "pieges": [
+            {
+              "mot": "aperçue",
+              "competence": "accord-participe-etre",
+              "indice": "Participe passé avec être",
+              "explication": "Avec être, le participe passé s'accorde avec le sujet « elle »."
+            }
+          ]
+        },
+        {
+          "texte": "Il lira peut-être la fin demain.",
+          "pieges": [
+            {
+              "mot": "peut-être",
+              "competence": "peut-etre",
+              "indice": "peut-être ou peut être",
+              "explication": "On ne peut pas dire « pouvait être » : c'est un adverbe, écrit avec un trait d'union."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-014",
+      "niveau": 3,
+      "theme": "Le potager de l'école",
+      "phrases": [
+        {
+          "texte": "Les élèves ont cueilli les fraises qu'ils avaient plantées.",
+          "pieges": [
+            {
+              "mot": "plantées",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les fraises) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Ils ont tout mangé sans s'en rendre compte.",
+          "pieges": [
+            {
+              "mot": "tout",
+              "competence": "accord-tout",
+              "indice": "Accord de tout",
+              "explication": "Ici tout est un pronom qui signifie « toutes les choses » : il reste invariable."
+            },
+            {
+              "mot": "s'en",
+              "competence": "sans-s-en",
+              "indice": "s'en ou sans",
+              "explication": "On peut dire « se » + « en » : s'en, avec une apostrophe."
+            }
+          ]
+        },
+        {
+          "texte": "Quelle que soit leur taille, elles étaient délicieuses.",
+          "pieges": [
+            {
+              "mot": "Quelle que",
+              "competence": "quelle-que",
+              "indice": "quelle que ou quelque",
+              "explication": "Devant le verbe être au subjonctif, on écrit quel(le)(s) que en deux mots, et quel s'accorde avec le sujet."
+            }
+          ]
+        },
+        {
+          "texte": "Leurs mains étaient tachées de rouge.",
+          "pieges": [
+            {
+              "mot": "tachées",
+              "competence": "accord-adjectif",
+              "indice": "Accord de l'adjectif",
+              "explication": "L'adjectif s'accorde avec « leurs mains » : il prend -ées."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-015",
+      "niveau": 3,
+      "theme": "Le voyage dans le temps",
+      "phrases": [
+        {
+          "texte": "Si je pouvais voyager, je visiterais l'époque des mammouths.",
+          "pieges": [
+            {
+              "mot": "visiterais",
+              "competence": "conditionnel-futur",
+              "indice": "Conditionnel ou futur",
+              "explication": "Après « si » à l'imparfait, on emploie le conditionnel : la terminaison est -rais."
+            }
+          ]
+        },
+        {
+          "texte": "Les mammouths que les hommes ont chassés vivaient en troupeaux.",
+          "pieges": [
+            {
+              "mot": "chassés",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les mammouths) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Il faut que nous apprenions à nous défendre.",
+          "pieges": [
+            {
+              "mot": "apprenions",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « il faut que », on emploie le subjonctif."
+            }
+          ]
+        },
+        {
+          "texte": "Quelle aventure ce serait !",
+          "pieges": [
+            {
+              "mot": "Quelle",
+              "competence": "quelle-qu-elle",
+              "indice": "quelle ou qu'elle",
+              "explication": "« quelle » est suivi du nom « aventure » : on peut dire « quel » au masculin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dic-n3-016",
+      "niveau": 3,
+      "theme": "La fin de l'été",
+      "phrases": [
+        {
+          "texte": "Les journées que nous avons passées au bord du lac étaient magnifiques.",
+          "pieges": [
+            {
+              "mot": "passées",
+              "competence": "accord-participe-avoir-cod-avant",
+              "indice": "Participe passé avec avoir",
+              "explication": "Le COD « que (les journées) » est placé avant le verbe : le participe s'accorde avec lui."
+            }
+          ]
+        },
+        {
+          "texte": "Il ne reste ni glace ni limonade dans la glacière.",
+          "pieges": [
+            {
+              "mot": "ni glace ni limonade",
+              "competence": "n-y-ni",
+              "indice": "ni ou n'y",
+              "explication": "« ni » s'emploie par deux pour relier des éléments dans une phrase négative : ni l'un ni l'autre."
+            }
+          ]
+        },
+        {
+          "texte": "On s'en souviendra longtemps, peut-être toute notre vie.",
+          "pieges": [
+            {
+              "mot": "s'en",
+              "competence": "sans-s-en",
+              "indice": "s'en ou sans",
+              "explication": "On peut dire « se » + « en » : s'en, avec une apostrophe."
+            },
+            {
+              "mot": "peut-être",
+              "competence": "peut-etre",
+              "indice": "peut-être ou peut être",
+              "explication": "On ne peut pas dire « pouvait être » : c'est un adverbe, écrit avec un trait d'union."
+            }
+          ]
+        },
+        {
+          "texte": "Il faut que nous rentrions avant la nuit.",
+          "pieges": [
+            {
+              "mot": "rentrions",
+              "competence": "subjonctif",
+              "indice": "Mode du verbe",
+              "explication": "Après « il faut que », on emploie le subjonctif."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

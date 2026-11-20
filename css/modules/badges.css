@@ -1,0 +1,226 @@
+/*
+ * Écran « Mes badges » (maquettes 21 PC et 43 tablette) et liste de badges réutilisable (carnet).
+ * Un badge gagné : bordure et ombre prune, disque plein avec une coche.
+ * Un badge à gagner : bordure et ombre trait-moyen, anneau de progression. Aucune animation.
+ */
+
+.badges {
+  display: flex;
+  flex-direction: column;
+  gap: var(--marge-haut-page);
+}
+
+.badges > .bouton {
+  align-self: flex-start;
+}
+
+.badges__entete {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-2);
+}
+
+.badges__titre,
+.badges__sous-titre {
+  margin: 0;
+  font-family: var(--police-titre);
+}
+
+.badges__titre {
+  font-size: var(--taille-titre-1);
+  line-height: 1.1;
+}
+
+.badges__sous-titre {
+  font-size: var(--taille-titre-2);
+}
+
+.badges__contexte {
+  margin: 0;
+  font-size: var(--taille-exercice);
+  color: var(--texte-discret);
+}
+
+/* ---------- Les trois tuiles de chiffres ---------- */
+
+.badges__tuiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.badges__tuile {
+  flex: 0 1 15.5rem; /* 248 px */
+  padding: 0.875rem 1.5rem;
+  border: var(--bordure);
+  border-radius: 1.5rem;
+}
+
+.badges__tuile--badges {
+  background: var(--soleil-clair);
+}
+
+.badges__tuile--mois {
+  background: var(--menthe-clair);
+}
+
+.badges__tuile--total {
+  background: var(--lilas-clair);
+}
+
+.badges__nombre {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-1);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.badges__legende {
+  margin: 0;
+  font-size: var(--taille-texte);
+}
+
+.badges__groupe {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-3);
+}
+
+/* ---------- Les cartes de badges ---------- */
+
+.liste-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0 0 0.5rem;
+  list-style: none;
+}
+
+.liste-badges__carte {
+  --couleur-badge: var(--soleil);
+  --couleur-coche: var(--blanc);
+  flex: 1 1 17rem;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  background: var(--blanc);
+  border: var(--bordure);
+  border-color: var(--trait-moyen);
+  border-radius: var(--rayon-grand);
+  box-shadow: 0 7px 0 var(--trait-moyen);
+}
+
+.liste-badges__carte--gagne {
+  border-color: var(--prune);
+  box-shadow: var(--ombre-carte);
+}
+
+/* La couleur de l'anneau : celle de la matière du badge ; les badges de régularité sont jaunes. */
+.liste-badges__carte--regularite,
+.liste-badges__carte--grammaire {
+  --couleur-badge: var(--soleil);
+  --couleur-coche: var(--prune);
+}
+
+.liste-badges__carte--orthographe {
+  --couleur-badge: var(--menthe);
+}
+
+.liste-badges__carte--vocabulaire {
+  --couleur-badge: var(--corail);
+}
+
+.liste-badges__carte--dictee {
+  --couleur-badge: var(--framboise);
+}
+
+.liste-badges__carte--conjugaison {
+  --couleur-badge: var(--lilas);
+}
+
+.liste-badges__disque {
+  flex: none;
+  width: 5.5rem; /* 88 px */
+  height: 5.5rem;
+}
+
+.liste-badges__piste {
+  fill: var(--lavande);
+  stroke: var(--trait-doux);
+  stroke-width: 8;
+}
+
+.liste-badges__progres {
+  fill: none;
+  stroke: var(--couleur-badge);
+  stroke-width: 8;
+  stroke-linecap: round;
+}
+
+.liste-badges__plein {
+  fill: var(--couleur-badge);
+}
+
+.liste-badges__coche {
+  fill: none;
+  stroke: var(--couleur-coche);
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.liste-badges__corps {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-1);
+}
+
+.liste-badges__nom {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: 1.375rem; /* 22 px */
+  line-height: 1.15;
+}
+
+.liste-badges__etat {
+  margin: 0;
+  font-size: var(--taille-texte);
+  color: var(--texte-discret);
+}
+
+.liste-badges__carte--gagne .liste-badges__etat {
+  font-weight: 700;
+  color: var(--texte);
+}
+
+/* Papier : cartes serrées, sans ombre, pour que le carnet tienne sur une page même avec tous les badges. */
+@media print {
+  .liste-badges {
+    gap: 0.5rem;
+    padding: 0;
+  }
+
+  .liste-badges__carte {
+    flex-basis: 12rem;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: none;
+  }
+
+  .liste-badges__disque {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .liste-badges__nom {
+    font-size: var(--taille-texte);
+  }
+}

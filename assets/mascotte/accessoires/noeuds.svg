@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « noeuds » pour Pompon, emplacement pompons. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M102 128 L92 121 L92 135 Z M102 128 L112 121 L112 135 Z" fill="#2563C9" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="102" cy="128" r="3" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M138 128 L128 121 L128 135 Z M138 128 L148 121 L148 135 Z" fill="#2563C9" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="138" cy="128" r="3" fill="#FFC93C" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

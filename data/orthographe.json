@@ -1,0 +1,3717 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "orth-homo-n1-001",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-a-a",
+      "phrase": "Ma tante ___ rangé son carnet de croquis.",
+      "choix": [
+        "a",
+        "à"
+      ],
+      "reponse": "a",
+      "indice": "Verbe avoir ou petit mot de liaison ?",
+      "astuce": "Remplace par « avait » : « Ma tante avait rangé son carnet de croquis. » Ça marche, donc c'est « a ».",
+      "explication": "« a » sans accent est le verbe avoir (il a). « à » avec accent n'est jamais un verbe."
+    },
+    {
+      "id": "orth-homo-n1-002",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-a-a",
+      "phrase": "Le cycliste est parvenu ___ la ligne d'arrivée avant tous les autres.",
+      "choix": [
+        "a",
+        "à"
+      ],
+      "reponse": "à",
+      "indice": "Verbe avoir ou petit mot de liaison ?",
+      "astuce": "Remplace par « avait » : « Le cycliste est parvenu avait la ligne d'arrivée avant tous les autres. » Ça ne marche pas, donc c'est « à ».",
+      "explication": "« à » avec accent est un petit mot de liaison : il introduit ici un lieu. Ce n'est pas le verbe avoir."
+    },
+    {
+      "id": "orth-homo-n1-003",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-a-a",
+      "phrase": "Mon grand-père ___ planté un cerisier au fond du jardin.",
+      "choix": [
+        "a",
+        "à"
+      ],
+      "reponse": "a",
+      "indice": "Verbe avoir ou petit mot de liaison ?",
+      "astuce": "Remplace par « avait » : « Mon grand-père avait planté un cerisier au fond du jardin. » Ça marche, donc c'est « a ».",
+      "explication": "« a » sans accent est le verbe avoir : on peut le remplacer par « avait »."
+    },
+    {
+      "id": "orth-homo-n1-004",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-a-a",
+      "phrase": "Nous partons ___ la montagne dès samedi matin.",
+      "choix": [
+        "a",
+        "à"
+      ],
+      "reponse": "à",
+      "indice": "Verbe avoir ou petit mot de liaison ?",
+      "astuce": "Remplace par « avait » : « Nous partons avait la montagne dès samedi matin. » Ça ne marche pas, donc c'est « à ».",
+      "explication": "« à » avec accent indique ici un lieu. Il ne se remplace pas par « avait »."
+    },
+    {
+      "id": "orth-homo-n1-005",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-et-est",
+      "phrase": "Le chat noir ___ monté sur le toit de la remise.",
+      "choix": [
+        "et",
+        "est"
+      ],
+      "reponse": "est",
+      "indice": "Verbe être ou simple liaison entre deux mots ?",
+      "astuce": "Remplace par « était » : « Le chat noir était monté sur le toit de la remise. » Ça marche, donc c'est « est ».",
+      "explication": "« est » est le verbe être (il est) : on peut le remplacer par « était ». « et » relie deux mots ou deux groupes."
+    },
+    {
+      "id": "orth-homo-n1-006",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-et-est",
+      "phrase": "Ce matin, j'ai acheté du pain ___ des cerises au marché.",
+      "choix": [
+        "et",
+        "est"
+      ],
+      "reponse": "et",
+      "indice": "Verbe être ou simple liaison entre deux mots ?",
+      "astuce": "Remplace par « était » : « Ce matin, j'ai acheté du pain était des cerises au marché. » Ça ne marche pas, donc c'est « et ».",
+      "explication": "« et » relie ici deux choses achetées. Il ne se remplace pas par « était »."
+    },
+    {
+      "id": "orth-homo-n1-007",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-et-est",
+      "phrase": "La salle de sport ___ fermée pendant les vacances d'été.",
+      "choix": [
+        "et",
+        "est"
+      ],
+      "reponse": "est",
+      "indice": "Verbe être ou simple liaison entre deux mots ?",
+      "astuce": "Remplace par « était » : « La salle de sport était fermée pendant les vacances d'été. » Ça marche, donc c'est « est ».",
+      "explication": "« est » est le verbe être : on peut le remplacer par « était »."
+    },
+    {
+      "id": "orth-homo-n1-008",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-et-est",
+      "phrase": "Le pilote vérifie les moteurs ___ prépare ensuite le décollage.",
+      "choix": [
+        "et",
+        "est"
+      ],
+      "reponse": "et",
+      "indice": "Verbe être ou simple liaison entre deux mots ?",
+      "astuce": "Remplace par « était » : « Le pilote vérifie les moteurs était prépare ensuite le décollage. » Ça ne marche pas, donc c'est « et ».",
+      "explication": "« et » relie deux actions du pilote. Il ne se remplace pas par « était »."
+    },
+    {
+      "id": "orth-homo-n1-009",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-son-sont",
+      "phrase": "Le violoniste range ___ instrument dans un étui rigide.",
+      "choix": [
+        "son",
+        "sont"
+      ],
+      "reponse": "son",
+      "indice": "Un mot qui indique la possession, ou un verbe ?",
+      "astuce": "Remplace par « étaient » : « Le violoniste range étaient instrument dans un étui rigide. » Ça ne marche pas, donc c'est « son ».",
+      "explication": "« son » indique à qui appartient quelque chose (son instrument). « sont » est le verbe être, à la 3e personne du pluriel."
+    },
+    {
+      "id": "orth-homo-n1-010",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-son-sont",
+      "phrase": "Les volcans de cette île ___ endormis depuis des siècles.",
+      "choix": [
+        "son",
+        "sont"
+      ],
+      "reponse": "sont",
+      "indice": "Un mot qui indique la possession, ou un verbe ?",
+      "astuce": "Remplace par « étaient » : « Les volcans de cette île étaient endormis depuis des siècles. » Ça marche, donc c'est « sont ».",
+      "explication": "« sont » est le verbe être (ils sont) : on peut le remplacer par « étaient »."
+    },
+    {
+      "id": "orth-homo-n1-011",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-son-sont",
+      "phrase": "La boulangère sort ___ pain du four à six heures.",
+      "choix": [
+        "son",
+        "sont"
+      ],
+      "reponse": "son",
+      "indice": "Un mot qui indique la possession, ou un verbe ?",
+      "astuce": "Remplace par « étaient » : « La boulangère sort étaient pain du four à six heures. » Ça ne marche pas, donc c'est « son ».",
+      "explication": "« son » se met devant un nom (son pain) pour dire à qui il appartient. Il ne se remplace pas par « étaient »."
+    },
+    {
+      "id": "orth-homo-n1-012",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-ou-ou",
+      "phrase": "Veux-tu une pomme ___ une poire pour le goûter ?",
+      "choix": [
+        "ou",
+        "où"
+      ],
+      "reponse": "ou",
+      "indice": "Un choix entre deux choses, ou un lieu ?",
+      "astuce": "Remplace par « ou bien » : « Veux-tu une pomme ou bien une poire pour le goûter ? » Ça marche, donc c'est « ou ».",
+      "explication": "« ou » sans accent propose un choix : on peut dire « ou bien ». « où » avec accent indique un lieu ou un moment."
+    },
+    {
+      "id": "orth-homo-n1-013",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-ou-ou",
+      "phrase": "Voici la ville ___ mon oncle a grandi.",
+      "choix": [
+        "ou",
+        "où"
+      ],
+      "reponse": "où",
+      "indice": "Un choix entre deux choses, ou un lieu ?",
+      "astuce": "Remplace par « ou bien » : « Voici la ville ou bien mon oncle a grandi. » Ça ne marche pas, donc c'est « où ».",
+      "explication": "« où » avec accent indique ici un lieu : la ville dans laquelle il a grandi."
+    },
+    {
+      "id": "orth-homo-n1-014",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-ou-ou",
+      "phrase": "Tu préfères nager dans le lac ___ dans la piscine ?",
+      "choix": [
+        "ou",
+        "où"
+      ],
+      "reponse": "ou",
+      "indice": "Un choix entre deux choses, ou un lieu ?",
+      "astuce": "Remplace par « ou bien » : « Tu préfères nager dans le lac ou bien dans la piscine ? » Ça marche, donc c'est « ou ».",
+      "explication": "« ou » sans accent propose un choix entre deux possibilités."
+    },
+    {
+      "id": "orth-homo-n1-015",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-ou-ou",
+      "phrase": "Je ne sais pas ___ j'ai posé mes lunettes.",
+      "choix": [
+        "ou",
+        "où"
+      ],
+      "reponse": "où",
+      "indice": "Un choix entre deux choses, ou un lieu ?",
+      "astuce": "Remplace par « ou bien » : « Je ne sais pas ou bien j'ai posé mes lunettes. » Ça ne marche pas, donc c'est « où ».",
+      "explication": "« où » avec accent indique un lieu : à quel endroit."
+    },
+    {
+      "id": "orth-homo-n1-016",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-on-ont",
+      "phrase": "Les enfants ___ construit un radeau avec des planches.",
+      "choix": [
+        "on",
+        "ont"
+      ],
+      "reponse": "ont",
+      "indice": "Verbe avoir ou pronom qui remplace « il » ?",
+      "astuce": "Remplace par « avaient » : « Les enfants avaient construit un radeau avec des planches. » Ça marche, donc c'est « ont ».",
+      "explication": "« ont » est le verbe avoir (ils ont). On l'écrit avec un t quand on peut dire « avaient »."
+    },
+    {
+      "id": "orth-homo-n1-017",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-on-ont",
+      "phrase": "Quand ___ arrive au sommet, la vue est magnifique.",
+      "choix": [
+        "on",
+        "ont"
+      ],
+      "reponse": "on",
+      "indice": "Verbe avoir ou pronom qui remplace « il » ?",
+      "astuce": "Remplace par « avaient » : « Quand avaient arrive au sommet, la vue est magnifique. » Ça ne marche pas, donc c'est « on ».",
+      "explication": "« on » est un pronom : on peut le remplacer par « il » (Quand il arrive…). Ce n'est pas le verbe avoir."
+    },
+    {
+      "id": "orth-homo-n1-018",
+      "type": "homophone",
+      "niveau": 1,
+      "competence": "homophone-on-ont",
+      "phrase": "Ces marins ___ traversé l'océan sans aucun radar.",
+      "choix": [
+        "on",
+        "ont"
+      ],
+      "reponse": "ont",
+      "indice": "Verbe avoir ou pronom qui remplace « il » ?",
+      "astuce": "Remplace par « avaient » : « Ces marins avaient traversé l'océan sans aucun radar. » Ça marche, donc c'est « ont ».",
+      "explication": "« ont » est le verbe avoir, ici avec « ces marins » (ils ont traversé)."
+    },
+    {
+      "id": "orth-homo-n2-001",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-ces-ses",
+      "phrase": "Le peintre nettoie ___ propres pinceaux après chaque séance de travail.",
+      "choix": [
+        "ces",
+        "ses"
+      ],
+      "reponse": "ses",
+      "indice": "Un mot qui montre des objets, ou qui dit à qui ils appartiennent ?",
+      "astuce": "Mets le nom au singulier : « Le peintre nettoie son propre pinceau après chaque séance de travail. » On dit « son », donc au pluriel c'est « ses ».",
+      "explication": "« ses » est le pluriel de « son » ou « sa » : il indique à qui appartiennent plusieurs choses. « ces » sert à montrer, comme « ce » ou « cette »."
+    },
+    {
+      "id": "orth-homo-n2-002",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-ces-ses",
+      "phrase": "Regarde ___ nuages-là, au-dessus de la colline : il va pleuvoir.",
+      "choix": [
+        "ces",
+        "ses"
+      ],
+      "reponse": "ces",
+      "indice": "Un mot qui montre des objets, ou qui dit à qui ils appartiennent ?",
+      "astuce": "Mets le nom au singulier : « Regarde ce nuage-là, au-dessus de la colline. » On dit « ce », donc au pluriel c'est « ces ».",
+      "explication": "« ces » sert à montrer plusieurs choses : c'est le pluriel de « ce » ou « cette »."
+    },
+    {
+      "id": "orth-homo-n2-003",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-ces-ses",
+      "phrase": "Le funambule ___ avancé lentement sur le fil tendu.",
+      "choix": [
+        "c'est",
+        "s'est",
+        "ses"
+      ],
+      "reponse": "s'est",
+      "indice": "Un verbe pronominal, une présentation ou un déterminant ?",
+      "astuce": "Mets le sujet à « je » : « Je me suis avancé lentement sur le fil tendu. » Le « se » devient « me », donc c'est « s'est ».",
+      "explication": "« s'est » est « se » + « est » : c'est un verbe pronominal au passé composé (il s'est avancé). On peut le tester avec « je me suis »."
+    },
+    {
+      "id": "orth-homo-n2-004",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-ces-ses",
+      "phrase": "Dans cette vallée, ___ le silence qui frappe d'abord.",
+      "choix": [
+        "c'est",
+        "s'est",
+        "ses"
+      ],
+      "reponse": "c'est",
+      "indice": "Un verbe pronominal, une présentation ou un déterminant ?",
+      "astuce": "Mets la phrase à l'imparfait : « Dans cette vallée, c'était le silence qui frappait d'abord. » On peut écrire « c'était », donc c'est « c'est ».",
+      "explication": "« c'est » présente ou désigne quelque chose (cela est). On peut le remplacer par « c'était »."
+    },
+    {
+      "id": "orth-homo-n2-005",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-ce-se",
+      "phrase": "Le randonneur ___ repose près du torrent avant la dernière montée.",
+      "choix": [
+        "ce",
+        "se"
+      ],
+      "reponse": "se",
+      "indice": "Un petit mot devant un verbe, ou devant un nom ?",
+      "astuce": "Mets le verbe à l'infinitif : « Le randonneur va se reposer près du torrent. » On dit « se reposer », donc c'est « se ».",
+      "explication": "« se » est un pronom qui accompagne un verbe (se reposer). « ce » se place devant un nom (ce torrent)."
+    },
+    {
+      "id": "orth-homo-n2-006",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-ce-se",
+      "phrase": "La géologue observe ___ rocher depuis plusieurs heures.",
+      "choix": [
+        "ce",
+        "se"
+      ],
+      "reponse": "ce",
+      "indice": "Un petit mot devant un verbe, ou devant un nom ?",
+      "astuce": "Remplace par « un » : « La géologue observe un rocher depuis plusieurs heures. » Ça marche devant un nom, donc c'est « ce ».",
+      "explication": "« ce » se place devant un nom masculin (ce rocher) pour le montrer. Devant un verbe, on écrit « se »."
+    },
+    {
+      "id": "orth-homo-n2-007",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-ce-se",
+      "phrase": "Au moment de plonger, le nageur ___ concentre sur sa respiration.",
+      "choix": [
+        "ce",
+        "se"
+      ],
+      "reponse": "se",
+      "indice": "Un petit mot devant un verbe, ou devant un nom ?",
+      "astuce": "Mets le verbe à l'infinitif : « Au moment de plonger, le nageur va se concentrer sur sa respiration. » On dit « se concentrer », donc c'est « se ».",
+      "explication": "« se » accompagne le verbe se concentrer. « ce » ne peut pas se placer devant un verbe."
+    },
+    {
+      "id": "orth-homo-n2-008",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-la-la",
+      "phrase": "Ma cousine a perdu son carnet, et mon frère ___ retrouvé sous un banc.",
+      "choix": [
+        "la",
+        "là",
+        "l'a"
+      ],
+      "reponse": "l'a",
+      "indice": "Un article, un lieu, ou le verbe avoir précédé de « l' » ?",
+      "astuce": "Remplace par « l'avait » : « Ma cousine a perdu son carnet, et mon frère l'avait retrouvé sous un banc. » Ça marche, donc c'est « l'a ».",
+      "explication": "« l'a » est le pronom « l' » + le verbe avoir (il l'a retrouvé). On peut dire « l'avait »."
+    },
+    {
+      "id": "orth-homo-n2-009",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-la-la",
+      "phrase": "Le guide ouvre ___ porte du refuge pour laisser entrer les randonneurs.",
+      "choix": [
+        "la",
+        "là",
+        "l'a"
+      ],
+      "reponse": "la",
+      "indice": "Un article, un lieu, ou le verbe avoir précédé de « l' » ?",
+      "astuce": "Remplace par « une » : « Le guide ouvre une porte du refuge pour laisser entrer les randonneurs. » Ça marche, donc c'est « la ».",
+      "explication": "« la » est un article placé devant un nom féminin (la porte). On peut le remplacer par « une »."
+    },
+    {
+      "id": "orth-homo-n2-010",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-la-la",
+      "phrase": "Pose le sac ___, sur la chaise près de la fenêtre.",
+      "choix": [
+        "la",
+        "là",
+        "l'a"
+      ],
+      "reponse": "là",
+      "indice": "Un article, un lieu, ou le verbe avoir précédé de « l' » ?",
+      "astuce": "Remplace par « ici » : « Pose le sac ici, sur la chaise près de la fenêtre. » Ça marche, donc c'est « là ».",
+      "explication": "« là » avec accent indique un lieu : on peut le remplacer par « ici »."
+    },
+    {
+      "id": "orth-homo-n2-011",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-la-la",
+      "phrase": "Le jardinier a cueilli la dernière pivoine et il ___ offerte à une passante.",
+      "choix": [
+        "la",
+        "là",
+        "l'a"
+      ],
+      "reponse": "l'a",
+      "indice": "Un article, un lieu, ou le verbe avoir précédé de « l' » ?",
+      "astuce": "Remplace par « l'avait » : « Le jardinier a cueilli la dernière pivoine et il l'avait offerte à une passante. » Ça marche, donc c'est « l'a ».",
+      "explication": "« l'a » est le pronom « l' » (la pivoine) + le verbe avoir. On peut dire « l'avait »."
+    },
+    {
+      "id": "orth-homo-n2-012",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-leur-leurs",
+      "phrase": "Les alpinistes ont dressé ___ seule tente à l'abri du vent.",
+      "choix": [
+        "leur",
+        "leurs"
+      ],
+      "reponse": "leur",
+      "indice": "Le nom qui suit est-il au singulier ou au pluriel ?",
+      "astuce": "Remplace par « notre » : « Les alpinistes ont dressé notre seule tente à l'abri du vent. » « notre » est au singulier, donc c'est « leur » sans s.",
+      "explication": "« leur » accompagne un nom au singulier (leur seule tente). « leurs » accompagne un nom au pluriel."
+    },
+    {
+      "id": "orth-homo-n2-013",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-leur-leurs",
+      "phrase": "Les élèves de la chorale rangent ___ partitions dans un classeur bleu.",
+      "choix": [
+        "leur",
+        "leurs"
+      ],
+      "reponse": "leurs",
+      "indice": "Le nom qui suit est-il au singulier ou au pluriel ?",
+      "astuce": "Remplace par « nos » : « Les élèves de la chorale rangent nos partitions dans un classeur bleu. » « nos » est au pluriel, donc c'est « leurs » avec un s.",
+      "explication": "« leurs » accompagne un nom au pluriel (leurs partitions). Il prend un s comme le nom."
+    },
+    {
+      "id": "orth-homo-n2-014",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-leur-leurs",
+      "phrase": "Les lauréats attendent sur la scène et le directeur ___ remet un diplôme.",
+      "choix": [
+        "leur",
+        "leurs"
+      ],
+      "reponse": "leur",
+      "indice": "Le mot est-il devant un nom, ou devant un verbe ?",
+      "astuce": "Remplace par « lui » : « Le directeur lui remet un diplôme. » Ça marche, donc c'est « leur », qui ne prend jamais de s devant un verbe.",
+      "explication": "Devant un verbe, « leur » remplace « à eux » et reste toujours invariable : il s'écrit sans s."
+    },
+    {
+      "id": "orth-homo-n2-015",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-leur-leurs",
+      "phrase": "Les chats courent sur le toit, et ___ ombres s'allongent au coucher du soleil.",
+      "choix": [
+        "leur",
+        "leurs"
+      ],
+      "reponse": "leurs",
+      "indice": "Le nom qui suit est-il au singulier ou au pluriel ?",
+      "astuce": "Remplace par « nos » : « Les chats courent sur le toit, et nos ombres s'allongent au coucher du soleil. » « nos » est au pluriel, donc c'est « leurs » avec un s.",
+      "explication": "« leurs » accompagne un nom au pluriel (leurs ombres). Il prend un s comme le nom."
+    },
+    {
+      "id": "orth-homo-n2-016",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-peu-peut",
+      "phrase": "Tu ___ ouvrir la fenêtre si tu as trop chaud.",
+      "choix": [
+        "peu",
+        "peut",
+        "peux"
+      ],
+      "reponse": "peux",
+      "indice": "Un verbe avec « tu », un verbe avec « il », ou un mot qui veut dire « pas beaucoup » ?",
+      "astuce": "Mets la phrase à l'imparfait : « Tu pouvais ouvrir la fenêtre si tu avais trop chaud. » C'est le verbe pouvoir. Avec « tu », le verbe finit par -x : « tu peux ».",
+      "explication": "Avec « je » et « tu », le verbe pouvoir s'écrit « peux ». Avec « il » ou « elle », il s'écrit « peut »."
+    },
+    {
+      "id": "orth-homo-n2-017",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-peu-peut",
+      "phrase": "Ce fruit ___ être mangé cru ou cuit dans une tarte.",
+      "choix": [
+        "peu",
+        "peut",
+        "peux"
+      ],
+      "reponse": "peut",
+      "indice": "Un verbe avec « tu », un verbe avec « il », ou un mot qui veut dire « pas beaucoup » ?",
+      "astuce": "Mets la phrase à l'imparfait : « Ce fruit pouvait être mangé cru ou cuit dans une tarte. » C'est le verbe pouvoir, et avec « ce fruit » (il) il s'écrit « peut ».",
+      "explication": "Avec « il », « elle » ou un nom singulier, le verbe pouvoir s'écrit « peut »."
+    },
+    {
+      "id": "orth-homo-n2-018",
+      "type": "homophone",
+      "niveau": 2,
+      "competence": "homophone-peu-peut",
+      "phrase": "Dans ce désert, il tombe ___ de pluie chaque année.",
+      "choix": [
+        "peu",
+        "peut",
+        "peux"
+      ],
+      "reponse": "peu",
+      "indice": "Un verbe avec « tu », un verbe avec « il », ou un mot qui veut dire « pas beaucoup » ?",
+      "astuce": "Essaie « pouvait » : « il tombe pouvait de pluie » ne veut rien dire. Ce n'est pas un verbe, donc c'est « peu ».",
+      "explication": "« peu » veut dire « pas beaucoup » et ne change jamais. Ce n'est pas le verbe pouvoir."
+    },
+    {
+      "id": "orth-homo-n3-001",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-quel-quelle",
+      "phrase": "___ beau paysage s'étend devant nous au bout du sentier !",
+      "choix": [
+        "Quel",
+        "Quelle",
+        "Qu'elle"
+      ],
+      "reponse": "Quel",
+      "indice": "Un mot qui s'accorde avec un nom, ou « que » suivi de « elle » ?",
+      "astuce": "Change le nom pour un nom féminin : « Quelle belle vue s'étend devant nous ! » Le mot change avec le nom, ce n'est donc pas « Qu'elle ». Ici « paysage » est masculin : « Quel ».",
+      "explication": "« quel » se place devant un nom et s'accorde avec lui. « paysage » est masculin singulier, donc « quel »."
+    },
+    {
+      "id": "orth-homo-n3-002",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-quel-quelle",
+      "phrase": "La navigatrice annonce ___ partira avant l'aube pour éviter la chaleur.",
+      "choix": [
+        "quelle",
+        "qu'elle",
+        "quel"
+      ],
+      "reponse": "qu'elle",
+      "indice": "Un mot qui s'accorde avec un nom, ou « que » suivi de « elle » ?",
+      "astuce": "Remplace « elle » par « il » : « La navigatrice annonce qu'il partira avant l'aube. » Ça marche, donc c'est « qu'elle ».",
+      "explication": "« qu'elle » est « que » + « elle ». « quelle » (un seul mot) se place devant un nom ou devant le verbe être."
+    },
+    {
+      "id": "orth-homo-n3-003",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-quel-quelle",
+      "phrase": "Dis-moi ___ route il faut prendre pour rejoindre le village.",
+      "choix": [
+        "quelle",
+        "qu'elle",
+        "quel"
+      ],
+      "reponse": "quelle",
+      "indice": "Un mot qui s'accorde avec un nom, ou « que » suivi de « elle » ?",
+      "astuce": "Change le nom en « chemin » : « Dis-moi quel chemin il faut prendre. » Le mot change avec le nom, donc devant « route » (féminin) c'est « quelle ».",
+      "explication": "« quelle » se place devant un nom féminin singulier (quelle route). Il s'accorde avec ce nom."
+    },
+    {
+      "id": "orth-homo-n3-004",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-quel-quelle",
+      "phrase": "Je voudrais savoir ___ sont les meilleurs sentiers de cette région.",
+      "choix": [
+        "quels",
+        "quelles",
+        "qu'elles"
+      ],
+      "reponse": "quels",
+      "indice": "Un mot qui s'accorde avec un nom, ou « que » suivi de « elles » ?",
+      "astuce": "Mets au singulier : « Je voudrais savoir quel est le meilleur sentier de cette région. » Le mot s'accorde avec « sentiers », masculin pluriel : c'est « quels ».",
+      "explication": "« quels » s'accorde avec un nom masculin pluriel. Ici, « sentiers » est masculin pluriel."
+    },
+    {
+      "id": "orth-homo-n3-005",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-quel-quelle",
+      "phrase": "___ sont les matières préférées de ton frère à l'école ?",
+      "choix": [
+        "Quelles",
+        "Quels",
+        "Qu'elles"
+      ],
+      "reponse": "Quelles",
+      "indice": "Un mot qui s'accorde avec un nom, ou « que » suivi de « elles » ?",
+      "astuce": "Mets au singulier : « Quelle est la matière préférée de ton frère ? » Le mot s'accorde avec « matières », féminin pluriel : c'est « Quelles ».",
+      "explication": "« quelles » s'accorde avec un nom féminin pluriel. Ici, « matières » est féminin pluriel."
+    },
+    {
+      "id": "orth-homo-n3-006",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-quel-quelle",
+      "phrase": "Les musiciennes promettent ___ joueront encore un morceau avant de partir.",
+      "choix": [
+        "quelles",
+        "qu'elles",
+        "quels"
+      ],
+      "reponse": "qu'elles",
+      "indice": "Un mot qui s'accorde avec un nom, ou « que » suivi de « elles » ?",
+      "astuce": "Remplace « elles » par « ils » : « Les musiciens promettent qu'ils joueront encore un morceau. » Ça marche, donc c'est « qu'elles ».",
+      "explication": "« qu'elles » est « que » + « elles ». Il n'y a pas de nom juste après : ce n'est pas « quelles »."
+    },
+    {
+      "id": "orth-homo-n3-007",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-a-a",
+      "phrase": "Le skieur qui ___ gagné la course monte sur le podium.",
+      "choix": [
+        "a",
+        "à"
+      ],
+      "reponse": "a",
+      "indice": "Verbe avoir ou petit mot de liaison ?",
+      "astuce": "Remplace par « avait » : « Le skieur qui avait gagné la course monte sur le podium. » Ça marche, donc c'est « a ».",
+      "explication": "« a » est le verbe avoir (il a gagné), le sujet est « qui » (le skieur). « à » n'est jamais un verbe."
+    },
+    {
+      "id": "orth-homo-n3-008",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-a-a",
+      "phrase": "Le sentier qui mène ___ la cascade traverse un bois de châtaigniers.",
+      "choix": [
+        "a",
+        "à"
+      ],
+      "reponse": "à",
+      "indice": "Verbe avoir ou petit mot de liaison ?",
+      "astuce": "Remplace par « avait » : « Le sentier qui mène avait la cascade… » Ça ne marche pas, donc c'est « à ».",
+      "explication": "« à » avec accent introduit ici le lieu où l'on va. Le sujet est « le sentier » : « mène » est déjà le verbe."
+    },
+    {
+      "id": "orth-homo-n3-009",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-et-est",
+      "phrase": "Le tableau que mon grand-père a peint la semaine dernière ___ exposé à la mairie.",
+      "choix": [
+        "et",
+        "est"
+      ],
+      "reponse": "est",
+      "indice": "Verbe être ou simple liaison entre deux mots ?",
+      "astuce": "Remplace par « était » : « Le tableau que mon grand-père a peint la semaine dernière était exposé à la mairie. » Ça marche, donc c'est « est ».",
+      "explication": "Le sujet « le tableau » est loin du verbe : « est exposé » est le verbe être suivi du participe exposé."
+    },
+    {
+      "id": "orth-homo-n3-010",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-et-est",
+      "phrase": "L'eau du ruisseau, claire ___ glacée, coule entre les pierres plates.",
+      "choix": [
+        "et",
+        "est"
+      ],
+      "reponse": "et",
+      "indice": "Verbe être ou simple liaison entre deux mots ?",
+      "astuce": "Remplace par « était » : « L'eau du ruisseau, claire était glacée, coule… » Ça ne marche pas, donc c'est « et ».",
+      "explication": "« et » relie ici deux adjectifs : claire et glacée. Le verbe de la phrase est « coule »."
+    },
+    {
+      "id": "orth-homo-n3-011",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-son-sont",
+      "phrase": "Les skis que le moniteur a rangés ___ encore mouillés après la descente.",
+      "choix": [
+        "son",
+        "sont"
+      ],
+      "reponse": "sont",
+      "indice": "Un mot qui indique la possession, ou un verbe ?",
+      "astuce": "Remplace par « étaient » : « Les skis que le moniteur a rangés étaient encore mouillés après la descente. » Ça marche, donc c'est « sont ».",
+      "explication": "Le sujet « les skis » est au pluriel et loin du verbe : « sont » est le verbe être (ils sont)."
+    },
+    {
+      "id": "orth-homo-n3-012",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-ou-ou",
+      "phrase": "Dans la vallée ___ nous avons campé, le vent soufflait fort.",
+      "choix": [
+        "ou",
+        "où"
+      ],
+      "reponse": "où",
+      "indice": "Un choix entre deux choses, ou un lieu ?",
+      "astuce": "Remplace par « ou bien » : « Dans la vallée ou bien nous avons campé… » Ça ne marche pas, donc c'est « où ».",
+      "explication": "« où » avec accent indique ici un lieu : la vallée dans laquelle ils ont campé."
+    },
+    {
+      "id": "orth-homo-n3-013",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-on-ont",
+      "phrase": "Les explorateurs, après des mois de marche, n'___ plus aucune réserve d'eau.",
+      "choix": [
+        "on",
+        "ont"
+      ],
+      "reponse": "ont",
+      "indice": "Verbe avoir ou pronom qui remplace « il » ?",
+      "astuce": "Remplace par « avaient » : « Les explorateurs, après des mois de marche, n'avaient plus aucune réserve d'eau. » Ça marche, donc c'est « ont ».",
+      "explication": "« ont » est le verbe avoir (ils n'ont plus). Le sujet « les explorateurs » est au pluriel."
+    },
+    {
+      "id": "orth-homo-n3-014",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-ces-ses",
+      "phrase": "Pour la randonnée, je préfère ___ chaussures-ci à celles qui sont dans l'entrée.",
+      "choix": [
+        "ces",
+        "ses",
+        "c'est"
+      ],
+      "reponse": "ces",
+      "indice": "Un mot qui montre des objets, qui dit à qui ils appartiennent, ou une présentation ?",
+      "astuce": "Mets le nom au singulier : « je préfère cette chaussure-ci ». On dit « cette », donc au pluriel c'est « ces ».",
+      "explication": "« ces » sert à montrer plusieurs choses, et il va avec « -ci » ou « -là » (ces chaussures-ci)."
+    },
+    {
+      "id": "orth-homo-n3-015",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-ces-ses",
+      "phrase": "Chaque apprenti boulanger nettoie ___ propres moules avant de partir.",
+      "choix": [
+        "ces",
+        "ses",
+        "s'est"
+      ],
+      "reponse": "ses",
+      "indice": "Un mot qui montre des objets, qui dit à qui ils appartiennent, ou un verbe pronominal ?",
+      "astuce": "Mets le nom au singulier : « Chaque apprenti boulanger nettoie son propre moule. » On dit « son », donc au pluriel c'est « ses ».",
+      "explication": "« ses » est le pluriel de « son » ou « sa ». « Propres » montre que les moules appartiennent à chaque apprenti."
+    },
+    {
+      "id": "orth-homo-n3-016",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-ce-se",
+      "phrase": "Cette rivière ___ jette dans la mer après un long détour.",
+      "choix": [
+        "ce",
+        "se"
+      ],
+      "reponse": "se",
+      "indice": "Un petit mot devant un verbe, ou devant un nom ?",
+      "astuce": "Mets le verbe à l'infinitif : « Cette rivière va se jeter dans la mer. » On dit « se jeter », donc c'est « se ».",
+      "explication": "« se » accompagne le verbe se jeter. « ce » se place devant un nom, jamais devant un verbe."
+    },
+    {
+      "id": "orth-homo-n3-017",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-ce-se",
+      "phrase": "Je connais ___ village depuis mon enfance et j'y retourne chaque été.",
+      "choix": [
+        "ce",
+        "se"
+      ],
+      "reponse": "ce",
+      "indice": "Un petit mot devant un verbe, ou devant un nom ?",
+      "astuce": "Remplace par « mon » : « Je connais mon village depuis mon enfance. » Ça marche devant un nom, donc c'est « ce ».",
+      "explication": "« ce » se place devant un nom masculin (ce village) pour le montrer. « se » se place devant un verbe."
+    },
+    {
+      "id": "orth-homo-n3-018",
+      "type": "homophone",
+      "niveau": 3,
+      "competence": "homophone-peu-peut",
+      "phrase": "___-tu m'aider à porter ce sac jusqu'au refuge ?",
+      "choix": [
+        "Peux",
+        "Peut",
+        "Peu"
+      ],
+      "reponse": "Peux",
+      "indice": "Un verbe avec « tu », un verbe avec « il », ou un mot qui veut dire « pas beaucoup » ?",
+      "astuce": "Mets la phrase à l'imparfait : « Pouvais-tu m'aider à porter ce sac jusqu'au refuge ? » C'est le verbe pouvoir, et avec « tu » il s'écrit « peux ».",
+      "explication": "Même quand le sujet « tu » est placé après le verbe, le verbe pouvoir s'écrit « peux » avec « tu »."
+    },
+    {
+      "id": "orth-acc-n1-001",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-genre-nombre",
+      "modele": "le chat noir",
+      "consigne": "Écris ce groupe au féminin pluriel.",
+      "cible": [
+        {
+          "mot": "les",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "chattes",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "noires",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Le déterminant et l'adjectif s'accordent avec le nom.",
+      "explication": "Le nom « chattes » est féminin pluriel : « le » devient « les » et l'adjectif prend un -e puis un -s."
+    },
+    {
+      "id": "orth-acc-n1-002",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-genre",
+      "modele": "un petit chien",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "petite",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "chienne",
+          "role": "nom",
+          "saisie": false
+        }
+      ],
+      "indice": "Au féminin, pense à la lettre qui s'ajoute à la fin de l'adjectif.",
+      "explication": "Au féminin, « un » devient « une » et « petit » devient « petite »."
+    },
+    {
+      "id": "orth-acc-n1-003",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-nombre",
+      "modele": "la grande table",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "les",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "grandes",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "tables",
+          "role": "nom",
+          "saisie": false
+        }
+      ],
+      "indice": "Au pluriel, pense à la marque qui s'ajoute à la fin des mots.",
+      "explication": "Au pluriel, « la » devient « les » et l'adjectif prend un -s : « grandes »."
+    },
+    {
+      "id": "orth-acc-n1-004",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-nombre",
+      "modele": "un livre ancien",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "des",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "livres",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "anciens",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au pluriel, pense à la marque qui s'ajoute à la fin des mots.",
+      "explication": "Au pluriel, « un » devient « des » et l'adjectif prend un -s : « anciens »."
+    },
+    {
+      "id": "orth-acc-n1-005",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-nombre",
+      "modele": "une fleur rouge",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "des",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "fleurs",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "rouges",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au pluriel, pense à la marque qui s'ajoute à la fin des mots.",
+      "explication": "Au pluriel, « une » devient « des ». L'adjectif « rouge » finit déjà par un -e, il prend seulement un -s : « rouges »."
+    },
+    {
+      "id": "orth-acc-n1-006",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-genre",
+      "modele": "un voisin gentil",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "voisine",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "gentille",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au féminin, pense à la lettre qui s'ajoute à la fin de l'adjectif.",
+      "explication": "Au féminin, « un » devient « une ». L'adjectif « gentil » double le l et prend un -e : « gentille »."
+    },
+    {
+      "id": "orth-acc-n1-007",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-nombre",
+      "modele": "les chemins étroits",
+      "consigne": "Écris ce groupe au singulier.",
+      "cible": [
+        {
+          "mot": "le",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "chemin",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "étroit",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au singulier, pense à la marque qui disparaît à la fin des mots.",
+      "explication": "Au singulier, « les » devient « le » et l'adjectif perd son -s : « étroit »."
+    },
+    {
+      "id": "orth-acc-n1-008",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-genre",
+      "modele": "un lapin gris",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "lapine",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "grise",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au féminin, pense à la lettre qui s'ajoute à la fin de l'adjectif.",
+      "explication": "Au féminin, « un » devient « une » et l'adjectif prend un -e : « grise »."
+    },
+    {
+      "id": "orth-acc-n1-009",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-genre",
+      "modele": "une lionne affamée",
+      "consigne": "Écris ce groupe au masculin singulier.",
+      "cible": [
+        {
+          "mot": "un",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "lion",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "affamé",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au masculin, pense à ce qui disparaît à la fin de l'adjectif.",
+      "explication": "Au masculin, « une » devient « un » et l'adjectif perd son -e : « affamé »."
+    },
+    {
+      "id": "orth-acc-n1-010",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-nombre",
+      "modele": "le grand arbre",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "les",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "grands",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "arbres",
+          "role": "nom",
+          "saisie": false
+        }
+      ],
+      "indice": "Au pluriel, pense à la marque qui s'ajoute à la fin des mots.",
+      "explication": "Au pluriel, « le » devient « les » et l'adjectif prend un -s : « grands »."
+    },
+    {
+      "id": "orth-acc-n1-011",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-nombre",
+      "modele": "une rivière profonde",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "des",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "rivières",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "profondes",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au pluriel, pense à la marque qui s'ajoute à la fin des mots.",
+      "explication": "Au pluriel, « une » devient « des » et l'adjectif prend un -s : « profondes »."
+    },
+    {
+      "id": "orth-acc-n1-012",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-nombre",
+      "modele": "un ami fidèle",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "des",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "amis",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "fidèles",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au pluriel, pense à la marque qui s'ajoute à la fin des mots.",
+      "explication": "Au pluriel, « un » devient « des ». L'adjectif « fidèle » prend un -s : « fidèles »."
+    },
+    {
+      "id": "orth-acc-n1-013",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-nombre",
+      "modele": "la montagne haute",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "les",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "montagnes",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "hautes",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au pluriel, pense à la marque qui s'ajoute à la fin des mots.",
+      "explication": "Au pluriel, « la » devient « les » et l'adjectif prend un -s : « hautes »."
+    },
+    {
+      "id": "orth-acc-n1-014",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-genre",
+      "modele": "un cheval blanc",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "jument",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "blanche",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au féminin, pense à la lettre qui s'ajoute à la fin de l'adjectif.",
+      "explication": "Le nom « jument » est féminin : « un » devient « une » et l'adjectif « blanc » devient « blanche »."
+    },
+    {
+      "id": "orth-acc-n1-015",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-genre",
+      "modele": "mon cousin poli",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "ma",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "cousine",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "polie",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au féminin, pense à la lettre qui s'ajoute à la fin de l'adjectif.",
+      "explication": "Au féminin, « mon » devient « ma » et l'adjectif prend un -e : « polie »."
+    },
+    {
+      "id": "orth-acc-n1-016",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-nombre",
+      "modele": "la route longue",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "les",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "routes",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "longues",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au pluriel, pense à la marque qui s'ajoute à la fin des mots.",
+      "explication": "Au pluriel, « la » devient « les » et l'adjectif prend un -s : « longues »."
+    },
+    {
+      "id": "orth-acc-n1-017",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-nombre",
+      "modele": "un joueur rapide",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "des",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "joueurs",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "rapides",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Au pluriel, pense à la marque qui s'ajoute à la fin des mots.",
+      "explication": "Au pluriel, « un » devient « des » et l'adjectif prend un -s : « rapides »."
+    },
+    {
+      "id": "orth-acc-n1-018",
+      "type": "accord",
+      "niveau": 1,
+      "competence": "accord-genre-nombre",
+      "modele": "une chanteuse célèbre",
+      "consigne": "Écris ce groupe au masculin pluriel.",
+      "cible": [
+        {
+          "mot": "des",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "chanteurs",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "célèbres",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Le déterminant et l'adjectif s'accordent avec le nom.",
+      "explication": "Le nom « chanteurs » est masculin pluriel : « une » devient « des » et l'adjectif « célèbre » prend un -s."
+    },
+    {
+      "id": "orth-acc-n2-001",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-feminin-irregulier",
+      "modele": "un beau chanteur",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "belle",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "chanteuse",
+          "role": "nom",
+          "saisie": false
+        }
+      ],
+      "indice": "Pense à la forme de « beau » au féminin.",
+      "explication": "Au féminin, « beau » devient « belle » et « un » devient « une »."
+    },
+    {
+      "id": "orth-acc-n2-002",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-feminin-irregulier",
+      "modele": "un nouveau voisin",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "nouvelle",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "voisine",
+          "role": "nom",
+          "saisie": false
+        }
+      ],
+      "indice": "Pense à la forme de « nouveau » au féminin.",
+      "explication": "Au féminin, « nouveau » devient « nouvelle »."
+    },
+    {
+      "id": "orth-acc-n2-003",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-feminin-irregulier",
+      "modele": "un voisin heureux",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "voisine",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "heureuse",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Pense au féminin des adjectifs qui se terminent par -eux.",
+      "explication": "Les adjectifs en -eux font -euse au féminin : « heureuse »."
+    },
+    {
+      "id": "orth-acc-n2-004",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-pluriel-irregulier",
+      "modele": "ce fruit délicieux",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "ces",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "fruits",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "délicieux",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Regarde bien la fin de l'adjectif : doit-il changer ?",
+      "explication": "Au pluriel, « ce » devient « ces ». L'adjectif « délicieux » finit déjà par un -x : il ne change pas."
+    },
+    {
+      "id": "orth-acc-n2-005",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-pluriel-irregulier",
+      "modele": "un boulanger matinal",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "des",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "boulangers",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "matinaux",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Regarde la fin de l'adjectif au masculin pluriel : -al devient autre chose.",
+      "explication": "Les adjectifs en -al font -aux au masculin pluriel : « matinaux »."
+    },
+    {
+      "id": "orth-acc-n2-006",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-pluriel-irregulier",
+      "modele": "un animal sauvage",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "des",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "animaux",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "sauvages",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Le nom est donné : écris le déterminant et l'adjectif au pluriel.",
+      "explication": "Le nom « animal » fait « animaux » au pluriel. L'adjectif « sauvage » prend simplement un -s."
+    },
+    {
+      "id": "orth-acc-n2-007",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-pluriel-irregulier",
+      "modele": "un manteau neuf",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "des",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "manteaux",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "neufs",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Écris le déterminant et l'adjectif au pluriel.",
+      "explication": "Les noms en -eau prennent un -x au pluriel : « manteaux ». L'adjectif « neuf » prend un -s."
+    },
+    {
+      "id": "orth-acc-n2-008",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-pluriel-irregulier",
+      "modele": "un cheval royal",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "des",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "chevaux",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "royaux",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Regarde la fin de l'adjectif au masculin pluriel : -al devient autre chose.",
+      "explication": "Le nom « cheval » fait « chevaux » et l'adjectif en -al fait -aux : « royaux »."
+    },
+    {
+      "id": "orth-acc-n2-009",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-feminin-irregulier",
+      "modele": "un joueur actif",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "joueuse",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "active",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Regarde la fin de l'adjectif au féminin : la lettre finale change.",
+      "explication": "Les adjectifs en -if font -ive au féminin : « active »."
+    },
+    {
+      "id": "orth-acc-n2-010",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-nombre",
+      "modele": "mon premier voyage",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "mes",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "premiers",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "voyages",
+          "role": "nom",
+          "saisie": false
+        }
+      ],
+      "indice": "Le déterminant possessif change aussi au pluriel.",
+      "explication": "Au pluriel, « mon » devient « mes » et l'adjectif « premier » prend un -s : « premiers »."
+    },
+    {
+      "id": "orth-acc-n2-011",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-feminin-irregulier",
+      "modele": "une cuisinière attentive",
+      "consigne": "Écris ce groupe au masculin singulier.",
+      "cible": [
+        {
+          "mot": "un",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "cuisinier",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "attentif",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Regarde la fin de l'adjectif au masculin : la lettre finale change.",
+      "explication": "Au masculin, l'adjectif en -ive redevient -if : « attentif »."
+    },
+    {
+      "id": "orth-acc-n2-012",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-pluriel-irregulier",
+      "modele": "ce bijou précieux",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "ces",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "bijoux",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "précieux",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Regarde bien la fin de l'adjectif : doit-il changer ?",
+      "explication": "Au pluriel, « ce » devient « ces ». L'adjectif « précieux » finit déjà par un -x : il ne change pas."
+    },
+    {
+      "id": "orth-acc-n2-013",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-feminin-irregulier",
+      "modele": "un lecteur curieux",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "lectrice",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "curieuse",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Pense au féminin des adjectifs qui se terminent par -eux.",
+      "explication": "Les adjectifs en -eux font -euse au féminin : « curieuse »."
+    },
+    {
+      "id": "orth-acc-n2-014",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-nombre",
+      "modele": "cette vieille maison",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "ces",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "vieilles",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "maisons",
+          "role": "nom",
+          "saisie": false
+        }
+      ],
+      "indice": "Le déterminant démonstratif change aussi au pluriel.",
+      "explication": "Au pluriel, « cette » devient « ces » et l'adjectif « vieille » prend un -s : « vieilles »."
+    },
+    {
+      "id": "orth-acc-n2-015",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-feminin-irregulier",
+      "modele": "un ton doux",
+      "consigne": "Écris ce groupe au singulier avec le nom féminin « voix ».",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "voix",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "douce",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Pense au féminin de cet adjectif.",
+      "explication": "Au féminin, « doux » devient « douce »."
+    },
+    {
+      "id": "orth-acc-n2-016",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-feminin-irregulier",
+      "modele": "un ouvrier fier",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "ouvrière",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "fière",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Regarde la fin de l'adjectif au féminin : -er devient autre chose.",
+      "explication": "Les adjectifs en -er font -ère au féminin : « fière »."
+    },
+    {
+      "id": "orth-acc-n2-017",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-feminin-irregulier",
+      "modele": "mon frère jumeau",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "ma",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "sœur",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "jumelle",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Pense au féminin de cet adjectif : la fin change beaucoup.",
+      "explication": "Au féminin, « mon » devient « ma » et « jumeau » devient « jumelle »."
+    },
+    {
+      "id": "orth-acc-n2-018",
+      "type": "accord",
+      "niveau": 2,
+      "competence": "accord-feminin-irregulier",
+      "modele": "un gros chien",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "grosse",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "chienne",
+          "role": "nom",
+          "saisie": false
+        }
+      ],
+      "indice": "Regarde la fin de l'adjectif au féminin : une lettre se double.",
+      "explication": "Au féminin, « gros » double le s et prend un -e : « grosse »."
+    },
+    {
+      "id": "orth-acc-n3-001",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "ce petit chat noir",
+      "consigne": "Écris ce groupe au féminin pluriel.",
+      "cible": [
+        {
+          "mot": "ces",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "petites",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "chattes",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "noires",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Le nom « chattes » est féminin pluriel : « ce » devient « ces » et les deux adjectifs prennent -e puis -s."
+    },
+    {
+      "id": "orth-acc-n3-002",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "mon vieux voisin discret",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "ma",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "vieille",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "voisine",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "discrète",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au féminin, « mon » devient « ma », « vieux » devient « vieille » et « discret » devient « discrète »."
+    },
+    {
+      "id": "orth-acc-n3-003",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "ce long couloir sombre",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "ces",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "longs",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "couloirs",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "sombres",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au pluriel, « ce » devient « ces » et chacun des deux adjectifs prend un -s."
+    },
+    {
+      "id": "orth-acc-n3-004",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-adjectif-avant",
+      "modele": "ce bel oiseau coloré",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "ces",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "beaux",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "oiseaux",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "colorés",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Pense à la forme de « bel » quand le nom est au pluriel.",
+      "explication": "Au pluriel, « bel » devient « beaux » (on écrit « bel » seulement devant un nom masculin singulier qui commence par une voyelle) et « coloré » prend un -s."
+    },
+    {
+      "id": "orth-acc-n3-005",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "cette grande rivière sauvage",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "ces",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "grandes",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "rivières",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "sauvages",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au pluriel, « cette » devient « ces » et les deux adjectifs prennent un -s."
+    },
+    {
+      "id": "orth-acc-n3-006",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-adjectif-avant",
+      "modele": "ton premier exercice difficile",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "tes",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "premiers",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "exercices",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "difficiles",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au pluriel, « ton » devient « tes » et les deux adjectifs prennent un -s."
+    },
+    {
+      "id": "orth-acc-n3-007",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "ce joli village tranquille",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "ces",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "jolis",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "villages",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "tranquilles",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au pluriel, « ce » devient « ces » et les deux adjectifs prennent un -s."
+    },
+    {
+      "id": "orth-acc-n3-008",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "le jeune chanteur courageux",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "la",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "jeune",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "chanteuse",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "courageuse",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au féminin, « le » devient « la ». « Jeune » ne change pas et « courageux » devient « courageuse »."
+    },
+    {
+      "id": "orth-acc-n3-009",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "leur dernière victoire éclatante",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "leurs",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "dernières",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "victoires",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "éclatantes",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au pluriel, « leur » devient « leurs » et les deux adjectifs prennent un -s."
+    },
+    {
+      "id": "orth-acc-n3-010",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "notre vieux moulin abandonné",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "nos",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "vieux",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "moulins",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "abandonnés",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au pluriel, « notre » devient « nos ». « Vieux » finit déjà par un -x et « abandonné » prend un -s."
+    },
+    {
+      "id": "orth-acc-n3-011",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-adjectif-avant",
+      "modele": "mon meilleur ami fidèle",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "ma",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "meilleure",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "amie",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "fidèle",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au féminin, « mon » devient « ma » et « meilleur » devient « meilleure »."
+    },
+    {
+      "id": "orth-acc-n3-012",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "cette étrange lumière bleue",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "ces",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "étranges",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "lumières",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "bleues",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au pluriel, « cette » devient « ces » et les deux adjectifs prennent un -s."
+    },
+    {
+      "id": "orth-acc-n3-013",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "ce gros bateau rouge",
+      "consigne": "Écris ce groupe au pluriel.",
+      "cible": [
+        {
+          "mot": "ces",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "gros",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "bateaux",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "rouges",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Regarde bien la fin de chaque adjectif : l'un d'eux ne change peut-être pas.",
+      "explication": "Au pluriel, « ce » devient « ces ». « Gros » finit déjà par un -s : il ne change pas. « Rouge » prend un -s."
+    },
+    {
+      "id": "orth-acc-n3-014",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-adjectif-avant",
+      "modele": "cette vieille dame joyeuse",
+      "consigne": "Écris ce groupe au masculin singulier avec le nom « homme ».",
+      "cible": [
+        {
+          "mot": "ce",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "vieil",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "homme",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "joyeux",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Pense à la forme de « vieux » devant un nom qui commence par une voyelle.",
+      "explication": "Au masculin, « vieille » devient « vieux », mais devant un nom qui commence par une voyelle on écrit « vieil » : « ce vieil homme »."
+    },
+    {
+      "id": "orth-acc-n3-015",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "nos longues journées fatigantes",
+      "consigne": "Écris ce groupe au singulier.",
+      "cible": [
+        {
+          "mot": "notre",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "longue",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "journée",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "fatigante",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au singulier, « nos » devient « notre » et les deux adjectifs perdent leur -s."
+    },
+    {
+      "id": "orth-acc-n3-016",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "cette belle chanteuse célèbre",
+      "consigne": "Écris ce groupe au masculin pluriel.",
+      "cible": [
+        {
+          "mot": "ces",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "beaux",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "chanteurs",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "célèbres",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au masculin pluriel, « cette » devient « ces », « belle » devient « beaux » et « célèbre » prend un -s."
+    },
+    {
+      "id": "orth-acc-n3-017",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "un petit garçon timide",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "une",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "petite",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "fille",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "timide",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au féminin, « un » devient « une » et « petit » devient « petite ». « Timide » ne change pas."
+    },
+    {
+      "id": "orth-acc-n3-018",
+      "type": "accord",
+      "niveau": 3,
+      "competence": "accord-deux-adjectifs",
+      "modele": "mes nouveaux voisins aimables",
+      "consigne": "Écris ce groupe au féminin singulier.",
+      "cible": [
+        {
+          "mot": "ma",
+          "role": "determinant",
+          "saisie": true
+        },
+        {
+          "mot": "nouvelle",
+          "role": "adjectif",
+          "saisie": true
+        },
+        {
+          "mot": "voisine",
+          "role": "nom",
+          "saisie": false
+        },
+        {
+          "mot": "aimable",
+          "role": "adjectif",
+          "saisie": true
+        }
+      ],
+      "indice": "Chaque mot à écrire s'accorde avec le nom, y compris les deux adjectifs.",
+      "explication": "Au féminin singulier, « mes » devient « ma » et « nouveaux » devient « nouvelle ». « Aimable » ne change pas."
+    },
+    {
+      "id": "orth-inv-n1-001",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-liaison",
+      "mot": "alors",
+      "phrase": "La pluie a cessé, alors nous sommes sortis pour jouer dehors.",
+      "indice": "La dernière lettre ne s'entend pas.",
+      "explication": "On retrouve « lors » à l'intérieur de « alors » (comme dans « lorsque »). Il finit par un s muet."
+    },
+    {
+      "id": "orth-inv-n1-002",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-preposition",
+      "mot": "après",
+      "phrase": "Après la randonnée, nous avons mangé des fruits au bord du lac.",
+      "indice": "Il y a un accent sur la lettre e, et une lettre muette à la fin.",
+      "explication": "On retrouve « près » dans « après » : même accent grave sur le e, même s final muet."
+    },
+    {
+      "id": "orth-inv-n1-003",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-liaison",
+      "mot": "aussi",
+      "phrase": "Mon frère joue du piano et ma sœur en joue aussi.",
+      "indice": "Entre deux voyelles, combien de s faut-il écrire pour entendre le son « s » ?",
+      "explication": "Un seul s entre deux voyelles se prononcerait « z ». Pour garder le son « s », on écrit deux s : « aussi »."
+    },
+    {
+      "id": "orth-inv-n1-004",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-quantite",
+      "mot": "beaucoup",
+      "phrase": "Il y a beaucoup de vent sur la plage ce soir.",
+      "indice": "Le son « o » du début s'écrit avec trois lettres, et la fin a une lettre muette.",
+      "explication": "« beaucoup » est fait de « beau » et de « coup », collés en un seul mot."
+    },
+    {
+      "id": "orth-inv-n1-005",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-preposition",
+      "mot": "chez",
+      "phrase": "Nous passerons les vacances chez ma grand-mère, au bord de la mer.",
+      "indice": "La dernière lettre ne s'entend pas, et ce n'est pas un s.",
+      "explication": "« chez » finit par un z muet, comme « nez » ou « assez »."
+    },
+    {
+      "id": "orth-inv-n1-006",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-liaison",
+      "mot": "comme",
+      "phrase": "Le bateau glisse sur l'eau comme un cygne endormi.",
+      "indice": "Y a-t-il une ou deux fois la même consonne au milieu du mot ?",
+      "explication": "« comme » s'écrit avec deux m, comme « comment »."
+    },
+    {
+      "id": "orth-inv-n1-007",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-preposition",
+      "mot": "dans",
+      "phrase": "Le chat dort dans un panier au coin du salon.",
+      "indice": "Le son « an » ne s'écrit pas avec « en » ici, et la fin est muette.",
+      "explication": "« dans » finit par un s muet, comme « sans » et « sous »."
+    },
+    {
+      "id": "orth-inv-n1-008",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-temps",
+      "mot": "déjà",
+      "phrase": "Le soleil est déjà haut à huit heures du matin.",
+      "indice": "Il y a deux accents différents : un sur la première voyelle, un sur la dernière.",
+      "explication": "« déjà » a un accent aigu sur le é, puis un accent grave sur le à final."
+    },
+    {
+      "id": "orth-inv-n1-009",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-liaison",
+      "mot": "donc",
+      "phrase": "La route est glissante ce matin, donc le conducteur ralentit.",
+      "indice": "La dernière lettre ne s'entend pas, et ce n'est pas un s.",
+      "explication": "« donc » finit par un c qu'on n'entend pas, comme « banc » ou « blanc »."
+    },
+    {
+      "id": "orth-inv-n1-010",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-temps",
+      "mot": "jamais",
+      "phrase": "Ce navigateur n'a jamais eu peur des grosses vagues.",
+      "indice": "Quelle lettre muette termine ce mot, comme dans « mais » ?",
+      "explication": "« jamais » finit par un s muet, comme « mais »."
+    },
+    {
+      "id": "orth-inv-n1-011",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-temps",
+      "mot": "souvent",
+      "phrase": "Le dimanche matin, nous allons souvent au marché du village.",
+      "indice": "Attention à la fin du mot : le son « an » ne s'écrit pas avec « an ».",
+      "explication": "« souvent » s'écrit avec -ent, comme « vent ». C'est un adverbe : il ne change jamais."
+    },
+    {
+      "id": "orth-inv-n1-012",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-temps",
+      "mot": "toujours",
+      "phrase": "Mon grand-père porte toujours le même chapeau en été.",
+      "indice": "La fin du mot ressemble à un mot que tu connais bien, écrit au pluriel.",
+      "explication": "On retrouve « jours » à la fin de « toujours »."
+    },
+    {
+      "id": "orth-inv-n1-013",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-quantite",
+      "mot": "très",
+      "phrase": "Cette soupe est très chaude : attends un peu avant de goûter.",
+      "indice": "Attention à l'accent sur le e et à la dernière lettre muette.",
+      "explication": "« très » s'écrit avec un accent grave sur le e et un s final muet, comme « près »."
+    },
+    {
+      "id": "orth-inv-n1-014",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-quantite",
+      "mot": "trop",
+      "phrase": "Tu as mis trop de sel sur les légumes.",
+      "indice": "La dernière lettre ne s'entend pas, comme dans « sirop ».",
+      "explication": "« trop » finit par un p muet, comme « sirop »."
+    },
+    {
+      "id": "orth-inv-n1-015",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-temps",
+      "mot": "depuis",
+      "phrase": "Elle joue au tennis depuis l'âge de six ans.",
+      "indice": "Ce mot est fait de deux petits mots collés : lesquels ?",
+      "explication": "« depuis » est fait de « de » et de « puis », collés en un seul mot."
+    },
+    {
+      "id": "orth-inv-n1-016",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-temps",
+      "mot": "enfin",
+      "phrase": "Au bout de longues heures de marche, le groupe est enfin arrivé.",
+      "indice": "Ce mot est fait d'un petit mot de deux lettres et d'un mot qui veut dire « le bout ».",
+      "explication": "« enfin » est fait de « en » et de « fin », collés en un seul mot."
+    },
+    {
+      "id": "orth-inv-n1-017",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-preposition",
+      "mot": "avant",
+      "phrase": "Lave-toi les mains avant le repas, s'il te plaît.",
+      "indice": "Le son « an » s'écrit ici avec « an » et non avec « en ».",
+      "explication": "On retrouve « avant » dans « avancer » : même début, même -an."
+    },
+    {
+      "id": "orth-inv-n1-018",
+      "type": "invariable",
+      "niveau": 1,
+      "competence": "invariable-preposition",
+      "mot": "sans",
+      "phrase": "Il est parti sans son parapluie sous un ciel gris.",
+      "indice": "Ne le confonds pas avec « sang » ni « cent » : quelle est sa dernière lettre ?",
+      "explication": "« sans » finit par un s muet, comme « dans ». Il ne s'écrit ni « sang » ni « cent »."
+    },
+    {
+      "id": "orth-inv-n2-001",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-temps",
+      "mot": "aujourd'hui",
+      "phrase": "Aujourd'hui, la classe visite un musée de la marine.",
+      "indice": "Un seul mot, avec une apostrophe, et on y lit « jour ».",
+      "explication": "On y lit le mot « jour ». Il s'écrit en un seul mot, avec une apostrophe."
+    },
+    {
+      "id": "orth-inv-n2-002",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-temps",
+      "mot": "aussitôt",
+      "phrase": "Le rideau s'est levé et les applaudissements ont aussitôt éclaté.",
+      "indice": "Un seul mot, avec deux fois la même consonne au milieu et un accent sur le dernier o.",
+      "explication": "« aussitôt » est « aussi » + « tôt » : deux s comme dans « aussi », accent circonflexe comme dans « tôt »."
+    },
+    {
+      "id": "orth-inv-n2-003",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-quantite",
+      "mot": "assez",
+      "phrase": "Ce sac est assez léger pour être porté jusqu'au sommet.",
+      "indice": "Entre deux voyelles, il faut doubler une consonne pour garder le son « s ». La fin est muette.",
+      "explication": "« assez » s'écrit avec deux s et finit par -ez, comme « chez »."
+    },
+    {
+      "id": "orth-inv-n2-004",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-temps",
+      "mot": "bientôt",
+      "phrase": "Le printemps arrive bientôt et les bourgeons apparaissent.",
+      "indice": "Pense à un petit mot qui veut dire « de façon satisfaisante », puis à un accent sur le o.",
+      "explication": "« bientôt » est « bien » + « tôt », avec l'accent circonflexe sur le o."
+    },
+    {
+      "id": "orth-inv-n2-005",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-lieu",
+      "mot": "dehors",
+      "phrase": "Les enfants jouent dehors dès que le soleil se montre.",
+      "indice": "Il y a un h au milieu du mot, et la fin ne s'entend pas.",
+      "explication": "« dehors » a un h après le « de », et il finit par un s muet."
+    },
+    {
+      "id": "orth-inv-n2-006",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-temps",
+      "mot": "demain",
+      "phrase": "Demain, nous partirons à l'aube pour atteindre le col.",
+      "indice": "Le son « in » de la fin s'écrit avec trois lettres.",
+      "explication": "Le son « in » s'écrit -ain, comme dans « main » et « pain »."
+    },
+    {
+      "id": "orth-inv-n2-007",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-lieu",
+      "mot": "derrière",
+      "phrase": "Un renard s'est caché derrière le gros rocher gris.",
+      "indice": "Deux lettres identiques au milieu, et un accent sur l'avant-dernière voyelle.",
+      "explication": "« derrière » s'écrit avec deux r et un accent grave sur le è, comme « arrière »."
+    },
+    {
+      "id": "orth-inv-n2-008",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-temps",
+      "mot": "hier",
+      "phrase": "Hier, ma tante a cueilli des pommes dans le verger.",
+      "indice": "La première lettre ne s'entend pas.",
+      "explication": "« hier » commence par un h muet."
+    },
+    {
+      "id": "orth-inv-n2-009",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-temps",
+      "mot": "longtemps",
+      "phrase": "Nous avons marché longtemps sous un soleil brûlant.",
+      "indice": "Il y a deux mots collés, et la fin a deux lettres muettes.",
+      "explication": "« longtemps » est « long » + « temps », collés en un seul mot."
+    },
+    {
+      "id": "orth-inv-n2-010",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-temps",
+      "mot": "maintenant",
+      "phrase": "Il faut maintenant appuyer sur le bouton rouge.",
+      "indice": "Le début s'entend comme une partie du corps, et le son « an » final s'écrit « ant ».",
+      "explication": "On y lit « main » puis « tenant », comme dans « maintenir »."
+    },
+    {
+      "id": "orth-inv-n2-011",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-temps",
+      "mot": "parfois",
+      "phrase": "Parfois, le vent tombe et la mer devient lisse.",
+      "indice": "Il y a deux mots collés : une préposition et un mot qui compte les occasions.",
+      "explication": "« parfois » est « par » + « fois », collés en un seul mot."
+    },
+    {
+      "id": "orth-inv-n2-012",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-lieu",
+      "mot": "partout",
+      "phrase": "On trouve des coquillages partout sur cette plage.",
+      "indice": "Il y a deux mots collés : une préposition et un mot qui veut dire « la totalité ».",
+      "explication": "« partout » est « par » + « tout », collés en un seul mot."
+    },
+    {
+      "id": "orth-inv-n2-013",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-maniere",
+      "mot": "plutôt",
+      "phrase": "Je prends plutôt du thé que du café le soir.",
+      "indice": "Ici, il s'écrit en un seul mot, avec un accent circonflexe.",
+      "explication": "« plutôt » en un mot veut dire « de préférence ». « plus tôt » en deux mots veut dire « avant »."
+    },
+    {
+      "id": "orth-inv-n2-014",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-quantite",
+      "mot": "presque",
+      "phrase": "Le sablier est presque vide, il reste quelques grains.",
+      "indice": "Un seul mot, qui finit par le son « k » écrit avec trois lettres.",
+      "explication": "« presque » s'écrit en un seul mot, sans accent, et finit par -que."
+    },
+    {
+      "id": "orth-inv-n2-015",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-liaison",
+      "mot": "quand",
+      "phrase": "Quand le brouillard se lève, le village apparaît au loin.",
+      "indice": "La dernière lettre ne s'entend pas.",
+      "explication": "« quand » finit par un d muet, comme « grand »."
+    },
+    {
+      "id": "orth-inv-n2-016",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-maniere",
+      "mot": "surtout",
+      "phrase": "Il faut surtout boire de l'eau pendant la course.",
+      "indice": "Il y a deux mots collés : une préposition et un mot qui veut dire « la totalité ».",
+      "explication": "« surtout » est « sur » + « tout », collés en un seul mot."
+    },
+    {
+      "id": "orth-inv-n2-017",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-temps",
+      "mot": "tôt",
+      "phrase": "Le boulanger se lève tôt pour préparer le pain frais.",
+      "indice": "Un accent sur la voyelle, et une lettre muette à la fin.",
+      "explication": "« tôt » s'écrit avec un accent circonflexe sur le o et un t muet, comme « bientôt » et « plutôt »."
+    },
+    {
+      "id": "orth-inv-n2-018",
+      "type": "invariable",
+      "niveau": 2,
+      "competence": "invariable-liaison",
+      "mot": "pourtant",
+      "phrase": "La nuit tombait, pourtant les marcheurs continuaient d'avancer.",
+      "indice": "Le son « an » de la fin s'écrit comme dans « pendant ».",
+      "explication": "« pourtant » finit par -ant, comme « pendant »."
+    },
+    {
+      "id": "orth-inv-n3-001",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-liaison",
+      "mot": "néanmoins",
+      "phrase": "La route était longue ; néanmoins, nous avons tenu jusqu'au village.",
+      "indice": "Il y a un accent aigu au début, et la fin ressemble à un mot qui veut dire « pas autant ».",
+      "explication": "On lit « moins » à la fin de « néanmoins ». Le premier e porte un accent aigu."
+    },
+    {
+      "id": "orth-inv-n3-002",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-liaison",
+      "mot": "cependant",
+      "phrase": "Il a relu le texte ; cependant, une phrase restait obscure.",
+      "indice": "La fin s'écrit comme celle de « pendant ».",
+      "explication": "« cependant » finit comme « pendant » : -ant, et non -ent."
+    },
+    {
+      "id": "orth-inv-n3-003",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-liaison",
+      "mot": "lorsque",
+      "phrase": "Lorsque le phare s'allume, les bateaux rentrent au port.",
+      "indice": "Un seul mot, fait de deux morceaux. Le premier garde son s.",
+      "explication": "« lorsque » est « lors » + « que », en un seul mot."
+    },
+    {
+      "id": "orth-inv-n3-004",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-liaison",
+      "mot": "puisque",
+      "phrase": "Nous resterons au chaud puisque la neige tombe encore.",
+      "indice": "Un seul mot, fait de deux morceaux. Le premier garde son s.",
+      "explication": "« puisque » est « puis » + « que », en un seul mot : on garde le s de « puis »."
+    },
+    {
+      "id": "orth-inv-n3-005",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-liaison",
+      "mot": "tandis que",
+      "phrase": "Le chef coupait les légumes tandis que l'eau chauffait doucement.",
+      "indice": "Ce sont deux mots séparés. Le premier finit par une lettre muette.",
+      "explication": "On écrit deux mots : « tandis » (avec un s final) puis « que »."
+    },
+    {
+      "id": "orth-inv-n3-006",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-maniere",
+      "mot": "peut-être",
+      "phrase": "Il pleuvra peut-être ce soir : prenons un parapluie.",
+      "indice": "Deux mots reliés par un trait d'union, avec un accent sur le second.",
+      "explication": "« peut-être » est « peut » (verbe pouvoir) + « être », reliés par un trait d'union. Accent circonflexe sur le ê."
+    },
+    {
+      "id": "orth-inv-n3-007",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-temps",
+      "mot": "tout à coup",
+      "phrase": "La lumière s'est éteinte tout à coup pendant le concert.",
+      "indice": "Il y a trois mots séparés, dont un petit mot avec un accent.",
+      "explication": "On écrit trois mots : « tout », « à » (avec un accent grave) et « coup »."
+    },
+    {
+      "id": "orth-inv-n3-008",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-temps",
+      "mot": "quelquefois",
+      "phrase": "Quelquefois, le vent apporte l'odeur de la mer jusqu'ici.",
+      "indice": "Ici, il s'écrit en un seul mot.",
+      "explication": "En un seul mot, « quelquefois » veut dire « parfois ». « quelques fois » en deux mots veut dire « plusieurs fois »."
+    },
+    {
+      "id": "orth-inv-n3-009",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-maniere",
+      "mot": "notamment",
+      "phrase": "Cette région produit des fruits, notamment des abricots et des cerises.",
+      "indice": "Entre le « a » et le « e », il y a deux lettres identiques.",
+      "explication": "« notamment » s'écrit -amment, avec deux m, comme « constamment »."
+    },
+    {
+      "id": "orth-inv-n3-010",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-preposition",
+      "mot": "malgré",
+      "phrase": "Malgré la pluie, les supporters ont chanté jusqu'à la fin du match.",
+      "indice": "Un seul mot, avec un accent sur la dernière lettre.",
+      "explication": "« malgré » s'écrit en un seul mot, avec un accent aigu sur le é final."
+    },
+    {
+      "id": "orth-inv-n3-011",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-temps",
+      "mot": "d'abord",
+      "phrase": "D'abord, nous mesurons la farine, puis nous cassons les œufs.",
+      "indice": "Il y a une apostrophe après la première lettre, et une lettre muette à la fin.",
+      "explication": "On y lit « abord », comme dans « aborder », précédé de « d' »."
+    },
+    {
+      "id": "orth-inv-n3-012",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-liaison",
+      "mot": "d'ailleurs",
+      "phrase": "Cette plage est calme ; d'ailleurs, personne ne s'y baigne en ce moment.",
+      "indice": "Il y a une apostrophe après la première lettre, et une lettre muette à la fin.",
+      "explication": "« d'ailleurs » s'écrit avec une apostrophe : « d' » puis « ailleurs », qui finit par un s."
+    },
+    {
+      "id": "orth-inv-n3-013",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-temps",
+      "mot": "soudain",
+      "phrase": "Soudain, un éclair a illuminé la vallée entière.",
+      "indice": "Le son « in » de la fin s'écrit avec trois lettres.",
+      "explication": "Le son « in » s'écrit -ain, comme dans « demain »."
+    },
+    {
+      "id": "orth-inv-n3-014",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-liaison",
+      "mot": "toutefois",
+      "phrase": "Le trajet est long ; toutefois, la vue en vaut la peine.",
+      "indice": "Un seul mot, fait de deux morceaux : un mot de la totalité au féminin, puis un mot qui compte les occasions.",
+      "explication": "« toutefois » est « toute » + « fois », en un seul mot."
+    },
+    {
+      "id": "orth-inv-n3-015",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-lieu",
+      "mot": "au-dessus",
+      "phrase": "Un faucon tourne lentement au-dessus de la falaise ce matin.",
+      "indice": "Deux petits mots reliés par un trait d'union, avec deux lettres identiques au milieu du second.",
+      "explication": "« au-dessus » s'écrit avec un trait d'union, et « dessus » prend deux s."
+    },
+    {
+      "id": "orth-inv-n3-016",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-lieu",
+      "mot": "là-bas",
+      "phrase": "Là-bas, au pied de la colline, on aperçoit les toits du village.",
+      "indice": "Deux petits mots reliés par un trait d'union ; le premier porte un accent.",
+      "explication": "« là-bas » s'écrit avec un accent grave sur le a, puis un trait d'union avant « bas »."
+    },
+    {
+      "id": "orth-inv-n3-017",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-temps",
+      "mot": "désormais",
+      "phrase": "Désormais, le musée ouvre ses portes dès huit heures du matin.",
+      "indice": "Il y a un accent aigu au début, et la fin se termine comme un mot très fréquent qui commence par « m ».",
+      "explication": "On lit « mais » à la fin de « désormais ». Le premier e porte un accent aigu."
+    },
+    {
+      "id": "orth-inv-n3-018",
+      "type": "invariable",
+      "niveau": 3,
+      "competence": "invariable-maniere",
+      "mot": "évidemment",
+      "phrase": "Évidemment, les élèves ont terminé leur exposé à temps.",
+      "indice": "Entre le « e » et le « ent » final, il y a deux lettres identiques.",
+      "explication": "« évidemment » vient de « évident » : on remplace -ent par -emment, avec deux m."
+    },
+    {
+      "id": "orth-mut-n1-001",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "grand",
+      "lettres": "d",
+      "phrase": "Mon frère est très grand pour son âge.",
+      "famille": [
+        "grande",
+        "grandir"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le d dans « grande » : « grand » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-002",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "petit",
+      "lettres": "t",
+      "phrase": "Le chaton est encore trop petit pour sauter sur la table.",
+      "famille": [
+        "petite",
+        "petitesse"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le t dans « petite » : « petit » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-003",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "gris",
+      "lettres": "s",
+      "phrase": "Le ciel reste gris depuis le début de la semaine.",
+      "famille": [
+        "grise",
+        "grisaille"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le s dans « grise » : « gris » se termine donc par s, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-004",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "chaud",
+      "lettres": "d",
+      "phrase": "Ce chocolat est encore beaucoup trop chaud pour être bu.",
+      "famille": [
+        "chaude",
+        "chaudement"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le d dans « chaude » : « chaud » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-005",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "froid",
+      "lettres": "d",
+      "phrase": "Le vent est si froid que les randonneurs mettent des bonnets.",
+      "famille": [
+        "froide",
+        "froideur"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le d dans « froide » : « froid » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-006",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "lourd",
+      "lettres": "d",
+      "phrase": "Ce sac de randonnée est vraiment lourd à porter.",
+      "famille": [
+        "lourde",
+        "lourdeur"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le d dans « lourde » : « lourd » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-007",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "laid",
+      "lettres": "d",
+      "phrase": "Le crapaud paraît laid, mais il rend de grands services au jardin.",
+      "famille": [
+        "laide",
+        "laideur"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le d dans « laide » : « laid » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-008",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "blond",
+      "lettres": "d",
+      "phrase": "Un cycliste blond a franchi la ligne en tête de la course.",
+      "famille": [
+        "blonde",
+        "blondeur"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le d dans « blonde » : « blond » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-009",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "fort",
+      "lettres": "t",
+      "phrase": "Ce nageur est fort, il traverse la baie sans se fatiguer.",
+      "famille": [
+        "forte",
+        "fortement"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le t dans « forte » : « fort » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-010",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "vert",
+      "lettres": "t",
+      "phrase": "Le feuillage du chêne est vert au printemps.",
+      "famille": [
+        "verte"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le t dans « verte » : « vert » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-011",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "plat",
+      "lettres": "t",
+      "phrase": "Le fond de cette barque est parfaitement plat.",
+      "famille": [
+        "plate"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le t dans « plate » : « plat » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-012",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "sourd",
+      "lettres": "d",
+      "phrase": "Un bruit sourd a retenti dans la cave.",
+      "famille": [
+        "sourde",
+        "sourdement"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le d dans « sourde » : « sourd » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-013",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "gros",
+      "lettres": "s",
+      "phrase": "Un gros nuage noir s'avance au-dessus de la plage.",
+      "famille": [
+        "grosse",
+        "grossir"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le s dans « grosse » : « gros » se termine donc par s, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-014",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "bavard",
+      "lettres": "d",
+      "phrase": "Ce perroquet est vraiment bavard, il répète tout ce qu'il entend.",
+      "famille": [
+        "bavarde",
+        "bavarder"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le d dans « bavarde » : « bavard » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-015",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "content",
+      "lettres": "t",
+      "phrase": "Le jardinier est content de sa belle récolte de tomates.",
+      "famille": [
+        "contente",
+        "contentement"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le t dans « contente » : « content » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-016",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "épais",
+      "lettres": "s",
+      "phrase": "Le brouillard est si épais qu'on ne voit plus la route.",
+      "famille": [
+        "épaisse",
+        "épaisseur"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le s dans « épaisse » : « épais » se termine donc par s, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-017",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "mauvais",
+      "lettres": "s",
+      "phrase": "Le temps reste mauvais depuis plusieurs jours sur la côte.",
+      "famille": [
+        "mauvaise"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le s dans « mauvaise » : « mauvais » se termine donc par s, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n1-018",
+      "type": "muette",
+      "niveau": 1,
+      "competence": "muette-consonne-finale",
+      "mot": "français",
+      "lettres": "s",
+      "phrase": "Ce voyageur français parle couramment trois langues étrangères.",
+      "famille": [
+        "française"
+      ],
+      "indice": "Pense au féminin de ce mot : quelle lettre entends-tu ?",
+      "explication": "On entend le s dans « française » : « français » se termine donc par s, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-001",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "chant",
+      "lettres": "t",
+      "phrase": "Le chant des oiseaux me réveille chaque matin.",
+      "famille": [
+        "chanter",
+        "chanteur"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le t dans « chanter » : « chant » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-002",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "regard",
+      "lettres": "d",
+      "phrase": "Son regard est resté fixé sur l'horizon pendant toute la traversée.",
+      "famille": [
+        "regarder"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le d dans « regarder » : « regard » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-003",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "retard",
+      "lettres": "d",
+      "phrase": "Le train a pris du retard à cause de la neige.",
+      "famille": [
+        "retarder"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le d dans « retarder » : « retard » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-004",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "sport",
+      "lettres": "t",
+      "phrase": "Le tennis est un sport que j'aime pratiquer l'été.",
+      "famille": [
+        "sportif",
+        "sportive"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le t dans « sportif » : « sport » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-005",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "respect",
+      "lettres": "ct",
+      "phrase": "Le respect des règles est la base de tout jeu d'équipe.",
+      "famille": [
+        "respecter",
+        "respectueux"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend les lettres ct dans « respecter » : « respect » se termine donc par ct, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-006",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "accord",
+      "lettres": "d",
+      "phrase": "Les deux équipes ont enfin trouvé un accord sur le calendrier.",
+      "famille": [
+        "accorder"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le d dans « accorder » : « accord » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-007",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "début",
+      "lettres": "t",
+      "phrase": "Le début du film m'a tout de suite captivé.",
+      "famille": [
+        "débuter",
+        "débutant"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le t dans « débuter » : « début » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-008",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "bond",
+      "lettres": "d",
+      "phrase": "Le chevreuil a fait un bond par-dessus la barrière.",
+      "famille": [
+        "bondir"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le d dans « bondir » : « bond » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-009",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "tapis",
+      "lettres": "s",
+      "phrase": "Un tapis épais recouvre le sol du salon.",
+      "famille": [
+        "tapisser",
+        "tapisserie"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le s dans « tapisser » : « tapis » se termine donc par s, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-010",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "plomb",
+      "lettres": "b",
+      "phrase": "Le pêcheur ajoute un petit plomb au bout de sa ligne.",
+      "famille": [
+        "plomber",
+        "plombier"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le b dans « plomber » : « plomb » se termine donc par b, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-011",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "univers",
+      "lettres": "s",
+      "phrase": "D'après les astronomes, l'univers contient des milliards de galaxies.",
+      "famille": [
+        "universel"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le s dans « universel » : « univers » se termine donc par s, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-012",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "bois",
+      "lettres": "s",
+      "phrase": "Le bois de ce chalet sent bon la résine.",
+      "famille": [
+        "boiser",
+        "boiserie"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le s dans « boiser » : « bois » se termine donc par s, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-013",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "argent",
+      "lettres": "t",
+      "phrase": "Le collier d'argent de ma grand-mère brille sous la lumière.",
+      "famille": [
+        "argenté",
+        "argenter"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le t dans « argenté » : « argent » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-014",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "instant",
+      "lettres": "t",
+      "phrase": "Un instant plus tard, l'orage a éclaté sur toute la vallée.",
+      "famille": [
+        "instantané"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le t dans « instantané » : « instant » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-015",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "champ",
+      "lettres": "p",
+      "phrase": "Le fermier laboure son champ avant les semailles.",
+      "famille": [
+        "champêtre"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le p dans « champêtre » : « champ » se termine donc par p, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-016",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "pays",
+      "lettres": "s",
+      "phrase": "Ce pays est célèbre pour ses montagnes enneigées.",
+      "famille": [
+        "paysage",
+        "paysan"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le s dans « paysage » : « pays » se termine donc par s, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-017",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "dos",
+      "lettres": "s",
+      "phrase": "Le randonneur porte un lourd sac sur le dos.",
+      "famille": [
+        "dossier",
+        "dossard"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le s dans « dossier » : « dos » se termine donc par s, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n2-018",
+      "type": "muette",
+      "niveau": 2,
+      "competence": "muette-consonne-finale",
+      "mot": "drap",
+      "lettres": "p",
+      "phrase": "Elle étend un drap propre sur le lit de la chambre d'amis.",
+      "famille": [
+        "draper",
+        "drapeau"
+      ],
+      "indice": "Pense à un mot de la même famille : quelle lettre entends-tu à la fin ?",
+      "explication": "On entend le p dans « draper » : « drap » se termine donc par p, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-001",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "galop",
+      "lettres": "p",
+      "phrase": "Le cheval est parti au galop à travers la prairie.",
+      "famille": [
+        "galoper"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le p dans « galoper » : « galop » se termine donc par p, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-002",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "éclat",
+      "lettres": "t",
+      "phrase": "L'éclat du soleil sur la neige éblouit les skieurs.",
+      "famille": [
+        "éclater",
+        "éclatant"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le t dans « éclater » : « éclat » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-003",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "sang",
+      "lettres": "g",
+      "phrase": "Le soigneur a nettoyé le sang sur son genou.",
+      "famille": [
+        "sanguin",
+        "sanglant"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le g dans « sanguin » : « sang » se termine donc par g, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-004",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "long",
+      "lettres": "g",
+      "phrase": "Le chemin est long, mais la vue est splendide.",
+      "famille": [
+        "longue",
+        "longueur"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le g dans « longue » : « long » se termine donc par g, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-005",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "confort",
+      "lettres": "t",
+      "phrase": "Ce fauteuil offre un grand confort pour lire.",
+      "famille": [
+        "confortable"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le t dans « confortable » : « confort » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-006",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "profond",
+      "lettres": "d",
+      "phrase": "Le lac est si profond que le plongeur ne voit plus ses pieds.",
+      "famille": [
+        "profonde",
+        "profondeur"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le d dans « profonde » : « profond » se termine donc par d, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-007",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "étroit",
+      "lettres": "t",
+      "phrase": "Le sentier devient étroit près de la falaise.",
+      "famille": [
+        "étroite",
+        "étroitesse"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le t dans « étroite » : « étroit » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-008",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "distinct",
+      "lettres": "ct",
+      "phrase": "On entend un son distinct derrière la porte close.",
+      "famille": [
+        "distincte",
+        "distinctement"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend les lettres ct dans « distincte » : « distinct » se termine donc par ct, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-009",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "suspect",
+      "lettres": "ct",
+      "phrase": "Le détective trouve le comportement du voisin très suspect.",
+      "famille": [
+        "suspecte",
+        "suspecter"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend les lettres ct dans « suspecte » : « suspect » se termine donc par ct, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-010",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "instinct",
+      "lettres": "ct",
+      "phrase": "L'animal suit son instinct pour retrouver sa route.",
+      "famille": [
+        "instinctif",
+        "instinctive"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend les lettres ct dans « instinctif » : « instinct » se termine donc par ct, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-011",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "toit",
+      "lettres": "t",
+      "phrase": "Le chat dort sur le toit de la remise.",
+      "famille": [
+        "toiture"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le t dans « toiture » : « toit » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-012",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "accroc",
+      "lettres": "c",
+      "phrase": "Un accroc dans sa manche gâche le beau costume.",
+      "famille": [
+        "accrocher",
+        "accrochage"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le c dans « accrocher » : « accroc » se termine donc par c, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-013",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "haut",
+      "lettres": "t",
+      "phrase": "Le sommet est très haut au-dessus de la vallée.",
+      "famille": [
+        "haute",
+        "hauteur"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le t dans « haute » : « haut » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-014",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "camp",
+      "lettres": "p",
+      "phrase": "Les scouts ont installé leur camp près de la rivière.",
+      "famille": [
+        "camper",
+        "campement"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le p dans « camper » : « camp » se termine donc par p, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-015",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "tricot",
+      "lettres": "t",
+      "phrase": "Ce tricot de laine est parfait pour l'hiver.",
+      "famille": [
+        "tricoter",
+        "tricoteuse"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le t dans « tricoter » : « tricot » se termine donc par t, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-016",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "repos",
+      "lettres": "s",
+      "phrase": "Après une course aussi dure, un long repos s'impose aux coureurs.",
+      "famille": [
+        "reposer",
+        "reposant"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le s dans « reposer » : « repos » se termine donc par s, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-017",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "rang",
+      "lettres": "g",
+      "phrase": "Chaque élève prend sa place dans le rang.",
+      "famille": [
+        "ranger",
+        "rangée"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le g dans « ranger » : « rang » se termine donc par g, même si on ne l'entend pas."
+    },
+    {
+      "id": "orth-mut-n3-018",
+      "type": "muette",
+      "niveau": 3,
+      "competence": "muette-consonne-finale",
+      "mot": "fond",
+      "lettres": "d",
+      "phrase": "Selon la légende, un trésor repose au fond de l'océan.",
+      "famille": [
+        "fondation",
+        "fonder"
+      ],
+      "indice": "Cherche un mot de la même famille où la fin du mot se prononce.",
+      "explication": "On entend le d dans « fondation » : « fond » se termine donc par d, même si on ne l'entend pas."
+    }
+  ]
+}

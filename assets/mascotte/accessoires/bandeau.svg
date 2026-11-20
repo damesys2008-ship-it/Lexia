@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « bandeau » pour Pompon, emplacement tete. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M78 162 Q120 136 162 162 L162 172 Q120 146 78 172 Z" fill="#D6246E" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M80 166 Q120 141 160 166" fill="none" stroke="#fff" stroke-width="2.5"/>
+  </g>
+</svg>

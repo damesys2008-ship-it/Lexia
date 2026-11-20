@@ -1,0 +1,71 @@
+/* Grammaire, les transformations : la consigne, la phrase de départ, le champ et les tournures d'une question. */
+
+/* Chaque ligne de l'énoncé garde son bouton « Écouter » à côté : l'écran tient à 1366 x 768. */
+.grammaire-transformations__enonce {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-2);
+  margin-bottom: var(--espace-3);
+}
+
+.grammaire-transformations__ligne {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espace-3);
+}
+
+.grammaire-transformations__consigne {
+  margin: 0;
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+}
+
+/* Une fois la phrase finale écrite, la consigne et la barre d'accents ne servent plus :
+   la place va à la correction. */
+.grammaire-transformations__enonce--termine
+.grammaire-transformations__ligne:has(.grammaire-transformations__consigne) {
+  display: none;
+}
+
+.grammaire-transformations__saisie--terminee .champ-texte__saisie ~ * {
+  display: none;
+}
+
+/* Le champ (avec sa barre d'accents) et le bouton « Vérifier » sur la même ligne. */
+.grammaire-transformations__reponse {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--espace-3);
+}
+
+.grammaire-transformations__reponse .champ-texte {
+  flex: 1 1 20rem;
+}
+
+.grammaire-transformations__rappel {
+  margin: var(--espace-3) 0 0;
+  color: var(--attention-fonce);
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+}
+
+.grammaire-transformations__tournures {
+  margin-top: var(--espace-4);
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-moyen);
+  font-size: var(--taille-exercice);
+}
+
+.grammaire-transformations__titre {
+  margin: 0 0 var(--espace-2);
+  font-size: var(--taille-exercice);
+}
+
+.grammaire-transformations__liste {
+  margin: 0;
+  padding-left: var(--espace-5);
+}

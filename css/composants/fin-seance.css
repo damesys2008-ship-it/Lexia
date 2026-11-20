@@ -1,0 +1,244 @@
+/*
+ * Écran de fin de série : à gauche le panneau de Pompon, à droite la carte du bilan.
+ * Les étoiles apparaissent l'une après l'autre ; les durées passent à 0 avec les animations réduites.
+ */
+
+.fin-seance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--marge-haut-page);
+  align-items: flex-start;
+}
+
+/* Panneau bonbon : la bulle de Pompon, puis Pompon sur son ellipse rose. */
+.fin-seance__panneau {
+  flex: 0 0 26.25rem; /* 420 px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espace-3);
+  padding: var(--espace-5);
+  background: var(--bonbon);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+  box-shadow: var(--ombre-carte);
+}
+
+.fin-seance__scene {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: var(--espace-2);
+}
+
+.fin-seance__scene::before {
+  content: "";
+  position: absolute;
+  bottom: var(--espace-1);
+  width: 18.75rem;
+  max-width: 100%;
+  height: 3.75rem;
+  background: var(--socle-pompon);
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.fin-seance__scene .mascotte {
+  position: relative;
+  max-width: 15rem;
+}
+
+.fin-seance__carte {
+  flex: 1 1 28rem;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--espace-4);
+  padding: var(--espace-6);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+  box-shadow: var(--ombre-carte);
+}
+
+.fin-seance__pastille {
+  margin: 0;
+  padding: 0.375rem 1rem;
+  background: var(--menthe-clair);
+  color: var(--menthe);
+  border-radius: var(--rayon-rond);
+  font-family: var(--police-titre);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.fin-seance__pastille::before {
+  content: "\2713"; /* ✓ */
+  margin-right: var(--espace-2);
+}
+
+.fin-seance__titre {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: 2.875rem;
+  line-height: 1.1;
+}
+
+/* Le bloc jaune des étoiles gagnées. */
+.fin-seance__bloc-gain {
+  display: flex;
+  align-items: center;
+  gap: var(--espace-4);
+  width: 100%;
+  padding: var(--espace-4) var(--espace-5);
+  background: var(--soleil-clair);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+}
+
+.fin-seance__etoiles {
+  display: flex;
+  gap: var(--espace-1);
+  margin: 0;
+  font-family: var(--police-symboles);
+  font-size: 1.75rem;
+  line-height: 1;
+  color: var(--soleil);
+  -webkit-text-stroke: 2px var(--prune);
+  paint-order: stroke fill;
+}
+
+.fin-seance__etoile {
+  display: inline-block;
+  animation: fin-seance-etoile var(--duree-longue) ease-out both;
+}
+
+.fin-seance__etoile:nth-child(2) {
+  animation-delay: 150ms;
+}
+
+.fin-seance__etoile:nth-child(3) {
+  animation-delay: 300ms;
+}
+
+.fin-seance__etoile:nth-child(n + 4) {
+  animation-delay: 450ms;
+}
+
+@keyframes fin-seance-etoile {
+  0% {
+    transform: scale(0) rotate(-40deg);
+    opacity: 0;
+  }
+
+  70% {
+    transform: scale(1.25) rotate(8deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.fin-seance__gain {
+  display: flex;
+  align-items: baseline;
+  gap: var(--espace-2);
+  margin: 0;
+}
+
+.fin-seance__nombre {
+  font-family: var(--police-titre);
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.fin-seance__libelle {
+  font-size: 1.0625rem;
+  color: var(--prune-doux);
+}
+
+/* Le détail du gain : une ligne par part, séparées par un filet pointillé. */
+.fin-seance__detail {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fin-seance__ligne {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--espace-3);
+  padding: var(--espace-2) 0;
+  border-bottom: 2px dashed var(--trait-moyen);
+  font-size: 1.0625rem;
+}
+
+.fin-seance__valeur {
+  font-family: var(--police-titre);
+  font-weight: 700;
+}
+
+.fin-seance__total,
+.fin-seance__badge,
+.fin-seance__badge-texte {
+  margin: 0;
+  font-size: 1.0625rem;
+  line-height: var(--interligne);
+}
+
+.fin-seance__badge {
+  padding: var(--espace-2) var(--espace-4);
+  border-radius: var(--rayon-rond);
+  background: var(--bonbon);
+  color: var(--prune);
+  font-weight: 700;
+}
+
+.fin-seance__retour-son {
+  margin: 0;
+  color: var(--texte-discret);
+  font-size: var(--taille-petite);
+}
+
+.fin-seance__retour-son:empty {
+  display: none;
+}
+
+.fin-seance__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espace-3);
+}
+
+html.animations-reduites .fin-seance__etoile {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fin-seance__etoile {
+    animation: none;
+  }
+}
+
+@media (max-width: 1180px) {
+  .fin-seance__panneau {
+    flex-basis: 23.75rem; /* 380 px */
+  }
+
+  /* Tablette : textes d'un pixel de plus (17 -> 18 px). */
+  .fin-seance__libelle,
+  .fin-seance__ligne,
+  .fin-seance__total,
+  .fin-seance__badge,
+  .fin-seance__badge-texte {
+    font-size: 1.125rem;
+  }
+}

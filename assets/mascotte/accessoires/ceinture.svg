@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « ceinture » pour Pompon, emplacement corps. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M69.4 236 L170.6 236 L169.7 237.6 L168.3 239.8 L166.8 241.8 L165.2 243.8 L163.5 245.7 L163.2 246 L76.8 246 L76.5 245.7 L74.8 243.8 L73.2 241.8 L71.7 239.8 L70.3 237.6 Z" fill="#FFC93C"/><path d="M69.4 236 L170.6 236 M163.2 246 L76.8 246" fill="none" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="120" cy="241" r="8" fill="#D6246E" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M120.0,236.5 L121.2,239.4 L124.3,239.6 L121.9,241.6 L122.6,244.6 L120.0,243.0 L117.4,244.6 L118.1,241.6 L115.7,239.6 L118.8,239.4 Z" fill="#fff"/>
+  </g>
+</svg>

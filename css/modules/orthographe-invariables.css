@@ -1,0 +1,107 @@
+/* Mots à retenir : le mot affiché 3 secondes, puis la phrase à trou et le champ de saisie. */
+
+.orthographe-invariables__zone-mot,
+.orthographe-invariables__zone-saisie {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--espace-4);
+}
+
+.orthographe-invariables__zone-mot[hidden],
+.orthographe-invariables__zone-saisie[hidden] {
+  display: none;
+}
+
+.orthographe-invariables__mot {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-1);
+  font-weight: 700;
+  color: var(--prune);
+}
+
+/* Le repère de temps : une barre qui se vide en 3 secondes (durée posée par le script). */
+.orthographe-invariables__barre {
+  width: 100%;
+  max-width: 24rem;
+  height: 0.75rem;
+  overflow: hidden;
+  background: var(--blanc);
+  border: var(--epaisseur-bordure) solid var(--menthe);
+  border-radius: var(--rayon-rond);
+}
+
+.orthographe-invariables__barre-reste {
+  width: 100%;
+  height: 100%;
+  background: var(--menthe);
+  transform-origin: left center;
+  animation: orthographe-vider var(--duree-affichage, 3s) linear forwards;
+}
+
+@keyframes orthographe-vider {
+  from { transform: scaleX(1); }
+  to { transform: scaleX(0); }
+}
+
+/* Sans animation, le décompte écrit suffit : on retire la barre. */
+.animations-reduites .orthographe-invariables__barre {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orthographe-invariables__barre {
+    display: none;
+  }
+}
+
+.orthographe-invariables__decompte {
+  margin: 0;
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+  color: var(--menthe);
+}
+
+/* Le trou : en pointillés menthe, comme celui des homophones. */
+.orthographe-invariables__trou {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 6rem;
+  min-height: 2.875rem;
+  padding: 0 var(--espace-2);
+  margin: 0 var(--espace-1);
+  vertical-align: middle;
+  text-align: center;
+  line-height: 2.5rem;
+  background: var(--menthe-clair);
+  border: var(--epaisseur-bordure) dashed var(--menthe);
+  border-radius: var(--rayon-petit);
+}
+
+.orthographe-invariables__trou--rempli {
+  font-weight: 700;
+  border-style: solid;
+}
+
+.orthographe-invariables__zone-saisie .champ-texte {
+  width: 100%;
+  max-width: 28rem;
+}
+
+.orthographe-invariables__commandes,
+.orthographe-invariables__aide {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-3);
+}
+
+.orthographe-invariables__aide:empty {
+  display: none;
+}
+
+/* Un champ refusé : bordure et marque en plus de la couleur (le ✗ est dans le retour de la séance). */
+.orthographe-invariables__zone-saisie .champ-texte__saisie.orthographe__etat--faux {
+  background: var(--soleil-clair);
+  border: var(--epaisseur-bordure) dashed var(--soleil-fonce);
+}

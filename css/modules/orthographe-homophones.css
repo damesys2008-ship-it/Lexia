@@ -1,0 +1,95 @@
+/* Le pont des homophones : une phrase dont il manque un mot, et des boutons numérotés pour le poser. */
+
+.orthographe-homophones__phrase {
+  margin-bottom: var(--espace-4);
+}
+
+/* Le trou : un emplacement en pointillés menthe, vide avant la réponse, rempli par le mot quand l'item est fini. */
+.orthographe-homophones__planche {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 5rem; /* 80 px */
+  min-height: 2.875rem; /* 46 px */
+  padding: 0 var(--espace-2);
+  margin: 0 var(--espace-1);
+  vertical-align: middle;
+  text-align: center;
+  line-height: 2.5rem;
+  background: var(--menthe-clair);
+  border: var(--epaisseur-bordure) dashed var(--menthe);
+  border-radius: var(--rayon-petit);
+}
+
+.orthographe-homophones__planche--remplie {
+  font-weight: 700;
+  border-style: solid;
+}
+
+.orthographe-homophones__choix {
+  margin-bottom: var(--espace-3);
+}
+
+.orthographe-homophones__choix .bouton {
+  gap: 0.75rem; /* 12 px */
+  min-width: 5rem;
+  font-family: var(--police-titre);
+}
+
+/* Le numéro : rond prune de 34 px, c'est aussi la touche du clavier. */
+.orthographe-homophones__numero {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.125rem; /* 34 px */
+  height: 2.125rem;
+  font-size: 1.125rem; /* 18 px */
+  color: var(--blanc);
+  background: var(--prune);
+  border-radius: var(--rayon-rond);
+}
+
+/* Un choix refusé reste lisible (✗ devant le mot, filet jaune pointillé) même désactivé. */
+.orthographe-homophones__choix .bouton:disabled {
+  opacity: 1;
+  cursor: default;
+}
+
+.orthographe-homophones__aide {
+  margin: 0;
+  font-size: 0.9375rem; /* 15 px */
+  color: var(--prune-doux);
+}
+
+.orthographe-homophones__astuce,
+.orthographe-homophones__phrase-complete {
+  margin: 0;
+  font-size: var(--taille-exercice);
+}
+
+.orthographe-homophones__phrase-complete {
+  font-weight: 700;
+}
+
+/* Le focus au clavier doit se voir sur les boutons de choix. */
+.orthographe-homophones__choix .bouton:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+@media (max-width: 1180px) {
+  .orthographe-homophones__aide {
+    font-size: 1rem; /* 16 px */
+  }
+
+  .orthographe-homophones__numero {
+    font-size: 1.1875rem; /* 19 px */
+  }
+}
+
+/* Sur écran tactile, pas de clavier : on n'affiche pas l'aide des touches. */
+@media (hover: none) {
+  .orthographe-homophones__aide {
+    display: none;
+  }
+}

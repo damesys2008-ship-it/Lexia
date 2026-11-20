@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « arrosoir » pour Pompon, emplacement main. Dessiné en coordonnées du viewBox ; le groupe ci-dessous compense le décalage (170, 195) du bras droit, où l'emplacement est rattaché. -->
+  <g>
+    <g transform="translate(-170 -195)">
+      <rect x="170" y="202" width="26" height="22" rx="5" fill="#2563C9" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M196 208 L214 196" stroke="#241B4B" stroke-width="6" stroke-linecap="round"/>
+      <path d="M196 208 L214 196" stroke="#2563C9" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

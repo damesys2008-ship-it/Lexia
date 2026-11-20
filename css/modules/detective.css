@@ -1,0 +1,100 @@
+/* Détective des fautes : le texte à relire, les mots modifiables, le champ sur place. */
+
+/* Même mise en page que la dictée audio : 1240 px sur PC, 1100 px sur tablette (marges comprises). */
+main:has(.detective__disposition) {
+  --largeur-contenu: 83.5rem;
+}
+
+@media (max-width: 1180px) {
+  main:has(.detective__disposition) {
+    --largeur-contenu: 73.25rem;
+  }
+}
+
+/* Pompon et sa bulle à gauche, la carte d'exercice à droite. */
+.detective__disposition {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--marge-haut-page);
+  align-items: flex-start;
+}
+
+.detective__compagnon {
+  flex: 0 0 15.625rem; /* 250 px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espace-2);
+}
+
+.detective__compagnon .mascotte {
+  max-width: 100%;
+}
+
+.detective__disposition > .carte-exercice {
+  flex: 1 1 35rem; /* 560 px */
+  min-width: 0;
+}
+
+.detective__compte {
+  margin: 0 0 var(--espace-3);
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+  color: var(--framboise);
+}
+
+.detective__texte {
+  font-size: var(--taille-exercice);
+  line-height: 2.4;
+}
+
+/* Un mot du texte : cible tactile d'au moins 44 px, soulignement pointillé discret (pas de couleur seule). */
+.detective__mot {
+  min-height: var(--cible-minimale);
+  padding: 0 var(--espace-1);
+  background: none;
+  border: 0;
+  border-bottom: 2px dotted var(--prune);
+  border-radius: var(--rayon-petit);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.detective__mot:hover {
+  background: var(--bonbon);
+}
+
+/* Le champ du mot en cours de modification s'insère dans le texte. */
+.detective__edition {
+  display: inline-flex;
+  flex-direction: column;
+  gap: var(--espace-2);
+  vertical-align: top;
+  padding: var(--espace-2);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-moyen);
+  line-height: 1.4;
+}
+
+.detective__edition-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-2);
+}
+
+.detective__texte-correct {
+  margin-top: var(--espace-5);
+}
+
+.detective__titre-correct {
+  margin: 0 0 var(--espace-3);
+  font-size: var(--taille-exercice);
+}
+
+.detective__vide {
+  font-size: var(--taille-exercice);
+}

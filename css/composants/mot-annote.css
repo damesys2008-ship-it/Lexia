@@ -1,0 +1,97 @@
+/*
+ * Mot annoté (js/ui/mot-annote.js).
+ * Chaque état se reconnaît à plus que sa couleur : soulignement ondulé, marqueur, barré, surlignage,
+ * texte caché pour les lecteurs d'écran et symbole (✗ ou !) devant l'explication.
+ */
+
+.mot-annote {
+  position: relative;
+  display: inline-block;
+}
+
+.mot-annote__mot {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 var(--espace-1);
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+}
+
+/* Les mots cliquables ont une cible d'au moins 44 px. */
+button.mot-annote__mot {
+  min-width: var(--cible-minimale);
+  min-height: var(--cible-minimale);
+  justify-content: center;
+  cursor: pointer;
+  touch-action: manipulation;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.3em;
+}
+
+/* Soulignement ondulé juste sous le mot : jaune foncé pour une faute (le « ✗ » de l'explication s'ajoute),
+   jaune pour un mot juste modifié à tort. */
+.mot-annote--faux .mot-annote__mot {
+  text-decoration-color: var(--soleil-fonce);
+}
+
+.mot-annote--faux-positif .mot-annote__mot {
+  text-decoration-color: var(--soleil);
+}
+
+/* Mot manquant : petit marqueur à l'endroit du manque. */
+.mot-annote--manquant .mot-annote__mot {
+  color: var(--prune);
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.mot-annote--en-trop .mot-annote__mot {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  opacity: 0.7;
+}
+
+.mot-annote--corrige .mot-annote__mot {
+  background: var(--menthe-clair);
+  color: var(--prune);
+  border-radius: var(--rayon-petit);
+}
+
+/* Explication : s'ouvre sous le mot, sans décaler le texte. Absente tant qu'on n'a rien activé. */
+.mot-annote__info {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 5;
+  width: max-content;
+  max-width: min(18rem, calc(100vw - 2 * var(--espace-4)));
+  padding: var(--espace-2) var(--espace-3);
+  background: var(--prune);
+  color: var(--blanc);
+  border-radius: var(--rayon-petit);
+  box-shadow: var(--ombre-carte);
+  font-size: var(--taille-texte);
+  line-height: 1.4;
+  white-space: normal;
+}
+
+.mot-annote__info:empty {
+  display: none;
+}
+
+.mot-annote--faux .mot-annote__info::before,
+.mot-annote--manquant .mot-annote__info::before {
+  content: "\2717\00a0"; /* ✗ */
+  font-family: var(--police-symboles);
+}
+
+.mot-annote--faux-positif .mot-annote__info::before {
+  content: "!\00a0";
+  font-weight: 800;
+}

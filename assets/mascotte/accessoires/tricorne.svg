@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « tricorne » pour Pompon, emplacement tete. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M84 140 Q100 108 120 120 Q140 108 156 140 Q120 130 84 140 Z" fill="#3A2A55" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M92 135 Q120 127 148 135" fill="none" stroke="#FFC93C" stroke-width="2.5"/>
+    <path d="M120.0,121.0 L121.3,124.2 L124.8,124.5 L122.1,126.7 L122.9,130.0 L120.0,128.2 L117.1,130.0 L117.9,126.7 L115.2,124.5 L118.7,124.2 Z" fill="#fff"/>
+  </g>
+</svg>

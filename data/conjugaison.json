@@ -1,0 +1,1815 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "conj-chanter-present",
+      "niveau": 1,
+      "verbe": "chanter",
+      "temps": "present",
+      "competence": "present-1er-groupe",
+      "formes": {
+        "je": "chante",
+        "tu": "chantes",
+        "il": "chante",
+        "nous": "chantons",
+        "vous": "chantez",
+        "ils": "chantent"
+      },
+      "radicaux": {
+        "je": "chant",
+        "tu": "chant",
+        "il": "chant",
+        "nous": "chant",
+        "vous": "chant",
+        "ils": "chant"
+      },
+      "variantes": {},
+      "explication": "Présent, 1er groupe : -e, -es, -e, -ons, -ez, -ent."
+    },
+    {
+      "id": "conj-jouer-present",
+      "niveau": 1,
+      "verbe": "jouer",
+      "temps": "present",
+      "competence": "present-1er-groupe",
+      "formes": {
+        "je": "joue",
+        "tu": "joues",
+        "il": "joue",
+        "nous": "jouons",
+        "vous": "jouez",
+        "ils": "jouent"
+      },
+      "radicaux": {
+        "je": "jou",
+        "tu": "jou",
+        "il": "jou",
+        "nous": "jou",
+        "vous": "jou",
+        "ils": "jou"
+      },
+      "variantes": {},
+      "explication": "Présent, 1er groupe : -e, -es, -e, -ons, -ez, -ent."
+    },
+    {
+      "id": "conj-manger-present",
+      "niveau": 1,
+      "verbe": "manger",
+      "temps": "present",
+      "competence": "present-1er-groupe",
+      "formes": {
+        "je": "mange",
+        "tu": "manges",
+        "il": "mange",
+        "nous": "mangeons",
+        "vous": "mangez",
+        "ils": "mangent"
+      },
+      "radicaux": {
+        "je": "mang",
+        "tu": "mang",
+        "il": "mang",
+        "nous": "mange",
+        "vous": "mang",
+        "ils": "mang"
+      },
+      "variantes": {},
+      "explication": "Présent, 1er groupe : -e, -es, -e, -ons, -ez, -ent. Avec -ger, on garde le e devant -ons : nous mangeons."
+    },
+    {
+      "id": "conj-finir-present",
+      "niveau": 1,
+      "verbe": "finir",
+      "temps": "present",
+      "competence": "present-2e-groupe",
+      "formes": {
+        "je": "finis",
+        "tu": "finis",
+        "il": "finit",
+        "nous": "finissons",
+        "vous": "finissez",
+        "ils": "finissent"
+      },
+      "radicaux": {
+        "je": "fin",
+        "tu": "fin",
+        "il": "fin",
+        "nous": "fin",
+        "vous": "fin",
+        "ils": "fin"
+      },
+      "variantes": {},
+      "explication": "Présent, 2e groupe : -is, -is, -it, -issons, -issez, -issent."
+    },
+    {
+      "id": "conj-etre-present",
+      "niveau": 1,
+      "verbe": "être",
+      "temps": "present",
+      "competence": "present-etre-avoir",
+      "formes": {
+        "je": "suis",
+        "tu": "es",
+        "il": "est",
+        "nous": "sommes",
+        "vous": "êtes",
+        "ils": "sont"
+      },
+      "radicaux": {
+        "je": "",
+        "tu": "",
+        "il": "",
+        "nous": "",
+        "vous": "",
+        "ils": ""
+      },
+      "variantes": {},
+      "explication": "Être est irrégulier au présent : je suis, tu es, il est, nous sommes, vous êtes, ils sont."
+    },
+    {
+      "id": "conj-avoir-present",
+      "niveau": 1,
+      "verbe": "avoir",
+      "temps": "present",
+      "competence": "present-etre-avoir",
+      "formes": {
+        "je": "ai",
+        "tu": "as",
+        "il": "a",
+        "nous": "avons",
+        "vous": "avez",
+        "ils": "ont"
+      },
+      "radicaux": {
+        "je": "",
+        "tu": "",
+        "il": "",
+        "nous": "",
+        "vous": "",
+        "ils": ""
+      },
+      "variantes": {},
+      "explication": "Avoir est irrégulier au présent : j'ai, tu as, il a, nous avons, vous avez, ils ont."
+    },
+    {
+      "id": "conj-aller-present",
+      "niveau": 1,
+      "verbe": "aller",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "vais",
+        "tu": "vas",
+        "il": "va",
+        "nous": "allons",
+        "vous": "allez",
+        "ils": "vont"
+      },
+      "radicaux": {
+        "je": "",
+        "tu": "",
+        "il": "",
+        "nous": "",
+        "vous": "",
+        "ils": ""
+      },
+      "variantes": {},
+      "explication": "Aller est irrégulier au présent : je vais, tu vas, il va, nous allons, vous allez, ils vont."
+    },
+    {
+      "id": "conj-faire-present",
+      "niveau": 1,
+      "verbe": "faire",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "fais",
+        "tu": "fais",
+        "il": "fait",
+        "nous": "faisons",
+        "vous": "faites",
+        "ils": "font"
+      },
+      "radicaux": {
+        "je": "",
+        "tu": "",
+        "il": "",
+        "nous": "",
+        "vous": "",
+        "ils": ""
+      },
+      "variantes": {},
+      "explication": "Faire est irrégulier au présent : vous faites et ils font sont à retenir."
+    },
+    {
+      "id": "conj-dire-present",
+      "niveau": 1,
+      "verbe": "dire",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "dis",
+        "tu": "dis",
+        "il": "dit",
+        "nous": "disons",
+        "vous": "dites",
+        "ils": "disent"
+      },
+      "radicaux": {
+        "je": "",
+        "tu": "",
+        "il": "",
+        "nous": "",
+        "vous": "",
+        "ils": ""
+      },
+      "variantes": {},
+      "explication": "Dire est irrégulier au présent : on écrit vous dites, avec un t."
+    },
+    {
+      "id": "conj-chanter-imparfait",
+      "niveau": 1,
+      "verbe": "chanter",
+      "temps": "imparfait",
+      "competence": "imparfait",
+      "formes": {
+        "je": "chantais",
+        "tu": "chantais",
+        "il": "chantait",
+        "nous": "chantions",
+        "vous": "chantiez",
+        "ils": "chantaient"
+      },
+      "radicaux": {
+        "je": "chant",
+        "tu": "chant",
+        "il": "chant",
+        "nous": "chant",
+        "vous": "chant",
+        "ils": "chant"
+      },
+      "variantes": {},
+      "explication": "Imparfait : -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+      "id": "conj-etre-imparfait",
+      "niveau": 1,
+      "verbe": "être",
+      "temps": "imparfait",
+      "competence": "imparfait",
+      "formes": {
+        "je": "étais",
+        "tu": "étais",
+        "il": "était",
+        "nous": "étions",
+        "vous": "étiez",
+        "ils": "étaient"
+      },
+      "radicaux": {
+        "je": "ét",
+        "tu": "ét",
+        "il": "ét",
+        "nous": "ét",
+        "vous": "ét",
+        "ils": "ét"
+      },
+      "variantes": {},
+      "explication": "Imparfait : -ais, -ais, -ait, -ions, -iez, -aient. Le radical d'être est ét-."
+    },
+    {
+      "id": "conj-jouer-futur",
+      "niveau": 1,
+      "verbe": "jouer",
+      "temps": "futur",
+      "competence": "futur",
+      "formes": {
+        "je": "jouerai",
+        "tu": "joueras",
+        "il": "jouera",
+        "nous": "jouerons",
+        "vous": "jouerez",
+        "ils": "joueront"
+      },
+      "radicaux": {
+        "je": "jouer",
+        "tu": "jouer",
+        "il": "jouer",
+        "nous": "jouer",
+        "vous": "jouer",
+        "ils": "jouer"
+      },
+      "variantes": {},
+      "explication": "Futur : on garde l'infinitif puis -ai, -as, -a, -ons, -ez, -ont."
+    },
+    {
+      "id": "conj-finir-futur",
+      "niveau": 1,
+      "verbe": "finir",
+      "temps": "futur",
+      "competence": "futur",
+      "formes": {
+        "je": "finirai",
+        "tu": "finiras",
+        "il": "finira",
+        "nous": "finirons",
+        "vous": "finirez",
+        "ils": "finiront"
+      },
+      "radicaux": {
+        "je": "finir",
+        "tu": "finir",
+        "il": "finir",
+        "nous": "finir",
+        "vous": "finir",
+        "ils": "finir"
+      },
+      "variantes": {},
+      "explication": "Futur : on garde l'infinitif puis -ai, -as, -a, -ons, -ez, -ont."
+    },
+    {
+      "id": "conj-avoir-futur",
+      "niveau": 1,
+      "verbe": "avoir",
+      "temps": "futur",
+      "competence": "futur",
+      "formes": {
+        "je": "aurai",
+        "tu": "auras",
+        "il": "aura",
+        "nous": "aurons",
+        "vous": "aurez",
+        "ils": "auront"
+      },
+      "radicaux": {
+        "je": "aur",
+        "tu": "aur",
+        "il": "aur",
+        "nous": "aur",
+        "vous": "aur",
+        "ils": "aur"
+      },
+      "variantes": {},
+      "explication": "Futur : -ai, -as, -a, -ons, -ez, -ont. Avoir est irrégulier : son radical est aur-."
+    },
+    {
+      "id": "conj-regarder-passe-compose",
+      "niveau": 1,
+      "verbe": "regarder",
+      "temps": "passe-compose",
+      "competence": "passe-compose-avoir",
+      "formes": {
+        "je": "ai regardé",
+        "tu": "as regardé",
+        "il": "a regardé",
+        "nous": "avons regardé",
+        "vous": "avez regardé",
+        "ils": "ont regardé"
+      },
+      "radicaux": {
+        "je": "ai regard",
+        "tu": "as regard",
+        "il": "a regard",
+        "nous": "avons regard",
+        "vous": "avez regard",
+        "ils": "ont regard"
+      },
+      "variantes": {},
+      "explication": "Passé composé : l'auxiliaire avoir au présent + le participe passé (regardé)."
+    },
+    {
+      "id": "conj-chanter-imperatif-present",
+      "niveau": 1,
+      "verbe": "chanter",
+      "temps": "imperatif-present",
+      "competence": "imperatif-present",
+      "formes": {
+        "tu": "chante",
+        "nous": "chantons",
+        "vous": "chantez"
+      },
+      "radicaux": {
+        "tu": "chant",
+        "nous": "chant",
+        "vous": "chant"
+      },
+      "variantes": {},
+      "explication": "Impératif présent, 1er groupe : pas de s à la 2e personne du singulier (chante), puis -ons, -ez."
+    },
+    {
+      "id": "conj-commencer-present",
+      "niveau": 2,
+      "verbe": "commencer",
+      "temps": "present",
+      "competence": "present-cer-ger",
+      "formes": {
+        "je": "commence",
+        "tu": "commences",
+        "il": "commence",
+        "nous": "commençons",
+        "vous": "commencez",
+        "ils": "commencent"
+      },
+      "radicaux": {
+        "je": "commenc",
+        "tu": "commenc",
+        "il": "commenc",
+        "nous": "commen",
+        "vous": "commenc",
+        "ils": "commenc"
+      },
+      "variantes": {},
+      "explication": "Présent, 1er groupe : -e, -es, -e, -ons, -ez, -ent. Avec -cer, le c devient ç devant -ons : nous commençons."
+    },
+    {
+      "id": "conj-manger-imparfait",
+      "niveau": 2,
+      "verbe": "manger",
+      "temps": "imparfait",
+      "competence": "imparfait-cer-ger",
+      "formes": {
+        "je": "mangeais",
+        "tu": "mangeais",
+        "il": "mangeait",
+        "nous": "mangions",
+        "vous": "mangiez",
+        "ils": "mangeaient"
+      },
+      "radicaux": {
+        "je": "mang",
+        "tu": "mang",
+        "il": "mang",
+        "nous": "mang",
+        "vous": "mang",
+        "ils": "mang"
+      },
+      "variantes": {},
+      "explication": "Imparfait : -ais, -ais, -ait, -ions, -iez, -aient. Avec -ger, on garde le e devant a : je mangeais, mais nous mangions."
+    },
+    {
+      "id": "conj-commencer-imparfait",
+      "niveau": 2,
+      "verbe": "commencer",
+      "temps": "imparfait",
+      "competence": "imparfait-cer-ger",
+      "formes": {
+        "je": "commençais",
+        "tu": "commençais",
+        "il": "commençait",
+        "nous": "commencions",
+        "vous": "commenciez",
+        "ils": "commençaient"
+      },
+      "radicaux": {
+        "je": "commen",
+        "tu": "commen",
+        "il": "commen",
+        "nous": "commen",
+        "vous": "commen",
+        "ils": "commen"
+      },
+      "variantes": {},
+      "explication": "Imparfait : -ais, -ais, -ait, -ions, -iez, -aient. Avec -cer, le c devient ç devant a : je commençais, mais nous commencions."
+    },
+    {
+      "id": "conj-appeler-present",
+      "niveau": 2,
+      "verbe": "appeler",
+      "temps": "present",
+      "competence": "present-eler-eter",
+      "formes": {
+        "je": "appelle",
+        "tu": "appelles",
+        "il": "appelle",
+        "nous": "appelons",
+        "vous": "appelez",
+        "ils": "appellent"
+      },
+      "radicaux": {
+        "je": "appel",
+        "tu": "appel",
+        "il": "appel",
+        "nous": "appel",
+        "vous": "appel",
+        "ils": "appel"
+      },
+      "variantes": {},
+      "explication": "Présent, 1er groupe : -e, -es, -e, -ons, -ez, -ent. Avec appeler, on double le l devant un e muet : j'appelle, ils appellent ; mais nous appelons."
+    },
+    {
+      "id": "conj-jeter-present",
+      "niveau": 2,
+      "verbe": "jeter",
+      "temps": "present",
+      "competence": "present-eler-eter",
+      "formes": {
+        "je": "jette",
+        "tu": "jettes",
+        "il": "jette",
+        "nous": "jetons",
+        "vous": "jetez",
+        "ils": "jettent"
+      },
+      "radicaux": {
+        "je": "jet",
+        "tu": "jet",
+        "il": "jet",
+        "nous": "jet",
+        "vous": "jet",
+        "ils": "jet"
+      },
+      "variantes": {},
+      "explication": "Présent, 1er groupe : -e, -es, -e, -ons, -ez, -ent. Avec jeter, on double le t devant un e muet : je jette, ils jettent ; mais nous jetons."
+    },
+    {
+      "id": "conj-employer-present",
+      "niveau": 2,
+      "verbe": "employer",
+      "temps": "present",
+      "competence": "present-yer",
+      "formes": {
+        "je": "emploie",
+        "tu": "emploies",
+        "il": "emploie",
+        "nous": "employons",
+        "vous": "employez",
+        "ils": "emploient"
+      },
+      "radicaux": {
+        "je": "emplo",
+        "tu": "emplo",
+        "il": "emplo",
+        "nous": "emplo",
+        "vous": "emplo",
+        "ils": "emplo"
+      },
+      "variantes": {},
+      "explication": "Présent, 1er groupe : -e, -es, -e, -ons, -ez, -ent. Avec -oyer, le y devient i devant un e muet : j'emploie, ils emploient ; mais nous employons."
+    },
+    {
+      "id": "conj-nettoyer-present",
+      "niveau": 2,
+      "verbe": "nettoyer",
+      "temps": "present",
+      "competence": "present-yer",
+      "formes": {
+        "je": "nettoie",
+        "tu": "nettoies",
+        "il": "nettoie",
+        "nous": "nettoyons",
+        "vous": "nettoyez",
+        "ils": "nettoient"
+      },
+      "radicaux": {
+        "je": "netto",
+        "tu": "netto",
+        "il": "netto",
+        "nous": "netto",
+        "vous": "netto",
+        "ils": "netto"
+      },
+      "variantes": {},
+      "explication": "Présent, 1er groupe : -e, -es, -e, -ons, -ez, -ent. Avec -oyer, le y devient i devant un e muet : je nettoie, ils nettoient ; mais nous nettoyons."
+    },
+    {
+      "id": "conj-venir-present",
+      "niveau": 2,
+      "verbe": "venir",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "viens",
+        "tu": "viens",
+        "il": "vient",
+        "nous": "venons",
+        "vous": "venez",
+        "ils": "viennent"
+      },
+      "radicaux": {
+        "je": "",
+        "tu": "",
+        "il": "",
+        "nous": "",
+        "vous": "",
+        "ils": ""
+      },
+      "variantes": {},
+      "explication": "Venir est irrégulier au présent : je viens, tu viens, il vient, nous venons, vous venez, ils viennent."
+    },
+    {
+      "id": "conj-pouvoir-present",
+      "niveau": 2,
+      "verbe": "pouvoir",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "peux",
+        "tu": "peux",
+        "il": "peut",
+        "nous": "pouvons",
+        "vous": "pouvez",
+        "ils": "peuvent"
+      },
+      "radicaux": {
+        "je": "",
+        "tu": "",
+        "il": "",
+        "nous": "",
+        "vous": "",
+        "ils": ""
+      },
+      "variantes": {},
+      "explication": "Pouvoir est irrégulier au présent : je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent."
+    },
+    {
+      "id": "conj-voir-present",
+      "niveau": 2,
+      "verbe": "voir",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "vois",
+        "tu": "vois",
+        "il": "voit",
+        "nous": "voyons",
+        "vous": "voyez",
+        "ils": "voient"
+      },
+      "radicaux": {
+        "je": "vo",
+        "tu": "vo",
+        "il": "vo",
+        "nous": "vo",
+        "vous": "vo",
+        "ils": "vo"
+      },
+      "variantes": {},
+      "explication": "Voir au présent : je vois, tu vois, il voit, puis nous voyons, vous voyez, ils voient."
+    },
+    {
+      "id": "conj-vouloir-present",
+      "niveau": 2,
+      "verbe": "vouloir",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "veux",
+        "tu": "veux",
+        "il": "veut",
+        "nous": "voulons",
+        "vous": "voulez",
+        "ils": "veulent"
+      },
+      "radicaux": {
+        "je": "",
+        "tu": "",
+        "il": "",
+        "nous": "",
+        "vous": "",
+        "ils": ""
+      },
+      "variantes": {},
+      "explication": "Vouloir est irrégulier au présent : je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent."
+    },
+    {
+      "id": "conj-prendre-present",
+      "niveau": 2,
+      "verbe": "prendre",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "prends",
+        "tu": "prends",
+        "il": "prend",
+        "nous": "prenons",
+        "vous": "prenez",
+        "ils": "prennent"
+      },
+      "radicaux": {
+        "je": "pren",
+        "tu": "pren",
+        "il": "pren",
+        "nous": "pren",
+        "vous": "pren",
+        "ils": "pren"
+      },
+      "variantes": {},
+      "explication": "Prendre au présent : je prends, tu prends, il prend, puis nous prenons, vous prenez, ils prennent."
+    },
+    {
+      "id": "conj-aller-futur",
+      "niveau": 2,
+      "verbe": "aller",
+      "temps": "futur",
+      "competence": "futur",
+      "formes": {
+        "je": "irai",
+        "tu": "iras",
+        "il": "ira",
+        "nous": "irons",
+        "vous": "irez",
+        "ils": "iront"
+      },
+      "radicaux": {
+        "je": "ir",
+        "tu": "ir",
+        "il": "ir",
+        "nous": "ir",
+        "vous": "ir",
+        "ils": "ir"
+      },
+      "variantes": {},
+      "explication": "Futur : -ai, -as, -a, -ons, -ez, -ont. Aller est irrégulier : son radical est ir-."
+    },
+    {
+      "id": "conj-faire-futur",
+      "niveau": 2,
+      "verbe": "faire",
+      "temps": "futur",
+      "competence": "futur",
+      "formes": {
+        "je": "ferai",
+        "tu": "feras",
+        "il": "fera",
+        "nous": "ferons",
+        "vous": "ferez",
+        "ils": "feront"
+      },
+      "radicaux": {
+        "je": "fer",
+        "tu": "fer",
+        "il": "fer",
+        "nous": "fer",
+        "vous": "fer",
+        "ils": "fer"
+      },
+      "variantes": {},
+      "explication": "Futur : -ai, -as, -a, -ons, -ez, -ont. Faire est irrégulier : son radical est fer-."
+    },
+    {
+      "id": "conj-partir-passe-compose",
+      "niveau": 2,
+      "verbe": "partir",
+      "temps": "passe-compose",
+      "competence": "passe-compose-etre",
+      "formes": {
+        "je": "suis parti",
+        "tu": "es parti",
+        "il": "est parti",
+        "nous": "sommes partis",
+        "vous": "êtes partis",
+        "ils": "sont partis"
+      },
+      "radicaux": {
+        "je": "suis part",
+        "tu": "es part",
+        "il": "est part",
+        "nous": "sommes part",
+        "vous": "êtes part",
+        "ils": "sont part"
+      },
+      "variantes": {
+        "je": [
+          "suis partie"
+        ],
+        "tu": [
+          "es partie"
+        ],
+        "il": [
+          "est partie"
+        ],
+        "nous": [
+          "sommes parties"
+        ],
+        "vous": [
+          "êtes parti",
+          "êtes partie",
+          "êtes parties"
+        ],
+        "ils": [
+          "sont parties"
+        ]
+      },
+      "explication": "Passé composé avec être : être au présent + le participe passé, qui s'accorde avec le sujet (elles sont parties). On accepte aussi le féminin."
+    },
+    {
+      "id": "conj-aller-passe-compose",
+      "niveau": 2,
+      "verbe": "aller",
+      "temps": "passe-compose",
+      "competence": "passe-compose-etre",
+      "formes": {
+        "je": "suis allé",
+        "tu": "es allé",
+        "il": "est allé",
+        "nous": "sommes allés",
+        "vous": "êtes allés",
+        "ils": "sont allés"
+      },
+      "radicaux": {
+        "je": "suis all",
+        "tu": "es all",
+        "il": "est all",
+        "nous": "sommes all",
+        "vous": "êtes all",
+        "ils": "sont all"
+      },
+      "variantes": {
+        "je": [
+          "suis allée"
+        ],
+        "tu": [
+          "es allée"
+        ],
+        "il": [
+          "est allée"
+        ],
+        "nous": [
+          "sommes allées"
+        ],
+        "vous": [
+          "êtes allé",
+          "êtes allée",
+          "êtes allées"
+        ],
+        "ils": [
+          "sont allées"
+        ]
+      },
+      "explication": "Passé composé avec être : être au présent + le participe passé, qui s'accorde avec le sujet (elles sont allées). On accepte aussi le féminin."
+    },
+    {
+      "id": "conj-manger-passe-compose",
+      "niveau": 2,
+      "verbe": "manger",
+      "temps": "passe-compose",
+      "competence": "passe-compose-avoir",
+      "formes": {
+        "je": "ai mangé",
+        "tu": "as mangé",
+        "il": "a mangé",
+        "nous": "avons mangé",
+        "vous": "avez mangé",
+        "ils": "ont mangé"
+      },
+      "radicaux": {
+        "je": "ai mang",
+        "tu": "as mang",
+        "il": "a mang",
+        "nous": "avons mang",
+        "vous": "avez mang",
+        "ils": "ont mang"
+      },
+      "variantes": {},
+      "explication": "Passé composé : l'auxiliaire avoir au présent + le participe passé (mangé)."
+    },
+    {
+      "id": "conj-finir-passe-compose",
+      "niveau": 2,
+      "verbe": "finir",
+      "temps": "passe-compose",
+      "competence": "passe-compose-avoir",
+      "formes": {
+        "je": "ai fini",
+        "tu": "as fini",
+        "il": "a fini",
+        "nous": "avons fini",
+        "vous": "avez fini",
+        "ils": "ont fini"
+      },
+      "radicaux": {
+        "je": "ai fin",
+        "tu": "as fin",
+        "il": "a fin",
+        "nous": "avons fin",
+        "vous": "avez fin",
+        "ils": "ont fin"
+      },
+      "variantes": {},
+      "explication": "Passé composé : l'auxiliaire avoir au présent + le participe passé (fini)."
+    },
+    {
+      "id": "conj-prendre-imparfait",
+      "niveau": 2,
+      "verbe": "prendre",
+      "temps": "imparfait",
+      "competence": "imparfait",
+      "formes": {
+        "je": "prenais",
+        "tu": "prenais",
+        "il": "prenait",
+        "nous": "prenions",
+        "vous": "preniez",
+        "ils": "prenaient"
+      },
+      "radicaux": {
+        "je": "pren",
+        "tu": "pren",
+        "il": "pren",
+        "nous": "pren",
+        "vous": "pren",
+        "ils": "pren"
+      },
+      "variantes": {},
+      "explication": "Imparfait : -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+      "id": "conj-faire-imparfait",
+      "niveau": 2,
+      "verbe": "faire",
+      "temps": "imparfait",
+      "competence": "imparfait",
+      "formes": {
+        "je": "faisais",
+        "tu": "faisais",
+        "il": "faisait",
+        "nous": "faisions",
+        "vous": "faisiez",
+        "ils": "faisaient"
+      },
+      "radicaux": {
+        "je": "fais",
+        "tu": "fais",
+        "il": "fais",
+        "nous": "fais",
+        "vous": "fais",
+        "ils": "fais"
+      },
+      "variantes": {},
+      "explication": "Imparfait : -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+      "id": "conj-aller-imperatif-present",
+      "niveau": 2,
+      "verbe": "aller",
+      "temps": "imperatif-present",
+      "competence": "imperatif-present",
+      "formes": {
+        "tu": "va",
+        "nous": "allons",
+        "vous": "allez"
+      },
+      "radicaux": {
+        "tu": "",
+        "nous": "",
+        "vous": ""
+      },
+      "variantes": {},
+      "explication": "Impératif présent : aller fait va (sans s), allons, allez."
+    },
+    {
+      "id": "conj-etre-imperatif-present",
+      "niveau": 2,
+      "verbe": "être",
+      "temps": "imperatif-present",
+      "competence": "imperatif-present",
+      "formes": {
+        "tu": "sois",
+        "nous": "soyons",
+        "vous": "soyez"
+      },
+      "radicaux": {
+        "tu": "s",
+        "nous": "s",
+        "vous": "s"
+      },
+      "variantes": {},
+      "explication": "Impératif présent : être fait sois, soyons, soyez."
+    },
+    {
+      "id": "conj-avoir-imperatif-present",
+      "niveau": 2,
+      "verbe": "avoir",
+      "temps": "imperatif-present",
+      "competence": "imperatif-present",
+      "formes": {
+        "tu": "aie",
+        "nous": "ayons",
+        "vous": "ayez"
+      },
+      "radicaux": {
+        "tu": "a",
+        "nous": "a",
+        "vous": "a"
+      },
+      "variantes": {},
+      "explication": "Impératif présent : avoir fait aie, ayons, ayez."
+    },
+    {
+      "id": "conj-chanter-conditionnel-present",
+      "niveau": 2,
+      "verbe": "chanter",
+      "temps": "conditionnel-present",
+      "competence": "conditionnel-present",
+      "formes": {
+        "je": "chanterais",
+        "tu": "chanterais",
+        "il": "chanterait",
+        "nous": "chanterions",
+        "vous": "chanteriez",
+        "ils": "chanteraient"
+      },
+      "radicaux": {
+        "je": "chanter",
+        "tu": "chanter",
+        "il": "chanter",
+        "nous": "chanter",
+        "vous": "chanter",
+        "ils": "chanter"
+      },
+      "variantes": {},
+      "explication": "Conditionnel présent : le radical du futur + les terminaisons de l'imparfait : -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+      "id": "conj-finir-conditionnel-present",
+      "niveau": 2,
+      "verbe": "finir",
+      "temps": "conditionnel-present",
+      "competence": "conditionnel-present",
+      "formes": {
+        "je": "finirais",
+        "tu": "finirais",
+        "il": "finirait",
+        "nous": "finirions",
+        "vous": "finiriez",
+        "ils": "finiraient"
+      },
+      "radicaux": {
+        "je": "finir",
+        "tu": "finir",
+        "il": "finir",
+        "nous": "finir",
+        "vous": "finir",
+        "ils": "finir"
+      },
+      "variantes": {},
+      "explication": "Conditionnel présent : le radical du futur + les terminaisons de l'imparfait : -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+      "id": "conj-savoir-present",
+      "niveau": 3,
+      "verbe": "savoir",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "sais",
+        "tu": "sais",
+        "il": "sait",
+        "nous": "savons",
+        "vous": "savez",
+        "ils": "savent"
+      },
+      "radicaux": {
+        "je": "sa",
+        "tu": "sa",
+        "il": "sa",
+        "nous": "sa",
+        "vous": "sa",
+        "ils": "sa"
+      },
+      "variantes": {},
+      "explication": "Savoir est irrégulier au présent : je sais, tu sais, il sait, nous savons, vous savez, ils savent."
+    },
+    {
+      "id": "conj-devoir-present",
+      "niveau": 3,
+      "verbe": "devoir",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "dois",
+        "tu": "dois",
+        "il": "doit",
+        "nous": "devons",
+        "vous": "devez",
+        "ils": "doivent"
+      },
+      "radicaux": {
+        "je": "",
+        "tu": "",
+        "il": "",
+        "nous": "",
+        "vous": "",
+        "ils": ""
+      },
+      "variantes": {},
+      "explication": "Devoir est irrégulier au présent : je dois, tu dois, il doit, nous devons, vous devez, ils doivent."
+    },
+    {
+      "id": "conj-mettre-present",
+      "niveau": 3,
+      "verbe": "mettre",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "mets",
+        "tu": "mets",
+        "il": "met",
+        "nous": "mettons",
+        "vous": "mettez",
+        "ils": "mettent"
+      },
+      "radicaux": {
+        "je": "met",
+        "tu": "met",
+        "il": "me",
+        "nous": "met",
+        "vous": "met",
+        "ils": "met"
+      },
+      "variantes": {},
+      "explication": "Mettre au présent : je mets, tu mets, il met (un seul t), puis nous mettons, vous mettez, ils mettent."
+    },
+    {
+      "id": "conj-ecrire-present",
+      "niveau": 3,
+      "verbe": "écrire",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "écris",
+        "tu": "écris",
+        "il": "écrit",
+        "nous": "écrivons",
+        "vous": "écrivez",
+        "ils": "écrivent"
+      },
+      "radicaux": {
+        "je": "écri",
+        "tu": "écri",
+        "il": "écri",
+        "nous": "écri",
+        "vous": "écri",
+        "ils": "écri"
+      },
+      "variantes": {},
+      "explication": "Écrire au présent : j'écris, tu écris, il écrit, puis nous écrivons, vous écrivez, ils écrivent."
+    },
+    {
+      "id": "conj-partir-present",
+      "niveau": 3,
+      "verbe": "partir",
+      "temps": "present",
+      "competence": "present-irreguliers",
+      "formes": {
+        "je": "pars",
+        "tu": "pars",
+        "il": "part",
+        "nous": "partons",
+        "vous": "partez",
+        "ils": "partent"
+      },
+      "radicaux": {
+        "je": "par",
+        "tu": "par",
+        "il": "par",
+        "nous": "par",
+        "vous": "par",
+        "ils": "par"
+      },
+      "variantes": {},
+      "explication": "Partir au présent : je pars, tu pars, il part, puis nous partons, vous partez, ils partent."
+    },
+    {
+      "id": "conj-chanter-passe-simple",
+      "niveau": 3,
+      "verbe": "chanter",
+      "temps": "passe-simple",
+      "competence": "passe-simple",
+      "formes": {
+        "il": "chanta",
+        "ils": "chantèrent"
+      },
+      "radicaux": {
+        "il": "chant",
+        "ils": "chant"
+      },
+      "variantes": {},
+      "explication": "Passé simple, 3e personne : -a, -èrent pour les verbes en -er."
+    },
+    {
+      "id": "conj-aller-passe-simple",
+      "niveau": 3,
+      "verbe": "aller",
+      "temps": "passe-simple",
+      "competence": "passe-simple",
+      "formes": {
+        "il": "alla",
+        "ils": "allèrent"
+      },
+      "radicaux": {
+        "il": "all",
+        "ils": "all"
+      },
+      "variantes": {},
+      "explication": "Passé simple, 3e personne : aller se termine par -er, donc -a, -èrent."
+    },
+    {
+      "id": "conj-finir-passe-simple",
+      "niveau": 3,
+      "verbe": "finir",
+      "temps": "passe-simple",
+      "competence": "passe-simple",
+      "formes": {
+        "il": "finit",
+        "ils": "finirent"
+      },
+      "radicaux": {
+        "il": "fin",
+        "ils": "fin"
+      },
+      "variantes": {},
+      "explication": "Passé simple, 3e personne : -it, -irent pour les verbes comme finir."
+    },
+    {
+      "id": "conj-avoir-passe-simple",
+      "niveau": 3,
+      "verbe": "avoir",
+      "temps": "passe-simple",
+      "competence": "passe-simple",
+      "formes": {
+        "il": "eut",
+        "ils": "eurent"
+      },
+      "radicaux": {
+        "il": "",
+        "ils": ""
+      },
+      "variantes": {},
+      "explication": "Avoir est irrégulier au passé simple : il eut, ils eurent."
+    },
+    {
+      "id": "conj-etre-passe-simple",
+      "niveau": 3,
+      "verbe": "être",
+      "temps": "passe-simple",
+      "competence": "passe-simple",
+      "formes": {
+        "il": "fut",
+        "ils": "furent"
+      },
+      "radicaux": {
+        "il": "fu",
+        "ils": "fu"
+      },
+      "variantes": {},
+      "explication": "Être est irrégulier au passé simple : il fut, ils furent."
+    },
+    {
+      "id": "conj-faire-passe-simple",
+      "niveau": 3,
+      "verbe": "faire",
+      "temps": "passe-simple",
+      "competence": "passe-simple",
+      "formes": {
+        "il": "fit",
+        "ils": "firent"
+      },
+      "radicaux": {
+        "il": "fi",
+        "ils": "fi"
+      },
+      "variantes": {},
+      "explication": "Faire est irrégulier au passé simple : il fit, ils firent."
+    },
+    {
+      "id": "conj-venir-passe-simple",
+      "niveau": 3,
+      "verbe": "venir",
+      "temps": "passe-simple",
+      "competence": "passe-simple",
+      "formes": {
+        "il": "vint",
+        "ils": "vinrent"
+      },
+      "radicaux": {
+        "il": "vin",
+        "ils": "vin"
+      },
+      "variantes": {},
+      "explication": "Venir est irrégulier au passé simple : il vint, ils vinrent."
+    },
+    {
+      "id": "conj-voir-passe-simple",
+      "niveau": 3,
+      "verbe": "voir",
+      "temps": "passe-simple",
+      "competence": "passe-simple",
+      "formes": {
+        "il": "vit",
+        "ils": "virent"
+      },
+      "radicaux": {
+        "il": "vi",
+        "ils": "vi"
+      },
+      "variantes": {},
+      "explication": "Voir au passé simple : il vit, ils virent."
+    },
+    {
+      "id": "conj-prendre-passe-simple",
+      "niveau": 3,
+      "verbe": "prendre",
+      "temps": "passe-simple",
+      "competence": "passe-simple",
+      "formes": {
+        "il": "prit",
+        "ils": "prirent"
+      },
+      "radicaux": {
+        "il": "pri",
+        "ils": "pri"
+      },
+      "variantes": {},
+      "explication": "Prendre au passé simple : il prit, ils prirent."
+    },
+    {
+      "id": "conj-chanter-plus-que-parfait",
+      "niveau": 3,
+      "verbe": "chanter",
+      "temps": "plus-que-parfait",
+      "competence": "plus-que-parfait",
+      "formes": {
+        "je": "avais chanté",
+        "tu": "avais chanté",
+        "il": "avait chanté",
+        "nous": "avions chanté",
+        "vous": "aviez chanté",
+        "ils": "avaient chanté"
+      },
+      "radicaux": {
+        "je": "avais chant",
+        "tu": "avais chant",
+        "il": "avait chant",
+        "nous": "avions chant",
+        "vous": "aviez chant",
+        "ils": "avaient chant"
+      },
+      "variantes": {},
+      "explication": "Plus-que-parfait : l'auxiliaire à l'imparfait + le participe passé (j'avais chanté)."
+    },
+    {
+      "id": "conj-finir-plus-que-parfait",
+      "niveau": 3,
+      "verbe": "finir",
+      "temps": "plus-que-parfait",
+      "competence": "plus-que-parfait",
+      "formes": {
+        "je": "avais fini",
+        "tu": "avais fini",
+        "il": "avait fini",
+        "nous": "avions fini",
+        "vous": "aviez fini",
+        "ils": "avaient fini"
+      },
+      "radicaux": {
+        "je": "avais fin",
+        "tu": "avais fin",
+        "il": "avait fin",
+        "nous": "avions fin",
+        "vous": "aviez fin",
+        "ils": "avaient fin"
+      },
+      "variantes": {},
+      "explication": "Plus-que-parfait : l'auxiliaire à l'imparfait + le participe passé (j'avais fini)."
+    },
+    {
+      "id": "conj-faire-plus-que-parfait",
+      "niveau": 3,
+      "verbe": "faire",
+      "temps": "plus-que-parfait",
+      "competence": "plus-que-parfait",
+      "formes": {
+        "je": "avais fait",
+        "tu": "avais fait",
+        "il": "avait fait",
+        "nous": "avions fait",
+        "vous": "aviez fait",
+        "ils": "avaient fait"
+      },
+      "radicaux": {
+        "je": "avais fai",
+        "tu": "avais fai",
+        "il": "avait fai",
+        "nous": "avions fai",
+        "vous": "aviez fai",
+        "ils": "avaient fai"
+      },
+      "variantes": {},
+      "explication": "Plus-que-parfait : l'auxiliaire à l'imparfait + le participe passé (j'avais fait)."
+    },
+    {
+      "id": "conj-aller-plus-que-parfait",
+      "niveau": 3,
+      "verbe": "aller",
+      "temps": "plus-que-parfait",
+      "competence": "plus-que-parfait",
+      "formes": {
+        "je": "étais allé",
+        "tu": "étais allé",
+        "il": "était allé",
+        "nous": "étions allés",
+        "vous": "étiez allés",
+        "ils": "étaient allés"
+      },
+      "radicaux": {
+        "je": "étais all",
+        "tu": "étais all",
+        "il": "était all",
+        "nous": "étions all",
+        "vous": "étiez all",
+        "ils": "étaient all"
+      },
+      "variantes": {
+        "je": [
+          "étais allée"
+        ],
+        "tu": [
+          "étais allée"
+        ],
+        "il": [
+          "était allée"
+        ],
+        "nous": [
+          "étions allées"
+        ],
+        "vous": [
+          "étiez allé",
+          "étiez allée",
+          "étiez allées"
+        ],
+        "ils": [
+          "étaient allées"
+        ]
+      },
+      "explication": "Plus-que-parfait avec être : être à l'imparfait + le participe passé, accordé avec le sujet (elles étaient allées). On accepte aussi le féminin."
+    },
+    {
+      "id": "conj-venir-plus-que-parfait",
+      "niveau": 3,
+      "verbe": "venir",
+      "temps": "plus-que-parfait",
+      "competence": "plus-que-parfait",
+      "formes": {
+        "je": "étais venu",
+        "tu": "étais venu",
+        "il": "était venu",
+        "nous": "étions venus",
+        "vous": "étiez venus",
+        "ils": "étaient venus"
+      },
+      "radicaux": {
+        "je": "étais ven",
+        "tu": "étais ven",
+        "il": "était ven",
+        "nous": "étions ven",
+        "vous": "étiez ven",
+        "ils": "étaient ven"
+      },
+      "variantes": {
+        "je": [
+          "étais venue"
+        ],
+        "tu": [
+          "étais venue"
+        ],
+        "il": [
+          "était venue"
+        ],
+        "nous": [
+          "étions venues"
+        ],
+        "vous": [
+          "étiez venu",
+          "étiez venue",
+          "étiez venues"
+        ],
+        "ils": [
+          "étaient venues"
+        ]
+      },
+      "explication": "Plus-que-parfait avec être : être à l'imparfait + le participe passé, accordé avec le sujet (elles étaient venues). On accepte aussi le féminin."
+    },
+    {
+      "id": "conj-etre-conditionnel-present",
+      "niveau": 3,
+      "verbe": "être",
+      "temps": "conditionnel-present",
+      "competence": "conditionnel-present",
+      "formes": {
+        "je": "serais",
+        "tu": "serais",
+        "il": "serait",
+        "nous": "serions",
+        "vous": "seriez",
+        "ils": "seraient"
+      },
+      "radicaux": {
+        "je": "ser",
+        "tu": "ser",
+        "il": "ser",
+        "nous": "ser",
+        "vous": "ser",
+        "ils": "ser"
+      },
+      "variantes": {},
+      "explication": "Conditionnel présent : le radical du futur (ser-) + les terminaisons de l'imparfait : -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+      "id": "conj-avoir-conditionnel-present",
+      "niveau": 3,
+      "verbe": "avoir",
+      "temps": "conditionnel-present",
+      "competence": "conditionnel-present",
+      "formes": {
+        "je": "aurais",
+        "tu": "aurais",
+        "il": "aurait",
+        "nous": "aurions",
+        "vous": "auriez",
+        "ils": "auraient"
+      },
+      "radicaux": {
+        "je": "aur",
+        "tu": "aur",
+        "il": "aur",
+        "nous": "aur",
+        "vous": "aur",
+        "ils": "aur"
+      },
+      "variantes": {},
+      "explication": "Conditionnel présent : le radical du futur (aur-) + les terminaisons de l'imparfait : -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+      "id": "conj-aller-conditionnel-present",
+      "niveau": 3,
+      "verbe": "aller",
+      "temps": "conditionnel-present",
+      "competence": "conditionnel-present",
+      "formes": {
+        "je": "irais",
+        "tu": "irais",
+        "il": "irait",
+        "nous": "irions",
+        "vous": "iriez",
+        "ils": "iraient"
+      },
+      "radicaux": {
+        "je": "ir",
+        "tu": "ir",
+        "il": "ir",
+        "nous": "ir",
+        "vous": "ir",
+        "ils": "ir"
+      },
+      "variantes": {},
+      "explication": "Conditionnel présent : le radical du futur (ir-) + les terminaisons de l'imparfait : -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+      "id": "conj-pouvoir-futur",
+      "niveau": 3,
+      "verbe": "pouvoir",
+      "temps": "futur",
+      "competence": "futur",
+      "formes": {
+        "je": "pourrai",
+        "tu": "pourras",
+        "il": "pourra",
+        "nous": "pourrons",
+        "vous": "pourrez",
+        "ils": "pourront"
+      },
+      "radicaux": {
+        "je": "pourr",
+        "tu": "pourr",
+        "il": "pourr",
+        "nous": "pourr",
+        "vous": "pourr",
+        "ils": "pourr"
+      },
+      "variantes": {},
+      "explication": "Futur : -ai, -as, -a, -ons, -ez, -ont. Pouvoir est irrégulier : son radical est pourr- (deux r)."
+    },
+    {
+      "id": "conj-venir-futur",
+      "niveau": 3,
+      "verbe": "venir",
+      "temps": "futur",
+      "competence": "futur",
+      "formes": {
+        "je": "viendrai",
+        "tu": "viendras",
+        "il": "viendra",
+        "nous": "viendrons",
+        "vous": "viendrez",
+        "ils": "viendront"
+      },
+      "radicaux": {
+        "je": "viendr",
+        "tu": "viendr",
+        "il": "viendr",
+        "nous": "viendr",
+        "vous": "viendr",
+        "ils": "viendr"
+      },
+      "variantes": {},
+      "explication": "Futur : -ai, -as, -a, -ons, -ez, -ont. Venir est irrégulier : son radical est viendr-."
+    },
+    {
+      "id": "conj-voir-futur",
+      "niveau": 3,
+      "verbe": "voir",
+      "temps": "futur",
+      "competence": "futur",
+      "formes": {
+        "je": "verrai",
+        "tu": "verras",
+        "il": "verra",
+        "nous": "verrons",
+        "vous": "verrez",
+        "ils": "verront"
+      },
+      "radicaux": {
+        "je": "verr",
+        "tu": "verr",
+        "il": "verr",
+        "nous": "verr",
+        "vous": "verr",
+        "ils": "verr"
+      },
+      "variantes": {},
+      "explication": "Futur : -ai, -as, -a, -ons, -ez, -ont. Voir est irrégulier : son radical est verr- (deux r)."
+    },
+    {
+      "id": "conj-vouloir-futur",
+      "niveau": 3,
+      "verbe": "vouloir",
+      "temps": "futur",
+      "competence": "futur",
+      "formes": {
+        "je": "voudrai",
+        "tu": "voudras",
+        "il": "voudra",
+        "nous": "voudrons",
+        "vous": "voudrez",
+        "ils": "voudront"
+      },
+      "radicaux": {
+        "je": "voudr",
+        "tu": "voudr",
+        "il": "voudr",
+        "nous": "voudr",
+        "vous": "voudr",
+        "ils": "voudr"
+      },
+      "variantes": {},
+      "explication": "Futur : -ai, -as, -a, -ons, -ez, -ont. Vouloir est irrégulier : son radical est voudr-."
+    },
+    {
+      "id": "conj-dire-imperatif-present",
+      "niveau": 3,
+      "verbe": "dire",
+      "temps": "imperatif-present",
+      "competence": "imperatif-present",
+      "formes": {
+        "tu": "dis",
+        "nous": "disons",
+        "vous": "dites"
+      },
+      "radicaux": {
+        "tu": "di",
+        "nous": "dis",
+        "vous": "dit"
+      },
+      "variantes": {},
+      "explication": "Impératif présent : dire fait dis, disons, dites (vous dites, avec un t)."
+    },
+    {
+      "id": "conj-savoir-imperatif-present",
+      "niveau": 3,
+      "verbe": "savoir",
+      "temps": "imperatif-present",
+      "competence": "imperatif-present",
+      "formes": {
+        "tu": "sache",
+        "nous": "sachons",
+        "vous": "sachez"
+      },
+      "radicaux": {
+        "tu": "sach",
+        "nous": "sach",
+        "vous": "sach"
+      },
+      "variantes": {},
+      "explication": "Impératif présent : savoir fait sache, sachons, sachez."
+    },
+    {
+      "id": "conj-faire-imperatif-present",
+      "niveau": 3,
+      "verbe": "faire",
+      "temps": "imperatif-present",
+      "competence": "imperatif-present",
+      "formes": {
+        "tu": "fais",
+        "nous": "faisons",
+        "vous": "faites"
+      },
+      "radicaux": {
+        "tu": "fai",
+        "nous": "fais",
+        "vous": "fai"
+      },
+      "variantes": {},
+      "explication": "Impératif présent : faire fait fais, faisons, faites (vous faites, avec un t)."
+    },
+    {
+      "id": "conj-venir-imperatif-present",
+      "niveau": 3,
+      "verbe": "venir",
+      "temps": "imperatif-present",
+      "competence": "imperatif-present",
+      "formes": {
+        "tu": "viens",
+        "nous": "venons",
+        "vous": "venez"
+      },
+      "radicaux": {
+        "tu": "vien",
+        "nous": "ven",
+        "vous": "ven"
+      },
+      "variantes": {},
+      "explication": "Impératif présent : venir fait viens (avec s), venons, venez."
+    },
+    {
+      "id": "conj-prendre-passe-compose",
+      "niveau": 3,
+      "verbe": "prendre",
+      "temps": "passe-compose",
+      "competence": "passe-compose-avoir",
+      "formes": {
+        "je": "ai pris",
+        "tu": "as pris",
+        "il": "a pris",
+        "nous": "avons pris",
+        "vous": "avez pris",
+        "ils": "ont pris"
+      },
+      "radicaux": {
+        "je": "ai pr",
+        "tu": "as pr",
+        "il": "a pr",
+        "nous": "avons pr",
+        "vous": "avez pr",
+        "ils": "ont pr"
+      },
+      "variantes": {},
+      "explication": "Passé composé : l'auxiliaire avoir au présent + le participe passé (pris)."
+    },
+    {
+      "id": "conj-venir-passe-compose",
+      "niveau": 3,
+      "verbe": "venir",
+      "temps": "passe-compose",
+      "competence": "passe-compose-etre",
+      "formes": {
+        "je": "suis venu",
+        "tu": "es venu",
+        "il": "est venu",
+        "nous": "sommes venus",
+        "vous": "êtes venus",
+        "ils": "sont venus"
+      },
+      "radicaux": {
+        "je": "suis ven",
+        "tu": "es ven",
+        "il": "est ven",
+        "nous": "sommes ven",
+        "vous": "êtes ven",
+        "ils": "sont ven"
+      },
+      "variantes": {
+        "je": [
+          "suis venue"
+        ],
+        "tu": [
+          "es venue"
+        ],
+        "il": [
+          "est venue"
+        ],
+        "nous": [
+          "sommes venues"
+        ],
+        "vous": [
+          "êtes venu",
+          "êtes venue",
+          "êtes venues"
+        ],
+        "ils": [
+          "sont venues"
+        ]
+      },
+      "explication": "Passé composé avec être : être au présent + le participe passé, qui s'accorde avec le sujet (elles sont venues). On accepte aussi le féminin."
+    }
+  ]
+}

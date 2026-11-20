@@ -1,0 +1,120 @@
+/* Dictée audio : les commandes de lecture, le grand champ et la correction mot à mot. */
+
+/* Le contenu des exercices est plus large que celui des hubs : 1240 px sur PC, 1100 px sur tablette (marges comprises). */
+main:has(.dictee-audio__disposition) {
+  --largeur-contenu: 83.5rem;
+}
+
+@media (max-width: 1180px) {
+  main:has(.dictee-audio__disposition) {
+    --largeur-contenu: 73.25rem;
+  }
+}
+
+/* Pompon et sa bulle à gauche, la carte d'exercice à droite. */
+.dictee-audio__disposition {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--marge-haut-page);
+  align-items: flex-start;
+}
+
+.dictee-audio__compagnon {
+  flex: 0 0 15.625rem; /* 250 px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espace-2);
+}
+
+.dictee-audio__compagnon .mascotte {
+  max-width: 100%;
+}
+
+.dictee-audio__disposition > .carte-exercice {
+  flex: 1 1 35rem; /* 560 px */
+  min-width: 0;
+}
+
+.dictee-audio__theme {
+  margin: 0 0 var(--espace-3);
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-3);
+  font-weight: 600;
+  color: var(--framboise);
+}
+
+/* Quatre boutons d'écoute : le premier (framboise) est l'action principale. */
+.dictee-audio__commandes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-3);
+  margin-bottom: var(--espace-3);
+}
+
+.dictee-audio__commandes .bouton {
+  padding: 0.625rem 1.25rem;
+  font-size: 1.125rem;
+}
+
+.dictee-audio__option {
+  display: flex;
+  align-items: center;
+  gap: var(--espace-3);
+  min-height: var(--cible-minimale);
+  margin-bottom: var(--espace-3);
+  font-size: 1.0625rem;
+}
+
+/* Case à cocher de 28 px : framboise avec une coche blanche quand elle est cochée. */
+.dictee-audio__option input {
+  appearance: none;
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin: 0;
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.dictee-audio__option input:checked {
+  background: var(--framboise);
+}
+
+.dictee-audio__option input:checked::after {
+  content: "\2713"; /* ✓ */
+  color: var(--blanc);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.dictee-audio__correction {
+  margin: var(--espace-3) 0 0;
+  font-size: var(--taille-exercice);
+  line-height: 2.4;
+}
+
+.dictee-audio__correction:empty {
+  display: none;
+}
+
+.dictee-audio__texte-correct {
+  margin-bottom: var(--espace-4);
+}
+
+.dictee-audio__titre-correct {
+  margin: 0 0 var(--espace-3);
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-3);
+  color: var(--framboise-fonce);
+}
+
+.dictee-audio__texte {
+  margin: 0;
+  font-size: var(--taille-exercice);
+  line-height: 1.8;
+}

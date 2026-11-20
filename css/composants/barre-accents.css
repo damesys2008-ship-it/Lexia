@@ -1,0 +1,94 @@
+/* Champ de texte d'exercice et barre d'accents (js/ui/champ-texte.js, js/ui/barre-accents.js). */
+
+.champ-texte {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-2);
+}
+
+.champ-texte__saisie {
+  width: 100%;
+  min-height: var(--cible-minimale);
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--creme);
+  color: var(--texte);
+  border: var(--bordure);
+  border-radius: 1.375rem; /* 22 px */
+  font-family: var(--police-texte);
+  font-size: var(--taille-exercice);
+  line-height: var(--interligne);
+}
+
+.champ-texte__saisie:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+textarea.champ-texte__saisie {
+  min-height: 9.5rem;
+  resize: vertical;
+}
+
+.barre-accents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-2);
+}
+
+.barre-accents__touche {
+  min-width: var(--cible-minimale);
+  min-height: var(--cible-minimale);
+  padding: 0;
+  background: var(--blanc);
+  color: var(--texte);
+  border: var(--bordure);
+  border-radius: var(--rayon-petit);
+  box-shadow: 0 3px 0 var(--prune);
+  font-family: var(--police-titre);
+  font-size: 1.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: background-color var(--duree-courte) ease;
+}
+
+/* MAJ : la lettre suivante sera une majuscule ; enfoncée (jaune plein) tant qu'elle est active. */
+.barre-accents__touche--majuscule {
+  padding: 0 var(--espace-4);
+  background: var(--soleil-clair);
+  font-size: 1.125rem;
+}
+
+.barre-accents__touche--majuscule:hover {
+  background: var(--soleil);
+}
+
+.barre-accents__touche--majuscule[aria-pressed="true"] {
+  background: var(--soleil);
+  box-shadow: 0 0 0 var(--prune);
+  transform: translateY(3px);
+}
+
+.barre-accents__touche:hover {
+  background: var(--bonbon);
+}
+
+/* Appuyée : la touche s'enfonce dans son ombre. */
+.barre-accents__touche:active {
+  background: var(--framboise);
+  color: var(--blanc);
+  box-shadow: 0 0 0 var(--prune);
+  transform: translateY(3px);
+}
+
+.barre-accents__touche:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+@media (max-width: 1180px) {
+  .barre-accents__touche {
+    min-width: 3.5rem; /* 56 px */
+    min-height: 3.5rem;
+  }
+}

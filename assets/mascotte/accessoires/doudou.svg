@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « doudou » pour Pompon, emplacement main. Dessiné en coordonnées du viewBox ; le groupe ci-dessous compense le décalage (170, 195) du bras droit, où l'emplacement est rattaché. -->
+  <g>
+    <g transform="translate(-170 -195)">
+      <path d="M188.0,197.0 L192.7,205.5 L202.3,207.4 L195.6,214.5 L196.8,224.1 L188.0,220.0 L179.2,224.1 L180.4,214.5 L173.7,207.4 L183.3,205.5 Z" fill="#FFC93C" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="184" cy="210" r="1.6" fill="#241B4B"/>
+      <circle cx="192" cy="210" r="1.6" fill="#241B4B"/>
+    </g>
+  </g>
+</svg>

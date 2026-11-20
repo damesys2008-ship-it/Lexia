@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « livre » pour Pompon, emplacement main. Dessiné en coordonnées du viewBox ; le groupe ci-dessous compense le décalage (170, 195) du bras droit, où l'emplacement est rattaché. -->
+  <g>
+    <g transform="translate(-170 -195)">
+      <rect x="166" y="198" width="32" height="26" rx="3" fill="#2563C9" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M170 202 L170 220" stroke="#fff" stroke-width="3"/>
+      <rect x="176" y="204" width="16" height="6" rx="2" fill="#fff"/>
+    </g>
+  </g>
+</svg>

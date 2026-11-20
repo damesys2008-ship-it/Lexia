@@ -1,0 +1,93 @@
+/* Composant « choix » (js/ui/choix.js) : des grands boutons, dont un seul est choisi. */
+
+.choix {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-3);
+}
+
+.choix__option {
+  flex: 1 1 15rem; /* assez large pour un mot de 12 lettres : le texte passe à la ligne plutôt que d'être coupé */
+  justify-content: flex-start;
+  gap: var(--espace-3);
+  min-height: 3.5rem; /* 56 px */
+  font-size: 1.5rem; /* 24 px */
+  text-align: left;
+}
+
+.choix__texte {
+  flex: 1;
+  overflow-wrap: break-word;
+}
+
+/* Le numéro de la réponse : rond prune, il sert aussi de raccourci clavier. */
+.choix__numero {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.125rem; /* 34 px */
+  height: 2.125rem;
+  background: var(--prune);
+  border-radius: var(--rayon-rond);
+  color: var(--blanc);
+  font-size: var(--taille-texte);
+}
+
+.choix__marque {
+  flex: none;
+  font-weight: 700;
+}
+
+.choix__marque:empty {
+  display: none;
+}
+
+/* Choisi : fond bonbon et contour framboise, en plus de la couleur (aria-pressed porte le sens). */
+.choix__option.est-choisi {
+  --ombre-bouton: var(--framboise);
+  background: var(--bonbon);
+  border-color: var(--framboise);
+}
+
+/* Juste : menthe sur fond menthe clair, avec le ✓ ; lisible même quand le groupe est désactivé. */
+.choix__option.est-juste {
+  --ombre-bouton: var(--menthe);
+  background: var(--menthe-clair);
+  border-color: var(--menthe);
+  color: var(--prune);
+}
+
+.choix__option.est-juste .choix__marque {
+  color: var(--menthe);
+}
+
+.choix__option.est-juste:disabled {
+  opacity: 1;
+}
+
+/* « Presque ! » : fond jaune clair, filet jaune foncé pointillé, texte prune, avec le symbole ✗. */
+.choix__option.est-faux:disabled {
+  --ombre-bouton: var(--soleil-fonce);
+  background: var(--soleil-clair);
+  border: var(--epaisseur-bordure) dashed var(--soleil-fonce);
+  color: var(--prune);
+  opacity: 1;
+  cursor: default;
+}
+
+.choix__option:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.choix.est-desactive .choix__option {
+  cursor: default;
+}
+
+@media (max-width: 1180px) {
+  .choix__option {
+    min-height: 4.25rem; /* 68 px */
+    font-size: 1.5625rem; /* 25 px */
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « impermeable » pour Pompon, emplacement corps. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M63.5 220 L176.5 220 L176 222.3 L175.2 225.1 L174.3 227.8 L173.3 230.4 L172.2 232.9 L171 235.3 L169.7 237.6 L168.3 239.8 L166.8 241.8 L165.2 243.8 L163.5 245.7 L161.7 247.5 L159.9 249.1 L157.9 250.7 L155.9 252.2 L153.8 253.5 L151.6 254.8 L149.4 255.9 L147 257 L144.6 257.9 L142.1 258.8 L139.6 259.5 L137 260.2 L134.3 260.8 L131.6 261.2 L128.8 261.6 L125.9 261.8 L123 262 L120 262 L117 262 L114.1 261.8 L111.2 261.6 L108.4 261.2 L105.7 260.8 L103 260.2 L100.4 259.5 L97.9 258.8 L95.4 257.9 L93 257 L90.6 255.9 L88.4 254.8 L86.2 253.5 L84.1 252.2 L82.1 250.7 L80.1 249.1 L78.3 247.5 L76.5 245.7 L74.8 243.8 L73.2 241.8 L71.7 239.8 L70.3 237.6 L69 235.3 L67.8 232.9 L66.7 230.4 L65.7 227.8 L64.8 225.1 L64 222.3 Z" fill="#D9B384"/><path d="M63.5 220 L176.5 220" fill="none" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M104 220 L120 244 L136 220" fill="none" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M120 244 L120 262" fill="none" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="112" cy="252" r="2.6" fill="#A86B3C"/>
+    <circle cx="128" cy="252" r="2.6" fill="#A86B3C"/>
+  </g>
+</svg>

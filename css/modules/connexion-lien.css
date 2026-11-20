@@ -1,0 +1,28 @@
+/*
+ * Page « Confirmer un lien de mail » : l'adresse du compte bien en vue, et, si un autre compte est connecté,
+ * une phrase sur fond soleil clair (jamais de rouge).
+ */
+
+.connexion__adresse {
+  margin: 0;
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--creme);
+  border: var(--bordure);
+  border-radius: var(--rayon-moyen);
+  font-family: var(--police-titre);
+  font-size: var(--taille-exercice);
+  font-weight: 600;
+  overflow-wrap: anywhere; /* une longue adresse ne fait pas défiler la page */
+}
+
+.connexion__remplacement {
+  margin: 0;
+  padding: var(--espace-2) var(--espace-4);
+  background: var(--soleil-clair);
+  color: var(--prune);
+  border: var(--epaisseur-bordure) solid var(--soleil-fonce);
+  border-radius: var(--rayon-moyen);
+  font-size: 1.125rem; /* 18 px */
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}

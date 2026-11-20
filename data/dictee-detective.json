@@ -1,0 +1,1613 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "det-n1-001",
+      "niveau": 1,
+      "titre": "Le goûter",
+      "texteCorrect": "Les chiens de ma voisine mangent leur gâteau. Ils sont contents.",
+      "fautes": [
+        {
+          "position": 5,
+          "fautif": "mange",
+          "correct": "mangent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les chiens » (ils) : le verbe prend -ent."
+        },
+        {
+          "position": 10,
+          "fautif": "content",
+          "correct": "contents",
+          "competence": "accord-adjectif",
+          "indice": "Accord de l'adjectif",
+          "explication": "« Ils » sont plusieurs : l'adjectif prend un -s."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-002",
+      "niveau": 1,
+      "titre": "Le chat de Léa",
+      "texteCorrect": "Le chat de Léa dort sur le canapé. Il a très chaud. Ses moustaches bougent quand il rêve.",
+      "fautes": [
+        {
+          "position": 4,
+          "fautif": "dors",
+          "correct": "dort",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « le chat » (il) : on écrit il dort, avec un -t."
+        },
+        {
+          "position": 9,
+          "fautif": "à",
+          "correct": "a",
+          "competence": "homophone-a-a",
+          "indice": "a ou à ?",
+          "explication": "Remplace par « avait » : « il avait très chaud » marche, donc c'est le verbe avoir : a."
+        },
+        {
+          "position": 14,
+          "fautif": "bouge",
+          "correct": "bougent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « ses moustaches » (elles) : le verbe prend -ent."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-003",
+      "niveau": 1,
+      "titre": "Au zoo",
+      "texteCorrect": "Les enfants regardent les singes. Un singe saute de branche en branche. Les lions rugissent fort.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "regarde",
+          "correct": "regardent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les enfants » (ils) : le verbe prend -ent."
+        },
+        {
+          "position": 7,
+          "fautif": "sautent",
+          "correct": "saute",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « un singe » (il) : il y a un seul singe, le verbe prend -e."
+        },
+        {
+          "position": 14,
+          "fautif": "rugit",
+          "correct": "rugissent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les lions » (ils) : le verbe prend -ent."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-004",
+      "niveau": 1,
+      "titre": "Le match",
+      "texteCorrect": "Mon frère est sportif. Il joue au foot tous les samedis. Son équipe a gagné hier.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "et",
+          "correct": "est",
+          "competence": "homophone-et-est",
+          "indice": "et ou est ?",
+          "explication": "Remplace par « était » : « mon frère était sportif » marche, donc c'est le verbe être : est."
+        },
+        {
+          "position": 5,
+          "fautif": "jouent",
+          "correct": "joue",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « il » : un seul joueur, le verbe prend -e."
+        },
+        {
+          "position": 13,
+          "fautif": "à",
+          "correct": "a",
+          "competence": "homophone-a-a",
+          "indice": "a ou à ?",
+          "explication": "Remplace par « avait » : « son équipe avait gagné » marche, donc c'est le verbe avoir : a."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-005",
+      "niveau": 1,
+      "titre": "La classe",
+      "texteCorrect": "Dans la classe, les élèves écoutent la maîtresse. Ils sont très calmes. Léa est la plus attentive.",
+      "fautes": [
+        {
+          "position": 5,
+          "fautif": "écoute",
+          "correct": "écoutent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les élèves » (ils) : le verbe prend -ent."
+        },
+        {
+          "position": 9,
+          "fautif": "son",
+          "correct": "sont",
+          "competence": "homophone-son-sont",
+          "indice": "son ou sont ?",
+          "explication": "Remplace par « étaient » : « ils étaient très calmes » marche, donc c'est le verbe être : sont."
+        },
+        {
+          "position": 13,
+          "fautif": "et",
+          "correct": "est",
+          "competence": "homophone-et-est",
+          "indice": "et ou est ?",
+          "explication": "Remplace par « était » : « Léa était la plus attentive » marche, donc c'est le verbe être : est."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-006",
+      "niveau": 1,
+      "titre": "La plage",
+      "texteCorrect": "Nous allons à la plage. Les vagues sont hautes aujourd'hui. Papa porte le parasol.",
+      "fautes": [
+        {
+          "position": 1,
+          "fautif": "allez",
+          "correct": "allons",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « nous » : le verbe aller fait nous allons."
+        },
+        {
+          "position": 7,
+          "fautif": "son",
+          "correct": "sont",
+          "competence": "homophone-son-sont",
+          "indice": "son ou sont ?",
+          "explication": "Remplace par « étaient » : « les vagues étaient hautes » marche, donc c'est le verbe être : sont."
+        },
+        {
+          "position": 11,
+          "fautif": "portent",
+          "correct": "porte",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « papa » (il) : une seule personne, le verbe prend -e."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-007",
+      "niveau": 1,
+      "titre": "Le vélo",
+      "texteCorrect": "Tom a un nouveau vélo. Les roues sont très larges. Il pédale fort pour monter la côte.",
+      "fautes": [
+        {
+          "position": 1,
+          "fautif": "à",
+          "correct": "a",
+          "competence": "homophone-a-a",
+          "indice": "a ou à ?",
+          "explication": "Remplace par « avait » : « Tom avait un nouveau vélo » marche, donc c'est le verbe avoir : a."
+        },
+        {
+          "position": 7,
+          "fautif": "son",
+          "correct": "sont",
+          "competence": "homophone-son-sont",
+          "indice": "son ou sont ?",
+          "explication": "Remplace par « étaient » : « les roues étaient larges » marche, donc c'est le verbe être : sont."
+        },
+        {
+          "position": 11,
+          "fautif": "pédales",
+          "correct": "pédale",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « il » : le verbe pédaler prend -e, sans -s."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-008",
+      "niveau": 1,
+      "titre": "La neige",
+      "texteCorrect": "Il a neigé toute la nuit. Les enfants sortent jouer dans le jardin. Ils font un grand bonhomme de neige.",
+      "fautes": [
+        {
+          "position": 1,
+          "fautif": "à",
+          "correct": "a",
+          "competence": "homophone-a-a",
+          "indice": "a ou à ?",
+          "explication": "Remplace par « avait » : « il avait neigé » marche, donc c'est le verbe avoir : a."
+        },
+        {
+          "position": 8,
+          "fautif": "sorte",
+          "correct": "sortent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les enfants » (ils) : le verbe prend -ent."
+        },
+        {
+          "position": 14,
+          "fautif": "fond",
+          "correct": "font",
+          "competence": "homophone-font-fond",
+          "indice": "font ou fond ?",
+          "explication": "Remplace par « faisaient » : « ils faisaient un bonhomme » marche, donc c'est le verbe faire : font."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-009",
+      "niveau": 1,
+      "titre": "Les devoirs",
+      "texteCorrect": "Lina range son cartable. Elle pose ses cahiers neufs sur la table. Ensuite, elle commence ses devoirs.",
+      "fautes": [
+        {
+          "position": 1,
+          "fautif": "ranges",
+          "correct": "range",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « Lina » (elle) : le verbe ranger prend -e, sans -s."
+        },
+        {
+          "position": 8,
+          "fautif": "neuf",
+          "correct": "neufs",
+          "competence": "accord-adjectif",
+          "indice": "Accord de l'adjectif",
+          "explication": "Il y a plusieurs cahiers : l'adjectif neufs prend un -s."
+        },
+        {
+          "position": 14,
+          "fautif": "commences",
+          "correct": "commence",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « elle » : le verbe commencer prend -e, sans -s."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-010",
+      "niveau": 1,
+      "titre": "Le pique-nique",
+      "texteCorrect": "Hier, nous avons mangé dehors. Les sandwichs étaient délicieux. Maman a apporté des fruits.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "avont",
+          "correct": "avons",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Avec « nous », le verbe avoir se termine par -ons : nous avons."
+        },
+        {
+          "position": 7,
+          "fautif": "était",
+          "correct": "étaient",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les sandwichs » (ils) : le verbe prend -ent."
+        },
+        {
+          "position": 10,
+          "fautif": "à",
+          "correct": "a",
+          "competence": "homophone-a-a",
+          "indice": "a ou à ?",
+          "explication": "Remplace par « avait » : « maman avait apporté » marche, donc c'est le verbe avoir : a."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-011",
+      "niveau": 1,
+      "titre": "Le jardin",
+      "texteCorrect": "Dans le jardin, les fleurs poussent vite. Les abeilles butinent. Un papillon se pose sur une rose.",
+      "fautes": [
+        {
+          "position": 5,
+          "fautif": "pousse",
+          "correct": "poussent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les fleurs » (elles) : le verbe prend -ent."
+        },
+        {
+          "position": 9,
+          "fautif": "butine",
+          "correct": "butinent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les abeilles » (elles) : le verbe prend -ent."
+        },
+        {
+          "position": 13,
+          "fautif": "posent",
+          "correct": "pose",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « un papillon » (il) : un seul papillon, le verbe prend -e."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-012",
+      "niveau": 1,
+      "titre": "L'orchestre",
+      "texteCorrect": "Hugo joue du violon. Son frère joue de la batterie. Ils répètent chaque mercredi.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "de",
+          "correct": "du",
+          "competence": "determinant-du",
+          "indice": "du ou de ?",
+          "explication": "On joue « du violon » : du = de + le (comme « il joue du piano »)."
+        },
+        {
+          "position": 5,
+          "fautif": "frères",
+          "correct": "frère",
+          "competence": "accord-nom",
+          "indice": "Singulier ou pluriel ?",
+          "explication": "Il y a un seul frère : « son » est au singulier, le nom frère n'a pas de -s."
+        },
+        {
+          "position": 11,
+          "fautif": "répète",
+          "correct": "répètent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « ils » : le verbe prend -ent."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-013",
+      "niveau": 1,
+      "titre": "Une nuit étoilée",
+      "texteCorrect": "La nuit est claire. Les étoiles brillent dans le ciel. Nous voyons même la Lune.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "et",
+          "correct": "est",
+          "competence": "homophone-et-est",
+          "indice": "et ou est ?",
+          "explication": "Remplace par « était » : « la nuit était claire » marche, donc c'est le verbe être : est."
+        },
+        {
+          "position": 6,
+          "fautif": "brille",
+          "correct": "brillent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les étoiles » (elles) : le verbe prend -ent."
+        },
+        {
+          "position": 11,
+          "fautif": "voyont",
+          "correct": "voyons",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Avec « nous », le verbe voir se termine par -ons : nous voyons."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-014",
+      "niveau": 1,
+      "titre": "Le boulanger",
+      "texteCorrect": "Le boulanger travaille très tôt. Il prépare le pain. Les clients achètent des baguettes.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "travaillent",
+          "correct": "travaille",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « le boulanger » (il) : un seul boulanger, le verbe prend -e."
+        },
+        {
+          "position": 6,
+          "fautif": "prépares",
+          "correct": "prépare",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « il » : le verbe préparer prend -e, sans -s."
+        },
+        {
+          "position": 11,
+          "fautif": "achète",
+          "correct": "achètent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les clients » (ils) : le verbe prend -ent."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-015",
+      "niveau": 1,
+      "titre": "Chez mamie",
+      "texteCorrect": "Ma grand-mère habite près de la mer. Elle a un petit chien. Nous allons souvent la voir.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "habites",
+          "correct": "habite",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « ma grand-mère » (elle) : le verbe habiter prend -e, sans -s."
+        },
+        {
+          "position": 8,
+          "fautif": "à",
+          "correct": "a",
+          "competence": "homophone-a-a",
+          "indice": "a ou à ?",
+          "explication": "Remplace par « avait » : « elle avait un petit chien » marche, donc c'est le verbe avoir : a."
+        },
+        {
+          "position": 13,
+          "fautif": "allon",
+          "correct": "allons",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Avec « nous », le verbe aller se termine par -ons : nous allons."
+        }
+      ]
+    },
+    {
+      "id": "det-n1-016",
+      "niveau": 1,
+      "titre": "Le train",
+      "texteCorrect": "Le train arrive en gare. Les voyageurs montent dans le wagon. La porte se ferme avec un bruit sec.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "arrivent",
+          "correct": "arrive",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « le train » (il) : un seul train, le verbe prend -e."
+        },
+        {
+          "position": 7,
+          "fautif": "monte",
+          "correct": "montent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les voyageurs » (ils) : le verbe prend -ent."
+        },
+        {
+          "position": 14,
+          "fautif": "fermes",
+          "correct": "ferme",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « la porte » (elle) : le verbe fermer prend -e, sans -s."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-001",
+      "niveau": 2,
+      "titre": "La tempête",
+      "texteCorrect": "Les vagues se sont brisées contre les rochers. Le vent souffle très fort. Les bateaux sont rentrés au port.",
+      "fautes": [
+        {
+          "position": 4,
+          "fautif": "brisé",
+          "correct": "brisées",
+          "competence": "accord-participe-etre",
+          "indice": "Participe passé avec être",
+          "explication": "Avec être, le participe passé s'accorde avec le sujet « les vagues » : brisées."
+        },
+        {
+          "position": 10,
+          "fautif": "souffles",
+          "correct": "souffle",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « le vent » (il) : le verbe souffler prend -e, sans -s."
+        },
+        {
+          "position": 15,
+          "fautif": "son",
+          "correct": "sont",
+          "competence": "homophone-son-sont",
+          "indice": "son ou sont ?",
+          "explication": "Remplace par « étaient » : « les bateaux étaient rentrés » marche, donc c'est le verbe être : sont."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-002",
+      "niveau": 2,
+      "titre": "Les vacances",
+      "texteCorrect": "Mes cousins ont préparé leurs valises. Ils partent demain matin. Leurs parents les accompagnent à la gare.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "on",
+          "correct": "ont",
+          "competence": "homophone-on-ont",
+          "indice": "on ou ont ?",
+          "explication": "Remplace par « avaient » : « mes cousins avaient préparé » marche, donc c'est le verbe avoir : ont."
+        },
+        {
+          "position": 6,
+          "fautif": "Il",
+          "correct": "Ils",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet « mes cousins » est repris par « ils » : il y en a plusieurs, donc le pronom s'écrit avec un -s : ils."
+        },
+        {
+          "position": 10,
+          "fautif": "Leur",
+          "correct": "Leurs",
+          "competence": "homophone-leur-leurs",
+          "indice": "leur ou leurs ?",
+          "explication": "Le nom « parents » est au pluriel : le déterminant leurs prend un -s."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-003",
+      "niveau": 2,
+      "titre": "L'orage",
+      "texteCorrect": "Le ciel est devenu noir. Soudain, un éclair a illuminé la forêt. Peu après, le tonnerre a grondé.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "et",
+          "correct": "est",
+          "competence": "homophone-et-est",
+          "indice": "et ou est ?",
+          "explication": "Remplace par « était » : « le ciel était devenu noir » marche, donc c'est le verbe être : est."
+        },
+        {
+          "position": 8,
+          "fautif": "à",
+          "correct": "a",
+          "competence": "homophone-a-a",
+          "indice": "a ou à ?",
+          "explication": "Remplace par « avait » : « un éclair avait illuminé » marche, donc c'est le verbe avoir : a."
+        },
+        {
+          "position": 12,
+          "fautif": "Peut",
+          "correct": "Peu",
+          "competence": "homophone-peu-peut",
+          "indice": "peu ou peut ?",
+          "explication": "« Peu après » veut dire « un moment court après ». Le verbe pouvoir (il peut) ne convient pas ici."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-004",
+      "niveau": 2,
+      "titre": "Le musée",
+      "texteCorrect": "Notre guide leur a expliqué l'histoire des tableaux. C'est passionnant !",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "leurs",
+          "correct": "leur",
+          "competence": "homophone-leur-leurs",
+          "indice": "leur ou leurs ?",
+          "explication": "Ici « leur » est un pronom placé devant le verbe : il ne prend jamais de -s (il leur a expliqué)."
+        },
+        {
+          "position": 7,
+          "fautif": "tableaus",
+          "correct": "tableaux",
+          "competence": "pluriel-nom-x",
+          "indice": "Pluriel en -x",
+          "explication": "Le mot tableau fait son pluriel en -x : des tableaux."
+        },
+        {
+          "position": 8,
+          "fautif": "S'est",
+          "correct": "C'est",
+          "competence": "homophone-c-est-s-est",
+          "indice": "c'est ou s'est ?",
+          "explication": "Remplace par « cela est » : « cela est passionnant » marche, donc on écrit c'est."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-005",
+      "niveau": 2,
+      "titre": "Les saisons",
+      "texteCorrect": "En automne, les feuilles tombent des arbres. Elles deviennent jaunes et rousses. La forêt est magnifique.",
+      "fautes": [
+        {
+          "position": 4,
+          "fautif": "tombe",
+          "correct": "tombent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les feuilles » (elles) : le verbe prend -ent."
+        },
+        {
+          "position": 8,
+          "fautif": "devienent",
+          "correct": "deviennent",
+          "competence": "orthographe-verbe",
+          "indice": "Orthographe du verbe",
+          "explication": "Devenir : ils deviennent, avec deux n (comme ils viennent)."
+        },
+        {
+          "position": 14,
+          "fautif": "et",
+          "correct": "est",
+          "competence": "homophone-et-est",
+          "indice": "et ou est ?",
+          "explication": "Remplace par « était » : « la forêt était magnifique » marche, donc c'est le verbe être : est."
+        },
+        {
+          "position": 15,
+          "fautif": "magnifiques",
+          "correct": "magnifique",
+          "competence": "accord-adjectif",
+          "indice": "Accord de l'adjectif",
+          "explication": "Il y a une seule forêt : l'adjectif magnifique reste au singulier."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-006",
+      "niveau": 2,
+      "titre": "Le sport",
+      "texteCorrect": "Ma sœur s'est blessée à la jambe. Elle a dû arrêter son entraînement.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "c'est",
+          "correct": "s'est",
+          "competence": "homophone-c-est-s-est",
+          "indice": "c'est ou s'est ?",
+          "explication": "Remplace par « cela est » : « ma sœur cela est blessée » ne marche pas, donc on écrit s'est (le verbe se blesser)."
+        },
+        {
+          "position": 8,
+          "fautif": "à",
+          "correct": "a",
+          "competence": "homophone-a-a",
+          "indice": "a ou à ?",
+          "explication": "Remplace par « avait » : « elle avait dû arrêter » marche, donc c'est le verbe avoir : a."
+        },
+        {
+          "position": 11,
+          "fautif": "sont",
+          "correct": "son",
+          "competence": "homophone-son-sont",
+          "indice": "son ou sont ?",
+          "explication": "Remplace par « mon » : « mon entraînement » marche, donc c'est le déterminant son."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-007",
+      "niveau": 2,
+      "titre": "Les exercices",
+      "texteCorrect": "J'ai fini mes exercices avant le dîner. Mes camarades ont corrigé tous les problèmes. Quand ils ont fini, ils sont partis jouer.",
+      "fautes": [
+        {
+          "position": 1,
+          "fautif": "finis",
+          "correct": "fini",
+          "competence": "accord-participe-avoir",
+          "indice": "Participe passé avec avoir",
+          "explication": "Après « j'ai », on écrit le participe passé du verbe finir : fini, comme « j'ai grandi »."
+        },
+        {
+          "position": 10,
+          "fautif": "corrigés",
+          "correct": "corrigé",
+          "competence": "accord-participe-avoir",
+          "indice": "Participe passé avec avoir",
+          "explication": "Le complément « tous les problèmes » est après le verbe : le participe corrigé ne s'accorde pas."
+        },
+        {
+          "position": 14,
+          "fautif": "Quant",
+          "correct": "Quand",
+          "competence": "homophone-quand-quant",
+          "indice": "quand ou quant ?",
+          "explication": "Remplace par « lorsque » : « lorsqu'ils ont fini » marche, donc on écrit quand."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-008",
+      "niveau": 2,
+      "titre": "La ferme",
+      "texteCorrect": "Les vaches sont dans le pré. Le fermier leur donne du foin chaque matin. Elles ont de la chance.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "son",
+          "correct": "sont",
+          "competence": "homophone-son-sont",
+          "indice": "son ou sont ?",
+          "explication": "Remplace par « étaient » : « les vaches étaient dans le pré » marche, donc c'est le verbe être : sont."
+        },
+        {
+          "position": 8,
+          "fautif": "leurs",
+          "correct": "leur",
+          "competence": "homophone-leur-leurs",
+          "indice": "leur ou leurs ?",
+          "explication": "Ici « leur » est un pronom placé devant le verbe : il ne prend jamais de -s (il leur donne)."
+        },
+        {
+          "position": 15,
+          "fautif": "on",
+          "correct": "ont",
+          "competence": "homophone-on-ont",
+          "indice": "on ou ont ?",
+          "explication": "Remplace par « avaient » : « elles avaient de la chance » marche, donc c'est le verbe avoir : ont."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-009",
+      "niveau": 2,
+      "titre": "Au parc",
+      "texteCorrect": "Les enfants se promènent dans le parc. Un chien court derrière une balle. Leurs rires résonnent partout.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "ce",
+          "correct": "se",
+          "competence": "homophone-ce-se",
+          "indice": "ce ou se ?",
+          "explication": "Devant un verbe, on écrit se : « les enfants se promènent » (comme « il se promène »)."
+        },
+        {
+          "position": 9,
+          "fautif": "cour",
+          "correct": "court",
+          "competence": "homophone-court-cour",
+          "indice": "court ou cour ?",
+          "explication": "Remplace par « courait » : « un chien courait » marche, donc c'est le verbe courir : court."
+        },
+        {
+          "position": 13,
+          "fautif": "Leur",
+          "correct": "Leurs",
+          "competence": "homophone-leur-leurs",
+          "indice": "leur ou leurs ?",
+          "explication": "Le nom « rires » est au pluriel : le déterminant leurs prend un -s."
+        },
+        {
+          "position": 15,
+          "fautif": "résonne",
+          "correct": "résonnent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « leurs rires » (ils) : le verbe prend -ent."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-010",
+      "niveau": 2,
+      "titre": "Le nouveau",
+      "texteCorrect": "Un nouvel élève est arrivé ce matin. Il s'appelle Samir. Tout le monde l'a accueilli gentiment.",
+      "fautes": [
+        {
+          "position": 3,
+          "fautif": "et",
+          "correct": "est",
+          "competence": "homophone-et-est",
+          "indice": "et ou est ?",
+          "explication": "Remplace par « était » : « un nouvel élève était arrivé » marche, donc c'est le verbe être : est."
+        },
+        {
+          "position": 8,
+          "fautif": "c'appelle",
+          "correct": "s'appelle",
+          "competence": "orthographe-verbe",
+          "indice": "Orthographe du verbe",
+          "explication": "Le verbe s'appeler s'écrit avec s' (comme « je m'appelle »)."
+        },
+        {
+          "position": 10,
+          "fautif": "Tous",
+          "correct": "Tout",
+          "competence": "accord-tout",
+          "indice": "tout ou tous ?",
+          "explication": "« Tout le monde » : tout est au singulier, comme « le monde »."
+        },
+        {
+          "position": 15,
+          "fautif": "gentilment",
+          "correct": "gentiment",
+          "competence": "orthographe-adverbe",
+          "indice": "Orthographe de l'adverbe",
+          "explication": "Avec « gentil », l'adverbe est une exception : gentiment (sans l avant -ment)."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-011",
+      "niveau": 2,
+      "titre": "Une recette",
+      "texteCorrect": "Pour faire des crêpes, il faut de la farine, des œufs et du lait. On mélange tout. Puis on verse la pâte dans la poêle.",
+      "fautes": [
+        {
+          "position": 5,
+          "fautif": "faux",
+          "correct": "faut",
+          "competence": "homophone-faut-faux",
+          "indice": "faut ou faux ?",
+          "explication": "Remplace par « il fallait » : « il fallait de la farine » marche, donc c'est le verbe falloir : faut."
+        },
+        {
+          "position": 14,
+          "fautif": "Ont",
+          "correct": "On",
+          "competence": "homophone-on-ont",
+          "indice": "on ou ont ?",
+          "explication": "Remplace par « il » : « il mélange tout » marche, donc on écrit on."
+        },
+        {
+          "position": 18,
+          "fautif": "ont",
+          "correct": "on",
+          "competence": "homophone-on-ont",
+          "indice": "on ou ont ?",
+          "explication": "Remplace par « il » : « puis il verse la pâte » marche, donc on écrit on."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-012",
+      "niveau": 2,
+      "titre": "Un grand voyage",
+      "texteCorrect": "Mes grands-parents ont voyagé en train. Ils sont arrivés à Rome le soir. La ville était illuminée.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "on",
+          "correct": "ont",
+          "competence": "homophone-on-ont",
+          "indice": "on ou ont ?",
+          "explication": "Remplace par « avaient » : « mes grands-parents avaient voyagé » marche, donc c'est le verbe avoir : ont."
+        },
+        {
+          "position": 7,
+          "fautif": "son",
+          "correct": "sont",
+          "competence": "homophone-son-sont",
+          "indice": "son ou sont ?",
+          "explication": "Remplace par « étaient » : « ils étaient arrivés » marche, donc c'est le verbe être : sont."
+        },
+        {
+          "position": 8,
+          "fautif": "arrivé",
+          "correct": "arrivés",
+          "competence": "accord-participe-etre",
+          "indice": "Participe passé avec être",
+          "explication": "Avec être, le participe passé s'accorde avec le sujet « ils » (plusieurs personnes) : arrivés."
+        },
+        {
+          "position": 15,
+          "fautif": "étaient",
+          "correct": "était",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « la ville » (elle) : une seule ville, le verbe était ne prend pas -ent."
+        },
+        {
+          "position": 16,
+          "fautif": "illuminé",
+          "correct": "illuminée",
+          "competence": "accord-participe-etre",
+          "indice": "Participe passé avec être",
+          "explication": "« Ville » est féminin : le participe passé prend un -e : illuminée."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-013",
+      "niveau": 2,
+      "titre": "Le club de lecture",
+      "texteCorrect": "Chaque semaine, nous lisons un chapitre. Ensuite, chacun raconte ce qu'il a compris. Le livre est passionnant.",
+      "fautes": [
+        {
+          "position": 3,
+          "fautif": "lisont",
+          "correct": "lisons",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Avec « nous », le verbe lire se termine par -ons : nous lisons."
+        },
+        {
+          "position": 8,
+          "fautif": "racontes",
+          "correct": "raconte",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « chacun » (il) : le verbe raconter prend -e, sans -s."
+        },
+        {
+          "position": 11,
+          "fautif": "à",
+          "correct": "a",
+          "competence": "homophone-a-a",
+          "indice": "a ou à ?",
+          "explication": "Remplace par « avait » : « ce qu'il avait compris » marche, donc c'est le verbe avoir : a."
+        },
+        {
+          "position": 15,
+          "fautif": "et",
+          "correct": "est",
+          "competence": "homophone-et-est",
+          "indice": "et ou est ?",
+          "explication": "Remplace par « était » : « le livre était passionnant » marche, donc c'est le verbe être : est."
+        },
+        {
+          "position": 16,
+          "fautif": "passionnante",
+          "correct": "passionnant",
+          "competence": "accord-adjectif",
+          "indice": "Accord de l'adjectif",
+          "explication": "« Livre » est masculin : l'adjectif reste au masculin : passionnant."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-014",
+      "niveau": 2,
+      "titre": "La météo",
+      "texteCorrect": "Aujourd'hui, le soleil brille sur la ville. Il fait chaud. Les habitants profitent de la belle journée.",
+      "fautes": [
+        {
+          "position": 3,
+          "fautif": "brillent",
+          "correct": "brille",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « le soleil » (il) : un seul soleil, le verbe prend -e."
+        },
+        {
+          "position": 8,
+          "fautif": "fais",
+          "correct": "fait",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « il » : on écrit il fait, avec un -t à la fin."
+        },
+        {
+          "position": 12,
+          "fautif": "profite",
+          "correct": "profitent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les habitants » (ils) : le verbe prend -ent."
+        },
+        {
+          "position": 15,
+          "fautif": "beau",
+          "correct": "belle",
+          "competence": "accord-adjectif",
+          "indice": "Accord de l'adjectif",
+          "explication": "« Journée » est féminin : l'adjectif beau devient belle."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-015",
+      "niveau": 2,
+      "titre": "L'aquarium",
+      "texteCorrect": "Les poissons nagent entre les algues. Un poisson orange se cache derrière un rocher. Les enfants sont ravis.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "nage",
+          "correct": "nagent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les poissons » (ils) : le verbe prend -ent."
+        },
+        {
+          "position": 5,
+          "fautif": "algue",
+          "correct": "algues",
+          "competence": "pluriel-nom",
+          "indice": "Singulier ou pluriel ?",
+          "explication": "Après « les », il y a plusieurs algues : le nom prend un -s."
+        },
+        {
+          "position": 8,
+          "fautif": "oranges",
+          "correct": "orange",
+          "competence": "accord-adjectif",
+          "indice": "Accord de l'adjectif",
+          "explication": "Il n'y a qu'un poisson : l'adjectif orange reste au singulier."
+        },
+        {
+          "position": 16,
+          "fautif": "son",
+          "correct": "sont",
+          "competence": "homophone-son-sont",
+          "indice": "son ou sont ?",
+          "explication": "Remplace par « étaient » : « les enfants étaient ravis » marche, donc c'est le verbe être : sont."
+        }
+      ]
+    },
+    {
+      "id": "det-n2-016",
+      "niveau": 2,
+      "titre": "Le spectacle",
+      "texteCorrect": "Ça commence à vingt heures. Le clown fait rire tout le monde. Les acrobates sautent très haut.",
+      "fautes": [
+        {
+          "position": 0,
+          "fautif": "Sa",
+          "correct": "Ça",
+          "competence": "homophone-ca-sa",
+          "indice": "ça ou sa ?",
+          "explication": "Remplace par « cela » : « cela commence à vingt heures » marche, donc on écrit ça."
+        },
+        {
+          "position": 7,
+          "fautif": "fais",
+          "correct": "fait",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « le clown » (il) : on écrit il fait, avec un -t à la fin."
+        },
+        {
+          "position": 14,
+          "fautif": "saute",
+          "correct": "sautent",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les acrobates » (ils) : le verbe prend -ent."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-001",
+      "niveau": 3,
+      "titre": "Le courrier",
+      "texteCorrect": "Les lettres que j'ai reçues ce matin étaient adressées à ma sœur. Elle les a lues avec attention.",
+      "fautes": [
+        {
+          "position": 4,
+          "fautif": "reçu",
+          "correct": "reçues",
+          "competence": "accord-participe-avoir-cod-avant",
+          "indice": "Participe passé avec avoir",
+          "explication": "Le mot « que » reprend « les lettres » et il est placé avant le verbe : le participe s'accorde au féminin pluriel : reçues."
+        },
+        {
+          "position": 7,
+          "fautif": "était",
+          "correct": "étaient",
+          "competence": "accord-sujet-verbe",
+          "indice": "Accord du verbe avec son sujet",
+          "explication": "Le sujet est « les lettres » (elles) : le verbe étaient prend -ent."
+        },
+        {
+          "position": 15,
+          "fautif": "lu",
+          "correct": "lues",
+          "competence": "accord-participe-avoir-cod-avant",
+          "indice": "Participe passé avec avoir",
+          "explication": "Le mot « les » (les lettres) est placé avant le verbe : le participe s'accorde : lues."
+        },
+        {
+          "position": 17,
+          "fautif": "attension",
+          "correct": "attention",
+          "competence": "orthographe-mot",
+          "indice": "Orthographe du mot",
+          "explication": "Le mot attention se termine par -tion (famille : attentif)."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-002",
+      "niveau": 3,
+      "titre": "Quelle chance",
+      "texteCorrect": "Quelle chance de vous rencontrer ! Je voudrais savoir quelle heure il est. Léa dit qu'elle est contente.",
+      "fautes": [
+        {
+          "position": 0,
+          "fautif": "Qu'elle",
+          "correct": "Quelle",
+          "competence": "quelle-qu-elle",
+          "indice": "quelle ou qu'elle ?",
+          "explication": "« Quelle » accompagne le nom chance : quelle chance. On ne peut pas dire « qu'il chance »."
+        },
+        {
+          "position": 8,
+          "fautif": "qu'elle",
+          "correct": "quelle",
+          "competence": "quelle-qu-elle",
+          "indice": "quelle ou qu'elle ?",
+          "explication": "« Quelle » accompagne le nom heure : quelle heure."
+        },
+        {
+          "position": 14,
+          "fautif": "quelle",
+          "correct": "qu'elle",
+          "competence": "quelle-qu-elle",
+          "indice": "quelle ou qu'elle ?",
+          "explication": "Remplace par « qu'il » : « Léa dit qu'il est content » marche, donc on écrit qu'elle (que + elle)."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-003",
+      "niveau": 3,
+      "titre": "Peu importe",
+      "texteCorrect": "Quelle que soit ta réponse, je la respecterai. Quel que soit le prix, je l'achète. Il y a quelques fautes dans ce texte.",
+      "fautes": [
+        {
+          "position": 0,
+          "fautif": "Quelque",
+          "correct": "Quelle que",
+          "competence": "quelle-que",
+          "indice": "quelle que ou quelque ?",
+          "explication": "On peut dire « peu importe ta réponse » : on écrit quelle que, en deux mots. Quelle s'accorde avec « réponse » (féminin)."
+        },
+        {
+          "position": 8,
+          "fautif": "Quelque",
+          "correct": "Quel que",
+          "competence": "quelle-que",
+          "indice": "quel que ou quelque ?",
+          "explication": "On peut dire « peu importe le prix » : on écrit quel que, en deux mots. Quel s'accorde avec « prix » (masculin)."
+        },
+        {
+          "position": 18,
+          "fautif": "quelque",
+          "correct": "quelques",
+          "competence": "quelque-quelques",
+          "indice": "quelque ou quelques ?",
+          "explication": "« Fautes » est au pluriel : quelques prend un -s."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-004",
+      "niveau": 3,
+      "titre": "Sans un mot",
+      "texteCorrect": "Il est parti sans un mot. Elle s'en est allée sans se retourner.",
+      "fautes": [
+        {
+          "position": 3,
+          "fautif": "s'en",
+          "correct": "sans",
+          "competence": "sans-s-en",
+          "indice": "sans ou s'en ?",
+          "explication": "Le contraire de « avec » est sans : il est parti sans un mot."
+        },
+        {
+          "position": 7,
+          "fautif": "sans",
+          "correct": "s'en",
+          "competence": "sans-s-en",
+          "indice": "sans ou s'en ?",
+          "explication": "Le verbe s'en aller s'écrit avec s'en (se + en) : elle s'en est allée."
+        },
+        {
+          "position": 10,
+          "fautif": "s'en",
+          "correct": "sans",
+          "competence": "sans-s-en",
+          "indice": "sans ou s'en ?",
+          "explication": "Le contraire de « avec » est sans : sans se retourner."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-005",
+      "niveau": 3,
+      "titre": "Plus tôt",
+      "texteCorrect": "Nous sommes arrivés plus tôt que prévu. Plutôt que de pleurer, il vaut mieux rire. Le soleil s'est levé ce matin à six heures.",
+      "fautes": [
+        {
+          "position": 3,
+          "fautif": "plutôt",
+          "correct": "plus tôt",
+          "competence": "plus-tot-plutot",
+          "indice": "plus tôt ou plutôt ?",
+          "explication": "On peut dire l'inverse : « plus tard que prévu ». Alors on écrit plus tôt, en deux mots."
+        },
+        {
+          "position": 7,
+          "fautif": "Plus tôt",
+          "correct": "Plutôt",
+          "competence": "plus-tot-plutot",
+          "indice": "plutôt ou plus tôt ?",
+          "explication": "« Plutôt que » veut dire « de préférence à » : on ne peut pas dire « plus tard que de pleurer »."
+        },
+        {
+          "position": 17,
+          "fautif": "c'est",
+          "correct": "s'est",
+          "competence": "homophone-c-est-s-est",
+          "indice": "c'est ou s'est ?",
+          "explication": "Remplace par « cela est » : « le soleil cela est levé » ne marche pas, donc on écrit s'est (le verbe se lever)."
+        },
+        {
+          "position": 18,
+          "fautif": "levée",
+          "correct": "levé",
+          "competence": "accord-participe-pronominal",
+          "indice": "Participe passé",
+          "explication": "Le sujet « le soleil » est masculin : le participe levé n'a pas de -e."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-006",
+      "niveau": 3,
+      "titre": "Malgré le froid",
+      "texteCorrect": "Je sors, quoique le temps soit froid. Je te suivrai où que tu ailles.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "quoi que",
+          "correct": "quoique",
+          "competence": "quoique",
+          "indice": "quoique ou quoi que ?",
+          "explication": "On peut dire « bien que le temps soit froid » : on écrit quoique, en un seul mot."
+        },
+        {
+          "position": 13,
+          "fautif": "aille",
+          "correct": "ailles",
+          "competence": "subjonctif",
+          "indice": "Quel mode ?",
+          "explication": "Après « où que », on utilise le subjonctif : avec « tu », le verbe aller fait que tu ailles, avec -s."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-007",
+      "niveau": 3,
+      "titre": "Se laver, se parler",
+      "texteCorrect": "Les enfants se sont lavés. Ils se sont parlé avant de partir. Elles se sont souri.",
+      "fautes": [
+        {
+          "position": 4,
+          "fautif": "lavé",
+          "correct": "lavés",
+          "competence": "accord-participe-pronominal",
+          "indice": "Participe passé",
+          "explication": "« Se laver » : ils ont lavé qui ? Eux-mêmes. « Se » est complément direct, le participe s'accorde avec « ils » : lavés."
+        },
+        {
+          "position": 8,
+          "fautif": "parlés",
+          "correct": "parlé",
+          "competence": "accord-participe-pronominal",
+          "indice": "Participe passé",
+          "explication": "On parle à quelqu'un : « se » est un complément indirect, donc le participe ne s'accorde pas : parlé."
+        },
+        {
+          "position": 15,
+          "fautif": "souries",
+          "correct": "souri",
+          "competence": "accord-participe-pronominal",
+          "indice": "Participe passé",
+          "explication": "On sourit à quelqu'un : « se » est un complément indirect, donc le participe ne s'accorde pas : souri."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-008",
+      "niveau": 3,
+      "titre": "Tous ensemble",
+      "texteCorrect": "Tous les élèves ont reçu un diplôme. Les filles étaient toutes contentes. Les parents ont applaudi très fort.",
+      "fautes": [
+        {
+          "position": 0,
+          "fautif": "Tout",
+          "correct": "Tous",
+          "competence": "accord-tout",
+          "indice": "tout ou tous ?",
+          "explication": "« Les élèves » est au pluriel masculin : on écrit tous (comme dans « tous les jours »)."
+        },
+        {
+          "position": 10,
+          "fautif": "tout",
+          "correct": "toutes",
+          "competence": "accord-tout",
+          "indice": "tout ou toutes ?",
+          "explication": "Devant un adjectif féminin qui commence par une consonne (contentes), tout s'accorde : toutes contentes."
+        },
+        {
+          "position": 15,
+          "fautif": "applaudis",
+          "correct": "applaudi",
+          "competence": "accord-participe-avoir",
+          "indice": "Participe passé avec avoir",
+          "explication": "Avec avoir, le participe applaudi ne s'accorde pas avec le sujet « les parents » : pas de -s."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-009",
+      "niveau": 3,
+      "titre": "Si j'avais le temps",
+      "texteCorrect": "Si j'avais le temps, je viendrais te voir. Si j'ai le temps demain, je viendrai chez toi.",
+      "fautes": [
+        {
+          "position": 5,
+          "fautif": "viendrai",
+          "correct": "viendrais",
+          "competence": "conditionnel-futur",
+          "indice": "Futur ou conditionnel ?",
+          "explication": "Après « si » + imparfait (si j'avais), on utilise le conditionnel : je viendrais."
+        },
+        {
+          "position": 14,
+          "fautif": "viendrais",
+          "correct": "viendrai",
+          "competence": "conditionnel-futur",
+          "indice": "Futur ou conditionnel ?",
+          "explication": "Après « si » + présent (si j'ai le temps), on utilise le futur : je viendrai."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-010",
+      "niveau": 3,
+      "titre": "Seul ou presque",
+      "texteCorrect": "Je n'y suis jamais allé. Elle n'a ni frère ni sœur. Il est peut-être déjà parti.",
+      "fautes": [
+        {
+          "position": 1,
+          "fautif": "ni",
+          "correct": "n'y",
+          "competence": "n-y-ni",
+          "indice": "n'y ou ni ?",
+          "explication": "« N'y » = ne + y : « je ne suis jamais allé là-bas ». On écrit n'y, avec une apostrophe."
+        },
+        {
+          "position": 7,
+          "fautif": "n'y",
+          "correct": "ni",
+          "competence": "n-y-ni",
+          "indice": "ni ou n'y ?",
+          "explication": "On lie deux choses niées : ni frère ni sœur. On écrit ni, sans apostrophe."
+        },
+        {
+          "position": 13,
+          "fautif": "peut être",
+          "correct": "peut-être",
+          "competence": "peut-etre",
+          "indice": "peut-être ou peut être ?",
+          "explication": "« Peut-être » veut dire « sans doute » : on l'écrit en un mot, avec un trait d'union."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-011",
+      "niveau": 3,
+      "titre": "Sa montre",
+      "texteCorrect": "Sa sœur a perdu sa montre. Tu l'as retrouvée ?",
+      "fautes": [
+        {
+          "position": 0,
+          "fautif": "Ça",
+          "correct": "Sa",
+          "competence": "homophone-ca-sa",
+          "indice": "sa ou ça ?",
+          "explication": "Devant un nom (sœur), il faut un déterminant : sa sœur. « Ça » veut dire « cela »."
+        },
+        {
+          "position": 4,
+          "fautif": "ça",
+          "correct": "sa",
+          "competence": "homophone-ca-sa",
+          "indice": "sa ou ça ?",
+          "explication": "Devant un nom (montre), il faut un déterminant : sa montre. « Ça » veut dire « cela »."
+        },
+        {
+          "position": 7,
+          "fautif": "las",
+          "correct": "l'as",
+          "competence": "l-as-las",
+          "indice": "l'as ou las ?",
+          "explication": "Remplace par « l'avais » : « tu l'avais retrouvée » marche, donc on écrit l'as, avec une apostrophe."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-012",
+      "niveau": 3,
+      "titre": "Une promesse",
+      "texteCorrect": "Max est malade depuis lundi. Nous irons le voir dès qu'il sera guéri. Il pourra alors nous raconter ses vacances.",
+      "fautes": [
+        {
+          "position": 1,
+          "fautif": "et",
+          "correct": "est",
+          "competence": "homophone-et-est",
+          "indice": "et ou est ?",
+          "explication": "Remplace par « était » : « Max était malade » marche, donc c'est le verbe être : est."
+        },
+        {
+          "position": 10,
+          "fautif": "quil",
+          "correct": "qu'il",
+          "competence": "apostrophe-qu-il",
+          "indice": "qu'il ou quil ?",
+          "explication": "« Qu'il » = que + il : on écrit une apostrophe."
+        },
+        {
+          "position": 14,
+          "fautif": "pouras",
+          "correct": "pourra",
+          "competence": "futur-pouvoir",
+          "indice": "Futur de pouvoir",
+          "explication": "Le verbe pouvoir au futur s'écrit avec deux r : il pourra (comme il courra)."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-013",
+      "niveau": 3,
+      "titre": "Les photos",
+      "texteCorrect": "Les photos que Jade a prises sont magnifiques. Elle les a envoyées à ses amis. Ses amis les ont adorées.",
+      "fautes": [
+        {
+          "position": 5,
+          "fautif": "pris",
+          "correct": "prises",
+          "competence": "accord-participe-avoir-cod-avant",
+          "indice": "Participe passé avec avoir",
+          "explication": "Le mot « que » reprend « les photos » et il est placé avant le verbe : le participe s'accorde au féminin pluriel : prises."
+        },
+        {
+          "position": 11,
+          "fautif": "envoyé",
+          "correct": "envoyées",
+          "competence": "accord-participe-avoir-cod-avant",
+          "indice": "Participe passé avec avoir",
+          "explication": "Le mot « les » (les photos) est placé avant le verbe : le participe s'accorde : envoyées."
+        },
+        {
+          "position": 19,
+          "fautif": "adoré",
+          "correct": "adorées",
+          "competence": "accord-participe-avoir-cod-avant",
+          "indice": "Participe passé avec avoir",
+          "explication": "Le mot « les » (les photos) est placé avant le verbe : le participe s'accorde : adorées."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-014",
+      "niveau": 3,
+      "titre": "Où ou ou",
+      "texteCorrect": "Où vas-tu ? Veux-tu du thé ou du café ? Je ne sais pas où il est parti.",
+      "fautes": [
+        {
+          "position": 0,
+          "fautif": "Ou",
+          "correct": "Où",
+          "competence": "ou-ou",
+          "indice": "où ou ou ?",
+          "explication": "« Où » indique un lieu : on peut répondre « à la plage », « chez moi »."
+        },
+        {
+          "position": 5,
+          "fautif": "où",
+          "correct": "ou",
+          "competence": "ou-ou",
+          "indice": "ou ou où ?",
+          "explication": "Remplace par « ou bien » : « du thé ou bien du café » marche, donc on écrit ou, sans accent."
+        },
+        {
+          "position": 12,
+          "fautif": "ou",
+          "correct": "où",
+          "competence": "ou-ou",
+          "indice": "où ou ou ?",
+          "explication": "« Où » indique un lieu : où il est parti."
+        },
+        {
+          "position": 14,
+          "fautif": "et",
+          "correct": "est",
+          "competence": "homophone-et-est",
+          "indice": "et ou est ?",
+          "explication": "Remplace par « était » : « il était parti » marche, donc c'est le verbe être : est."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-015",
+      "niveau": 3,
+      "titre": "Il faut que",
+      "texteCorrect": "Il faut que tu viennes demain. Je veux que vous soyez à l'heure. Bien qu'il soit fatigué, il continue.",
+      "fautes": [
+        {
+          "position": 4,
+          "fautif": "viens",
+          "correct": "viennes",
+          "competence": "subjonctif",
+          "indice": "Quel mode ?",
+          "explication": "Après « il faut que », on utilise le subjonctif : que tu viennes."
+        },
+        {
+          "position": 10,
+          "fautif": "êtes",
+          "correct": "soyez",
+          "competence": "subjonctif",
+          "indice": "Quel mode ?",
+          "explication": "Après « je veux que », on utilise le subjonctif : que vous soyez."
+        },
+        {
+          "position": 15,
+          "fautif": "est",
+          "correct": "soit",
+          "competence": "subjonctif",
+          "indice": "Quel mode ?",
+          "explication": "Après « bien que », on utilise le subjonctif : bien qu'il soit."
+        }
+      ]
+    },
+    {
+      "id": "det-n3-016",
+      "niveau": 3,
+      "titre": "À table",
+      "texteCorrect": "Nous allons manger chez mamie. Hier, elle nous a préparé un gâteau. Il faut goûter avant de donner son avis.",
+      "fautes": [
+        {
+          "position": 2,
+          "fautif": "mangé",
+          "correct": "manger",
+          "competence": "infinitif-participe",
+          "indice": "Infinitif ou participe ?",
+          "explication": "Remplace par « vendre » : « nous allons vendre » marche, donc on écrit l'infinitif en -er : manger."
+        },
+        {
+          "position": 9,
+          "fautif": "préparer",
+          "correct": "préparé",
+          "competence": "infinitif-participe",
+          "indice": "Infinitif ou participe ?",
+          "explication": "Remplace par « vendu » : « elle nous a vendu » marche, donc on écrit le participe en -é : préparé."
+        },
+        {
+          "position": 14,
+          "fautif": "goûté",
+          "correct": "goûter",
+          "competence": "infinitif-participe",
+          "indice": "Infinitif ou participe ?",
+          "explication": "Remplace par « vendre » : « il faut vendre » marche, donc on écrit l'infinitif en -er : goûter."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « cacheoeil » pour Pompon, emplacement visage. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M92 176 L72 168 M114 178 L150 160" fill="none" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="104" cy="185" rx="11" ry="10" fill="#3A2A55" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

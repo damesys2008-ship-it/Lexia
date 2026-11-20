@@ -1,0 +1,4805 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "voc-rel-n1-001",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-synonymes-verbes",
+      "relation": "synonymes",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "commencer",
+          "droite": "débuter"
+        },
+        {
+          "gauche": "finir",
+          "droite": "terminer"
+        },
+        {
+          "gauche": "regarder",
+          "droite": "observer"
+        },
+        {
+          "gauche": "sauter",
+          "droite": "bondir"
+        }
+      ],
+      "indice": "Cherche le verbe qui peut prendre la place de l'autre dans une phrase.",
+      "explication": "« commencer » et « débuter » ont presque le même sens, comme « finir » et « terminer »."
+    },
+    {
+      "id": "voc-rel-n1-002",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-synonymes-verbes",
+      "relation": "synonymes",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "cacher",
+          "droite": "dissimuler"
+        },
+        {
+          "gauche": "essayer",
+          "droite": "tenter"
+        },
+        {
+          "gauche": "avertir",
+          "droite": "prévenir"
+        },
+        {
+          "gauche": "réfléchir",
+          "droite": "penser"
+        }
+      ],
+      "indice": "Cherche le verbe qui peut prendre la place de l'autre dans une phrase.",
+      "explication": "« cacher » et « dissimuler » ont presque le même sens, comme « essayer » et « tenter »."
+    },
+    {
+      "id": "voc-rel-n1-003",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-synonymes-verbes",
+      "relation": "synonymes",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "garder",
+          "droite": "conserver"
+        },
+        {
+          "gauche": "lancer",
+          "droite": "jeter"
+        },
+        {
+          "gauche": "réunir",
+          "droite": "rassembler"
+        },
+        {
+          "gauche": "arrêter",
+          "droite": "stopper"
+        }
+      ],
+      "indice": "Cherche le verbe qui peut prendre la place de l'autre dans une phrase.",
+      "explication": "« garder » et « conserver » ont presque le même sens, comme « lancer » et « jeter »."
+    },
+    {
+      "id": "voc-rel-n1-004",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-synonymes-adjectifs",
+      "relation": "synonymes",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "drôle",
+          "droite": "amusant"
+        },
+        {
+          "gauche": "gentil",
+          "droite": "aimable"
+        },
+        {
+          "gauche": "semblable",
+          "droite": "pareil"
+        },
+        {
+          "gauche": "sûr",
+          "droite": "certain"
+        }
+      ],
+      "indice": "Cherche le mot qui décrit presque la même chose.",
+      "explication": "« drôle » et « amusant » ont presque le même sens, comme « gentil » et « aimable »."
+    },
+    {
+      "id": "voc-rel-n1-005",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-synonymes-adjectifs",
+      "relation": "synonymes",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "heureux",
+          "droite": "content"
+        },
+        {
+          "gauche": "joli",
+          "droite": "beau"
+        },
+        {
+          "gauche": "propre",
+          "droite": "net"
+        },
+        {
+          "gauche": "énorme",
+          "droite": "immense"
+        }
+      ],
+      "indice": "Cherche le mot qui décrit presque la même chose.",
+      "explication": "« heureux » et « content » ont presque le même sens, comme « joli » et « beau »."
+    },
+    {
+      "id": "voc-rel-n1-006",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-synonymes-adjectifs",
+      "relation": "synonymes",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "calme",
+          "droite": "paisible"
+        },
+        {
+          "gauche": "dangereux",
+          "droite": "risqué"
+        },
+        {
+          "gauche": "fort",
+          "droite": "puissant"
+        },
+        {
+          "gauche": "inquiet",
+          "droite": "soucieux"
+        }
+      ],
+      "indice": "Cherche le mot qui décrit presque la même chose.",
+      "explication": "« calme » et « paisible » ont presque le même sens, comme « dangereux » et « risqué »."
+    },
+    {
+      "id": "voc-rel-n1-007",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-synonymes-noms",
+      "relation": "synonymes",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "voiture",
+          "droite": "auto"
+        },
+        {
+          "gauche": "docteur",
+          "droite": "médecin"
+        },
+        {
+          "gauche": "lieu",
+          "droite": "endroit"
+        },
+        {
+          "gauche": "début",
+          "droite": "commencement"
+        }
+      ],
+      "indice": "Cherche le nom qui veut dire presque la même chose.",
+      "explication": "« voiture » et « auto » ont presque le même sens, comme « docteur » et « médecin »."
+    },
+    {
+      "id": "voc-rel-n1-008",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-synonymes-noms",
+      "relation": "synonymes",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "élève",
+          "droite": "écolier"
+        },
+        {
+          "gauche": "métier",
+          "droite": "profession"
+        },
+        {
+          "gauche": "histoire",
+          "droite": "récit"
+        },
+        {
+          "gauche": "soldat",
+          "droite": "militaire"
+        }
+      ],
+      "indice": "Cherche le nom qui veut dire presque la même chose.",
+      "explication": "« élève » et « écolier » ont presque le même sens, comme « métier » et « profession »."
+    },
+    {
+      "id": "voc-rel-n1-009",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-synonymes-noms",
+      "relation": "synonymes",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "magasin",
+          "droite": "boutique"
+        },
+        {
+          "gauche": "maison",
+          "droite": "habitation"
+        },
+        {
+          "gauche": "tas",
+          "droite": "pile"
+        },
+        {
+          "gauche": "prix",
+          "droite": "tarif"
+        }
+      ],
+      "indice": "Cherche le nom qui veut dire presque la même chose.",
+      "explication": "« magasin » et « boutique » ont presque le même sens, comme « maison » et « habitation »."
+    },
+    {
+      "id": "voc-rel-n1-010",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-contraires-verbes",
+      "relation": "contraires",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "ouvrir",
+          "droite": "fermer"
+        },
+        {
+          "gauche": "monter",
+          "droite": "descendre"
+        },
+        {
+          "gauche": "acheter",
+          "droite": "vendre"
+        },
+        {
+          "gauche": "gagner",
+          "droite": "perdre"
+        }
+      ],
+      "indice": "Le contraire d'un verbe dit l'action inverse.",
+      "explication": "« ouvrir » et « fermer » ont des sens opposés, comme « monter » et « descendre »."
+    },
+    {
+      "id": "voc-rel-n1-011",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-contraires-verbes",
+      "relation": "contraires",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "entrer",
+          "droite": "sortir"
+        },
+        {
+          "gauche": "allumer",
+          "droite": "éteindre"
+        },
+        {
+          "gauche": "avancer",
+          "droite": "reculer"
+        },
+        {
+          "gauche": "remplir",
+          "droite": "vider"
+        }
+      ],
+      "indice": "Le contraire d'un verbe dit l'action inverse.",
+      "explication": "« entrer » et « sortir » ont des sens opposés, comme « allumer » et « éteindre »."
+    },
+    {
+      "id": "voc-rel-n1-012",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-contraires-verbes",
+      "relation": "contraires",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "arriver",
+          "droite": "partir"
+        },
+        {
+          "gauche": "rire",
+          "droite": "pleurer"
+        },
+        {
+          "gauche": "pousser",
+          "droite": "tirer"
+        },
+        {
+          "gauche": "lever",
+          "droite": "baisser"
+        }
+      ],
+      "indice": "Le contraire d'un verbe dit l'action inverse.",
+      "explication": "« arriver » et « partir » ont des sens opposés, comme « rire » et « pleurer »."
+    },
+    {
+      "id": "voc-rel-n1-013",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-contraires-adjectifs",
+      "relation": "contraires",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "chaud",
+          "droite": "froid"
+        },
+        {
+          "gauche": "lent",
+          "droite": "rapide"
+        },
+        {
+          "gauche": "propre",
+          "droite": "sale"
+        },
+        {
+          "gauche": "plein",
+          "droite": "vide"
+        }
+      ],
+      "indice": "Cherche le mot qui dit tout le contraire.",
+      "explication": "« chaud » et « froid » ont des sens opposés, comme « lent » et « rapide »."
+    },
+    {
+      "id": "voc-rel-n1-014",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-contraires-adjectifs",
+      "relation": "contraires",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "mouillé",
+          "droite": "sec"
+        },
+        {
+          "gauche": "facile",
+          "droite": "difficile"
+        },
+        {
+          "gauche": "large",
+          "droite": "étroit"
+        },
+        {
+          "gauche": "gentil",
+          "droite": "méchant"
+        }
+      ],
+      "indice": "Cherche le mot qui dit tout le contraire.",
+      "explication": "« mouillé » et « sec » ont des sens opposés, comme « facile » et « difficile »."
+    },
+    {
+      "id": "voc-rel-n1-015",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-contraires-adjectifs",
+      "relation": "contraires",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "jeune",
+          "droite": "vieux"
+        },
+        {
+          "gauche": "riche",
+          "droite": "pauvre"
+        },
+        {
+          "gauche": "vrai",
+          "droite": "faux"
+        },
+        {
+          "gauche": "grand",
+          "droite": "petit"
+        }
+      ],
+      "indice": "Cherche le mot qui dit tout le contraire.",
+      "explication": "« jeune » et « vieux » ont des sens opposés, comme « riche » et « pauvre »."
+    },
+    {
+      "id": "voc-rel-n1-016",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-contraires-noms",
+      "relation": "contraires",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "jour",
+          "droite": "nuit"
+        },
+        {
+          "gauche": "entrée",
+          "droite": "sortie"
+        },
+        {
+          "gauche": "été",
+          "droite": "hiver"
+        },
+        {
+          "gauche": "bruit",
+          "droite": "silence"
+        }
+      ],
+      "indice": "Cherche le nom qui dit tout le contraire.",
+      "explication": "« jour » et « nuit » ont des sens opposés, comme « entrée » et « sortie »."
+    },
+    {
+      "id": "voc-rel-n1-017",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-contraires-noms",
+      "relation": "contraires",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "matin",
+          "droite": "soir"
+        },
+        {
+          "gauche": "départ",
+          "droite": "arrivée"
+        },
+        {
+          "gauche": "montée",
+          "droite": "descente"
+        },
+        {
+          "gauche": "ombre",
+          "droite": "lumière"
+        }
+      ],
+      "indice": "Cherche le nom qui dit tout le contraire.",
+      "explication": "« matin » et « soir » ont des sens opposés, comme « départ » et « arrivée »."
+    },
+    {
+      "id": "voc-rel-n1-018",
+      "type": "relation",
+      "niveau": 1,
+      "competence": "relation-contraires-noms",
+      "relation": "contraires",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "début",
+          "droite": "fin"
+        },
+        {
+          "gauche": "ville",
+          "droite": "campagne"
+        },
+        {
+          "gauche": "force",
+          "droite": "faiblesse"
+        },
+        {
+          "gauche": "intérieur",
+          "droite": "extérieur"
+        }
+      ],
+      "indice": "Cherche le nom qui dit tout le contraire.",
+      "explication": "« début » et « fin » ont des sens opposés, comme « ville » et « campagne »."
+    },
+    {
+      "id": "voc-rel-n2-001",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-synonymes-verbes",
+      "relation": "synonymes",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "construire",
+          "droite": "bâtir"
+        },
+        {
+          "gauche": "calmer",
+          "droite": "apaiser"
+        },
+        {
+          "gauche": "gronder",
+          "droite": "réprimander"
+        },
+        {
+          "gauche": "interroger",
+          "droite": "questionner"
+        },
+        {
+          "gauche": "avouer",
+          "droite": "confesser"
+        }
+      ],
+      "indice": "Pense à une phrase : le verbe de droite doit dire presque la même chose.",
+      "explication": "« construire » et « bâtir » ont presque le même sens, comme « calmer » et « apaiser »."
+    },
+    {
+      "id": "voc-rel-n2-002",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-synonymes-verbes",
+      "relation": "synonymes",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "bavarder",
+          "droite": "discuter"
+        },
+        {
+          "gauche": "féliciter",
+          "droite": "complimenter"
+        },
+        {
+          "gauche": "tromper",
+          "droite": "duper"
+        },
+        {
+          "gauche": "supporter",
+          "droite": "endurer"
+        },
+        {
+          "gauche": "punir",
+          "droite": "sanctionner"
+        }
+      ],
+      "indice": "Pense à une phrase : le verbe de droite doit dire presque la même chose.",
+      "explication": "« bavarder » et « discuter » ont presque le même sens, comme « féliciter » et « complimenter »."
+    },
+    {
+      "id": "voc-rel-n2-003",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-synonymes-verbes",
+      "relation": "synonymes",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "réaliser",
+          "droite": "accomplir"
+        },
+        {
+          "gauche": "trouver",
+          "droite": "découvrir"
+        },
+        {
+          "gauche": "aider",
+          "droite": "secourir"
+        },
+        {
+          "gauche": "examiner",
+          "droite": "inspecter"
+        },
+        {
+          "gauche": "cesser",
+          "droite": "arrêter"
+        }
+      ],
+      "indice": "Pense à une phrase : le verbe de droite doit dire presque la même chose.",
+      "explication": "« réaliser » et « accomplir » ont presque le même sens, comme « trouver » et « découvrir »."
+    },
+    {
+      "id": "voc-rel-n2-004",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-synonymes-adjectifs",
+      "relation": "synonymes",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "malin",
+          "droite": "rusé"
+        },
+        {
+          "gauche": "solide",
+          "droite": "robuste"
+        },
+        {
+          "gauche": "paresseux",
+          "droite": "fainéant"
+        },
+        {
+          "gauche": "poli",
+          "droite": "courtois"
+        },
+        {
+          "gauche": "entier",
+          "droite": "complet"
+        }
+      ],
+      "indice": "Imagine une phrase : l'adjectif de droite doit pouvoir remplacer l'autre.",
+      "explication": "« malin » et « rusé » ont presque le même sens, comme « solide » et « robuste »."
+    },
+    {
+      "id": "voc-rel-n2-005",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-synonymes-adjectifs",
+      "relation": "synonymes",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "souple",
+          "droite": "flexible"
+        },
+        {
+          "gauche": "sale",
+          "droite": "malpropre"
+        },
+        {
+          "gauche": "bavard",
+          "droite": "loquace"
+        },
+        {
+          "gauche": "véritable",
+          "droite": "authentique"
+        },
+        {
+          "gauche": "discret",
+          "droite": "réservé"
+        }
+      ],
+      "indice": "Imagine une phrase : l'adjectif de droite doit pouvoir remplacer l'autre.",
+      "explication": "« souple » et « flexible » ont presque le même sens, comme « sale » et « malpropre »."
+    },
+    {
+      "id": "voc-rel-n2-006",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-synonymes-adjectifs",
+      "relation": "synonymes",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "fatigué",
+          "droite": "las"
+        },
+        {
+          "gauche": "immense",
+          "droite": "vaste"
+        },
+        {
+          "gauche": "tranquille",
+          "droite": "serein"
+        },
+        {
+          "gauche": "gai",
+          "droite": "enjoué"
+        },
+        {
+          "gauche": "faux",
+          "droite": "erroné"
+        }
+      ],
+      "indice": "Imagine une phrase : l'adjectif de droite doit pouvoir remplacer l'autre.",
+      "explication": "« fatigué » et « las » ont presque le même sens, comme « immense » et « vaste »."
+    },
+    {
+      "id": "voc-rel-n2-007",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-synonymes-noms",
+      "relation": "synonymes",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "but",
+          "droite": "objectif"
+        },
+        {
+          "gauche": "cadeau",
+          "droite": "présent"
+        },
+        {
+          "gauche": "sommet",
+          "droite": "cime"
+        },
+        {
+          "gauche": "querelle",
+          "droite": "dispute"
+        },
+        {
+          "gauche": "abri",
+          "droite": "refuge"
+        }
+      ],
+      "indice": "Pense à une phrase où tu pourrais remplacer un nom par l'autre.",
+      "explication": "« but » et « objectif » ont presque le même sens, comme « cadeau » et « présent »."
+    },
+    {
+      "id": "voc-rel-n2-008",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-synonymes-noms",
+      "relation": "synonymes",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "vacarme",
+          "droite": "tapage"
+        },
+        {
+          "gauche": "erreur",
+          "droite": "faute"
+        },
+        {
+          "gauche": "combat",
+          "droite": "lutte"
+        },
+        {
+          "gauche": "conseil",
+          "droite": "avis"
+        },
+        {
+          "gauche": "brouillard",
+          "droite": "brume"
+        }
+      ],
+      "indice": "Pense à une phrase où tu pourrais remplacer un nom par l'autre.",
+      "explication": "« vacarme » et « tapage » ont presque le même sens, comme « erreur » et « faute »."
+    },
+    {
+      "id": "voc-rel-n2-009",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-synonymes-noms",
+      "relation": "synonymes",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "chemin",
+          "droite": "sentier"
+        },
+        {
+          "gauche": "peur",
+          "droite": "frayeur"
+        },
+        {
+          "gauche": "navire",
+          "droite": "bateau"
+        },
+        {
+          "gauche": "chagrin",
+          "droite": "peine"
+        },
+        {
+          "gauche": "frontière",
+          "droite": "limite"
+        }
+      ],
+      "indice": "Pense à une phrase où tu pourrais remplacer un nom par l'autre.",
+      "explication": "« chemin » et « sentier » ont presque le même sens, comme « peur » et « frayeur »."
+    },
+    {
+      "id": "voc-rel-n2-010",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-contraires-verbes",
+      "relation": "contraires",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "accepter",
+          "droite": "refuser"
+        },
+        {
+          "gauche": "construire",
+          "droite": "détruire"
+        },
+        {
+          "gauche": "économiser",
+          "droite": "gaspiller"
+        },
+        {
+          "gauche": "augmenter",
+          "droite": "diminuer"
+        },
+        {
+          "gauche": "prêter",
+          "droite": "emprunter"
+        }
+      ],
+      "indice": "Cherche le verbe qui dit l'action inverse.",
+      "explication": "« accepter » et « refuser » ont des sens opposés, comme « construire » et « détruire »."
+    },
+    {
+      "id": "voc-rel-n2-011",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-contraires-verbes",
+      "relation": "contraires",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "autoriser",
+          "droite": "interdire"
+        },
+        {
+          "gauche": "réussir",
+          "droite": "échouer"
+        },
+        {
+          "gauche": "rassembler",
+          "droite": "disperser"
+        },
+        {
+          "gauche": "libérer",
+          "droite": "enfermer"
+        },
+        {
+          "gauche": "accélérer",
+          "droite": "ralentir"
+        }
+      ],
+      "indice": "Cherche le verbe qui dit l'action inverse.",
+      "explication": "« autoriser » et « interdire » ont des sens opposés, comme « réussir » et « échouer »."
+    },
+    {
+      "id": "voc-rel-n2-012",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-contraires-verbes",
+      "relation": "contraires",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "allonger",
+          "droite": "raccourcir"
+        },
+        {
+          "gauche": "réveiller",
+          "droite": "endormir"
+        },
+        {
+          "gauche": "rassurer",
+          "droite": "inquiéter"
+        },
+        {
+          "gauche": "unir",
+          "droite": "séparer"
+        },
+        {
+          "gauche": "réchauffer",
+          "droite": "refroidir"
+        }
+      ],
+      "indice": "Cherche le verbe qui dit l'action inverse.",
+      "explication": "« allonger » et « raccourcir » ont des sens opposés, comme « réveiller » et « endormir »."
+    },
+    {
+      "id": "voc-rel-n2-013",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-contraires-adjectifs",
+      "relation": "contraires",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "courageux",
+          "droite": "peureux"
+        },
+        {
+          "gauche": "généreux",
+          "droite": "avare"
+        },
+        {
+          "gauche": "bruyant",
+          "droite": "silencieux"
+        },
+        {
+          "gauche": "ouvert",
+          "droite": "fermé"
+        },
+        {
+          "gauche": "neuf",
+          "droite": "usé"
+        }
+      ],
+      "indice": "Un contraire décrit exactement le sens opposé.",
+      "explication": "« courageux » et « peureux » ont des sens opposés, comme « généreux » et « avare »."
+    },
+    {
+      "id": "voc-rel-n2-014",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-contraires-adjectifs",
+      "relation": "contraires",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "ancien",
+          "droite": "récent"
+        },
+        {
+          "gauche": "sûr",
+          "droite": "dangereux"
+        },
+        {
+          "gauche": "lisse",
+          "droite": "rugueux"
+        },
+        {
+          "gauche": "naturel",
+          "droite": "artificiel"
+        },
+        {
+          "gauche": "public",
+          "droite": "privé"
+        }
+      ],
+      "indice": "Un contraire décrit exactement le sens opposé.",
+      "explication": "« ancien » et « récent » ont des sens opposés, comme « sûr » et « dangereux »."
+    },
+    {
+      "id": "voc-rel-n2-015",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-contraires-adjectifs",
+      "relation": "contraires",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "sage",
+          "droite": "turbulent"
+        },
+        {
+          "gauche": "épais",
+          "droite": "mince"
+        },
+        {
+          "gauche": "sombre",
+          "droite": "lumineux"
+        },
+        {
+          "gauche": "fort",
+          "droite": "faible"
+        },
+        {
+          "gauche": "poli",
+          "droite": "grossier"
+        }
+      ],
+      "indice": "Un contraire décrit exactement le sens opposé.",
+      "explication": "« sage » et « turbulent » ont des sens opposés, comme « épais » et « mince »."
+    },
+    {
+      "id": "voc-rel-n2-016",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-contraires-noms",
+      "relation": "contraires",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "ami",
+          "droite": "ennemi"
+        },
+        {
+          "gauche": "avantage",
+          "droite": "inconvénient"
+        },
+        {
+          "gauche": "réussite",
+          "droite": "échec"
+        },
+        {
+          "gauche": "hausse",
+          "droite": "baisse"
+        },
+        {
+          "gauche": "passé",
+          "droite": "avenir"
+        }
+      ],
+      "indice": "Pour un nom, cherche l'idée opposée.",
+      "explication": "« ami » et « ennemi » ont des sens opposés, comme « avantage » et « inconvénient »."
+    },
+    {
+      "id": "voc-rel-n2-017",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-contraires-noms",
+      "relation": "contraires",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "qualité",
+          "droite": "défaut"
+        },
+        {
+          "gauche": "vitesse",
+          "droite": "lenteur"
+        },
+        {
+          "gauche": "bonheur",
+          "droite": "malheur"
+        },
+        {
+          "gauche": "peur",
+          "droite": "courage"
+        },
+        {
+          "gauche": "danger",
+          "droite": "sécurité"
+        }
+      ],
+      "indice": "Pour un nom, cherche l'idée opposée.",
+      "explication": "« qualité » et « défaut » ont des sens opposés, comme « vitesse » et « lenteur »."
+    },
+    {
+      "id": "voc-rel-n2-018",
+      "type": "relation",
+      "niveau": 2,
+      "competence": "relation-contraires-noms",
+      "relation": "contraires",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "compliment",
+          "droite": "reproche"
+        },
+        {
+          "gauche": "oubli",
+          "droite": "souvenir"
+        },
+        {
+          "gauche": "majorité",
+          "droite": "minorité"
+        },
+        {
+          "gauche": "vendeur",
+          "droite": "acheteur"
+        },
+        {
+          "gauche": "progrès",
+          "droite": "recul"
+        }
+      ],
+      "indice": "Pour un nom, cherche l'idée opposée.",
+      "explication": "« compliment » et « reproche » ont des sens opposés, comme « oubli » et « souvenir »."
+    },
+    {
+      "id": "voc-rel-n3-001",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-synonymes-verbes",
+      "relation": "synonymes",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "convaincre",
+          "droite": "persuader"
+        },
+        {
+          "gauche": "vérifier",
+          "droite": "contrôler"
+        },
+        {
+          "gauche": "empêcher",
+          "droite": "entraver"
+        },
+        {
+          "gauche": "changer",
+          "droite": "modifier"
+        },
+        {
+          "gauche": "supprimer",
+          "droite": "éliminer"
+        },
+        {
+          "gauche": "imiter",
+          "droite": "copier"
+        }
+      ],
+      "indice": "Relis chaque verbe dans une phrase : l'autre verbe doit pouvoir le remplacer.",
+      "explication": "« convaincre » et « persuader » ont presque le même sens, comme « vérifier » et « contrôler »."
+    },
+    {
+      "id": "voc-rel-n3-002",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-synonymes-verbes",
+      "relation": "synonymes",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "déranger",
+          "droite": "importuner"
+        },
+        {
+          "gauche": "étonner",
+          "droite": "surprendre"
+        },
+        {
+          "gauche": "démontrer",
+          "droite": "prouver"
+        },
+        {
+          "gauche": "fournir",
+          "droite": "procurer"
+        },
+        {
+          "gauche": "abandonner",
+          "droite": "délaisser"
+        },
+        {
+          "gauche": "mentionner",
+          "droite": "citer"
+        }
+      ],
+      "indice": "Relis chaque verbe dans une phrase : l'autre verbe doit pouvoir le remplacer.",
+      "explication": "« déranger » et « importuner » ont presque le même sens, comme « étonner » et « surprendre »."
+    },
+    {
+      "id": "voc-rel-n3-003",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-synonymes-verbes",
+      "relation": "synonymes",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "décrire",
+          "droite": "dépeindre"
+        },
+        {
+          "gauche": "détenir",
+          "droite": "posséder"
+        },
+        {
+          "gauche": "ressentir",
+          "droite": "éprouver"
+        },
+        {
+          "gauche": "mépriser",
+          "droite": "dédaigner"
+        },
+        {
+          "gauche": "encourager",
+          "droite": "stimuler"
+        },
+        {
+          "gauche": "équiper",
+          "droite": "munir"
+        }
+      ],
+      "indice": "Relis chaque verbe dans une phrase : l'autre verbe doit pouvoir le remplacer.",
+      "explication": "« décrire » et « dépeindre » ont presque le même sens, comme « détenir » et « posséder »."
+    },
+    {
+      "id": "voc-rel-n3-004",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-synonymes-adjectifs",
+      "relation": "synonymes",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "habile",
+          "droite": "adroit"
+        },
+        {
+          "gauche": "courageux",
+          "droite": "vaillant"
+        },
+        {
+          "gauche": "têtu",
+          "droite": "obstiné"
+        },
+        {
+          "gauche": "bizarre",
+          "droite": "étrange"
+        },
+        {
+          "gauche": "joyeux",
+          "droite": "gai"
+        },
+        {
+          "gauche": "ordinaire",
+          "droite": "banal"
+        }
+      ],
+      "indice": "Relis chaque mot dans une phrase : l'autre mot doit pouvoir le remplacer.",
+      "explication": "« habile » et « adroit » ont presque le même sens, comme « courageux » et « vaillant »."
+    },
+    {
+      "id": "voc-rel-n3-005",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-synonymes-adjectifs",
+      "relation": "synonymes",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "sincère",
+          "droite": "franc"
+        },
+        {
+          "gauche": "docile",
+          "droite": "obéissant"
+        },
+        {
+          "gauche": "orgueilleux",
+          "droite": "arrogant"
+        },
+        {
+          "gauche": "tolérant",
+          "droite": "indulgent"
+        },
+        {
+          "gauche": "maussade",
+          "droite": "morose"
+        },
+        {
+          "gauche": "lointain",
+          "droite": "éloigné"
+        }
+      ],
+      "indice": "Relis chaque mot dans une phrase : l'autre mot doit pouvoir le remplacer.",
+      "explication": "« sincère » et « franc » ont presque le même sens, comme « docile » et « obéissant »."
+    },
+    {
+      "id": "voc-rel-n3-006",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-synonymes-adjectifs",
+      "relation": "synonymes",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "nécessaire",
+          "droite": "indispensable"
+        },
+        {
+          "gauche": "fertile",
+          "droite": "fécond"
+        },
+        {
+          "gauche": "limpide",
+          "droite": "transparent"
+        },
+        {
+          "gauche": "raisonnable",
+          "droite": "sensé"
+        },
+        {
+          "gauche": "gênant",
+          "droite": "embarrassant"
+        },
+        {
+          "gauche": "durable",
+          "droite": "permanent"
+        }
+      ],
+      "indice": "Relis chaque mot dans une phrase : l'autre mot doit pouvoir le remplacer.",
+      "explication": "« nécessaire » et « indispensable » ont presque le même sens, comme « fertile » et « fécond »."
+    },
+    {
+      "id": "voc-rel-n3-007",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-synonymes-noms",
+      "relation": "synonymes",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "adversaire",
+          "droite": "rival"
+        },
+        {
+          "gauche": "exploit",
+          "droite": "prouesse"
+        },
+        {
+          "gauche": "coutume",
+          "droite": "tradition"
+        },
+        {
+          "gauche": "ruse",
+          "droite": "astuce"
+        },
+        {
+          "gauche": "énigme",
+          "droite": "mystère"
+        },
+        {
+          "gauche": "louange",
+          "droite": "éloge"
+        }
+      ],
+      "indice": "Relis chaque mot dans une phrase : l'autre mot doit pouvoir le remplacer.",
+      "explication": "« adversaire » et « rival » ont presque le même sens, comme « exploit » et « prouesse »."
+    },
+    {
+      "id": "voc-rel-n3-008",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-synonymes-noms",
+      "relation": "synonymes",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "douleur",
+          "droite": "souffrance"
+        },
+        {
+          "gauche": "inquiétude",
+          "droite": "souci"
+        },
+        {
+          "gauche": "apparence",
+          "droite": "aspect"
+        },
+        {
+          "gauche": "désordre",
+          "droite": "confusion"
+        },
+        {
+          "gauche": "auteur",
+          "droite": "écrivain"
+        },
+        {
+          "gauche": "défaut",
+          "droite": "imperfection"
+        }
+      ],
+      "indice": "Relis chaque mot dans une phrase : l'autre mot doit pouvoir le remplacer.",
+      "explication": "« douleur » et « souffrance » ont presque le même sens, comme « inquiétude » et « souci »."
+    },
+    {
+      "id": "voc-rel-n3-009",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-synonymes-noms",
+      "relation": "synonymes",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "foule",
+          "droite": "multitude"
+        },
+        {
+          "gauche": "repos",
+          "droite": "répit"
+        },
+        {
+          "gauche": "blague",
+          "droite": "plaisanterie"
+        },
+        {
+          "gauche": "fête",
+          "droite": "célébration"
+        },
+        {
+          "gauche": "pensée",
+          "droite": "réflexion"
+        },
+        {
+          "gauche": "voyage",
+          "droite": "périple"
+        }
+      ],
+      "indice": "Relis chaque mot dans une phrase : l'autre mot doit pouvoir le remplacer.",
+      "explication": "« foule » et « multitude » ont presque le même sens, comme « repos » et « répit »."
+    },
+    {
+      "id": "voc-rel-n3-010",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-contraires-verbes",
+      "relation": "contraires",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "exagérer",
+          "droite": "minimiser"
+        },
+        {
+          "gauche": "prolonger",
+          "droite": "abréger"
+        },
+        {
+          "gauche": "affaiblir",
+          "droite": "renforcer"
+        },
+        {
+          "gauche": "récompenser",
+          "droite": "punir"
+        },
+        {
+          "gauche": "élargir",
+          "droite": "rétrécir"
+        },
+        {
+          "gauche": "rapprocher",
+          "droite": "éloigner"
+        }
+      ],
+      "indice": "Pour chaque verbe, imagine l'action qui défait ou qui s'oppose.",
+      "explication": "« exagérer » et « minimiser » ont des sens opposés, comme « prolonger » et « abréger »."
+    },
+    {
+      "id": "voc-rel-n3-011",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-contraires-verbes",
+      "relation": "contraires",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "détester",
+          "droite": "adorer"
+        },
+        {
+          "gauche": "cacher",
+          "droite": "révéler"
+        },
+        {
+          "gauche": "attirer",
+          "droite": "repousser"
+        },
+        {
+          "gauche": "enrichir",
+          "droite": "appauvrir"
+        },
+        {
+          "gauche": "soulager",
+          "droite": "aggraver"
+        },
+        {
+          "gauche": "hâter",
+          "droite": "retarder"
+        }
+      ],
+      "indice": "Pour chaque verbe, imagine l'action qui défait ou qui s'oppose.",
+      "explication": "« détester » et « adorer » ont des sens opposés, comme « cacher » et « révéler »."
+    },
+    {
+      "id": "voc-rel-n3-012",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-contraires-verbes",
+      "relation": "contraires",
+      "classe": "verbe",
+      "paires": [
+        {
+          "gauche": "encourager",
+          "droite": "décourager"
+        },
+        {
+          "gauche": "admirer",
+          "droite": "mépriser"
+        },
+        {
+          "gauche": "embellir",
+          "droite": "enlaidir"
+        },
+        {
+          "gauche": "élever",
+          "droite": "abaisser"
+        },
+        {
+          "gauche": "réparer",
+          "droite": "endommager"
+        },
+        {
+          "gauche": "ajouter",
+          "droite": "retrancher"
+        }
+      ],
+      "indice": "Pour chaque verbe, imagine l'action qui défait ou qui s'oppose.",
+      "explication": "« encourager » et « décourager » ont des sens opposés, comme « admirer » et « mépriser »."
+    },
+    {
+      "id": "voc-rel-n3-013",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-contraires-adjectifs",
+      "relation": "contraires",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "optimiste",
+          "droite": "pessimiste"
+        },
+        {
+          "gauche": "timide",
+          "droite": "audacieux"
+        },
+        {
+          "gauche": "simple",
+          "droite": "compliqué"
+        },
+        {
+          "gauche": "fertile",
+          "droite": "stérile"
+        },
+        {
+          "gauche": "proche",
+          "droite": "lointain"
+        },
+        {
+          "gauche": "rare",
+          "droite": "fréquent"
+        }
+      ],
+      "indice": "Pour chaque adjectif, cherche l'idée opposée.",
+      "explication": "« optimiste » et « pessimiste » ont des sens opposés, comme « timide » et « audacieux »."
+    },
+    {
+      "id": "voc-rel-n3-014",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-contraires-adjectifs",
+      "relation": "contraires",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "sincère",
+          "droite": "hypocrite"
+        },
+        {
+          "gauche": "économe",
+          "droite": "dépensier"
+        },
+        {
+          "gauche": "paresseux",
+          "droite": "travailleur"
+        },
+        {
+          "gauche": "ennuyeux",
+          "droite": "passionnant"
+        },
+        {
+          "gauche": "permanent",
+          "droite": "provisoire"
+        },
+        {
+          "gauche": "vaste",
+          "droite": "restreint"
+        }
+      ],
+      "indice": "Pour chaque adjectif, cherche l'idée opposée.",
+      "explication": "« sincère » et « hypocrite » ont des sens opposés, comme « économe » et « dépensier »."
+    },
+    {
+      "id": "voc-rel-n3-015",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-contraires-adjectifs",
+      "relation": "contraires",
+      "classe": "adjectif",
+      "paires": [
+        {
+          "gauche": "certain",
+          "droite": "douteux"
+        },
+        {
+          "gauche": "prudent",
+          "droite": "téméraire"
+        },
+        {
+          "gauche": "agressif",
+          "droite": "pacifique"
+        },
+        {
+          "gauche": "étanche",
+          "droite": "perméable"
+        },
+        {
+          "gauche": "bavard",
+          "droite": "taciturne"
+        },
+        {
+          "gauche": "unique",
+          "droite": "multiple"
+        }
+      ],
+      "indice": "Pour chaque adjectif, cherche l'idée opposée.",
+      "explication": "« certain » et « douteux » ont des sens opposés, comme « prudent » et « téméraire »."
+    },
+    {
+      "id": "voc-rel-n3-016",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-contraires-noms",
+      "relation": "contraires",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "joie",
+          "droite": "tristesse"
+        },
+        {
+          "gauche": "paix",
+          "droite": "guerre"
+        },
+        {
+          "gauche": "victoire",
+          "droite": "défaite"
+        },
+        {
+          "gauche": "vérité",
+          "droite": "mensonge"
+        },
+        {
+          "gauche": "courage",
+          "droite": "lâcheté"
+        },
+        {
+          "gauche": "richesse",
+          "droite": "pauvreté"
+        }
+      ],
+      "indice": "Pense à ce qui s'oppose à chaque mot.",
+      "explication": "« joie » et « tristesse » ont des sens opposés, comme « paix » et « guerre »."
+    },
+    {
+      "id": "voc-rel-n3-017",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-contraires-noms",
+      "relation": "contraires",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "amitié",
+          "droite": "hostilité"
+        },
+        {
+          "gauche": "abondance",
+          "droite": "pénurie"
+        },
+        {
+          "gauche": "liberté",
+          "droite": "captivité"
+        },
+        {
+          "gauche": "plaisir",
+          "droite": "douleur"
+        },
+        {
+          "gauche": "savoir",
+          "droite": "ignorance"
+        },
+        {
+          "gauche": "orgueil",
+          "droite": "humilité"
+        }
+      ],
+      "indice": "Pense à ce qui s'oppose à chaque mot.",
+      "explication": "« amitié » et « hostilité » ont des sens opposés, comme « abondance » et « pénurie »."
+    },
+    {
+      "id": "voc-rel-n3-018",
+      "type": "relation",
+      "niveau": 3,
+      "competence": "relation-contraires-noms",
+      "relation": "contraires",
+      "classe": "nom",
+      "paires": [
+        {
+          "gauche": "ouverture",
+          "droite": "fermeture"
+        },
+        {
+          "gauche": "bonté",
+          "droite": "cruauté"
+        },
+        {
+          "gauche": "éloge",
+          "droite": "blâme"
+        },
+        {
+          "gauche": "clarté",
+          "droite": "obscurité"
+        },
+        {
+          "gauche": "confiance",
+          "droite": "méfiance"
+        },
+        {
+          "gauche": "générosité",
+          "droite": "avarice"
+        }
+      ],
+      "indice": "Pense à ce qui s'oppose à chaque mot.",
+      "explication": "« ouverture » et « fermeture » ont des sens opposés, comme « bonté » et « cruauté »."
+    },
+    {
+      "id": "voc-fam-n1-001",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "fleur",
+      "famille": [
+        "fleuriste",
+        "fleurir",
+        "fleurette"
+      ],
+      "intrus": "fleuve",
+      "indice": "Les mots d'une famille ont une même partie au début et un sens qui se ressemble.",
+      "explication": "« Fleuriste », « fleurir » et « fleurette » sont de la famille de « fleur » : ils parlent de fleurs. « Fleuve » est une grande rivière qui se jette dans la mer : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-002",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "jardin",
+      "famille": [
+        "jardinier",
+        "jardiner",
+        "jardinage"
+      ],
+      "intrus": "jaguar",
+      "indice": "Cherche quels mots parlent de la même chose que le mot du haut.",
+      "explication": "« Jardinier », « jardiner » et « jardinage » sont de la famille de « jardin » : ils parlent du jardin et de ceux qui le cultivent. « Jaguar » est un grand félin d'Amérique : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-003",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "neige",
+      "famille": [
+        "neiger",
+        "neigeux",
+        "enneigé"
+      ],
+      "intrus": "neveu",
+      "indice": "Un mot peut ressembler à la base sans en être de la famille.",
+      "explication": "« Neiger », « neigeux » et « enneigé » sont de la famille de « neige » : ils parlent de la neige. « Neveu » est le fils d'un frère ou d'une sœur : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-004",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "sable",
+      "famille": [
+        "sablier",
+        "sablonneux",
+        "ensabler"
+      ],
+      "intrus": "table",
+      "indice": "Cherche le mot dont le sens n'a rien à voir avec celui du mot du haut.",
+      "explication": "« Sablier », « sablonneux » et « ensabler » sont de la famille de « sable » : ils parlent du sable. « Table » est un meuble avec un plateau et des pieds : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-005",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "couleur",
+      "famille": [
+        "colorier",
+        "coloriage",
+        "coloré"
+      ],
+      "intrus": "couloir",
+      "indice": "Les mots d'une famille ont une même partie au début et un sens qui se ressemble.",
+      "explication": "« Colorier », « coloriage » et « coloré » sont de la famille de « couleur » : ils parlent de mettre de la couleur. « Couloir » est un passage étroit dans un bâtiment : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-006",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "lune",
+      "famille": [
+        "lunaire",
+        "alunir",
+        "lunatique"
+      ],
+      "intrus": "lutte",
+      "indice": "Cherche quels mots parlent de la même chose que le mot du haut.",
+      "explication": "« Lunaire », « alunir » et « lunatique » sont de la famille de « lune » : ils parlent de la Lune. « Lutte » est un combat à mains nues entre deux personnes : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-007",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "tête",
+      "famille": [
+        "têtu",
+        "entêtement",
+        "entêté"
+      ],
+      "intrus": "tétine",
+      "indice": "Un mot peut ressembler à la base sans en être de la famille.",
+      "explication": "« Têtu », « entêtement » et « entêté » sont de la famille de « tête » : ils parlent de la tête. « Tétine » est l'embout en caoutchouc d'un biberon : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-008",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "pied",
+      "famille": [
+        "piéton",
+        "piétiner",
+        "trépied"
+      ],
+      "intrus": "pièce",
+      "indice": "Cherche le mot dont le sens n'a rien à voir avec celui du mot du haut.",
+      "explication": "« Piéton », « piétiner » et « trépied » sont de la famille de « pied » : ils parlent du pied et de marcher. « Pièce » est un morceau, un élément d'un ensemble : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-009",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "dent",
+      "famille": [
+        "dentiste",
+        "dentier",
+        "dentifrice"
+      ],
+      "intrus": "tendre",
+      "indice": "Les mots d'une famille ont une même partie au début et un sens qui se ressemble.",
+      "explication": "« Dentiste », « dentier » et « dentifrice » sont de la famille de « dent » : ils parlent des dents. « Tendre » veut dire doux, facile à couper ou à mâcher : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-010",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "mer",
+      "famille": [
+        "marin",
+        "marée",
+        "maritime"
+      ],
+      "intrus": "merci",
+      "indice": "Cherche quels mots parlent de la même chose que le mot du haut.",
+      "explication": "« Marin », « marée » et « maritime » sont de la famille de « mer » : ils parlent de la mer. « Merci » est un mot que l'on dit pour remercier : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-011",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "vent",
+      "famille": [
+        "venteux",
+        "éventail",
+        "ventilateur"
+      ],
+      "intrus": "ventre",
+      "indice": "Un mot peut ressembler à la base sans en être de la famille.",
+      "explication": "« Venteux », « éventail » et « ventilateur » sont de la famille de « vent » : ils parlent de l'air qui se déplace. « Ventre » est la partie du corps qui contient l'estomac : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-012",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "plume",
+      "famille": [
+        "plumage",
+        "plumeau",
+        "plumier"
+      ],
+      "intrus": "plomb",
+      "indice": "Cherche le mot dont le sens n'a rien à voir avec celui du mot du haut.",
+      "explication": "« Plumage », « plumeau » et « plumier » sont de la famille de « plume » : ils parlent des plumes. « Plomb » est un métal gris et très lourd : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-013",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "courage",
+      "famille": [
+        "courageux",
+        "encourager",
+        "décourager"
+      ],
+      "intrus": "courrier",
+      "indice": "Les mots d'une famille ont une même partie au début et un sens qui se ressemble.",
+      "explication": "« Courageux », « encourager » et « décourager » sont de la famille de « courage » : ils parlent du courage. « Courrier » désigne les lettres que l'on reçoit : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-014",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "chaud",
+      "famille": [
+        "réchauffer",
+        "chauffer",
+        "chaudière"
+      ],
+      "intrus": "chaussure",
+      "indice": "Cherche quels mots parlent de la même chose que le mot du haut.",
+      "explication": "« Réchauffer », « chauffer » et « chaudière » sont de la famille de « chaud » : ils parlent de la chaleur. « Chaussure » est ce que l'on met à ses pieds : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-015",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "orange",
+      "famille": [
+        "oranger",
+        "orangeade",
+        "orangerie"
+      ],
+      "intrus": "orage",
+      "indice": "Un mot peut ressembler à la base sans en être de la famille.",
+      "explication": "« Oranger », « orangeade » et « orangerie » sont de la famille d'« orange » : ils parlent de l'orange. « Orage » est un violent coup de tonnerre avec de la pluie : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-016",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "roue",
+      "famille": [
+        "rouage",
+        "rouler",
+        "rouleau"
+      ],
+      "intrus": "rouge",
+      "indice": "Cherche le mot dont le sens n'a rien à voir avec celui du mot du haut.",
+      "explication": "« Rouage », « rouler » et « rouleau » sont de la famille de « roue » : ils parlent de ce qui tourne comme une roue. « Rouge » est une couleur, celle de la tomate mûre : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-017",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "balai",
+      "famille": [
+        "balayer",
+        "balayeur",
+        "balayette"
+      ],
+      "intrus": "ballon",
+      "indice": "Les mots d'une famille ont une même partie au début et un sens qui se ressemble.",
+      "explication": "« Balayer », « balayeur » et « balayette » sont de la famille de « balai » : ils parlent de nettoyer le sol. « Ballon » est une grosse balle gonflée d'air : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n1-018",
+      "type": "famille",
+      "niveau": 1,
+      "competence": "famille-derives-simples",
+      "base": "tapis",
+      "famille": [
+        "tapisser",
+        "tapissier",
+        "tapisserie"
+      ],
+      "intrus": "tapir",
+      "indice": "Cherche quels mots parlent de la même chose que le mot du haut.",
+      "explication": "« Tapisser », « tapissier » et « tapisserie » sont de la famille de « tapis » : ils parlent de ce qui recouvre un sol ou un mur. « Tapir » est un animal à petite trompe qui vit en Amérique du Sud : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-001",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-sonore",
+      "base": "chant",
+      "famille": [
+        "chanter",
+        "chanteur",
+        "chanson",
+        "enchanter"
+      ],
+      "intrus": "champ",
+      "indice": "Deux mots peuvent se ressembler sans avoir le même sens.",
+      "explication": "« Chanter », « chanteur », « chanson » et « enchanter » sont de la famille de « chant » : ils parlent du chant. « Champ » est un terrain cultivé : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-002",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-sonore",
+      "base": "lait",
+      "famille": [
+        "laitier",
+        "laiterie",
+        "allaiter",
+        "laitage"
+      ],
+      "intrus": "laid",
+      "indice": "Pour chaque mot, demande-toi s'il parle de la même chose que le mot du haut.",
+      "explication": "« Laitier », « laiterie », « allaiter » et « laitage » sont de la famille de « lait » : ils parlent du lait. « Laid » veut dire pas beau : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-003",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "sel",
+      "famille": [
+        "salé",
+        "saler",
+        "salière",
+        "dessaler"
+      ],
+      "intrus": "seul",
+      "indice": "Attention : l'intrus ressemble au mot de départ, mais son sens est différent.",
+      "explication": "« Salé », « saler », « salière » et « dessaler » sont de la famille de « sel » : ils parlent du sel. « Seul » veut dire tout seul, sans personne d'autre : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-004",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "arbre",
+      "famille": [
+        "arbuste",
+        "arbrisseau",
+        "arboriculteur",
+        "arboricole"
+      ],
+      "intrus": "arbitre",
+      "indice": "Cherche le mot qui ne vient pas de la même origine que les autres.",
+      "explication": "« Arbuste », « arbrisseau », « arboriculteur » et « arboricole » sont de la famille d'« arbre » : ils parlent des arbres. « Arbitre » est la personne qui fait respecter les règles d'un match : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-005",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "fer",
+      "famille": [
+        "ferraille",
+        "ferronnerie",
+        "ferrer",
+        "ferrailleur"
+      ],
+      "intrus": "ferme",
+      "indice": "Deux mots peuvent se ressembler sans avoir le même sens.",
+      "explication": "« Ferraille », « ferronnerie », « ferrer » et « ferrailleur » sont de la famille de « fer » : ils parlent du fer. « Ferme » est une exploitation agricole, ou veut dire solide : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-006",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "bois",
+      "famille": [
+        "boiserie",
+        "boisé",
+        "déboiser",
+        "reboiser"
+      ],
+      "intrus": "boisson",
+      "indice": "Pour chaque mot, demande-toi s'il parle de la même chose que le mot du haut.",
+      "explication": "« Boiserie », « boisé », « déboiser » et « reboiser » sont de la famille de « bois » : ils parlent du bois et des forêts. « Boisson » est un liquide que l'on boit : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-007",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "peigne",
+      "famille": [
+        "peigner",
+        "peignoir",
+        "dépeigner",
+        "repeigner"
+      ],
+      "intrus": "peindre",
+      "indice": "Attention : l'intrus ressemble au mot de départ, mais son sens est différent.",
+      "explication": "« Peigner », « peignoir », « dépeigner » et « repeigner » sont de la famille de « peigne » : ils parlent des cheveux que l'on coiffe. « Peindre » veut dire couvrir de couleur avec un pinceau : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-008",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "soleil",
+      "famille": [
+        "ensoleillé",
+        "solaire",
+        "parasol",
+        "tournesol"
+      ],
+      "intrus": "solide",
+      "indice": "Cherche le mot qui ne vient pas de la même origine que les autres.",
+      "explication": "« Ensoleillé », « solaire », « parasol » et « tournesol » sont de la famille de « soleil » : ils parlent du Soleil. « Solide » veut dire dur, qui ne se casse pas facilement : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-009",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "fumée",
+      "famille": [
+        "fumer",
+        "fumeur",
+        "enfumer",
+        "fumeux"
+      ],
+      "intrus": "fumier",
+      "indice": "Deux mots peuvent se ressembler sans avoir le même sens.",
+      "explication": "« Fumer », « fumeur », « enfumer » et « fumeux » sont de la famille de « fumée » : ils parlent de la fumée. « Fumier » est un engrais fait avec la litière des animaux : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-010",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "savon",
+      "famille": [
+        "savonner",
+        "savonnette",
+        "savonneux",
+        "savonnerie"
+      ],
+      "intrus": "savant",
+      "indice": "Pour chaque mot, demande-toi s'il parle de la même chose que le mot du haut.",
+      "explication": "« Savonner », « savonnette », « savonneux » et « savonnerie » sont de la famille de « savon » : ils parlent du savon. « Savant » désigne une personne qui sait beaucoup de choses : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-011",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "aimer",
+      "famille": [
+        "amour",
+        "amoureux",
+        "amitié",
+        "aimable"
+      ],
+      "intrus": "amer",
+      "indice": "Attention : l'intrus ressemble au mot de départ, mais son sens est différent.",
+      "explication": "« Amour », « amoureux », « amitié » et « aimable » sont de la famille d'« aimer » : ils parlent de ce que l'on aime. « Amer » veut dire qui a un goût désagréable, comme le café sans sucre : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-012",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "bas",
+      "famille": [
+        "baisser",
+        "abaisser",
+        "bassesse",
+        "rabaisser"
+      ],
+      "intrus": "base",
+      "indice": "Cherche le mot qui ne vient pas de la même origine que les autres.",
+      "explication": "« Baisser », « abaisser », « bassesse » et « rabaisser » sont de la famille de « bas » : ils parlent de ce qui est en dessous. « Base » est la partie sur laquelle un objet repose, ou un point de départ : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-013",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "pleurer",
+      "famille": [
+        "pleur",
+        "pleureur",
+        "pleurnicher",
+        "éploré"
+      ],
+      "intrus": "pleuvoir",
+      "indice": "Deux mots peuvent se ressembler sans avoir le même sens.",
+      "explication": "« Pleur », « pleureur », « pleurnicher » et « éploré » sont de la famille de « pleurer » : ils parlent des larmes. « Pleuvoir » veut dire tomber en gouttes d'eau, en parlant de la pluie : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-014",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "jouer",
+      "famille": [
+        "jouet",
+        "joueur",
+        "jeu",
+        "rejouer"
+      ],
+      "intrus": "joyeux",
+      "indice": "Pour chaque mot, demande-toi s'il parle de la même chose que le mot du haut.",
+      "explication": "« Jouet », « joueur », « jeu » et « rejouer » sont de la famille de « jouer » : ils parlent de jouer. « Joyeux » veut dire très content : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-015",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "manger",
+      "famille": [
+        "mangeoire",
+        "mangeable",
+        "mangeur",
+        "immangeable"
+      ],
+      "intrus": "mangue",
+      "indice": "Attention : l'intrus ressemble au mot de départ, mais son sens est différent.",
+      "explication": "« Mangeoire », « mangeable », « mangeur » et « immangeable » sont de la famille de « manger » : ils parlent de manger. « Mangue » est un fruit tropical : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-016",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "dormir",
+      "famille": [
+        "dormeur",
+        "dortoir",
+        "endormir",
+        "rendormir"
+      ],
+      "intrus": "dorer",
+      "indice": "Cherche le mot qui ne vient pas de la même origine que les autres.",
+      "explication": "« Dormeur », « dortoir », « endormir » et « rendormir » sont de la famille de « dormir » : ils parlent du sommeil. « Dorer » veut dire couvrir d'une couche d'or ou de couleur d'or : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-017",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "nombre",
+      "famille": [
+        "nombreux",
+        "dénombrer",
+        "innombrable",
+        "surnombre"
+      ],
+      "intrus": "nom",
+      "indice": "Deux mots peuvent se ressembler sans avoir le même sens.",
+      "explication": "« Nombreux », « dénombrer », « innombrable » et « surnombre » sont de la famille de « nombre » : ils parlent des nombres, de ce que l'on compte. « Nom » sert à désigner une personne ou une chose : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n2-018",
+      "type": "famille",
+      "niveau": 2,
+      "competence": "famille-ressemblance-ecrite",
+      "base": "sucre",
+      "famille": [
+        "sucrer",
+        "sucrerie",
+        "sucrier",
+        "sucré"
+      ],
+      "intrus": "sucer",
+      "indice": "Pour chaque mot, demande-toi s'il parle de la même chose que le mot du haut.",
+      "explication": "« Sucrer », « sucrerie », « sucrier » et « sucré » sont de la famille de « sucre » : ils parlent du sucre. « Sucer » veut dire faire fondre dans la bouche en aspirant : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-001",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-savant",
+      "base": "terre",
+      "famille": [
+        "terrestre",
+        "atterrir",
+        "souterrain",
+        "territoire",
+        "déterrer"
+      ],
+      "intrus": "terrible",
+      "indice": "Un mot de la famille garde le sens de la base, même quand on ajoute ou qu'on change des morceaux.",
+      "explication": "« Terrestre », « atterrir », « souterrain », « territoire » et « déterrer » sont de la famille de « terre » : ils parlent de la terre. « Terrible » veut dire qui fait peur : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-002",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-savant",
+      "base": "eau",
+      "famille": [
+        "aquatique",
+        "aquarium",
+        "aqueduc",
+        "aquarelle",
+        "subaquatique"
+      ],
+      "intrus": "haut",
+      "indice": "Le radical peut changer un peu : cherche le sens plutôt que la ressemblance.",
+      "explication": "« Aquatique », « aquarium », « aqueduc », « aquarelle » et « subaquatique » sont de la famille d'« eau » : ils parlent de l'eau, avec le radical latin aqua. « Haut » veut dire qui est loin du sol : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-003",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-savant",
+      "base": "main",
+      "famille": [
+        "manuel",
+        "manucure",
+        "manuscrit",
+        "manœuvre",
+        "manipuler"
+      ],
+      "intrus": "manoir",
+      "indice": "Cherche le mot dont le sens n'a pas de lien avec la base.",
+      "explication": "« Manuel », « manucure », « manuscrit », « manœuvre » et « manipuler » sont de la famille de « main » : ils parlent de la main, avec le radical latin manus. « Manoir » est une grande demeure de campagne : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-004",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-savant",
+      "base": "nuit",
+      "famille": [
+        "nocturne",
+        "minuit",
+        "noctambule",
+        "nuitée",
+        "nuitamment"
+      ],
+      "intrus": "ennui",
+      "indice": "Même un mot qui ne ressemble pas beaucoup à la base peut en être : pense à son sens.",
+      "explication": "« Nocturne », « minuit », « noctambule », « nuitée » et « nuitamment » sont de la famille de « nuit » : ils parlent de la nuit. « Ennui » est le sentiment de celui qui ne sait pas quoi faire : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-005",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-savant",
+      "base": "pierre",
+      "famille": [
+        "pierreux",
+        "empierrer",
+        "pierrerie",
+        "pétrifier",
+        "pétrole"
+      ],
+      "intrus": "pieuvre",
+      "indice": "Un mot de la famille garde le sens de la base, même quand on ajoute ou qu'on change des morceaux.",
+      "explication": "« Pierreux », « empierrer », « pierrerie », « pétrifier » et « pétrole » sont de la famille de « pierre » : ils viennent de la pierre, avec le radical grec petra (le pétrole se tire de la roche). « Pieuvre » est un animal marin à huit bras : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-006",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-modifie",
+      "base": "sang",
+      "famille": [
+        "sanglant",
+        "saigner",
+        "ensanglanté",
+        "sanguin",
+        "saignement"
+      ],
+      "intrus": "sans",
+      "indice": "Le radical peut changer un peu : cherche le sens plutôt que la ressemblance.",
+      "explication": "« Sanglant », « saigner », « ensanglanté », « sanguin » et « saignement » sont de la famille de « sang » : ils parlent du sang. « Sans » veut dire qu'il n'y a pas de quelque chose : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-007",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-savant",
+      "base": "lire",
+      "famille": [
+        "lecteur",
+        "lecture",
+        "lisible",
+        "illisible",
+        "relire"
+      ],
+      "intrus": "lisse",
+      "indice": "Cherche le mot dont le sens n'a pas de lien avec la base.",
+      "explication": "« Lecteur », « lecture », « lisible », « illisible » et « relire » sont de la famille de « lire » : ils parlent de lire, avec un radical qui change. « Lisse » veut dire sans aucune bosse, bien plat : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-008",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-savant",
+      "base": "écrire",
+      "famille": [
+        "écrivain",
+        "écriture",
+        "décrire",
+        "inscrire",
+        "transcrire"
+      ],
+      "intrus": "écran",
+      "indice": "Même un mot qui ne ressemble pas beaucoup à la base peut en être : pense à son sens.",
+      "explication": "« Écrivain », « écriture », « décrire », « inscrire » et « transcrire » sont de la famille d'« écrire » : ils parlent d'écrire, avec le radical latin scribere. « Écran » est la surface qui affiche les images d'un appareil : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-009",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-modifie",
+      "base": "boire",
+      "famille": [
+        "boisson",
+        "buveur",
+        "buvette",
+        "buvable",
+        "imbuvable"
+      ],
+      "intrus": "buisson",
+      "indice": "Un mot de la famille garde le sens de la base, même quand on ajoute ou qu'on change des morceaux.",
+      "explication": "« Boisson », « buveur », « buvette », « buvable » et « imbuvable » sont de la famille de « boire » : ils parlent de boire, avec un radical qui change. « Buisson » est un groupe de petits arbustes serrés : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-010",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-savant",
+      "base": "rire",
+      "famille": [
+        "rieur",
+        "risible",
+        "sourire",
+        "ridicule",
+        "dérision"
+      ],
+      "intrus": "ridé",
+      "indice": "Le radical peut changer un peu : cherche le sens plutôt que la ressemblance.",
+      "explication": "« Rieur », « risible », « sourire », « ridicule » et « dérision » sont de la famille de « rire » : ils parlent de rire. « Ridé » veut dire plissé, couvert de rides : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-011",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-savant",
+      "base": "école",
+      "famille": [
+        "écolier",
+        "scolaire",
+        "scolarité",
+        "scolariser",
+        "périscolaire"
+      ],
+      "intrus": "écorce",
+      "indice": "Cherche le mot dont le sens n'a pas de lien avec la base.",
+      "explication": "« Écolier », « scolaire », « scolarité », « scolariser » et « périscolaire » sont de la famille d'« école » : ils parlent de l'école, avec le radical latin schola. « Écorce » est la couche qui recouvre le tronc d'un arbre : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-012",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-savant",
+      "base": "œil",
+      "famille": [
+        "oculiste",
+        "oculaire",
+        "œillère",
+        "œillade",
+        "œillet"
+      ],
+      "intrus": "œuf",
+      "indice": "Même un mot qui ne ressemble pas beaucoup à la base peut en être : pense à son sens.",
+      "explication": "« Oculiste », « oculaire », « œillère », « œillade » et « œillet » sont de la famille d'« œil » : ils parlent de l'œil, avec le radical latin oculus. « Œuf » est ce que pond la poule : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-013",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-savant",
+      "base": "jour",
+      "famille": [
+        "journal",
+        "journée",
+        "journaliste",
+        "ajourner",
+        "séjour"
+      ],
+      "intrus": "jouer",
+      "indice": "Un mot de la famille garde le sens de la base, même quand on ajoute ou qu'on change des morceaux.",
+      "explication": "« Journal », « journée », « journaliste », « ajourner » et « séjour » sont de la famille de « jour » : ils parlent du jour, avec un radical qui change. « Jouer » veut dire s'amuser avec un jeu : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-014",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-modifie",
+      "base": "doux",
+      "famille": [
+        "douceur",
+        "adoucir",
+        "doucement",
+        "douceâtre",
+        "doucereux"
+      ],
+      "intrus": "douane",
+      "indice": "Le radical peut changer un peu : cherche le sens plutôt que la ressemblance.",
+      "explication": "« Douceur », « adoucir », « doucement », « douceâtre » et « doucereux » sont de la famille de « doux » : ils parlent de ce qui est doux. « Douane » est le service qui contrôle les marchandises aux frontières : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-015",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-modifie",
+      "base": "froid",
+      "famille": [
+        "froideur",
+        "refroidir",
+        "froidure",
+        "froidement",
+        "refroidissement"
+      ],
+      "intrus": "froment",
+      "indice": "Cherche le mot dont le sens n'a pas de lien avec la base.",
+      "explication": "« Froideur », « refroidir », « froidure », « froidement » et « refroidissement » sont de la famille de « froid » : ils parlent du froid. « Froment » est un blé dont on fait la farine : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-016",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-modifie",
+      "base": "clair",
+      "famille": [
+        "clarté",
+        "éclairer",
+        "éclaircie",
+        "clairière",
+        "clarifier"
+      ],
+      "intrus": "clavier",
+      "indice": "Même un mot qui ne ressemble pas beaucoup à la base peut en être : pense à son sens.",
+      "explication": "« Clarté », « éclairer », « éclaircie », « clairière » et « clarifier » sont de la famille de « clair » : ils parlent de ce qui est clair, avec un radical qui change. « Clavier » est l'ensemble des touches d'un piano ou d'un ordinateur : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-017",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-modifie",
+      "base": "grand",
+      "famille": [
+        "grandeur",
+        "grandir",
+        "agrandir",
+        "grandiose",
+        "grandement"
+      ],
+      "intrus": "grange",
+      "indice": "Un mot de la famille garde le sens de la base, même quand on ajoute ou qu'on change des morceaux.",
+      "explication": "« Grandeur », « grandir », « agrandir », « grandiose » et « grandement » sont de la famille de « grand » : ils parlent de ce qui est grand. « Grange » est un bâtiment de ferme où l'on range la paille : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-fam-n3-018",
+      "type": "famille",
+      "niveau": 3,
+      "competence": "famille-radical-modifie",
+      "base": "pluie",
+      "famille": [
+        "pleuvoir",
+        "pluvieux",
+        "parapluie",
+        "pluvial",
+        "pluviomètre"
+      ],
+      "intrus": "plaine",
+      "indice": "Le radical peut changer un peu : cherche le sens plutôt que la ressemblance.",
+      "explication": "« Pleuvoir », « pluvieux », « parapluie », « pluvial » et « pluviomètre » sont de la famille de « pluie » : ils parlent de la pluie, avec un radical qui change. « Plaine » est un grand terrain plat : il n'est pas de la famille."
+    },
+    {
+      "id": "voc-aff-n1-001",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-prefixe-re",
+      "pieces": [
+        {
+          "texte": "re",
+          "role": "prefixe"
+        },
+        {
+          "texte": "faire",
+          "role": "radical"
+        }
+      ],
+      "mot": "refaire",
+      "choix": [
+        "faire de nouveau",
+        "ne pas faire",
+        "faire très vite"
+      ],
+      "reponse": "faire de nouveau",
+      "indice": "Le morceau placé au début change le sens du verbe.",
+      "explication": "Le préfixe « re- » veut dire « de nouveau » : « refaire », c'est faire une deuxième fois."
+    },
+    {
+      "id": "voc-aff-n1-002",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-prefixe-re",
+      "pieces": [
+        {
+          "texte": "re",
+          "role": "prefixe"
+        },
+        {
+          "texte": "lire",
+          "role": "radical"
+        }
+      ],
+      "mot": "relire",
+      "choix": [
+        "ne pas lire",
+        "lire de nouveau",
+        "lire à voix haute"
+      ],
+      "reponse": "lire de nouveau",
+      "indice": "Le morceau placé au début change le sens du verbe.",
+      "explication": "Le préfixe « re- » veut dire « de nouveau » : « relire », c'est lire encore une fois."
+    },
+    {
+      "id": "voc-aff-n1-003",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-prefixe-re",
+      "pieces": [
+        {
+          "texte": "re",
+          "role": "prefixe"
+        },
+        {
+          "texte": "jouer",
+          "role": "radical"
+        }
+      ],
+      "mot": "rejouer",
+      "choix": [
+        "jouer très mal",
+        "ne pas jouer",
+        "jouer de nouveau"
+      ],
+      "reponse": "jouer de nouveau",
+      "indice": "Le morceau placé au début change le sens du verbe.",
+      "explication": "Le préfixe « re- » veut dire « de nouveau » : « rejouer », c'est jouer une nouvelle fois."
+    },
+    {
+      "id": "voc-aff-n1-004",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-prefixe-re",
+      "pieces": [
+        {
+          "texte": "re",
+          "role": "prefixe"
+        },
+        {
+          "texte": "fermer",
+          "role": "radical"
+        }
+      ],
+      "mot": "refermer",
+      "choix": [
+        "fermer de nouveau",
+        "ne pas fermer",
+        "fermer très fort"
+      ],
+      "reponse": "fermer de nouveau",
+      "indice": "Le morceau placé au début change le sens du verbe.",
+      "explication": "Le préfixe « re- » veut dire « de nouveau » : « refermer », c'est fermer encore une fois."
+    },
+    {
+      "id": "voc-aff-n1-005",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-prefixe-de",
+      "pieces": [
+        {
+          "texte": "dé",
+          "role": "prefixe"
+        },
+        {
+          "texte": "faire",
+          "role": "radical"
+        }
+      ],
+      "mot": "défaire",
+      "choix": [
+        "faire à moitié",
+        "faire le contraire de ce qu'on a fait",
+        "faire de nouveau"
+      ],
+      "reponse": "faire le contraire de ce qu'on a fait",
+      "indice": "Ce morceau placé au début dit qu'on fait l'action inverse.",
+      "explication": "Le préfixe « dé- » veut dire « le contraire » : « défaire », c'est faire le contraire de ce qu'on a fait."
+    },
+    {
+      "id": "voc-aff-n1-006",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-prefixe-de",
+      "pieces": [
+        {
+          "texte": "dé",
+          "role": "prefixe"
+        },
+        {
+          "texte": "visser",
+          "role": "radical"
+        }
+      ],
+      "mot": "dévisser",
+      "choix": [
+        "visser de nouveau",
+        "visser très fort",
+        "faire le contraire de visser"
+      ],
+      "reponse": "faire le contraire de visser",
+      "indice": "Ce morceau placé au début dit qu'on fait l'action inverse.",
+      "explication": "Le préfixe « dé- » veut dire « le contraire » : « dévisser », c'est faire le contraire de visser."
+    },
+    {
+      "id": "voc-aff-n1-007",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-prefixe-de",
+      "pieces": [
+        {
+          "texte": "dé",
+          "role": "prefixe"
+        },
+        {
+          "texte": "gonfler",
+          "role": "radical"
+        }
+      ],
+      "mot": "dégonfler",
+      "choix": [
+        "faire le contraire de gonfler",
+        "gonfler de nouveau",
+        "gonfler très fort"
+      ],
+      "reponse": "faire le contraire de gonfler",
+      "indice": "Ce morceau placé au début dit qu'on fait l'action inverse.",
+      "explication": "Le préfixe « dé- » veut dire « le contraire » : « dégonfler », c'est faire sortir l'air, le contraire de gonfler."
+    },
+    {
+      "id": "voc-aff-n1-008",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-prefixe-de",
+      "pieces": [
+        {
+          "texte": "dé",
+          "role": "prefixe"
+        },
+        {
+          "texte": "plier",
+          "role": "radical"
+        }
+      ],
+      "mot": "déplier",
+      "choix": [
+        "plier en quatre",
+        "faire le contraire de plier",
+        "plier de nouveau"
+      ],
+      "reponse": "faire le contraire de plier",
+      "indice": "Ce morceau placé au début dit qu'on fait l'action inverse.",
+      "explication": "Le préfixe « dé- » veut dire « le contraire » : « déplier », c'est faire le contraire de plier."
+    },
+    {
+      "id": "voc-aff-n1-009",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-prefixe-in",
+      "pieces": [
+        {
+          "texte": "in",
+          "role": "prefixe"
+        },
+        {
+          "texte": "connu",
+          "role": "radical"
+        }
+      ],
+      "mot": "inconnu",
+      "choix": [
+        "qui est connu de nouveau",
+        "qui est très connu",
+        "qui n'est pas connu"
+      ],
+      "reponse": "qui n'est pas connu",
+      "indice": "Ce préfixe dit le contraire du mot qui suit.",
+      "explication": "Le préfixe « in- » veut dire « pas » : « inconnu » se dit de ce que l'on ne connaît pas."
+    },
+    {
+      "id": "voc-aff-n1-010",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-prefixe-in",
+      "pieces": [
+        {
+          "texte": "in",
+          "role": "prefixe"
+        },
+        {
+          "texte": "utile",
+          "role": "radical"
+        }
+      ],
+      "mot": "inutile",
+      "choix": [
+        "qui n'est pas utile",
+        "qui est très utile",
+        "qui sert une deuxième fois"
+      ],
+      "reponse": "qui n'est pas utile",
+      "indice": "Ce préfixe dit le contraire du mot qui suit.",
+      "explication": "Le préfixe « in- » veut dire « pas » : « inutile » se dit de ce qui ne sert à rien."
+    },
+    {
+      "id": "voc-aff-n1-011",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-prefixe-in",
+      "pieces": [
+        {
+          "texte": "in",
+          "role": "prefixe"
+        },
+        {
+          "texte": "visible",
+          "role": "radical"
+        }
+      ],
+      "mot": "invisible",
+      "choix": [
+        "qui se voit de nouveau",
+        "qui n'est pas visible",
+        "qui est très visible"
+      ],
+      "reponse": "qui n'est pas visible",
+      "indice": "Ce préfixe dit le contraire du mot qui suit.",
+      "explication": "Le préfixe « in- » veut dire « pas » : « invisible » se dit de ce que l'on ne peut pas voir."
+    },
+    {
+      "id": "voc-aff-n1-012",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-suffixe-ier",
+      "pieces": [
+        {
+          "texte": "jardin",
+          "role": "radical"
+        },
+        {
+          "texte": "ier",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "jardinier",
+      "choix": [
+        "un petit jardin",
+        "une plante de jardin",
+        "celui qui s'occupe d'un jardin"
+      ],
+      "reponse": "celui qui s'occupe d'un jardin",
+      "indice": "Le morceau placé à la fin dit qui s'occupe d'une chose.",
+      "explication": "Le suffixe « -ier » sert à nommer « celui qui » s'occupe d'une chose : « jardinier » désigne la personne qui s'occupe du jardin."
+    },
+    {
+      "id": "voc-aff-n1-013",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-suffixe-eur",
+      "pieces": [
+        {
+          "texte": "chant",
+          "role": "radical"
+        },
+        {
+          "texte": "eur",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "chanteur",
+      "choix": [
+        "celui qui chante",
+        "l'endroit où l'on chante",
+        "ce qu'on chante"
+      ],
+      "reponse": "celui qui chante",
+      "indice": "Le morceau placé à la fin dit qui fait l'action.",
+      "explication": "Le suffixe « -eur » sert à nommer « celui qui » fait l'action : un « chanteur » est quelqu'un qui chante."
+    },
+    {
+      "id": "voc-aff-n1-014",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-suffixe-eur",
+      "pieces": [
+        {
+          "texte": "dans",
+          "role": "radical"
+        },
+        {
+          "texte": "eur",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "danseur",
+      "choix": [
+        "un lieu pour danser",
+        "celui qui danse",
+        "la musique de la danse"
+      ],
+      "reponse": "celui qui danse",
+      "indice": "Le morceau placé à la fin dit qui fait l'action.",
+      "explication": "Le suffixe « -eur » sert à nommer « celui qui » fait l'action : « danseur » nomme celui qui danse."
+    },
+    {
+      "id": "voc-aff-n1-015",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-suffixe-eur",
+      "pieces": [
+        {
+          "texte": "jou",
+          "role": "radical"
+        },
+        {
+          "texte": "eur",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "joueur",
+      "choix": [
+        "l'objet avec lequel on joue",
+        "l'endroit où l'on joue",
+        "celui qui joue"
+      ],
+      "reponse": "celui qui joue",
+      "indice": "Le morceau placé à la fin dit qui fait l'action.",
+      "explication": "Le suffixe « -eur » sert à nommer « celui qui » fait l'action : « joueur » nomme celui qui joue."
+    },
+    {
+      "id": "voc-aff-n1-016",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-suffixe-eur",
+      "pieces": [
+        {
+          "texte": "vend",
+          "role": "radical"
+        },
+        {
+          "texte": "eur",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "vendeur",
+      "choix": [
+        "celui qui vend",
+        "celui qui achète",
+        "l'endroit où l'on vend"
+      ],
+      "reponse": "celui qui vend",
+      "indice": "Le morceau placé à la fin dit qui fait l'action.",
+      "explication": "Le suffixe « -eur » sert à nommer « celui qui » fait l'action : « vendeur » nomme celui qui vend."
+    },
+    {
+      "id": "voc-aff-n1-017",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-suffixe-ette",
+      "pieces": [
+        {
+          "texte": "fleur",
+          "role": "radical"
+        },
+        {
+          "texte": "ette",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "fleurette",
+      "choix": [
+        "une fleur séchée",
+        "une petite fleur",
+        "une fleur très rare"
+      ],
+      "reponse": "une petite fleur",
+      "indice": "Le morceau placé à la fin change la taille.",
+      "explication": "Le suffixe « -ette » veut dire « petite » : « fleurette » désigne une petite fleur."
+    },
+    {
+      "id": "voc-aff-n1-018",
+      "type": "affixe",
+      "niveau": 1,
+      "competence": "affixe-suffixe-age",
+      "pieces": [
+        {
+          "texte": "jardin",
+          "role": "radical"
+        },
+        {
+          "texte": "age",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "jardinage",
+      "choix": [
+        "celui qui jardine",
+        "un petit jardin",
+        "l'action de jardiner"
+      ],
+      "reponse": "l'action de jardiner",
+      "indice": "Le morceau placé à la fin fabrique un nom à partir du verbe.",
+      "explication": "Le suffixe « -age » sert à nommer « l'action » : « jardinage » nomme l'action de jardiner."
+    },
+    {
+      "id": "voc-aff-n2-001",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-in",
+      "pieces": [
+        {
+          "texte": "im",
+          "role": "prefixe"
+        },
+        {
+          "texte": "possible",
+          "role": "radical"
+        }
+      ],
+      "mot": "impossible",
+      "choix": [
+        "qui ne peut pas se faire",
+        "qui se fait facilement",
+        "qui se fait deux fois"
+      ],
+      "reponse": "qui ne peut pas se faire",
+      "indice": "Ce préfixe dit le contraire du mot qui suit.",
+      "explication": "Le préfixe « im- » (« in- » devant p) veut dire « pas » : « impossible » se dit de ce qui ne peut pas se faire."
+    },
+    {
+      "id": "voc-aff-n2-002",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-in",
+      "pieces": [
+        {
+          "texte": "im",
+          "role": "prefixe"
+        },
+        {
+          "texte": "poli",
+          "role": "radical"
+        }
+      ],
+      "mot": "impoli",
+      "choix": [
+        "qui est poli avec tout le monde",
+        "qui n'est pas poli",
+        "qui est très poli"
+      ],
+      "reponse": "qui n'est pas poli",
+      "indice": "Ce préfixe dit le contraire du mot qui suit.",
+      "explication": "Le préfixe « im- » (« in- » devant p) veut dire « pas » : « impoli » se dit de quelqu'un qui n'est pas poli."
+    },
+    {
+      "id": "voc-aff-n2-003",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-in",
+      "pieces": [
+        {
+          "texte": "im",
+          "role": "prefixe"
+        },
+        {
+          "texte": "mobile",
+          "role": "radical"
+        }
+      ],
+      "mot": "immobile",
+      "choix": [
+        "qui bouge souvent",
+        "qui bouge très vite",
+        "qui ne bouge pas"
+      ],
+      "reponse": "qui ne bouge pas",
+      "indice": "Ce préfixe dit le contraire du mot qui suit.",
+      "explication": "Le préfixe « im- » (« in- » devant m) veut dire « pas » : « immobile » se dit de ce qui ne bouge pas."
+    },
+    {
+      "id": "voc-aff-n2-004",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-mal",
+      "pieces": [
+        {
+          "texte": "mal",
+          "role": "prefixe"
+        },
+        {
+          "texte": "heureux",
+          "role": "radical"
+        }
+      ],
+      "mot": "malheureux",
+      "choix": [
+        "qui n'est pas heureux",
+        "qui est très heureux",
+        "qui devient heureux"
+      ],
+      "reponse": "qui n'est pas heureux",
+      "indice": "Le morceau placé au début dit que ce n'est pas bien.",
+      "explication": "Le préfixe « mal- » dit que ce n'est pas bien : « malheureux » se dit de quelqu'un qui n'est pas heureux."
+    },
+    {
+      "id": "voc-aff-n2-005",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-mal",
+      "pieces": [
+        {
+          "texte": "mal",
+          "role": "prefixe"
+        },
+        {
+          "texte": "adroit",
+          "role": "radical"
+        }
+      ],
+      "mot": "maladroit",
+      "choix": [
+        "qui devient adroit",
+        "qui n'est pas adroit",
+        "qui est très adroit"
+      ],
+      "reponse": "qui n'est pas adroit",
+      "indice": "Le morceau placé au début dit que ce n'est pas bien.",
+      "explication": "Le préfixe « mal- » veut dire « pas » ou mal : « maladroit » se dit de quelqu'un qui n'est pas adroit."
+    },
+    {
+      "id": "voc-aff-n2-006",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-mal",
+      "pieces": [
+        {
+          "texte": "mal",
+          "role": "prefixe"
+        },
+        {
+          "texte": "honnête",
+          "role": "radical"
+        }
+      ],
+      "mot": "malhonnête",
+      "choix": [
+        "qui est très honnête",
+        "qui reste honnête",
+        "qui n'est pas honnête"
+      ],
+      "reponse": "qui n'est pas honnête",
+      "indice": "Le morceau placé au début dit que ce n'est pas bien.",
+      "explication": "Le préfixe « mal- » veut dire « pas » ou mal : « malhonnête » se dit de quelqu'un qui n'est pas honnête."
+    },
+    {
+      "id": "voc-aff-n2-007",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-pre",
+      "pieces": [
+        {
+          "texte": "pré",
+          "role": "prefixe"
+        },
+        {
+          "texte": "histoire",
+          "role": "radical"
+        }
+      ],
+      "mot": "préhistoire",
+      "choix": [
+        "la période avant l'écriture",
+        "la période après l'écriture",
+        "une histoire inventée"
+      ],
+      "reponse": "la période avant l'écriture",
+      "indice": "Le morceau placé au début dit quand cela se passe.",
+      "explication": "Le préfixe « pré- » veut dire « avant » : « préhistoire » désigne le temps d'avant l'écriture."
+    },
+    {
+      "id": "voc-aff-n2-008",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-pre",
+      "pieces": [
+        {
+          "texte": "pré",
+          "role": "prefixe"
+        },
+        {
+          "texte": "avis",
+          "role": "radical"
+        }
+      ],
+      "mot": "préavis",
+      "choix": [
+        "un avis contraire",
+        "un avis donné avant",
+        "un avis donné après"
+      ],
+      "reponse": "un avis donné avant",
+      "indice": "Le morceau placé au début dit quand cela se passe.",
+      "explication": "Le préfixe « pré- » veut dire « avant » : un « préavis » est un avis donné avant que quelque chose arrive."
+    },
+    {
+      "id": "voc-aff-n2-009",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-pre",
+      "pieces": [
+        {
+          "texte": "pré",
+          "role": "prefixe"
+        },
+        {
+          "texte": "chauffer",
+          "role": "radical"
+        }
+      ],
+      "mot": "préchauffer",
+      "choix": [
+        "chauffer après s'en être servi",
+        "ne pas chauffer",
+        "chauffer avant de s'en servir"
+      ],
+      "reponse": "chauffer avant de s'en servir",
+      "indice": "Le morceau placé au début dit quand cela se passe.",
+      "explication": "Le préfixe « pré- » veut dire « avant » : « préchauffer », c'est chauffer avant de s'en servir."
+    },
+    {
+      "id": "voc-aff-n2-010",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-pre",
+      "pieces": [
+        {
+          "texte": "pré",
+          "role": "prefixe"
+        },
+        {
+          "texte": "dire",
+          "role": "radical"
+        }
+      ],
+      "mot": "prédire",
+      "choix": [
+        "dire avant que cela arrive",
+        "dire de nouveau",
+        "ne pas dire"
+      ],
+      "reponse": "dire avant que cela arrive",
+      "indice": "Le morceau placé au début dit quand cela se passe.",
+      "explication": "Le préfixe « pré- » veut dire « avant » : « prédire », c'est dire avant que cela arrive."
+    },
+    {
+      "id": "voc-aff-n2-011",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-sur",
+      "pieces": [
+        {
+          "texte": "sur",
+          "role": "prefixe"
+        },
+        {
+          "texte": "peuplé",
+          "role": "radical"
+        }
+      ],
+      "mot": "surpeuplé",
+      "choix": [
+        "qui a de nouveaux habitants",
+        "qui a trop d'habitants",
+        "qui n'a presque pas d'habitants"
+      ],
+      "reponse": "qui a trop d'habitants",
+      "indice": "Le morceau placé au début parle de quantité ou de place.",
+      "explication": "Le préfixe « sur- » veut dire « trop » ici : « surpeuplé » se dit d'un lieu qui a trop d'habitants."
+    },
+    {
+      "id": "voc-aff-n2-012",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-sur",
+      "pieces": [
+        {
+          "texte": "sur",
+          "role": "prefixe"
+        },
+        {
+          "texte": "nom",
+          "role": "radical"
+        }
+      ],
+      "mot": "surnom",
+      "choix": [
+        "un nom écrit en grand",
+        "le nom d'une famille",
+        "un nom donné en plus"
+      ],
+      "reponse": "un nom donné en plus",
+      "indice": "Le morceau placé au début parle de quantité ou de place.",
+      "explication": "Le préfixe « sur- » veut dire « en plus » : un « surnom » est un nom donné en plus du vrai nom."
+    },
+    {
+      "id": "voc-aff-n2-013",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-sur",
+      "pieces": [
+        {
+          "texte": "sur",
+          "role": "prefixe"
+        },
+        {
+          "texte": "charger",
+          "role": "radical"
+        }
+      ],
+      "mot": "surcharger",
+      "choix": [
+        "charger de trop",
+        "charger de nouveau",
+        "décharger"
+      ],
+      "reponse": "charger de trop",
+      "indice": "Le morceau placé au début parle de quantité ou de place.",
+      "explication": "Le préfixe « sur- » veut dire « trop » ici : « surcharger », c'est charger de trop."
+    },
+    {
+      "id": "voc-aff-n2-014",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-prefixe-sur",
+      "pieces": [
+        {
+          "texte": "sur",
+          "role": "prefixe"
+        },
+        {
+          "texte": "voler",
+          "role": "radical"
+        }
+      ],
+      "mot": "survoler",
+      "choix": [
+        "voler à toute vitesse",
+        "voler au-dessus",
+        "voler de nouveau"
+      ],
+      "reponse": "voler au-dessus",
+      "indice": "Le morceau placé au début parle de quantité ou de place.",
+      "explication": "Le préfixe « sur- » veut dire « au-dessus » : « survoler », c'est voler au-dessus."
+    },
+    {
+      "id": "voc-aff-n2-015",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-suffixe-ment",
+      "pieces": [
+        {
+          "texte": "heureuse",
+          "role": "radical"
+        },
+        {
+          "texte": "ment",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "heureusement",
+      "choix": [
+        "celui qui est heureux",
+        "le fait d'être heureux",
+        "d'une manière heureuse, par chance"
+      ],
+      "reponse": "d'une manière heureuse, par chance",
+      "indice": "Ce morceau final fabrique un mot invariable qui dit la manière.",
+      "explication": "Le suffixe « -ment » s'ajoute à la forme du féminin et donne un adverbe : « heureusement »."
+    },
+    {
+      "id": "voc-aff-n2-016",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-suffixe-ment",
+      "pieces": [
+        {
+          "texte": "lente",
+          "role": "radical"
+        },
+        {
+          "texte": "ment",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "lentement",
+      "choix": [
+        "de façon lente",
+        "celui qui est lent",
+        "la qualité d'être lent"
+      ],
+      "reponse": "de façon lente",
+      "indice": "Ce morceau final fabrique un mot invariable qui dit la manière.",
+      "explication": "Le suffixe « -ment » s'ajoute à la forme du féminin « lente » et dit la manière : « lentement »."
+    },
+    {
+      "id": "voc-aff-n2-017",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-suffixe-ment",
+      "pieces": [
+        {
+          "texte": "poli",
+          "role": "radical"
+        },
+        {
+          "texte": "ment",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "poliment",
+      "choix": [
+        "le fait d'être poli",
+        "de façon polie",
+        "celui qui est poli"
+      ],
+      "reponse": "de façon polie",
+      "indice": "Ce morceau final fabrique un mot invariable qui dit la manière.",
+      "explication": "Le suffixe « -ment » s'ajoute à « poli » et dit la manière : « poliment » veut dire de façon polie."
+    },
+    {
+      "id": "voc-aff-n2-018",
+      "type": "affixe",
+      "niveau": 2,
+      "competence": "affixe-suffixe-ment",
+      "pieces": [
+        {
+          "texte": "calme",
+          "role": "radical"
+        },
+        {
+          "texte": "ment",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "calmement",
+      "choix": [
+        "celui qui est calme",
+        "le fait d'être calme",
+        "de façon calme"
+      ],
+      "reponse": "de façon calme",
+      "indice": "Ce morceau final fabrique un mot invariable qui dit la manière.",
+      "explication": "Le suffixe « -ment » s'ajoute à « calme » et dit la manière : « calmement » veut dire de façon calme."
+    },
+    {
+      "id": "voc-aff-n3-001",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-suffixe",
+      "pieces": [
+        {
+          "texte": "in",
+          "role": "prefixe"
+        },
+        {
+          "texte": "oubli",
+          "role": "radical"
+        },
+        {
+          "texte": "able",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "inoubliable",
+      "choix": [
+        "qu'on ne peut pas oublier",
+        "qu'on oublie facilement",
+        "qu'on oublie une seconde fois"
+      ],
+      "reponse": "qu'on ne peut pas oublier",
+      "indice": "Trouve ce que veut dire chaque morceau, puis relis le mot en entier.",
+      "explication": "Le préfixe « in- » veut dire « pas » et le suffixe « -able » veut dire que l'on peut : « inoubliable » se dit de ce qu'on ne peut pas oublier."
+    },
+    {
+      "id": "voc-aff-n3-002",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-suffixe",
+      "pieces": [
+        {
+          "texte": "ir",
+          "role": "prefixe"
+        },
+        {
+          "texte": "répar",
+          "role": "radical"
+        },
+        {
+          "texte": "able",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "irréparable",
+      "choix": [
+        "qu'on répare une deuxième fois",
+        "qu'on ne peut pas réparer",
+        "qu'on répare facilement"
+      ],
+      "reponse": "qu'on ne peut pas réparer",
+      "indice": "Trouve ce que veut dire chaque morceau, puis relis le mot en entier.",
+      "explication": "Le préfixe « ir- » (« in- » devant r) veut dire « pas » et le suffixe « -able » veut dire que l'on peut : « irréparable » se dit de ce qu'on ne peut pas réparer."
+    },
+    {
+      "id": "voc-aff-n3-003",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-suffixe",
+      "pieces": [
+        {
+          "texte": "im",
+          "role": "prefixe"
+        },
+        {
+          "texte": "pardonn",
+          "role": "radical"
+        },
+        {
+          "texte": "able",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "impardonnable",
+      "choix": [
+        "qu'on pardonne facilement",
+        "qu'on pardonne deux fois",
+        "qu'on ne peut pas pardonner"
+      ],
+      "reponse": "qu'on ne peut pas pardonner",
+      "indice": "Trouve ce que veut dire chaque morceau, puis relis le mot en entier.",
+      "explication": "Le préfixe « im- » (« in- » devant p) veut dire « pas » et le suffixe « -able » veut dire que l'on peut : « impardonnable » se dit de ce qu'on ne peut pas pardonner."
+    },
+    {
+      "id": "voc-aff-n3-004",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-suffixe-able",
+      "pieces": [
+        {
+          "texte": "lav",
+          "role": "radical"
+        },
+        {
+          "texte": "able",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "lavable",
+      "choix": [
+        "qu'on peut laver",
+        "qu'on doit laver deux fois",
+        "qu'on ne lave jamais"
+      ],
+      "reponse": "qu'on peut laver",
+      "indice": "Trouve ce que veut dire chaque morceau, puis relis le mot en entier.",
+      "explication": "Le suffixe « -able » veut dire que l'on peut : « lavable » se dit de ce qu'on peut laver."
+    },
+    {
+      "id": "voc-aff-n3-005",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-anti",
+      "pieces": [
+        {
+          "texte": "anti",
+          "role": "prefixe"
+        },
+        {
+          "texte": "vol",
+          "role": "radical"
+        }
+      ],
+      "mot": "antivol",
+      "choix": [
+        "qui vole en cachette",
+        "qui protège contre le vol",
+        "qui aide à voler dans le ciel"
+      ],
+      "reponse": "qui protège contre le vol",
+      "indice": "Ce préfixe vient du grec : il dit qu'on est contre quelque chose.",
+      "explication": "Le préfixe « anti- » veut dire « contre » : un « antivol » protège contre le vol."
+    },
+    {
+      "id": "voc-aff-n3-006",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-anti",
+      "pieces": [
+        {
+          "texte": "anti",
+          "role": "prefixe"
+        },
+        {
+          "texte": "bruit",
+          "role": "radical"
+        }
+      ],
+      "mot": "antibruit",
+      "choix": [
+        "qui fait beaucoup de bruit",
+        "qui annonce un bruit",
+        "qui protège contre le bruit"
+      ],
+      "reponse": "qui protège contre le bruit",
+      "indice": "Ce préfixe vient du grec : il dit qu'on est contre quelque chose.",
+      "explication": "Le préfixe « anti- » veut dire « contre » : un mur « antibruit » protège contre le bruit."
+    },
+    {
+      "id": "voc-aff-n3-007",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-anti",
+      "pieces": [
+        {
+          "texte": "anti",
+          "role": "prefixe"
+        },
+        {
+          "texte": "gel",
+          "role": "radical"
+        }
+      ],
+      "mot": "antigel",
+      "choix": [
+        "qui protège contre le gel",
+        "qui sert à fabriquer de la glace",
+        "qui chauffe la maison"
+      ],
+      "reponse": "qui protège contre le gel",
+      "indice": "Ce préfixe vient du grec : il dit qu'on est contre quelque chose.",
+      "explication": "Le préfixe « anti- » veut dire « contre » : un liquide « antigel » protège contre le gel."
+    },
+    {
+      "id": "voc-aff-n3-008",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-inter",
+      "pieces": [
+        {
+          "texte": "inter",
+          "role": "prefixe"
+        },
+        {
+          "texte": "national",
+          "role": "radical"
+        }
+      ],
+      "mot": "international",
+      "choix": [
+        "qui se passe dans une ville",
+        "qui existe entre plusieurs pays",
+        "qui reste dans un seul pays"
+      ],
+      "reponse": "qui existe entre plusieurs pays",
+      "indice": "Cherche ce que veut dire le morceau placé au début.",
+      "explication": "Le préfixe « inter- » veut dire « entre » : « international » se dit de ce qui existe entre plusieurs pays."
+    },
+    {
+      "id": "voc-aff-n3-009",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-inter",
+      "pieces": [
+        {
+          "texte": "inter",
+          "role": "prefixe"
+        },
+        {
+          "texte": "scolaire",
+          "role": "radical"
+        }
+      ],
+      "mot": "interscolaire",
+      "choix": [
+        "qui a lieu dans une seule école",
+        "qui a lieu après l'école",
+        "qui a lieu entre plusieurs écoles"
+      ],
+      "reponse": "qui a lieu entre plusieurs écoles",
+      "indice": "Cherche ce que veut dire le morceau placé au début.",
+      "explication": "Le préfixe « inter- » veut dire « entre » : « interscolaire » se dit de ce qui a lieu entre plusieurs écoles."
+    },
+    {
+      "id": "voc-aff-n3-010",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-trans",
+      "pieces": [
+        {
+          "texte": "trans",
+          "role": "prefixe"
+        },
+        {
+          "texte": "porter",
+          "role": "radical"
+        }
+      ],
+      "mot": "transporter",
+      "choix": [
+        "porter d'un lieu à un autre",
+        "porter de nouveau",
+        "porter sur soi"
+      ],
+      "reponse": "porter d'un lieu à un autre",
+      "indice": "Cherche ce que veut dire le morceau placé au début.",
+      "explication": "Le préfixe « trans- » veut dire « d'un lieu à un autre » : « transporter », c'est porter d'un lieu à un autre."
+    },
+    {
+      "id": "voc-aff-n3-011",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-trans",
+      "pieces": [
+        {
+          "texte": "trans",
+          "role": "prefixe"
+        },
+        {
+          "texte": "planter",
+          "role": "radical"
+        }
+      ],
+      "mot": "transplanter",
+      "choix": [
+        "planter trop profond",
+        "planter dans un autre endroit",
+        "planter de nouveau au même endroit"
+      ],
+      "reponse": "planter dans un autre endroit",
+      "indice": "Cherche ce que veut dire le morceau placé au début.",
+      "explication": "Le préfixe « trans- » veut dire d'un endroit à un autre : « transplanter », c'est planter dans « un autre endroit »."
+    },
+    {
+      "id": "voc-aff-n3-012",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-trans",
+      "pieces": [
+        {
+          "texte": "trans",
+          "role": "prefixe"
+        },
+        {
+          "texte": "percer",
+          "role": "radical"
+        }
+      ],
+      "mot": "transpercer",
+      "choix": [
+        "percer de nouveau",
+        "percer un tout petit trou",
+        "percer de part en part"
+      ],
+      "reponse": "percer de part en part",
+      "indice": "Cherche ce que veut dire le morceau placé au début.",
+      "explication": "Le préfixe « trans- » veut dire à travers : « transpercer », c'est percer « de part en part »."
+    },
+    {
+      "id": "voc-aff-n3-013",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-in",
+      "pieces": [
+        {
+          "texte": "il",
+          "role": "prefixe"
+        },
+        {
+          "texte": "lisible",
+          "role": "radical"
+        }
+      ],
+      "mot": "illisible",
+      "choix": [
+        "qu'on ne peut pas lire",
+        "qu'on lit facilement",
+        "qu'on lit à voix haute"
+      ],
+      "reponse": "qu'on ne peut pas lire",
+      "indice": "Ce préfixe dit le contraire du mot qui suit.",
+      "explication": "Le préfixe « il- » (« in- » devant l) veut dire « pas » : « illisible » se dit de ce qu'on ne peut pas lire."
+    },
+    {
+      "id": "voc-aff-n3-014",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-prefixe-in",
+      "pieces": [
+        {
+          "texte": "il",
+          "role": "prefixe"
+        },
+        {
+          "texte": "légal",
+          "role": "radical"
+        }
+      ],
+      "mot": "illégal",
+      "choix": [
+        "qui change la loi",
+        "qui n'est pas permis par la loi",
+        "qui est permis par la loi"
+      ],
+      "reponse": "qui n'est pas permis par la loi",
+      "indice": "Ce préfixe dit le contraire du mot qui suit.",
+      "explication": "Le préfixe « il- » (« in- » devant l) veut dire « pas » : « illégal » se dit de ce qui n'est pas permis par la loi."
+    },
+    {
+      "id": "voc-aff-n3-015",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-suffixe-ation",
+      "pieces": [
+        {
+          "texte": "prépar",
+          "role": "radical"
+        },
+        {
+          "texte": "ation",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "préparation",
+      "choix": [
+        "celui qui prépare",
+        "l'endroit où l'on prépare",
+        "l'action de préparer"
+      ],
+      "reponse": "l'action de préparer",
+      "indice": "Le morceau placé à la fin transforme le verbe en nom.",
+      "explication": "Le suffixe « -ation » sert à nommer « l'action » : « préparation » nomme l'action de préparer."
+    },
+    {
+      "id": "voc-aff-n3-016",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-suffixe-ation",
+      "pieces": [
+        {
+          "texte": "rénov",
+          "role": "radical"
+        },
+        {
+          "texte": "ation",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "rénovation",
+      "choix": [
+        "l'action de rénover",
+        "celui qui rénove",
+        "l'outil qui sert à rénover"
+      ],
+      "reponse": "l'action de rénover",
+      "indice": "Le morceau placé à la fin transforme le verbe en nom.",
+      "explication": "Le suffixe « -ation » sert à nommer « l'action » : « rénovation » nomme l'action de rénover."
+    },
+    {
+      "id": "voc-aff-n3-017",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-suffixe-oir",
+      "pieces": [
+        {
+          "texte": "arros",
+          "role": "radical"
+        },
+        {
+          "texte": "oir",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "arrosoir",
+      "choix": [
+        "l'action d'arroser",
+        "objet qui sert à arroser",
+        "celui qui arrose"
+      ],
+      "reponse": "objet qui sert à arroser",
+      "indice": "Le morceau placé à la fin nomme un objet.",
+      "explication": "Le suffixe « -oir » sert à nommer un objet « qui sert à » faire quelque chose : un « arrosoir » sert à arroser."
+    },
+    {
+      "id": "voc-aff-n3-018",
+      "type": "affixe",
+      "niveau": 3,
+      "competence": "affixe-suffixe-oir",
+      "pieces": [
+        {
+          "texte": "séch",
+          "role": "radical"
+        },
+        {
+          "texte": "oir",
+          "role": "suffixe"
+        }
+      ],
+      "mot": "séchoir",
+      "choix": [
+        "celui qui sèche",
+        "l'action de sécher",
+        "objet qui sert à sécher"
+      ],
+      "reponse": "objet qui sert à sécher",
+      "indice": "Le morceau placé à la fin nomme un objet.",
+      "explication": "Le suffixe « -oir » sert à nommer un objet « qui sert à » faire quelque chose : un « séchoir » sert à sécher."
+    },
+    {
+      "id": "voc-sen-n1-001",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "pied",
+      "phrase": "Le pied de la lampe est en bois.",
+      "choix": [
+        "partie du corps au bout de la jambe",
+        "partie qui soutient un objet"
+      ],
+      "reponse": "partie qui soutient un objet",
+      "indice": "Regarde de quoi on parle dans la phrase.",
+      "explication": "Le mot « lampe » montre le sens de « pied » dans la phrase : partie qui soutient un objet."
+    },
+    {
+      "id": "voc-sen-n1-002",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "feuille",
+      "phrase": "Je range ma feuille dans le classeur avec mes leçons.",
+      "choix": [
+        "partie verte d'un arbre",
+        "morceau de papier fin et plat"
+      ],
+      "reponse": "morceau de papier fin et plat",
+      "indice": "Cherche dans la phrase un mot qui te dit de quel objet ou de quel animal on parle.",
+      "explication": "Le mot « classeur » montre le sens de « feuille » dans la phrase : morceau de papier fin et plat."
+    },
+    {
+      "id": "voc-sen-n1-003",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "souris",
+      "phrase": "La souris grignote un morceau de fromage dans la cave.",
+      "choix": [
+        "petit rongeur aux longues moustaches",
+        "appareil qu'on fait glisser près d'un ordinateur"
+      ],
+      "reponse": "petit rongeur aux longues moustaches",
+      "indice": "Lis la phrase en entier, puis choisis le sens qui va avec.",
+      "explication": "Le mot « fromage » montre le sens de « souris » dans la phrase : petit rongeur aux longues moustaches."
+    },
+    {
+      "id": "voc-sen-n1-004",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "queue",
+      "phrase": "Le chat remue la queue quand il est content.",
+      "choix": [
+        "partie arrière du corps d'un animal",
+        "file de personnes qui attendent leur tour"
+      ],
+      "reponse": "partie arrière du corps d'un animal",
+      "indice": "Regarde de quoi on parle dans la phrase.",
+      "explication": "Le mot « chat » montre le sens de « queue » dans la phrase : partie arrière du corps d'un animal."
+    },
+    {
+      "id": "voc-sen-n1-005",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "bouchon",
+      "phrase": "Papa visse le bouchon sur le flacon de sirop.",
+      "choix": [
+        "longue file de voitures arrêtées sur la route",
+        "pièce qui sert à fermer un goulot"
+      ],
+      "reponse": "pièce qui sert à fermer un goulot",
+      "indice": "Cherche dans la phrase un mot qui te dit de quel objet ou de quel animal on parle.",
+      "explication": "Les mots « visse » et « flacon » montrent le sens de « bouchon » dans la phrase : pièce qui sert à fermer un goulot."
+    },
+    {
+      "id": "voc-sen-n1-006",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "branche",
+      "phrase": "L'oiseau se pose sur une branche du grand chêne.",
+      "choix": [
+        "partie d'un arbre qui porte les feuilles",
+        "partie des lunettes qui passe derrière l'oreille"
+      ],
+      "reponse": "partie d'un arbre qui porte les feuilles",
+      "indice": "Lis la phrase en entier, puis choisis le sens qui va avec.",
+      "explication": "Le mot « chêne » montre le sens de « branche » dans la phrase : partie d'un arbre qui porte les feuilles."
+    },
+    {
+      "id": "voc-sen-n1-007",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "banc",
+      "phrase": "Un banc de sardines passe près du bateau.",
+      "choix": [
+        "siège long pour plusieurs personnes",
+        "grand groupe d'animaux qui nagent ensemble"
+      ],
+      "reponse": "grand groupe d'animaux qui nagent ensemble",
+      "indice": "Regarde de quoi on parle dans la phrase.",
+      "explication": "Le mot « sardines » montre le sens de « banc » dans la phrase : grand groupe d'animaux qui nagent ensemble."
+    },
+    {
+      "id": "voc-sen-n1-008",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "clé",
+      "phrase": "Le musicien lit la clé de sol sur sa partition.",
+      "choix": [
+        "objet qui ouvre une serrure",
+        "signe placé au début d'une ligne de musique"
+      ],
+      "reponse": "signe placé au début d'une ligne de musique",
+      "indice": "Cherche dans la phrase un mot qui te dit de quel objet ou de quel animal on parle.",
+      "explication": "Le mot « partition » montre le sens de « clé » dans la phrase : signe placé au début d'une ligne de musique."
+    },
+    {
+      "id": "voc-sen-n1-009",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "aile",
+      "phrase": "Le pilote vérifie l'aile gauche de son avion avant le départ.",
+      "choix": [
+        "membre qui permet à un oiseau de voler",
+        "grande partie plate qui porte un appareil volant"
+      ],
+      "reponse": "grande partie plate qui porte un appareil volant",
+      "indice": "Lis la phrase en entier, puis choisis le sens qui va avec.",
+      "explication": "Le mot « avion » montre le sens de « aile » dans la phrase : grande partie plate qui porte un appareil volant."
+    },
+    {
+      "id": "voc-sen-n1-010",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "dent",
+      "phrase": "Il manque une dent à mon peigne en plastique.",
+      "choix": [
+        "pièce dure et blanche qui sert à mâcher",
+        "pointe alignée avec d'autres sur un objet"
+      ],
+      "reponse": "pointe alignée avec d'autres sur un objet",
+      "indice": "Regarde de quoi on parle dans la phrase.",
+      "explication": "Le mot « peigne » montre le sens de « dent » dans la phrase : pointe alignée avec d'autres sur un objet."
+    },
+    {
+      "id": "voc-sen-n1-011",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "grue",
+      "phrase": "La grue du chantier soulève une lourde poutre en acier.",
+      "choix": [
+        "grand oiseau aux longues pattes",
+        "engin à long bras qui déplace des charges"
+      ],
+      "reponse": "engin à long bras qui déplace des charges",
+      "indice": "Cherche dans la phrase un mot qui te dit de quel objet ou de quel animal on parle.",
+      "explication": "Le mot « chantier » montre le sens de « grue » dans la phrase : engin à long bras qui déplace des charges."
+    },
+    {
+      "id": "voc-sen-n1-012",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "verre",
+      "phrase": "Le vitrier remplace le verre cassé de la fenêtre.",
+      "choix": [
+        "récipient pour boire",
+        "matière transparente et dure qui se brise"
+      ],
+      "reponse": "matière transparente et dure qui se brise",
+      "indice": "Lis la phrase en entier, puis choisis le sens qui va avec.",
+      "explication": "Le mot « fenêtre » montre le sens de « verre » dans la phrase : matière transparente et dure qui se brise."
+    },
+    {
+      "id": "voc-sen-n1-013",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "règle",
+      "phrase": "Le maître trace un trait avec une règle graduée.",
+      "choix": [
+        "instrument plat et droit qui sert à mesurer",
+        "texte qui dit ce que chacun doit faire"
+      ],
+      "reponse": "instrument plat et droit qui sert à mesurer",
+      "indice": "Regarde de quoi on parle dans la phrase.",
+      "explication": "Le mot « trace » montre le sens de « règle » dans la phrase : instrument plat et droit qui sert à mesurer."
+    },
+    {
+      "id": "voc-sen-n1-014",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "lettre",
+      "phrase": "Papi écrit une lettre et la glisse dans une enveloppe.",
+      "choix": [
+        "signe qui sert à écrire les mots",
+        "message qu'on envoie par la poste"
+      ],
+      "reponse": "message qu'on envoie par la poste",
+      "indice": "Cherche dans la phrase un mot qui te dit de quel objet ou de quel animal on parle.",
+      "explication": "Le mot « enveloppe » montre le sens de « lettre » dans la phrase : message qu'on envoie par la poste."
+    },
+    {
+      "id": "voc-sen-n1-015",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "feu",
+      "phrase": "Le conducteur s'arrête au feu avant le carrefour.",
+      "choix": [
+        "flammes qui brûlent et donnent de la chaleur",
+        "signal lumineux qui règle la circulation"
+      ],
+      "reponse": "signal lumineux qui règle la circulation",
+      "indice": "Lis la phrase en entier, puis choisis le sens qui va avec.",
+      "explication": "Le mot « carrefour » montre le sens de « feu » dans la phrase : signal lumineux qui règle la circulation."
+    },
+    {
+      "id": "voc-sen-n1-016",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "tableau",
+      "phrase": "Le maître écrit la date sur le tableau.",
+      "choix": [
+        "peinture encadrée qu'on accroche au mur",
+        "grand panneau d'une salle de classe"
+      ],
+      "reponse": "grand panneau d'une salle de classe",
+      "indice": "Regarde de quoi on parle dans la phrase.",
+      "explication": "Les mots « écrit » et « date » montrent le sens de « tableau » dans la phrase : grand panneau d'une salle de classe."
+    },
+    {
+      "id": "voc-sen-n1-017",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "bras",
+      "phrase": "Je m'appuie sur le bras du fauteuil pour me lever.",
+      "choix": [
+        "partie du corps qui relie l'épaule à la main",
+        "partie d'un siège où l'on pose le coude"
+      ],
+      "reponse": "partie d'un siège où l'on pose le coude",
+      "indice": "Cherche dans la phrase un mot qui te dit de quel objet ou de quel animal on parle.",
+      "explication": "Le mot « fauteuil » montre le sens de « bras » dans la phrase : partie d'un siège où l'on pose le coude."
+    },
+    {
+      "id": "voc-sen-n1-018",
+      "type": "sens",
+      "niveau": 1,
+      "competence": "sens-mot-courant",
+      "mot": "baguette",
+      "phrase": "Le boulanger sort une baguette dorée du four.",
+      "choix": [
+        "pain long et croustillant",
+        "bâton fin tenu par un magicien ou un chef d'orchestre"
+      ],
+      "reponse": "pain long et croustillant",
+      "indice": "Lis la phrase en entier, puis choisis le sens qui va avec.",
+      "explication": "Le mot « boulanger » montre le sens de « baguette » dans la phrase : pain long et croustillant."
+    },
+    {
+      "id": "voc-sen-n2-001",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "carte",
+      "phrase": "Je regarde la carte pour trouver la route.",
+      "choix": [
+        "image qui représente un territoire",
+        "morceau de carton d'un jeu",
+        "liste des plats d'un restaurant"
+      ],
+      "reponse": "image qui représente un territoire",
+      "indice": "Un mot de la phrase te dit à quoi sert cet objet.",
+      "explication": "Le mot « route » montre le sens de « carte » dans la phrase : image qui représente un territoire."
+    },
+    {
+      "id": "voc-sen-n2-002",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "glace",
+      "phrase": "Le serveur apporte une glace à la fraise pour le dessert.",
+      "choix": [
+        "eau devenue dure à cause du froid",
+        "crème froide et sucrée qu'on mange à la cuillère",
+        "surface de verre où l'on se regarde"
+      ],
+      "reponse": "crème froide et sucrée qu'on mange à la cuillère",
+      "indice": "Cherche le mot de la phrase qui montre de quoi on parle.",
+      "explication": "Le mot « dessert » montre le sens de « glace » dans la phrase : crème froide et sucrée qu'on mange à la cuillère."
+    },
+    {
+      "id": "voc-sen-n2-003",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "pièce",
+      "phrase": "Il met une pièce de monnaie dans la tirelire.",
+      "choix": [
+        "salle d'une maison",
+        "petit disque de métal qui sert à payer",
+        "morceau d'un puzzle"
+      ],
+      "reponse": "petit disque de métal qui sert à payer",
+      "indice": "Essaie chaque sens dans la phrase : un seul a du sens.",
+      "explication": "Le mot « monnaie » montre le sens de « pièce » dans la phrase : petit disque de métal qui sert à payer."
+    },
+    {
+      "id": "voc-sen-n2-004",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "rayon",
+      "phrase": "Maman cherche les pâtes dans le rayon du supermarché.",
+      "choix": [
+        "trait de lumière du soleil",
+        "partie de magasin où sont rangés des produits du même genre",
+        "barre qui relie le centre d'une roue au bord"
+      ],
+      "reponse": "partie de magasin où sont rangés des produits du même genre",
+      "indice": "Un mot de la phrase te dit à quoi sert cet objet.",
+      "explication": "Le mot « supermarché » montre le sens de « rayon » dans la phrase : partie de magasin où sont rangés des produits du même genre."
+    },
+    {
+      "id": "voc-sen-n2-005",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "chaîne",
+      "phrase": "Papa change de chaîne avec la télécommande du salon.",
+      "choix": [
+        "suite d'anneaux de métal accrochés entre eux",
+        "station qui diffuse des programmes de télévision",
+        "longue suite de montagnes"
+      ],
+      "reponse": "station qui diffuse des programmes de télévision",
+      "indice": "Cherche le mot de la phrase qui montre de quoi on parle.",
+      "explication": "Le mot « télécommande » montre le sens de « chaîne » dans la phrase : station qui diffuse des programmes de télévision."
+    },
+    {
+      "id": "voc-sen-n2-006",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "bureau",
+      "phrase": "Le bureau de l'association vote la décision pendant la réunion.",
+      "choix": [
+        "table pour écrire avec des tiroirs",
+        "pièce où l'on travaille",
+        "petit groupe de personnes élues pour diriger"
+      ],
+      "reponse": "petit groupe de personnes élues pour diriger",
+      "indice": "Essaie chaque sens dans la phrase : un seul a du sens.",
+      "explication": "Les mots « vote » et « association » montrent le sens de « bureau » dans la phrase : petit groupe de personnes élues pour diriger."
+    },
+    {
+      "id": "voc-sen-n2-007",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "plateau",
+      "phrase": "Le serveur porte un plateau chargé de verres.",
+      "choix": [
+        "terrain plat et élevé",
+        "objet plat et large pour transporter de la vaisselle",
+        "scène où l'on tourne un film"
+      ],
+      "reponse": "objet plat et large pour transporter de la vaisselle",
+      "indice": "Un mot de la phrase te dit à quoi sert cet objet.",
+      "explication": "Le mot « verres » montre le sens de « plateau » dans la phrase : objet plat et large pour transporter de la vaisselle."
+    },
+    {
+      "id": "voc-sen-n2-008",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "note",
+      "phrase": "Le professeur donne une bonne note pour ce devoir.",
+      "choix": [
+        "son que joue un instrument",
+        "court message écrit pour se souvenir",
+        "chiffre qui évalue un travail"
+      ],
+      "reponse": "chiffre qui évalue un travail",
+      "indice": "Cherche le mot de la phrase qui montre de quoi on parle.",
+      "explication": "Le mot « devoir » montre le sens de « note » dans la phrase : chiffre qui évalue un travail."
+    },
+    {
+      "id": "voc-sen-n2-009",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "pile",
+      "phrase": "Mon jouet ne marche plus car la pile est vide.",
+      "choix": [
+        "tas d'objets posés les uns sur les autres",
+        "petit appareil qui fournit du courant",
+        "côté d'une pièce opposé à celui du visage"
+      ],
+      "reponse": "petit appareil qui fournit du courant",
+      "indice": "Essaie chaque sens dans la phrase : un seul a du sens.",
+      "explication": "Le mot « jouet » montre le sens de « pile » dans la phrase : petit appareil qui fournit du courant."
+    },
+    {
+      "id": "voc-sen-n2-010",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "coupe",
+      "phrase": "Le club de football joue la finale de la coupe samedi.",
+      "choix": [
+        "verre à pied large et peu profond",
+        "épreuve sportive dont le vainqueur reçoit un trophée",
+        "manière dont les cheveux sont taillés"
+      ],
+      "reponse": "épreuve sportive dont le vainqueur reçoit un trophée",
+      "indice": "Un mot de la phrase te dit à quoi sert cet objet.",
+      "explication": "Le mot « finale » montre le sens de « coupe » dans la phrase : épreuve sportive dont le vainqueur reçoit un trophée."
+    },
+    {
+      "id": "voc-sen-n2-011",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "temps",
+      "phrase": "Il pleut et le temps est gris depuis ce matin.",
+      "choix": [
+        "durée qui passe, mesurée en heures",
+        "état de l'air, avec du soleil, de la pluie ou du vent",
+        "forme du verbe qui dit quand l'action se passe"
+      ],
+      "reponse": "état de l'air, avec du soleil, de la pluie ou du vent",
+      "indice": "Cherche le mot de la phrase qui montre de quoi on parle.",
+      "explication": "Le mot « pleut » montre le sens de « temps » dans la phrase : état de l'air, avec du soleil, de la pluie ou du vent."
+    },
+    {
+      "id": "voc-sen-n2-012",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "course",
+      "phrase": "Les enfants font une course de vitesse dans la cour.",
+      "choix": [
+        "achat de provisions",
+        "épreuve où l'on essaie d'arriver le premier",
+        "trajet payant en taxi"
+      ],
+      "reponse": "épreuve où l'on essaie d'arriver le premier",
+      "indice": "Essaie chaque sens dans la phrase : un seul a du sens.",
+      "explication": "Le mot « vitesse » montre le sens de « course » dans la phrase : épreuve où l'on essaie d'arriver le premier."
+    },
+    {
+      "id": "voc-sen-n2-013",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "ligne",
+      "phrase": "Le pêcheur lance sa ligne dans la rivière.",
+      "choix": [
+        "trait long et fin",
+        "fil terminé par un hameçon, au bout d'une canne",
+        "rangée de personnes l'une derrière l'autre"
+      ],
+      "reponse": "fil terminé par un hameçon, au bout d'une canne",
+      "indice": "Un mot de la phrase te dit à quoi sert cet objet.",
+      "explication": "Le mot « pêcheur » montre le sens de « ligne » dans la phrase : fil terminé par un hameçon, au bout d'une canne."
+    },
+    {
+      "id": "voc-sen-n2-014",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "touche",
+      "phrase": "Le pianiste appuie sur une touche blanche du clavier.",
+      "choix": [
+        "petite pièce mobile d'un instrument ou d'un ordinateur",
+        "coup de pinceau de peinture",
+        "bord du terrain où le ballon sort"
+      ],
+      "reponse": "petite pièce mobile d'un instrument ou d'un ordinateur",
+      "indice": "Cherche le mot de la phrase qui montre de quoi on parle.",
+      "explication": "Le mot « pianiste » montre le sens de « touche » dans la phrase : petite pièce mobile d'un instrument ou d'un ordinateur."
+    },
+    {
+      "id": "voc-sen-n2-015",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "billet",
+      "phrase": "Le voyageur montre son billet au contrôleur du train.",
+      "choix": [
+        "papier qui sert à payer, comme de la monnaie",
+        "ticket qui donne le droit d'entrer ou de monter",
+        "court message écrit"
+      ],
+      "reponse": "ticket qui donne le droit d'entrer ou de monter",
+      "indice": "Essaie chaque sens dans la phrase : un seul a du sens.",
+      "explication": "Le mot « train » montre le sens de « billet » dans la phrase : ticket qui donne le droit d'entrer ou de monter."
+    },
+    {
+      "id": "voc-sen-n2-016",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "bande",
+      "phrase": "L'infirmière enroule une bande autour de ma cheville.",
+      "choix": [
+        "groupe de personnes qui sortent ensemble",
+        "long morceau de tissu étroit",
+        "ruban sur lequel on enregistre des sons"
+      ],
+      "reponse": "long morceau de tissu étroit",
+      "indice": "Un mot de la phrase te dit à quoi sert cet objet.",
+      "explication": "Le mot « infirmière » montre le sens de « bande » dans la phrase : long morceau de tissu étroit."
+    },
+    {
+      "id": "voc-sen-n2-017",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "classe",
+      "phrase": "Toute la classe applaudit le spectacle de fin d'année.",
+      "choix": [
+        "salle où l'on fait cours",
+        "groupe d'élèves qui étudient ensemble",
+        "catégorie de place dans un train, selon son prix"
+      ],
+      "reponse": "groupe d'élèves qui étudient ensemble",
+      "indice": "Cherche le mot de la phrase qui montre de quoi on parle.",
+      "explication": "Le mot « applaudit » montre le sens de « classe » dans la phrase : groupe d'élèves qui étudient ensemble."
+    },
+    {
+      "id": "voc-sen-n2-018",
+      "type": "sens",
+      "niveau": 2,
+      "competence": "sens-mot-polysemique",
+      "mot": "point",
+      "phrase": "Le joueur marque un point et lève les bras.",
+      "choix": [
+        "petit signe rond à la fin d'une phrase",
+        "unité qui compte le score d'un jeu",
+        "endroit précis sur une carte"
+      ],
+      "reponse": "unité qui compte le score d'un jeu",
+      "indice": "Essaie chaque sens dans la phrase : un seul a du sens.",
+      "explication": "Le mot « joueur » montre le sens de « point » dans la phrase : unité qui compte le score d'un jeu."
+    },
+    {
+      "id": "voc-sen-n3-001",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "ordre",
+      "phrase": "Le capitaine donne l'ordre de lever l'ancre.",
+      "choix": [
+        "commande qu'on doit exécuter",
+        "façon dont des choses sont rangées",
+        "groupe de personnes unies par une règle"
+      ],
+      "reponse": "commande qu'on doit exécuter",
+      "indice": "Demande-toi de quoi parle la phrase et quel mot te l'indique.",
+      "explication": "Le mot « capitaine » montre le sens de « ordre » dans la phrase : commande qu'on doit exécuter."
+    },
+    {
+      "id": "voc-sen-n3-002",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "état",
+      "phrase": "Le médecin examine l'état du malade après l'opération.",
+      "choix": [
+        "pays organisé avec un gouvernement",
+        "manière d'être d'une personne ou d'une chose",
+        "liste détaillée d'éléments"
+      ],
+      "reponse": "manière d'être d'une personne ou d'une chose",
+      "indice": "Remplace le mot par chaque définition : une seule va avec la phrase.",
+      "explication": "Le mot « malade » montre le sens de « état » dans la phrase : manière d'être d'une personne ou d'une chose."
+    },
+    {
+      "id": "voc-sen-n3-003",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "cadre",
+      "phrase": "Elle accroche la photo dans un cadre doré au salon.",
+      "choix": [
+        "bordure qui entoure une image",
+        "paysage ou lieu où se passe quelque chose",
+        "employé qui dirige une équipe"
+      ],
+      "reponse": "bordure qui entoure une image",
+      "indice": "Lis la phrase en entier et cherche le mot qui lève le doute.",
+      "explication": "Le mot « photo » montre le sens de « cadre » dans la phrase : bordure qui entoure une image."
+    },
+    {
+      "id": "voc-sen-n3-004",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "fond",
+      "phrase": "Le plongeur touche le fond de la mer avec ses palmes.",
+      "choix": [
+        "endroit le plus bas d'un creux ou d'un récipient",
+        "décor placé derrière un dessin",
+        "idée principale d'un texte"
+      ],
+      "reponse": "endroit le plus bas d'un creux ou d'un récipient",
+      "indice": "Demande-toi de quoi parle la phrase et quel mot te l'indique.",
+      "explication": "Le mot « plongeur » montre le sens de « fond » dans la phrase : endroit le plus bas d'un creux ou d'un récipient."
+    },
+    {
+      "id": "voc-sen-n3-005",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "rapport",
+      "phrase": "Le directeur lit le rapport sur les ventes du mois.",
+      "choix": [
+        "texte qui rend compte d'un travail ou d'une enquête",
+        "lien entre deux choses",
+        "revenu qu'apporte un bien"
+      ],
+      "reponse": "texte qui rend compte d'un travail ou d'une enquête",
+      "indice": "Remplace le mot par chaque définition : une seule va avec la phrase.",
+      "explication": "Le mot « lit » montre le sens de « rapport » dans la phrase : texte qui rend compte d'un travail ou d'une enquête."
+    },
+    {
+      "id": "voc-sen-n3-006",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "trait",
+      "phrase": "Elle trace un trait droit avec son crayon sur la page.",
+      "choix": [
+        "ligne tracée sur une surface",
+        "élément qui marque le visage ou le caractère",
+        "flèche lancée par un arc"
+      ],
+      "reponse": "ligne tracée sur une surface",
+      "indice": "Lis la phrase en entier et cherche le mot qui lève le doute.",
+      "explication": "Le mot « trace » montre le sens de « trait » dans la phrase : ligne tracée sur une surface."
+    },
+    {
+      "id": "voc-sen-n3-007",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "titre",
+      "phrase": "L'auteur cherche un beau titre pour son nouveau livre.",
+      "choix": [
+        "nom donné à une œuvre",
+        "distinction gagnée dans un sport",
+        "papier qui prouve un droit"
+      ],
+      "reponse": "nom donné à une œuvre",
+      "indice": "Demande-toi de quoi parle la phrase et quel mot te l'indique.",
+      "explication": "Le mot « auteur » montre le sens de « titre » dans la phrase : nom donné à une œuvre."
+    },
+    {
+      "id": "voc-sen-n3-008",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "terme",
+      "phrase": "Le dictionnaire explique ce terme de médecine très rare.",
+      "choix": [
+        "mot précis d'un domaine",
+        "fin d'une période ou d'un travail",
+        "date limite pour payer"
+      ],
+      "reponse": "mot précis d'un domaine",
+      "indice": "Remplace le mot par chaque définition : une seule va avec la phrase.",
+      "explication": "Le mot « dictionnaire » montre le sens de « terme » dans la phrase : mot précis d'un domaine."
+    },
+    {
+      "id": "voc-sen-n3-009",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "régime",
+      "phrase": "Le docteur conseille un régime sans sucre à ce patient.",
+      "choix": [
+        "façon de se nourrir pour sa santé",
+        "système qui gouverne un pays",
+        "grappe de bananes"
+      ],
+      "reponse": "façon de se nourrir pour sa santé",
+      "indice": "Lis la phrase en entier et cherche le mot qui lève le doute.",
+      "explication": "Le mot « sucre » montre le sens de « régime » dans la phrase : façon de se nourrir pour sa santé."
+    },
+    {
+      "id": "voc-sen-n3-010",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "charge",
+      "phrase": "Le camion transporte une lourde charge de sable.",
+      "choix": [
+        "poids qu'on porte ou qu'on déplace",
+        "tâche confiée à quelqu'un",
+        "quantité d'électricité stockée dans une batterie"
+      ],
+      "reponse": "poids qu'on porte ou qu'on déplace",
+      "indice": "Demande-toi de quoi parle la phrase et quel mot te l'indique.",
+      "explication": "Le mot « camion » montre le sens de « charge » dans la phrase : poids qu'on porte ou qu'on déplace."
+    },
+    {
+      "id": "voc-sen-n3-011",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "matière",
+      "phrase": "Le bois est une matière que l'on utilise pour construire.",
+      "choix": [
+        "substance dont un objet est fait",
+        "discipline enseignée à l'école",
+        "cause ou occasion de faire quelque chose"
+      ],
+      "reponse": "substance dont un objet est fait",
+      "indice": "Remplace le mot par chaque définition : une seule va avec la phrase.",
+      "explication": "Le mot « bois » montre le sens de « matière » dans la phrase : substance dont un objet est fait."
+    },
+    {
+      "id": "voc-sen-n3-012",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "mesure",
+      "phrase": "Le tailleur note chaque mesure avant de couper le tissu.",
+      "choix": [
+        "dimension d'un objet ou d'une personne",
+        "décision prise pour régler un problème",
+        "division du temps en musique"
+      ],
+      "reponse": "dimension d'un objet ou d'une personne",
+      "indice": "Lis la phrase en entier et cherche le mot qui lève le doute.",
+      "explication": "Le mot « tailleur » montre le sens de « mesure » dans la phrase : dimension d'un objet ou d'une personne."
+    },
+    {
+      "id": "voc-sen-n3-013",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "volume",
+      "phrase": "Il baisse le volume de la radio pour ne pas gêner.",
+      "choix": [
+        "livre qui fait partie d'une série",
+        "force d'un son",
+        "place qu'occupe un objet dans l'espace"
+      ],
+      "reponse": "force d'un son",
+      "indice": "Demande-toi de quoi parle la phrase et quel mot te l'indique.",
+      "explication": "Le mot « radio » montre le sens de « volume » dans la phrase : force d'un son."
+    },
+    {
+      "id": "voc-sen-n3-014",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "figure",
+      "phrase": "Le professeur trace une figure à quatre côtés au tableau.",
+      "choix": [
+        "visage d'une personne",
+        "personnage célèbre",
+        "dessin ou forme géométrique"
+      ],
+      "reponse": "dessin ou forme géométrique",
+      "indice": "Remplace le mot par chaque définition : une seule va avec la phrase.",
+      "explication": "Le mot « côtés » montre le sens de « figure » dans la phrase : dessin ou forme géométrique."
+    },
+    {
+      "id": "voc-sen-n3-015",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "air",
+      "phrase": "Elle respire l'air frais en haut de la montagne.",
+      "choix": [
+        "mélange de gaz qui entoure la Terre",
+        "mélodie qu'on peut chanter",
+        "apparence d'une personne"
+      ],
+      "reponse": "mélange de gaz qui entoure la Terre",
+      "indice": "Lis la phrase en entier et cherche le mot qui lève le doute.",
+      "explication": "Le mot « respire » montre le sens de « air » dans la phrase : mélange de gaz qui entoure la Terre."
+    },
+    {
+      "id": "voc-sen-n3-016",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "sujet",
+      "phrase": "Le professeur écrit le sujet de la rédaction au tableau.",
+      "choix": [
+        "thème dont on parle",
+        "mot qui fait l'action dans une phrase",
+        "personne soumise à un roi"
+      ],
+      "reponse": "thème dont on parle",
+      "indice": "Demande-toi de quoi parle la phrase et quel mot te l'indique.",
+      "explication": "Le mot « rédaction » montre le sens de « sujet » dans la phrase : thème dont on parle."
+    },
+    {
+      "id": "voc-sen-n3-017",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "champ",
+      "phrase": "Le fermier sème du blé dans un grand champ.",
+      "choix": [
+        "terrain cultivé",
+        "domaine où l'on peut agir ou travailler",
+        "espace que l'œil peut voir"
+      ],
+      "reponse": "terrain cultivé",
+      "indice": "Remplace le mot par chaque définition : une seule va avec la phrase.",
+      "explication": "Le mot « fermier » montre le sens de « champ » dans la phrase : terrain cultivé."
+    },
+    {
+      "id": "voc-sen-n3-018",
+      "type": "sens",
+      "niveau": 3,
+      "competence": "sens-mot-abstrait",
+      "mot": "portée",
+      "phrase": "Le musicien écrit cinq notes sur la portée.",
+      "choix": [
+        "série de lignes parallèles d'une partition",
+        "distance que peut atteindre un tir",
+        "importance d'un événement"
+      ],
+      "reponse": "série de lignes parallèles d'une partition",
+      "indice": "Lis la phrase en entier et cherche le mot qui lève le doute.",
+      "explication": "Le mot « musicien » montre le sens de « portée » dans la phrase : série de lignes parallèles d'une partition."
+    }
+  ]
+}

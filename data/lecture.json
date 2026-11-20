@@ -1,0 +1,3308 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "lec-tex-n1-001",
+      "type": "texte",
+      "niveau": 1,
+      "genre": "recit",
+      "titre": "Le chat de la gare",
+      "paragraphes": [
+        [
+          "Dans la petite gare de Valmont, un chat roux vit depuis deux ans.",
+          "Il dort toute la matinée sur un banc, près du kiosque à journaux.",
+          "Les voyageurs l'appellent Moustache, à cause de ses longs poils blancs autour du nez.",
+          "Beaucoup d'enfants s'arrêtent pour le caresser avant de monter dans leur train."
+        ],
+        [
+          "Chaque jour, à midi, Mme Roche, la vendeuse du kiosque, lui apporte une soucoupe de lait.",
+          "Moustache boit tout, puis il se lave les pattes avec soin.",
+          "Ensuite, il va se promener le long du quai."
+        ],
+        [
+          "Un matin de pluie, le chat n'est pas sur son banc.",
+          "Mme Roche s'inquiète.",
+          "Elle le cherche partout et le trouve enfin sous un escalier, couché près de trois chatons minuscules.",
+          "Tout le monde sourit : Moustache est en réalité une maman !"
+        ],
+        [
+          "Depuis ce jour, les voyageurs déposent des croquettes devant le kiosque.",
+          "Les chatons grandissent vite, et chacun d'eux trouve une famille avant l'été.",
+          "Moustache, elle, garde son banc."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-lieu",
+          "question": "Où le chat dort-il pendant la matinée ?",
+          "choix": [
+            "Dans un train",
+            "Sur un banc",
+            "Sous un escalier"
+          ],
+          "reponse": "Sur un banc",
+          "preuve": 1,
+          "indice": "Cherche la phrase qui parle du chat qui dort.",
+          "explication": "La phrase 2 le dit : « Il dort toute la matinée sur un banc »."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-personnage",
+          "question": "Qui apporte du lait au chat chaque jour ?",
+          "choix": [
+            "Un voyageur",
+            "Un enfant",
+            "Mme Roche"
+          ],
+          "reponse": "Mme Roche",
+          "preuve": 4,
+          "indice": "Cherche la phrase qui parle du lait.",
+          "explication": "La phrase 5 dit que Mme Roche, la vendeuse du kiosque, apporte le lait."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-raison",
+          "question": "Pourquoi les voyageurs appellent-ils le chat Moustache ?",
+          "choix": [
+            "À cause de ses longs poils blancs autour du nez",
+            "À cause de sa couleur rousse",
+            "À cause de sa façon de boire"
+          ],
+          "reponse": "À cause de ses longs poils blancs autour du nez",
+          "preuve": 2,
+          "indice": "Cherche la phrase qui donne le nom du chat.",
+          "explication": "La phrase 3 explique le nom : ses poils blancs autour du nez."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi Mme Roche s'inquiète-t-elle ?",
+          "choix": [
+            "Il pleut trop fort",
+            "Le chat n'est pas à sa place habituelle",
+            "Le kiosque est vide"
+          ],
+          "reponse": "Le chat n'est pas à sa place habituelle",
+          "preuve": 7,
+          "indice": "Que remarque Mme Roche ce matin-là ?",
+          "explication": "La phrase 8 montre que le chat n'est pas sur son banc : voilà pourquoi elle s'inquiète."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-sentiment",
+          "question": "Comment se sentent les gens en découvrant les chatons ?",
+          "choix": [
+            "Fâchés",
+            "Effrayés",
+            "Surpris et amusés"
+          ],
+          "reponse": "Surpris et amusés",
+          "preuve": 10,
+          "indice": "Regarde ce que font les gens quand ils apprennent la nouvelle.",
+          "explication": "À la phrase 11, tout le monde sourit : la nouvelle est une surprise qui fait plaisir."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "minuscules",
+          "question": "Que veut dire « minuscules » dans le texte ?",
+          "choix": [
+            "Très petits",
+            "Très bruyants",
+            "Très sales"
+          ],
+          "reponse": "Très petits",
+          "preuve": 9,
+          "indice": "Pense à la taille de bébés chats.",
+          "explication": "Des chatons nouveau-nés sont tout petits : « minuscules » veut dire très petits."
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n1-002",
+      "type": "texte",
+      "niveau": 1,
+      "genre": "documentaire",
+      "titre": "Comment naît un arc-en-ciel",
+      "paragraphes": [
+        [
+          "Un arc-en-ciel apparaît quand le soleil brille pendant qu'il pleut.",
+          "Pour le voir, il faut tourner le dos au soleil.",
+          "La pluie doit tomber devant toi, dans le ciel.",
+          "Le plus souvent, on le voit après une averse, quand le ciel s'éclaircit."
+        ],
+        [
+          "La lumière du soleil paraît blanche, mais elle cache plusieurs couleurs.",
+          "Quand elle traverse une goutte d'eau, la lumière change de direction.",
+          "Chaque couleur dévie un peu différemment des autres.",
+          "Les couleurs se séparent alors et forment une belle bande dans le ciel."
+        ],
+        [
+          "On compte traditionnellement sept couleurs : le rouge, l'orange, le jaune, le vert, le bleu, l'indigo et le violet.",
+          "Dans l'arc principal, le rouge se trouve en haut et le violet en bas."
+        ],
+        [
+          "Parfois, on aperçoit un deuxième arc, plus pâle, au-dessus du premier.",
+          "Dans celui-ci, les couleurs sont placées à l'envers.",
+          "On ne peut jamais toucher un arc-en-ciel, car il n'est pas fixé à un endroit.",
+          "Si tu te déplaces, l'arc que tu vois change aussi de place."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-condition",
+          "question": "Quand un arc-en-ciel apparaît-il ?",
+          "choix": [
+            "Quand il y a beaucoup de vent",
+            "Quand le soleil brille pendant qu'il pleut",
+            "Quand la nuit tombe"
+          ],
+          "reponse": "Quand le soleil brille pendant qu'il pleut",
+          "preuve": 0,
+          "indice": "Cherche la première phrase du texte.",
+          "explication": "La phrase 1 donne la condition : le soleil brille pendant qu'il pleut."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Quelle couleur se trouve en haut de l'arc principal ?",
+          "choix": [
+            "Le violet",
+            "Le vert",
+            "Le rouge"
+          ],
+          "reponse": "Le rouge",
+          "preuve": 9,
+          "indice": "Cherche la phrase qui parle de « l'arc principal ».",
+          "explication": "La phrase 10 dit que le rouge est en haut et le violet en bas."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-nombre",
+          "question": "Combien de couleurs compte-t-on dans un arc-en-ciel ?",
+          "choix": [
+            "Sept",
+            "Cinq",
+            "Neuf"
+          ],
+          "reponse": "Sept",
+          "preuve": 8,
+          "indice": "Cherche la phrase qui énumère les couleurs.",
+          "explication": "La phrase 9 dit qu'on compte sept couleurs et les nomme."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-position",
+          "question": "Où se trouve le soleil quand tu regardes un arc-en-ciel ?",
+          "choix": [
+            "Devant toi",
+            "Derrière toi",
+            "Sous la pluie"
+          ],
+          "reponse": "Derrière toi",
+          "preuve": 1,
+          "indice": "Pense à la direction dans laquelle tu regardes l'arc.",
+          "explication": "Si tu dois tourner le dos au soleil pour voir l'arc, le soleil est derrière toi (phrase 2)."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "pâle",
+          "question": "Que veut dire « pâle » dans le texte ?",
+          "choix": [
+            "Peu coloré, clair",
+            "Très brillant",
+            "Très grand"
+          ],
+          "reponse": "Peu coloré, clair",
+          "preuve": 10,
+          "indice": "Pense à une couleur délavée.",
+          "explication": "Le deuxième arc est moins vif que le premier : « pâle » veut dire peu coloré, clair."
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n1-003",
+      "type": "texte",
+      "niveau": 1,
+      "genre": "lettre",
+      "titre": "Une lettre de Norvège",
+      "paragraphes": [
+        [
+          "Salut Inès, comment vas-tu ?",
+          "Je t'écris depuis la Norvège, où nous passons les vacances.",
+          "Papa a loué une petite maison rouge au bord d'un lac.",
+          "Il y a un ponton en bois où je m'assieds chaque matin pour lire."
+        ],
+        [
+          "Hier, nous avons fait du kayak sur l'eau très calme.",
+          "L'eau était si claire que je voyais les cailloux au fond.",
+          "J'ai aperçu un héron gris qui pêchait au milieu des roseaux.",
+          "Il est resté immobile pendant dix minutes, et je n'ai pas osé bouger."
+        ],
+        [
+          "Ici, tout au nord du pays, le soleil se couche très tard, vers minuit.",
+          "Je n'arrive pas à m'endormir quand il fait encore jour !",
+          "Ma grand-mère dit que c'est normal en été dans le Nord.",
+          "Hier soir, nous avons mangé du poisson grillé devant la maison."
+        ],
+        [
+          "Je t'ai acheté un petit cadeau : un bonnet bleu tricoté par une voisine.",
+          "J'espère qu'il te plaira.",
+          "Dis bonjour à tes parents de ma part."
+        ],
+        [
+          "J'ai hâte de te raconter tout cela.",
+          "À très bientôt, Inès !",
+          "Ton amie Maëlle."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-lieu",
+          "question": "Dans quel pays Maëlle passe-t-elle ses vacances ?",
+          "choix": [
+            "En Suède",
+            "En Norvège",
+            "En Islande"
+          ],
+          "reponse": "En Norvège",
+          "preuve": 1,
+          "indice": "Cherche la phrase qui dit d'où elle écrit.",
+          "explication": "La phrase 2 dit : « Je t'écris depuis la Norvège »."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Quel oiseau Maëlle a-t-elle aperçu ?",
+          "choix": [
+            "Un canard blanc",
+            "Un héron gris",
+            "Une mouette"
+          ],
+          "reponse": "Un héron gris",
+          "preuve": 6,
+          "indice": "Cherche la phrase qui parle de la sortie en kayak.",
+          "explication": "La phrase 7 parle d'un héron gris qui pêchait."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-objet",
+          "question": "Quel cadeau Maëlle a-t-elle choisi pour Inès ?",
+          "choix": [
+            "Un livre de contes",
+            "Un poisson séché",
+            "Un bonnet bleu"
+          ],
+          "reponse": "Un bonnet bleu",
+          "preuve": 12,
+          "indice": "Cherche la phrase qui parle d'un cadeau.",
+          "explication": "La phrase 13 annonce un bonnet bleu tricoté par une voisine."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi Maëlle n'a-t-elle pas osé bouger devant le héron ?",
+          "choix": [
+            "Elle s'était endormie",
+            "Elle ne voulait pas faire fuir l'oiseau",
+            "Elle cherchait ses lunettes"
+          ],
+          "reponse": "Elle ne voulait pas faire fuir l'oiseau",
+          "preuve": 7,
+          "indice": "Que se passerait-il si elle bougeait devant un oiseau sauvage ?",
+          "explication": "À la phrase 8, l'oiseau reste immobile et Maëlle aussi : elle craint de le faire partir."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "immobile",
+          "question": "Que veut dire « immobile » dans le texte ?",
+          "choix": [
+            "Qui ne bouge pas",
+            "Qui crie fort",
+            "Qui nage vite"
+          ],
+          "reponse": "Qui ne bouge pas",
+          "preuve": 7,
+          "indice": "Pense à une statue.",
+          "explication": "Le héron reste dix minutes sans bouger : « immobile » veut dire qui ne bouge pas."
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n1-004",
+      "type": "texte",
+      "niveau": 1,
+      "genre": "recit",
+      "titre": "La lumière du grenier",
+      "paragraphes": [
+        [
+          "Depuis lundi, Noé voit une petite lumière dans le grenier de sa grand-mère.",
+          "Elle s'allume vers huit heures du soir et s'éteint très vite.",
+          "Noé n'en parle à personne, car il veut résoudre ce mystère tout seul."
+        ],
+        [
+          "Jeudi soir, il monte l'escalier sur la pointe des pieds, une lampe de poche à la main.",
+          "Les marches craquent à chaque pas.",
+          "Il retient son souffle devant la porte du grenier."
+        ],
+        [
+          "Au milieu des cartons, il ne voit personne.",
+          "Un rayon du soleil couchant passe par la lucarne et frappe un miroir posé contre le mur.",
+          "Le miroir renvoie la lumière vers la fenêtre qui donne sur le jardin.",
+          "Voilà la mystérieuse lumière !",
+          "Quand le soleil descend plus bas, le rayon disparaît."
+        ],
+        [
+          "Noé redescend en riant et raconte tout à sa grand-mère.",
+          "Elle lui explique qu'elle a oublié ce miroir là-haut il y a dix ans.",
+          "Ils décident de le laisser en place, mais de le tourner un peu.",
+          "Demain soir, il enverra la lumière sur le potager."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-temps",
+          "question": "Depuis quand Noé voit-il la lumière ?",
+          "choix": [
+            "Depuis jeudi",
+            "Depuis hier soir",
+            "Depuis lundi"
+          ],
+          "reponse": "Depuis lundi",
+          "preuve": 0,
+          "indice": "Cherche la première phrase.",
+          "explication": "La phrase 1 commence par « Depuis lundi »."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-objet",
+          "question": "Qu'a Noé à la main pour monter au grenier ?",
+          "choix": [
+            "Une lampe de poche",
+            "Une bougie",
+            "Un marteau"
+          ],
+          "reponse": "Une lampe de poche",
+          "preuve": 3,
+          "indice": "Cherche la phrase qui décrit sa montée dans l'escalier.",
+          "explication": "La phrase 4 dit qu'il tient une lampe de poche."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-lieu",
+          "question": "Qu'est-ce qui est posé contre le mur du grenier ?",
+          "choix": [
+            "Un vieux réveil",
+            "Un miroir",
+            "Une lampe"
+          ],
+          "reponse": "Un miroir",
+          "preuve": 7,
+          "indice": "Cherche la phrase qui parle du rayon du soleil.",
+          "explication": "La phrase 8 dit que le rayon frappe un miroir posé contre le mur."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi la lumière s'éteint-elle très vite ?",
+          "choix": [
+            "Noé éteint la lampe",
+            "Le rayon de soleil ne touche plus le miroir",
+            "Sa grand-mère ferme la lucarne"
+          ],
+          "reponse": "Le rayon de soleil ne touche plus le miroir",
+          "preuve": 10,
+          "indice": "Que devient le rayon quand le soleil se couche ?",
+          "explication": "À la phrase 11, le rayon disparaît quand le soleil descend : le miroir n'a plus de lumière à renvoyer."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "lucarne",
+          "question": "Que veut dire « lucarne » dans le texte ?",
+          "choix": [
+            "Petite fenêtre dans un toit",
+            "Grande porte d'entrée",
+            "Cave sombre"
+          ],
+          "reponse": "Petite fenêtre dans un toit",
+          "preuve": 7,
+          "indice": "Par où un rayon de soleil peut-il entrer dans un grenier ?",
+          "explication": "Le rayon entre dans le grenier : une lucarne est une petite fenêtre dans un toit."
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n1-005",
+      "type": "texte",
+      "niveau": 1,
+      "genre": "recit",
+      "titre": "La course de l'école",
+      "paragraphes": [
+        [
+          "Aujourd'hui, c'est la course de l'école, autour du grand stade.",
+          "Tous les élèves de CM2 sont alignés sur la ligne de départ.",
+          "Rayan, le plus rapide de la classe, s'étire en souriant."
+        ],
+        [
+          "Le maître siffle, et la course commence.",
+          "Rayan prend aussitôt la tête.",
+          "Derrière lui, Salomé et Théo courent côte à côte.",
+          "Dans la foule, les parents agitent des drapeaux de toutes les couleurs."
+        ],
+        [
+          "Soudain, un gros chien traverse la piste en aboyant.",
+          "Rayan s'arrête net pour ne pas le heurter.",
+          "Il perd quelques secondes, et Salomé le dépasse."
+        ],
+        [
+          "Le chien repart vers les gradins, sa laisse traînant derrière lui.",
+          "Un monsieur essoufflé court après lui en criant : « Pilou ! Reviens ! »",
+          "Tout le stade éclate de rire."
+        ],
+        [
+          "Rayan reprend sa course, mais trop tard : Salomé franchit la ligne en première.",
+          "Il la félicite avec un grand sourire.",
+          "Elle lève les bras au ciel, très fière d'elle.",
+          "À l'arrivée, les élèves offrent à Pilou une médaille en carton pour la course la plus drôle."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-personnage",
+          "question": "Qui est le plus rapide de la classe ?",
+          "choix": [
+            "Théo",
+            "Salomé",
+            "Rayan"
+          ],
+          "reponse": "Rayan",
+          "preuve": 2,
+          "indice": "Cherche la phrase qui présente Rayan.",
+          "explication": "La phrase 3 dit que Rayan est le plus rapide de la classe."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-resultat",
+          "question": "Qui franchit la ligne d'arrivée en première ?",
+          "choix": [
+            "Salomé",
+            "Rayan",
+            "Théo"
+          ],
+          "reponse": "Salomé",
+          "preuve": 13,
+          "indice": "Cherche la phrase qui parle de l'arrivée.",
+          "explication": "La phrase 14 dit que Salomé franchit la ligne en première."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-objet",
+          "question": "Que reçoit Pilou, le chien ?",
+          "choix": [
+            "Une médaille en carton",
+            "Un os en plastique",
+            "Une coupe dorée"
+          ],
+          "reponse": "Une médaille en carton",
+          "preuve": 16,
+          "indice": "Cherche la dernière phrase du texte.",
+          "explication": "La phrase 17 dit que les élèves offrent une médaille en carton à Pilou."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi tout le stade éclate-t-il de rire ?",
+          "choix": [
+            "Rayan est tombé",
+            "Le maître a perdu son sifflet",
+            "La poursuite du chien est drôle"
+          ],
+          "reponse": "La poursuite du chien est drôle",
+          "preuve": 11,
+          "indice": "Que se passe-t-il juste avant que le public rie ?",
+          "explication": "À la phrase 12, un monsieur essoufflé court après son chien en criant son nom : la scène fait rire."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "gradins",
+          "question": "Que veut dire « gradins » dans le texte ?",
+          "choix": [
+            "Des rangées de sièges pour le public",
+            "La piste de sable",
+            "Des barrières rouges"
+          ],
+          "reponse": "Des rangées de sièges pour le public",
+          "preuve": 10,
+          "indice": "Où les spectateurs d'un stade sont-ils assis ?",
+          "explication": "Dans un stade, les spectateurs s'assoient sur les gradins : ce sont des rangées de sièges."
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n1-006",
+      "type": "texte",
+      "niveau": 1,
+      "genre": "poeme",
+      "titre": "Les oies sauvages",
+      "paragraphes": [
+        [
+          "Quand l'automne arrive sur les prés dorés,",
+          "les oies sauvages quittent leur étang.",
+          "Elles ouvrent leurs ailes grandes et fières,",
+          "et partent au loin, très haut dans le vent.",
+          "Leur cri résonne sur toute la vallée.",
+          "Les feuilles tourbillonnent derrière elles."
+        ],
+        [
+          "Elles forment un grand V dans le ciel pâle.",
+          "La plus forte vole devant, toute seule.",
+          "Quand elle est lasse, elle recule d'un rang,",
+          "et une autre prend sa place, sans un mot.",
+          "Ainsi, personne ne s'épuise trop vite."
+        ],
+        [
+          "Elles survolent les champs, les villes, les rivières,",
+          "et les montagnes couvertes de neige blanche.",
+          "Le soir, elles se posent au bord d'un lac,",
+          "se serrent les unes contre les autres,",
+          "et dorment, la tête cachée sous l'aile."
+        ],
+        [
+          "Au printemps prochain, elles reviendront chez nous.",
+          "Les enfants sur le chemin lèveront les yeux.",
+          "Ils compteront les oiseaux en riant,",
+          "puis ils salueront de la main ces voyageuses",
+          "qui connaissent par cœur le chemin du retour.",
+          "Nous les attendrons avec impatience."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Quelle forme les oies dessinent-elles dans le ciel ?",
+          "choix": [
+            "Un cercle",
+            "Une ligne droite",
+            "Un V"
+          ],
+          "reponse": "Un V",
+          "preuve": 6,
+          "indice": "Cherche le vers qui décrit le ciel.",
+          "explication": "Le vers 7 dit que les oies forment un grand V."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-lieu",
+          "question": "Où se posent les oies le soir ?",
+          "choix": [
+            "Au bord d'un lac",
+            "Sur un toit",
+            "Dans un champ de blé"
+          ],
+          "reponse": "Au bord d'un lac",
+          "preuve": 13,
+          "indice": "Cherche le vers qui parle du soir.",
+          "explication": "Le vers 14 dit que les oies se posent au bord d'un lac."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-saison",
+          "question": "À quelle saison les oies sauvages partent-elles ?",
+          "choix": [
+            "En hiver",
+            "En été",
+            "En automne"
+          ],
+          "reponse": "En automne",
+          "preuve": 0,
+          "indice": "Cherche le premier vers.",
+          "explication": "Le vers 1 commence par « Quand l'automne arrive »."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi les oies se serrent-elles les unes contre les autres le soir ?",
+          "choix": [
+            "Pour se battre",
+            "Pour jouer",
+            "Pour se réchauffer"
+          ],
+          "reponse": "Pour se réchauffer",
+          "preuve": 14,
+          "indice": "Relis ce que font les oies juste avant de dormir.",
+          "explication": "Au vers 15, les oies se serrent pour dormir : c'est pour se tenir chaud."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "lasse",
+          "question": "Que veut dire « lasse » dans le texte ?",
+          "choix": [
+            "Fatiguée",
+            "Joyeuse",
+            "Affamée"
+          ],
+          "reponse": "Fatiguée",
+          "preuve": 8,
+          "indice": "Pourquoi l'oie de devant laisse-t-elle sa place ?",
+          "explication": "L'oie de devant recule pour se reposer : « lasse » veut dire fatiguée."
+        }
+      ]
+    },
+    {
+      "id": "lec-ord-n1-001",
+      "type": "ordre",
+      "niveau": 1,
+      "competence": "ordre-recette",
+      "titre": "Le gâteau de Mina",
+      "paragraphes": [
+        "D'abord, Mina casse deux œufs dans un grand bol et ajoute un verre de sucre.",
+        "Ensuite, elle verse la farine et mélange la pâte avec une cuillère en bois jusqu'à ce qu'elle soit lisse.",
+        "Puis elle verse la pâte dans un moule et met le tout au four pendant trente minutes.",
+        "Enfin, le gâteau est doré : Mina le laisse refroidir avant de le goûter."
+      ],
+      "indice": "Pense à ce qu'il faut faire avant de pouvoir cuire le gâteau.",
+      "explication": "On casse les œufs d'abord, on ajoute la farine, on cuit la pâte au four, et on goûte seulement à la fin."
+    },
+    {
+      "id": "lec-ord-n1-002",
+      "type": "ordre",
+      "niveau": 1,
+      "competence": "ordre-chronologie",
+      "titre": "Une journée à la plage",
+      "paragraphes": [
+        "Le matin, Jade et son frère arrivent sur la plage très tôt, avant les autres familles.",
+        "À midi, ils mangent des sandwichs à l'ombre d'un grand parasol bleu que leur père a planté dans le sable.",
+        "L'après-midi, ils construisent un énorme château de sable et le décorent avec des coquillages.",
+        "Le soir, la mer monte doucement et emporte le château, alors ils rentrent à la maison en riant."
+      ],
+      "indice": "Cherche les moments de la journée : matin, midi, après-midi, soir.",
+      "explication": "Les moments de la journée donnent l'ordre : le matin, midi, l'après-midi, puis le soir."
+    },
+    {
+      "id": "lec-ord-n1-003",
+      "type": "ordre",
+      "niveau": 1,
+      "competence": "ordre-cause",
+      "titre": "Le vélo de Paul",
+      "paragraphes": [
+        "Paul roule très vite dans la descente, car il est en retard pour l'école et veut arriver avant la sonnerie.",
+        "À cause de sa vitesse, il ne voit pas une grosse pierre sur le chemin.",
+        "La roue avant heurte la pierre et se dégonfle d'un coup : c'est une crevaison.",
+        "Paul doit donc pousser son vélo jusqu'au garage, et il arrive à l'école encore plus tard que prévu."
+      ],
+      "indice": "Cherche ce qui cause chaque événement : une cause arrive avant sa conséquence.",
+      "explication": "Chaque paragraphe explique le suivant : la vitesse, la pierre, la crevaison, puis le retard."
+    },
+    {
+      "id": "lec-ord-n1-004",
+      "type": "ordre",
+      "niveau": 1,
+      "competence": "ordre-recette",
+      "titre": "Une salade de fruits",
+      "paragraphes": [
+        "D'abord, Samir lave soigneusement les fruits sous l'eau : deux pommes, une orange et quelques fraises.",
+        "Ensuite, il épluche l'orange puis coupe tous les fruits en petits morceaux réguliers.",
+        "Puis il met tous les morceaux dans un grand saladier et ajoute un peu de jus de citron pour éviter qu'ils noircissent.",
+        "Enfin, il place le saladier au frais pendant une heure avant de servir ses invités."
+      ],
+      "indice": "Que faut-il faire avant de couper des fruits ?",
+      "explication": "On lave les fruits, on les coupe, on les mélange avec le citron, puis on les met au frais."
+    },
+    {
+      "id": "lec-ord-n1-005",
+      "type": "ordre",
+      "niveau": 1,
+      "competence": "ordre-chronologie",
+      "titre": "La graine de tournesol",
+      "paragraphes": [
+        "Au printemps, Lila plante une graine de tournesol dans un pot rempli de terre.",
+        "Chaque jour, elle arrose la terre sans rien voir pousser, et elle attend avec beaucoup de patience.",
+        "Quelques semaines plus tard, une petite tige verte sort de la terre et grandit vite.",
+        "À la fin de l'été, la tige est plus haute que Lila et porte une immense fleur jaune."
+      ],
+      "indice": "Cherche les repères de temps : printemps, jours, semaines, été.",
+      "explication": "La graine est plantée au printemps, arrosée, puis elle pousse en quelques semaines et fleurit à la fin de l'été."
+    },
+    {
+      "id": "lec-ord-n1-006",
+      "type": "ordre",
+      "niveau": 1,
+      "competence": "ordre-cause",
+      "titre": "La panne de lumière",
+      "paragraphes": [
+        "Ce soir-là, un gros orage éclate au-dessus du village, avec beaucoup de vent et de pluie.",
+        "À cause du vent, un arbre tombe sur un fil, et toutes les lumières s'éteignent.",
+        "Alors, Hugo et sa sœur allument des bougies et jouent aux cartes dans le salon en attendant.",
+        "Une heure plus tard, le courant revient et tout le village retrouve la lumière."
+      ],
+      "indice": "Qu'est-ce qui provoque la panne, et que font les enfants à cause d'elle ?",
+      "explication": "L'orage fait tomber un arbre, la lumière s'éteint, les enfants allument des bougies, puis le courant revient."
+    },
+    {
+      "id": "lec-tex-n2-001",
+      "type": "texte",
+      "niveau": 2,
+      "genre": "documentaire",
+      "titre": "La pieuvre, reine du camouflage",
+      "paragraphes": [
+        [
+          "La pieuvre vit au fond des mers, souvent cachée entre des rochers.",
+          "Elle n'a aucun os, ce qui lui permet de se glisser dans des trous très étroits.",
+          "Une pieuvre peut ainsi passer par une fente beaucoup plus étroite que son corps.",
+          "Ses huit bras lui servent à se déplacer, à toucher et à attraper."
+        ],
+        [
+          "Son secret le plus étonnant est sa peau.",
+          "Elle contient de minuscules sacs de couleur que la pieuvre peut ouvrir ou fermer en une fraction de seconde.",
+          "Grâce à eux, elle devient rouge, brune, grise ou tachetée.",
+          "Elle peut même imiter l'aspect des algues ou du sable, en faisant apparaître de petites bosses sur sa peau."
+        ],
+        [
+          "Ce camouflage la protège de ses ennemis, comme les murènes et les requins.",
+          "Il l'aide aussi à approcher ses proies, des crabes et des coquillages, sans être remarquée.",
+          "Elle peut aussi rester immobile pendant des heures, pour guetter un passage.",
+          "Quand tout cela ne suffit pas, la pieuvre lâche un nuage d'encre noire.",
+          "Pendant que son ennemi cherche où elle est passée, elle s'enfuit rapidement en projetant de l'eau derrière elle."
+        ],
+        [
+          "On dit souvent que la pieuvre est très intelligente.",
+          "En laboratoire, certaines savent ouvrir des bocaux pour atteindre la nourriture enfermée.",
+          "D'autres savent reconnaître le visage des soigneurs qui s'occupent d'elles.",
+          "Pourtant, la pieuvre vit seule, et beaucoup d'espèces vivent moins de trois ans."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-cause",
+          "question": "Pourquoi la pieuvre peut-elle se glisser dans des trous très étroits ?",
+          "choix": [
+            "Elle est très petite",
+            "Elle n'a aucun os",
+            "Elle est très rapide"
+          ],
+          "reponse": "Elle n'a aucun os",
+          "preuve": 1,
+          "indice": "Cherche la phrase qui parle de son corps.",
+          "explication": "La phrase 2 le dit : elle n'a aucun os, donc son corps se plie."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Que contient la peau de la pieuvre ?",
+          "choix": [
+            "De petites écailles",
+            "Des piquants",
+            "De minuscules sacs de couleur"
+          ],
+          "reponse": "De minuscules sacs de couleur",
+          "preuve": 5,
+          "indice": "Cherche la phrase qui explique le secret de sa peau.",
+          "explication": "La phrase 6 parle de minuscules sacs de couleur."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-action",
+          "question": "Que fait la pieuvre quand son camouflage ne suffit pas ?",
+          "choix": [
+            "Elle lâche un nuage d'encre noire",
+            "Elle creuse un trou dans le sable",
+            "Elle attaque son ennemi"
+          ],
+          "reponse": "Elle lâche un nuage d'encre noire",
+          "preuve": 11,
+          "indice": "Cherche la phrase qui commence par « Quand tout cela ne suffit pas ».",
+          "explication": "La phrase 12 dit qu'elle lâche un nuage d'encre noire."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-but",
+          "question": "Pourquoi la pieuvre lâche-t-elle de l'encre ?",
+          "choix": [
+            "Pour appeler d'autres pieuvres",
+            "Pour que son ennemi la perde de vue et qu'elle s'enfuie",
+            "Pour colorer l'eau par plaisir"
+          ],
+          "reponse": "Pour que son ennemi la perde de vue et qu'elle s'enfuie",
+          "preuve": 12,
+          "indice": "Que fait la pieuvre pendant que son ennemi cherche ?",
+          "explication": "À la phrase 13, l'ennemi cherche la pieuvre pendant qu'elle s'enfuit : l'encre sert à la cacher."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-idee",
+          "question": "Que montre l'exemple des bocaux ?",
+          "choix": [
+            "Que la pieuvre aime les bocaux",
+            "Que certaines pieuvres savent résoudre un problème",
+            "Que la pieuvre peut sortir de l'eau"
+          ],
+          "reponse": "Que certaines pieuvres savent résoudre un problème",
+          "preuve": 14,
+          "indice": "Pense à ce que la pieuvre doit comprendre pour ouvrir un bocal.",
+          "explication": "Ouvrir un bocal demande de comprendre comment il fonctionne (phrase 15) : cela montre de l'intelligence."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "fente",
+          "question": "Que veut dire « fente » dans le texte ?",
+          "choix": [
+            "Une ouverture longue et étroite",
+            "Un grand trou rond",
+            "Un rocher plat"
+          ],
+          "reponse": "Une ouverture longue et étroite",
+          "preuve": 2,
+          "indice": "Pense à un passage beaucoup plus étroit que le corps de la pieuvre.",
+          "explication": "La pieuvre passe par un passage très étroit : une fente est une ouverture longue et étroite."
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n2-002",
+      "type": "texte",
+      "niveau": 2,
+      "genre": "recit",
+      "titre": "Le carnet de la bibliothèque",
+      "paragraphes": [
+        [
+          "Le mercredi, Alma aide Mme Berthier à ranger les livres de la bibliothèque du quartier.",
+          "Ce jour-là, elle trouve un petit carnet vert coincé derrière une étagère.",
+          "La couverture est usée, et les pages sont couvertes d'une écriture fine et penchée."
+        ],
+        [
+          "Sur la première page, une phrase intrigue Alma : « Le trésor dort sous le plus gros livre de la bibliothèque. »",
+          "Elle relit plusieurs fois ces mots, puis les montre à Mme Berthier.",
+          "La bibliothécaire hausse les épaules et répond que le carnet appartient sûrement à un ancien lecteur."
+        ],
+        [
+          "Alma n'est pas convaincue, et elle décide de mener l'enquête avec son ami Basile.",
+          "Le lendemain, ils mesurent les livres du rayon des sciences, puis ceux du rayon des romans, mais aucun n'est assez gros.",
+          "C'est Basile qui pense enfin à l'atlas géant du coin des cartes, posé à plat sur une table basse.",
+          "Il est si lourd qu'ils doivent le soulever à deux."
+        ],
+        [
+          "Dessous, ils découvrent une boîte en fer remplie de cartes postales venues du monde entier.",
+          "Chacune est signée d'un lecteur différent et raconte un voyage.",
+          "Sur le couvercle, une étiquette est écrite de la même écriture fine et penchée que le carnet, et Alma comprend que c'est celle de Mme Berthier, qui sourit derrière eux."
+        ],
+        [
+          "« Je cachais ce jeu depuis des années, avoue la bibliothécaire, mais personne n'avait lu le carnet jusqu'au bout. »",
+          "Alma et Basile promettent de garder le secret et d'ajouter leur propre carte à la boîte."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-lieu",
+          "question": "Où Alma trouve-t-elle le carnet ?",
+          "choix": [
+            "Dans la salle des journaux",
+            "Sous une table basse",
+            "Derrière une étagère"
+          ],
+          "reponse": "Derrière une étagère",
+          "preuve": 1,
+          "indice": "Cherche la phrase qui parle du carnet vert.",
+          "explication": "La phrase 2 dit que le carnet est coincé derrière une étagère."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-personnage",
+          "question": "Qui aide Alma à mener l'enquête ?",
+          "choix": [
+            "Basile",
+            "Mme Berthier",
+            "Son grand-père"
+          ],
+          "reponse": "Basile",
+          "preuve": 6,
+          "indice": "Cherche la phrase où Alma prend une décision.",
+          "explication": "La phrase 7 dit qu'Alma enquête avec son ami Basile."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-objet",
+          "question": "Qu'y a-t-il sous l'atlas géant ?",
+          "choix": [
+            "Un plan du quartier",
+            "Une boîte en fer remplie de cartes postales",
+            "Une clé ancienne"
+          ],
+          "reponse": "Une boîte en fer remplie de cartes postales",
+          "preuve": 10,
+          "indice": "Cherche la phrase qui commence par « Dessous ».",
+          "explication": "La phrase 11 parle d'une boîte en fer remplie de cartes postales."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-indice",
+          "question": "Comment Alma comprend-elle que Mme Berthier a écrit le carnet ?",
+          "choix": [
+            "Elle reconnaît l'écriture",
+            "Elle voit Mme Berthier ranger le carnet",
+            "Basile le lui dit"
+          ],
+          "reponse": "Elle reconnaît l'écriture",
+          "preuve": 12,
+          "indice": "Compare l'étiquette de la boîte avec le carnet.",
+          "explication": "À la phrase 13, l'écriture de l'étiquette est la même que celle du carnet."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-but",
+          "question": "Pourquoi Mme Berthier a-t-elle caché la boîte ?",
+          "choix": [
+            "Pour la protéger de la pluie",
+            "Pour la vendre plus tard",
+            "Pour inventer un jeu pour les lecteurs curieux"
+          ],
+          "reponse": "Pour inventer un jeu pour les lecteurs curieux",
+          "preuve": 13,
+          "indice": "Écoute bien ce que la bibliothécaire avoue.",
+          "explication": "À la phrase 14, Mme Berthier appelle sa cachette un « jeu » pour les lecteurs curieux."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "intrigue",
+          "question": "Que veut dire « intrigue » dans le texte ?",
+          "choix": [
+            "Rend curieux",
+            "Fait peur",
+            "Ennuie"
+          ],
+          "reponse": "Rend curieux",
+          "preuve": 3,
+          "indice": "Alma relit plusieurs fois cette phrase : que ressent-elle ?",
+          "explication": "Alma relit les mots sans les comprendre : « intrigue » veut dire rend curieux."
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n2-003",
+      "type": "texte",
+      "niveau": 2,
+      "genre": "lettre",
+      "titre": "Une lettre de Lisbonne",
+      "paragraphes": [
+        [
+          "Cher Tom, comment vas-tu ?",
+          "Je t'écris depuis Lisbonne, la capitale du Portugal, où ma tante m'a invité pour une semaine.",
+          "Le voyage en avion a duré environ deux heures, mais j'ai eu l'impression d'arriver dans un autre monde."
+        ],
+        [
+          "La ville est construite, dit-on, sur sept collines, et les rues montent et descendent sans arrêt.",
+          "Les maisons sont couvertes de carreaux bleus et blancs qui brillent au soleil.",
+          "Pour ne pas se fatiguer, beaucoup de gens prennent de petits tramways jaunes qui grincent dans les virages.",
+          "Hier, nous sommes montés dans l'un d'eux, serrés comme des sardines, et le conducteur a sonné la cloche à chaque croisement."
+        ],
+        [
+          "Le matin, ma tante m'emmène à la boulangerie du coin.",
+          "J'y ai goûté un petit gâteau à la crème appelé « pastel de nata ».",
+          "Il est encore chaud à la sortie du four, et la croûte craque sous la dent.",
+          "Ma tante m'a aussi appris à dire merci en portugais."
+        ],
+        [
+          "Le plus beau moment est arrivé hier soir.",
+          "Nous avons grimpé sur une terrasse pour regarder le soleil se coucher sur le fleuve.",
+          "Le ciel est devenu orange, puis rose, puis violet, et les bateaux ressemblaient à des jouets."
+        ],
+        [
+          "Mais tu me manques, car personne ici ne rit à mes blagues comme toi.",
+          "Garde-moi une place à la cantine, et ne mange pas toute ma réserve de cartes de footballeurs !",
+          "Je rentre dimanche, avec une boîte de ces gâteaux rien que pour toi.",
+          "À très vite,",
+          "Ton ami Karim."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-lieu",
+          "question": "Chez qui Karim passe-t-il la semaine à Lisbonne ?",
+          "choix": [
+            "Chez sa tante",
+            "Chez un voisin",
+            "Chez sa grand-mère"
+          ],
+          "reponse": "Chez sa tante",
+          "preuve": 1,
+          "indice": "Cherche la phrase qui dit pourquoi il est à Lisbonne.",
+          "explication": "La phrase 2 dit que sa tante l'a invité pour une semaine."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-duree",
+          "question": "Combien de temps le voyage en avion a-t-il duré ?",
+          "choix": [
+            "Une nuit entière",
+            "Environ deux heures",
+            "Presque une journée"
+          ],
+          "reponse": "Environ deux heures",
+          "preuve": 2,
+          "indice": "Cherche la phrase qui parle de l'avion.",
+          "explication": "La phrase 3 dit que le voyage a duré environ deux heures."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-objet",
+          "question": "De quelle couleur sont les petits tramways ?",
+          "choix": [
+            "Rouges",
+            "Verts",
+            "Jaunes"
+          ],
+          "reponse": "Jaunes",
+          "preuve": 5,
+          "indice": "Cherche la phrase qui parle des tramways.",
+          "explication": "La phrase 6 parle de petits tramways jaunes."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-temps",
+          "question": "Quel jour Karim rentre-t-il chez lui ?",
+          "choix": [
+            "Dimanche",
+            "Samedi",
+            "Lundi"
+          ],
+          "reponse": "Dimanche",
+          "preuve": 16,
+          "indice": "Cherche la phrase qui annonce son retour.",
+          "explication": "La phrase 17 annonce son retour dimanche."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-sens",
+          "question": "Que veut dire Karim par « serrés comme des sardines » ?",
+          "choix": [
+            "Le tramway avait un goût de poisson",
+            "Le tramway était très plein",
+            "Le tramway roulait très lentement"
+          ],
+          "reponse": "Le tramway était très plein",
+          "preuve": 6,
+          "indice": "Pense à des sardines dans une boîte.",
+          "explication": "Des sardines dans une boîte sont collées les unes aux autres : le tramway était très plein."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "grincent",
+          "question": "Que veut dire « grincent » dans le texte ?",
+          "choix": [
+            "Font un bruit aigu de frottement",
+            "Roulent sans bruit",
+            "Brillent au soleil"
+          ],
+          "reponse": "Font un bruit aigu de frottement",
+          "preuve": 5,
+          "indice": "Quel bruit fait une porte mal huilée ?",
+          "explication": "Un tramway qui tourne fait un bruit aigu de frottement : il grince."
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n2-004",
+      "type": "texte",
+      "niveau": 2,
+      "genre": "bd",
+      "titre": "Un dimanche comme un autre",
+      "paragraphes": [
+        [
+          "Dans la chambre de Léon, le réveil sonne depuis dix minutes.",
+          "Le soleil entre déjà par la fenêtre, mais le garçon ne le voit pas.",
+          "Sous la couette, le garçon grogne : « Encore cinq minutes, s'il te plaît ! »"
+        ],
+        [
+          "Soudain, il ouvre un œil et regarde l'heure sur son réveil.",
+          "« Huit heures ! s'écrie-t-il. Je suis en retard ! »",
+          "Il bondit hors du lit, enfile son pull à l'envers et met ses chaussures sans chaussettes.",
+          "Son cartable traîne encore dans le couloir, mais il n'y pense même pas."
+        ],
+        [
+          "Il dévale l'escalier, attrape une tartine et file vers la porte d'entrée.",
+          "Il traverse le jardin en courant, sans même fermer le portail.",
+          "La rue est étrangement vide, sans aucune voiture ni aucun passant.",
+          "Le garçon s'arrête, intrigué, devant la boulangerie fermée."
+        ],
+        [
+          "Un voisin qui promène son chien lui lance : « Qu'est-ce que tu fabriques ici, Léon ? »",
+          "Le chien du voisin aboie joyeusement autour de ses chevilles.",
+          "« Je cours à l'école ! répond le garçon, tout essoufflé. »",
+          "« Mais c'est dimanche ! » s'exclame le voisin en éclatant de rire."
+        ],
+        [
+          "Léon regarde son pull à l'envers, ses chaussures sans chaussettes, et il devient rouge comme une tomate.",
+          "En rentrant, il trouve sa mère qui l'attend avec un grand bol de chocolat chaud.",
+          "Il comprend alors qu'il a oublié d'éteindre son réveil de la semaine.",
+          "Ils rient ensemble de cette drôle de matinée.",
+          "Le dimanche suivant, il colle un petit mot sur le cadran : « Ne sonne pas aujourd'hui ! »"
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-parole",
+          "question": "Que dit Léon sous la couette ?",
+          "choix": [
+            "« Je suis en retard ! »",
+            "« Encore cinq minutes, s'il te plaît ! »",
+            "« Il est déjà huit heures ! »"
+          ],
+          "reponse": "« Encore cinq minutes, s'il te plaît ! »",
+          "preuve": 2,
+          "indice": "Cherche la phrase qui se passe sous la couette.",
+          "explication": "La phrase 3 rapporte la demande de Léon."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-jour",
+          "question": "Quel jour est-on vraiment ?",
+          "choix": [
+            "Samedi",
+            "Lundi",
+            "Dimanche"
+          ],
+          "reponse": "Dimanche",
+          "preuve": 14,
+          "indice": "Écoute ce que dit le voisin.",
+          "explication": "La phrase 15 : le voisin lui dit qu'on est dimanche."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-objet",
+          "question": "Que fait Léon avec son pull en se levant ?",
+          "choix": [
+            "Il l'enfile à l'envers",
+            "Il le range dans l'armoire",
+            "Il le prête à son voisin"
+          ],
+          "reponse": "Il l'enfile à l'envers",
+          "preuve": 5,
+          "indice": "Cherche la phrase où Léon s'habille vite.",
+          "explication": "La phrase 6 dit qu'il enfile son pull à l'envers."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi le réveil sonne-t-il un dimanche ?",
+          "choix": [
+            "Il est cassé",
+            "Léon a oublié de l'éteindre",
+            "Sa mère l'a réglé"
+          ],
+          "reponse": "Léon a oublié de l'éteindre",
+          "preuve": 17,
+          "indice": "Que comprend Léon une fois rentré ?",
+          "explication": "À la phrase 18, Léon comprend qu'il a oublié d'éteindre son réveil de la semaine."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-sentiment",
+          "question": "Pourquoi Léon devient-il rouge comme une tomate ?",
+          "choix": [
+            "Il a honte de sa méprise",
+            "Il a trop chaud sous la couette",
+            "Il est en colère contre le voisin"
+          ],
+          "reponse": "Il a honte de sa méprise",
+          "preuve": 15,
+          "indice": "Regarde ce que Léon observe sur lui-même.",
+          "explication": "À la phrase 16, Léon voit qu'il s'est habillé n'importe comment : il rougit de honte."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "dévale",
+          "question": "Que veut dire « dévale » dans le texte ?",
+          "choix": [
+            "Descend très vite",
+            "Monte lentement",
+            "Regarde longuement"
+          ],
+          "reponse": "Descend très vite",
+          "preuve": 7,
+          "indice": "Léon est pressé : comment descend-il ?",
+          "explication": "Pressé, Léon descend l'escalier à toute vitesse : « dévaler » veut dire descendre très vite."
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n2-005",
+      "type": "texte",
+      "niveau": 2,
+      "genre": "recit",
+      "titre": "Le mur d'escalade",
+      "paragraphes": [
+        [
+          "Chaque samedi, Inaya va au gymnase pour son cours d'escalade.",
+          "Elle adore les prises colorées, la craie sur ses mains et l'odeur de la salle.",
+          "Elle s'entraîne depuis un an et connaît déjà les noms de toutes les prises.",
+          "Pourtant, il y a un détail qu'elle garde secret : elle a un peu peur du vide."
+        ],
+        [
+          "Ce samedi-là, la monitrice, Mme Dupré, propose le grand mur de huit mètres.",
+          "Chaque élève porte un casque et un harnais, que Mme Dupré vérifie avant chaque départ.",
+          "Un par un, les élèves montent, attachés à une corde que Mme Dupré tient solidement.",
+          "Quand vient son tour, Inaya serre les dents et attrape la première prise."
+        ],
+        [
+          "Elle grimpe sans difficulté jusqu'à la moitié du mur.",
+          "Alors, elle commet une erreur : elle regarde en bas.",
+          "En bas, ses camarades retiennent leur souffle.",
+          "Ses jambes se mettent à trembler, et ses doigts glissent."
+        ],
+        [
+          "« Tout va bien, je te tiens ! crie Mme Dupré. Ne regarde plus le sol, regarde ta prochaine prise. »",
+          "Inaya respire à fond.",
+          "Elle fixe une prise jaune au-dessus de sa tête, puis une prise bleue, puis une prise rouge.",
+          "À chaque fois, elle ne pense qu'à la suivante."
+        ],
+        [
+          "Peu à peu, le tremblement s'arrête.",
+          "Dix minutes plus tard, sa main touche la cloche placée tout en haut du mur.",
+          "Tous ses camarades l'applaudissent.",
+          "Mme Dupré lui serre la main comme à une vraie grimpeuse.",
+          "En redescendant, Inaya sourit : elle sait maintenant comment dompter sa peur."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-nombre",
+          "question": "Quelle est la hauteur du grand mur ?",
+          "choix": [
+            "Six mètres",
+            "Huit mètres",
+            "Dix mètres"
+          ],
+          "reponse": "Huit mètres",
+          "preuve": 4,
+          "indice": "Cherche la phrase qui présente le mur proposé ce jour-là.",
+          "explication": "La phrase 5 dit que le mur mesure huit mètres."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-personnage",
+          "question": "Qui tient la corde d'Inaya ?",
+          "choix": [
+            "Un camarade",
+            "Mme Dupré",
+            "Son père"
+          ],
+          "reponse": "Mme Dupré",
+          "preuve": 6,
+          "indice": "Cherche la phrase qui parle de la corde.",
+          "explication": "La phrase 7 dit que Mme Dupré tient solidement la corde."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-erreur",
+          "question": "Quelle erreur Inaya commet-elle au milieu du mur ?",
+          "choix": [
+            "Elle regarde en bas",
+            "Elle lâche la corde",
+            "Elle monte trop vite"
+          ],
+          "reponse": "Elle regarde en bas",
+          "preuve": 9,
+          "indice": "Cherche la phrase qui commence par « Alors ».",
+          "explication": "La phrase 10 dit qu'elle regarde en bas."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-methode",
+          "question": "À quoi Inaya pense-t-elle à chaque fois qu'elle attrape une prise ?",
+          "choix": [
+            "Au sol",
+            "À la cloche en haut du mur",
+            "À la prise suivante"
+          ],
+          "reponse": "À la prise suivante",
+          "preuve": 15,
+          "indice": "Relis la phrase qui commence par « À chaque fois ».",
+          "explication": "À la phrase 16, elle ne pense qu'à la prise suivante."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-sentiment",
+          "question": "Comment se sent Inaya à la fin ?",
+          "choix": [
+            "Plus confiante",
+            "Très fâchée",
+            "Déçue de son cours"
+          ],
+          "reponse": "Plus confiante",
+          "preuve": 20,
+          "indice": "Que fait Inaya en redescendant ?",
+          "explication": "À la phrase 21, Inaya sourit et sait comment dompter sa peur : elle est plus confiante."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "monitrice",
+          "question": "Que veut dire « monitrice » dans le texte ?",
+          "choix": [
+            "Une personne qui guide un cours de sport",
+            "Une élève du cours",
+            "Une gardienne du gymnase"
+          ],
+          "reponse": "Une personne qui guide un cours de sport",
+          "preuve": 4,
+          "indice": "Qui explique les gestes aux élèves ?",
+          "explication": "Mme Dupré propose le mur et tient la corde : une monitrice guide un cours de sport."
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n2-006",
+      "type": "texte",
+      "niveau": 2,
+      "genre": "recit",
+      "titre": "La fusée de Camille et d'Idriss",
+      "paragraphes": [
+        [
+          "Camille et Idriss ont un projet pour la fête de la science : construire une fusée à eau.",
+          "Ils ont rassemblé une grande bouteille en plastique, du carton, du ruban adhésif et une pompe à vélo.",
+          "Leur maître, M. Lebrun, leur a expliqué le principe.",
+          "Ils y travaillent depuis trois semaines, chaque soir après la classe."
+        ],
+        [
+          "« On remplit la bouteille d'eau jusqu'au tiers, a-t-il dit. Ensuite, on la retourne, on la ferme avec un bouchon relié à la pompe et on pompe de l'air à l'intérieur. »",
+          "« Quand la pression devient trop forte, le bouchon saute, et l'eau est chassée vers le bas. »",
+          "« La fusée, elle, est poussée vers le haut. »"
+        ],
+        [
+          "Le jour de la fête, une foule se presse dans la cour de l'école.",
+          "Les parents et les élèves de toutes les classes sont venus regarder.",
+          "Camille remplit la bouteille, Idriss fixe le bouchon, et ils pompent de toutes leurs forces.",
+          "Mais l'eau goutte le long du goulot : le bouchon fuit, et la fusée ne décolle pas."
+        ],
+        [
+          "Les deux amis ne se découragent pas.",
+          "Idriss enroule du ruban adhésif autour du bouchon pour qu'il soit bien étanche, pendant que Camille remplit de nouveau la bouteille.",
+          "Cette fois, personne ne parle dans la cour."
+        ],
+        [
+          "Au vingtième coup de pompe, le bouchon saute avec un bruit sec.",
+          "La fusée jaillit, monte plus haut que le toit de l'école et retombe doucement dans les mains d'un élève.",
+          "Les applaudissements éclatent, et M. Lebrun lève le pouce en souriant."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-matiere",
+          "question": "Jusqu'où remplit-on la bouteille d'eau ?",
+          "choix": [
+            "Jusqu'au tiers",
+            "Jusqu'à la moitié",
+            "Jusqu'au bord"
+          ],
+          "reponse": "Jusqu'au tiers",
+          "preuve": 4,
+          "indice": "Cherche les explications du professeur.",
+          "explication": "La phrase 5 donne la consigne : remplir la bouteille jusqu'au tiers."
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-nombre",
+          "question": "À quel coup de pompe le bouchon saute-t-il ?",
+          "choix": [
+            "Au dixième",
+            "Au trentième",
+            "Au vingtième"
+          ],
+          "reponse": "Au vingtième",
+          "preuve": 14,
+          "indice": "Cherche la phrase du décollage.",
+          "explication": "La phrase 15 dit que le bouchon saute au vingtième coup de pompe."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi la fusée ne décolle-t-elle pas la première fois ?",
+          "choix": [
+            "Il n'y a pas assez d'eau dans le bouchon",
+            "Le bouchon fuit",
+            "La pompe est cassée"
+          ],
+          "reponse": "Le bouchon fuit",
+          "preuve": 10,
+          "indice": "Observe ce qui coule le long de la bouteille.",
+          "explication": "À la phrase 11, l'eau goutte : le bouchon fuit, donc la pression ne monte pas."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-solution",
+          "question": "Pourquoi Idriss enroule-t-il du ruban adhésif autour du bouchon ?",
+          "choix": [
+            "Pour décorer la fusée",
+            "Pour empêcher l'eau de fuir",
+            "Pour rendre la fusée plus lourde"
+          ],
+          "reponse": "Pour empêcher l'eau de fuir",
+          "preuve": 12,
+          "indice": "Quel était le problème du premier essai ?",
+          "explication": "À la phrase 13, le ruban rend le bouchon étanche : il empêche l'eau de fuir."
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-ambiance",
+          "question": "Que montre la phrase « Cette fois, personne ne parle dans la cour » ?",
+          "choix": [
+            "Que tout le monde est ennuyé",
+            "Que tout le monde attend, très attentif",
+            "Que la cour est vide"
+          ],
+          "reponse": "Que tout le monde attend, très attentif",
+          "preuve": 13,
+          "indice": "Quand on espère très fort, que fait-on ?",
+          "explication": "À la phrase 14, tous se taisent pour regarder : la foule attend, très attentive."
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "étanche",
+          "question": "Que veut dire « étanche » dans le texte ?",
+          "choix": [
+            "Qui ne laisse pas passer l'eau",
+            "Qui est très léger",
+            "Qui brille dans le noir"
+          ],
+          "reponse": "Qui ne laisse pas passer l'eau",
+          "preuve": 12,
+          "indice": "Pense à ce qu'on veut empêcher en entourant le bouchon de ruban.",
+          "explication": "Le ruban doit empêcher l'eau de s'échapper : étanche veut dire qui ne laisse pas passer l'eau."
+        }
+      ]
+    },
+    {
+      "id": "lec-ord-n2-001",
+      "type": "ordre",
+      "niveau": 2,
+      "competence": "ordre-recette",
+      "titre": "Un nichoir pour les oiseaux",
+      "paragraphes": [
+        "D'abord, Yanis dessine sur une planche de bois les six morceaux qui formeront la maison de l'oiseau.",
+        "Ensuite, avec l'aide de son grand-père, il scie chaque morceau en suivant soigneusement les traits.",
+        "Puis il assemble les morceaux avec des clous et perce un petit trou rond sur le devant.",
+        "Après cela, il accroche le nichoir à un arbre du jardin, à l'abri du vent.",
+        "Enfin, au bout de trois semaines, une mésange vient s'installer dans la nouvelle maison."
+      ],
+      "indice": "Que faut-il avoir fait avant de pouvoir clouer ou accrocher quelque chose ?",
+      "explication": "On dessine, on scie, on assemble, on accroche, et on attend l'oiseau : chaque étape prépare la suivante."
+    },
+    {
+      "id": "lec-ord-n2-002",
+      "type": "ordre",
+      "niveau": 2,
+      "competence": "ordre-chronologie",
+      "titre": "Le voyage de Manon",
+      "paragraphes": [
+        "La veille du départ, Manon prépare son sac à dos et glisse un livre et des biscuits dans la poche.",
+        "Le matin, elle se réveille avant le soleil, et son père l'accompagne à la gare.",
+        "Pendant le voyage, elle regarde les champs défiler par la fenêtre du train, puis elle s'endort.",
+        "À l'arrivée, sa grand-mère l'attend sur le quai avec un grand bouquet de fleurs.",
+        "Le soir, Manon raconte son voyage autour d'un bon repas, dans la cuisine de la maison."
+      ],
+      "indice": "Cherche les repères de temps : la veille, le matin, pendant, à l'arrivée, le soir.",
+      "explication": "Les repères de temps donnent l'ordre : la veille, le matin, pendant le voyage, à l'arrivée, puis le soir."
+    },
+    {
+      "id": "lec-ord-n2-003",
+      "type": "ordre",
+      "niveau": 2,
+      "competence": "ordre-cause",
+      "titre": "L'été sans pluie",
+      "paragraphes": [
+        "Cet été-là, il n'a presque pas plu pendant deux mois dans le village.",
+        "À cause du manque de pluie, la rivière a beaucoup baissé et certains puits se sont vidés.",
+        "Comme l'eau devenait rare, la mairie a demandé aux habitants de ne plus arroser les pelouses.",
+        "Pour continuer à arroser leurs tomates malgré cette consigne, les habitants ont récupéré l'eau des douches dans des seaux.",
+        "À la fin du mois de septembre, enfin, la pluie est revenue, et la rivière a retrouvé son niveau."
+      ],
+      "indice": "Cherche ce qui est la cause de chaque événement suivant.",
+      "explication": "Le manque de pluie fait baisser la rivière, ce qui oblige à économiser l'eau, jusqu'au retour de la pluie."
+    },
+    {
+      "id": "lec-ord-n2-004",
+      "type": "ordre",
+      "niveau": 2,
+      "competence": "ordre-recette",
+      "titre": "Une boussole maison",
+      "paragraphes": [
+        "D'abord, Ibrahim frotte une aiguille à coudre contre un aimant, toujours dans le même sens, une trentaine de fois.",
+        "Ensuite, il pique l'aiguille dans une rondelle de liège qu'il vient de couper dans un bouchon.",
+        "Puis il pose délicatement le liège sur l'eau d'un bol, au milieu de la table.",
+        "L'aiguille se met alors à tourner doucement sur elle-même, puis elle finit par s'arrêter.",
+        "Enfin, Ibrahim vérifie avec la boussole de son père : son aiguille pointe bien vers le nord."
+      ],
+      "indice": "Que doit-on faire à l'aiguille avant de la poser sur l'eau ?",
+      "explication": "On aimante l'aiguille, on la fixe sur le liège, on la pose sur l'eau, on la regarde tourner, puis on vérifie."
+    },
+    {
+      "id": "lec-ord-n2-005",
+      "type": "ordre",
+      "niveau": 2,
+      "competence": "ordre-chronologie",
+      "titre": "La vie d'un papillon",
+      "paragraphes": [
+        "Au printemps, une femelle papillon pond de minuscules œufs sous une feuille d'ortie.",
+        "Quelques jours plus tard, de petites chenilles sortent des œufs et se mettent à manger les feuilles sans s'arrêter.",
+        "Pendant plusieurs semaines, les chenilles grossissent beaucoup, jusqu'à devenir trop à l'étroit dans leur peau.",
+        "Quand elles sont assez grosses, elles s'accrochent à une branche et se transforment en chrysalide.",
+        "Enfin, après un certain temps, la chrysalide s'ouvre et un papillon aux ailes humides en sort."
+      ],
+      "indice": "Que se passe-t-il d'abord : les chenilles, les œufs ou le papillon ?",
+      "explication": "Le papillon pond des œufs, les chenilles naissent et grossissent, puis la chrysalide s'ouvre et libère un nouveau papillon."
+    },
+    {
+      "id": "lec-ord-n2-006",
+      "type": "ordre",
+      "niveau": 2,
+      "competence": "ordre-cause",
+      "titre": "La fenêtre oubliée",
+      "paragraphes": [
+        "Pendant la nuit, Eva oublie de fermer la fenêtre de sa chambre avant de s'endormir.",
+        "À cause de l'orage de cette nuit, la pluie entre dans la pièce et mouille tout le bureau.",
+        "Au matin, ses cahiers sont trempés, et l'encre de ses devoirs a coulé.",
+        "Eva doit donc tout recopier avant d'aller à l'école, et elle manque son bus.",
+        "Pour cette raison, son père l'accompagne en voiture, et ils chantent pendant tout le trajet."
+      ],
+      "indice": "Qu'est-ce qui provoque chaque événement qui vient ensuite ?",
+      "explication": "La fenêtre ouverte laisse entrer la pluie, les cahiers sont mouillés, Eva les recopie, rate son bus, et son père la conduit."
+    },
+    {
+      "id": "lec-tex-n3-001",
+      "type": "texte",
+      "niveau": 3,
+      "genre": "recit",
+      "titre": "Le signal de la vieille tour",
+      "paragraphes": [
+        [
+          "Chaque soir, à la même heure, une lueur verte clignotait au sommet de la vieille tour, au bout de la digue.",
+          "Les habitants du petit port prétendaient que la tour était abandonnée depuis des années, et personne n'osait s'en approcher.",
+          "Certains disaient même y avoir aperçu une ombre, mais nul n'avait jamais pu le prouver."
+        ],
+        [
+          "Samia, qui passait ses vacances chez sa grand-mère, avait remarqué ce manège dès son arrivée.",
+          "Intriguée, elle décida de mener l'enquête avec son voisin Théo, un garçon discret qui adorait les énigmes."
+        ],
+        [
+          "Le lendemain, ils se postèrent derrière un tas de filets de pêche, juste avant la tombée de la nuit.",
+          "Ils attendirent longtemps, transis par le vent du large, et leur patience fut récompensée : la lumière verte s'alluma enfin, régulière, comme un message codé."
+        ],
+        [
+          "Théo sortit son carnet et compta les éclats : trois courts, un long, trois courts.",
+          "Samia, de son côté, nota l'heure exacte sur sa main, de peur de l'oublier.",
+          "Au bout d'une demi-heure, la lueur s'éteignit brusquement et une silhouette sortit de la tour en refermant la porte à clé."
+        ],
+        [
+          "Les deux amis retinrent leur souffle devant cette scène étrange.",
+          "L'inconnu portait un lourd sac et une capuche rabattue ; il s'éloigna d'un pas pressé vers la plage.",
+          "Samia voulut le suivre, mais Théo la retint par la manche en lui rappelant qu'ils n'avaient aucune preuve de quoi que ce soit."
+        ],
+        [
+          "Le jour suivant, la grand-mère de Samia éclata de rire en entendant leur récit.",
+          "Elle leur expliqua que la tour abritait désormais une petite station de recherche, où un biologiste marin étudiait la vie des poissons de nuit.",
+          "La lumière verte attirait le plancton, dont ces poissons se nourrissent, et le sac contenait simplement du matériel de mesure."
+        ],
+        [
+          "Un peu déçus, les enfants rendirent pourtant visite au scientifique dès l'après-midi.",
+          "Il les accueillit avec chaleur, leur montra ses instruments et les invita à l'aider le soir même.",
+          "Ce fut le début d'une belle amitié, et d'un été qu'ils n'oublièrent jamais."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-lieu",
+          "question": "Où clignote la lueur verte chaque soir ?",
+          "choix": [
+            "Au sommet de la vieille tour",
+            "Sur un bateau de pêche",
+            "Dans la maison de la grand-mère"
+          ],
+          "reponse": "Au sommet de la vieille tour",
+          "indice": "Cherche la toute première phrase du texte.",
+          "explication": "La première phrase le dit : la lueur clignotait « au sommet de la vieille tour ».",
+          "preuve": 0
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi les enfants se cachent-ils derrière des filets de pêche ?",
+          "choix": [
+            "Pour regarder la tour sans être vus",
+            "Pour ranger le matériel du port",
+            "Pour jouer à cache-cache"
+          ],
+          "reponse": "Pour regarder la tour sans être vus",
+          "indice": "Pense à ce que veulent faire deux enquêteurs.",
+          "explication": "Les enfants « se postèrent derrière un tas de filets » : ils veulent observer sans se faire voir.",
+          "preuve": 5
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "transis",
+          "question": "Que veut dire « transis » dans le texte ?",
+          "choix": [
+            "Très fatigués",
+            "Glacés par le froid",
+            "Pleins de joie"
+          ],
+          "reponse": "Glacés par le froid",
+          "indice": "Regarde ce qui les touche : le vent du large.",
+          "explication": "Le vent du large les rend « transis », c'est-à-dire glacés.",
+          "preuve": 6
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Qu'est-ce que Samia note sur sa main ?",
+          "choix": [
+            "Le code des éclats",
+            "Le nom de l'inconnu",
+            "L'heure exacte"
+          ],
+          "reponse": "L'heure exacte",
+          "indice": "Cherche ce que fait Samia pendant que Théo compte.",
+          "explication": "Samia « nota l'heure exacte sur sa main ».",
+          "preuve": 8
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi Théo retient-il Samia par la manche ?",
+          "choix": [
+            "Il a peur de la plage",
+            "Il trouve imprudent d'accuser quelqu'un sans preuve",
+            "Il veut garder le sac de l'inconnu"
+          ],
+          "reponse": "Il trouve imprudent d'accuser quelqu'un sans preuve",
+          "indice": "Relis ce que Théo lui rappelle à ce moment.",
+          "explication": "Théo lui rappelle qu'ils n'ont « aucune preuve de quoi que ce soit ».",
+          "preuve": 12
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-personnage",
+          "question": "Quel métier exerce l'homme de la tour ?",
+          "choix": [
+            "Pêcheur",
+            "Biologiste marin",
+            "Gardien de phare"
+          ],
+          "reponse": "Biologiste marin",
+          "indice": "Cherche l'explication donnée par la grand-mère.",
+          "explication": "La grand-mère explique qu'un « biologiste marin » travaille dans la tour.",
+          "preuve": 14
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "plancton",
+          "question": "Que veut dire « plancton » dans le texte ?",
+          "choix": [
+            "Un instrument de mesure",
+            "De minuscules êtres vivants qui flottent dans l'eau",
+            "Un grand poisson de mer"
+          ],
+          "reponse": "De minuscules êtres vivants qui flottent dans l'eau",
+          "indice": "Regarde ce que les poissons font du plancton.",
+          "explication": "Les poissons se nourrissent de plancton : ce sont de minuscules êtres vivants de l'eau.",
+          "preuve": 15
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n3-002",
+      "type": "texte",
+      "niveau": 3,
+      "genre": "documentaire",
+      "titre": "Comment naît un volcan",
+      "paragraphes": [
+        [
+          "Sous nos pieds, la Terre n'est pas aussi calme qu'elle en a l'air.",
+          "À plusieurs dizaines de kilomètres sous la surface, la roche est si chaude qu'elle fond et forme une matière épaisse et brûlante, appelée magma."
+        ],
+        [
+          "Comme le magma est plus léger que la roche qui l'entoure, il remonte lentement, un peu comme une bulle d'air dans une bouteille d'eau.",
+          "Il s'accumule alors dans une vaste poche souterraine, que les scientifiques nomment chambre magmatique.",
+          "Ce phénomène dure parfois des milliers d'années avant qu'une éruption n'ait lieu."
+        ],
+        [
+          "Lorsque la pression devient trop forte, le magma cherche une sortie.",
+          "Il se fraie un passage par les fissures de la croûte terrestre et jaillit enfin à la surface : c'est l'éruption."
+        ],
+        [
+          "À l'air libre, le magma change de nom et devient de la lave, dont la température peut dépasser sept cents degrés.",
+          "Selon sa composition, elle s'écoule en rivières lentes ou bien elle est projetée dans les airs avec des cendres et des gaz.",
+          "Peu à peu, elle refroidit, durcit et s'empile autour de la bouche d'où elle est sortie."
+        ],
+        [
+          "Au fil des éruptions, ces couches successives forment une colline, puis une montagne : le volcan est né.",
+          "Son sommet, creusé en forme d'entonnoir, s'appelle le cratère.",
+          "Chaque éruption peut ainsi ajouter quelques mètres à la montagne.",
+          "Certains volcans des îles océaniques mesurent plusieurs milliers de mètres, si l'on compte depuis le fond de la mer."
+        ],
+        [
+          "Il existe des volcans actifs, qui peuvent se réveiller à tout moment, et des volcans éteints, silencieux depuis des milliers d'années.",
+          "Pour éviter les catastrophes, des chercheurs surveillent les volcans actifs jour et nuit grâce à des instruments très sensibles.",
+          "Ils mesurent par exemple les tremblements du sol et la température des gaz."
+        ],
+        [
+          "Grâce à ces observations, il est parfois possible de prévenir la population quelques jours avant une éruption.",
+          "Les habitants des régions volcaniques peuvent donc s'éloigner à temps, tout en profitant d'un avantage : les cendres rendent les sols très fertiles."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Comment appelle-t-on le magma une fois sorti du volcan ?",
+          "choix": [
+            "La cendre",
+            "La lave",
+            "La croûte"
+          ],
+          "reponse": "La lave",
+          "indice": "Cherche la phrase qui parle du changement de nom.",
+          "explication": "À l'air libre, le magma « devient de la lave ».",
+          "preuve": 7
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Comment s'appelle le sommet du volcan, creusé en entonnoir ?",
+          "choix": [
+            "La bouche",
+            "La chambre",
+            "Le cratère"
+          ],
+          "reponse": "Le cratère",
+          "indice": "Cherche la phrase qui décrit le sommet.",
+          "explication": "Le sommet, creusé en forme d'entonnoir, « s'appelle le cratère ».",
+          "preuve": 11
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi certains habitants vivent-ils près d'un volcan ?",
+          "choix": [
+            "Parce que les cendres enrichissent la terre",
+            "Parce que tous les volcans sont éteints",
+            "Parce que la lave chauffe les maisons"
+          ],
+          "reponse": "Parce que les cendres enrichissent la terre",
+          "indice": "Cherche un avantage dont profitent les habitants.",
+          "explication": "Les cendres rendent les sols « très fertiles » : c'est un avantage pour les habitants.",
+          "preuve": 18
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "fissures",
+          "question": "Que veut dire « fissures » dans le texte ?",
+          "choix": [
+            "Des bulles d'air",
+            "Des fentes étroites dans la roche",
+            "Des cours d'eau"
+          ],
+          "reponse": "Des fentes étroites dans la roche",
+          "indice": "Le magma se fraie un passage : par quoi passe-t-il ?",
+          "explication": "Le magma passe « par les fissures de la croûte » : ce sont des fentes dans la roche.",
+          "preuve": 6
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "entonnoir",
+          "question": "Que veut dire « entonnoir » dans le texte ?",
+          "choix": [
+            "Un grand tuyau rempli d'eau",
+            "Une roue qui tourne",
+            "Un objet large en haut et étroit au fond"
+          ],
+          "reponse": "Un objet large en haut et étroit au fond",
+          "indice": "Imagine le sommet creusé du volcan.",
+          "explication": "Le cratère est creusé « en forme d'entonnoir » : large en haut, étroit vers le fond.",
+          "preuve": 11
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "fertiles",
+          "question": "Que veut dire « fertiles » dans le texte ?",
+          "choix": [
+            "Très durs et secs",
+            "Brûlants et dangereux",
+            "Riches et favorables aux cultures"
+          ],
+          "reponse": "Riches et favorables aux cultures",
+          "indice": "Regarde l'avantage dont parle la phrase.",
+          "explication": "Les cendres sont un « avantage » : elles rendent les sols riches, donc « fertiles ».",
+          "preuve": 18
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n3-003",
+      "type": "texte",
+      "niveau": 3,
+      "genre": "lettre",
+      "titre": "Une lettre depuis le petit train rouge",
+      "paragraphes": [
+        [
+          "Chère Amina, voici enfin de mes nouvelles !",
+          "Je t'écris depuis un petit train rouge qui grimpe lentement vers les glaciers, et je profite de chaque minute pour tout te raconter.",
+          "Dans le wagon, tout le monde chante ou somnole, et parfois les deux à la fois."
+        ],
+        [
+          "Le voyage a commencé hier matin, à la gare de Lyon, avec mes grands-parents.",
+          "Mamie avait préparé un énorme pique-nique, mais Papi a mangé presque tous les sandwichs avant même que nous quittions la France !",
+          "Le contrôleur, très aimable, m'a même laissé poinçonner mon billet.",
+          "Pendant que le train traversait des vallées couvertes de sapins, j'ai compté douze cascades."
+        ],
+        [
+          "Hier soir, nous avons dormi dans une auberge pittoresque, dont les balcons en bois sont décorés de géraniums.",
+          "L'aubergiste, un homme moustachu au rire sonore, m'a appris trois mots de sa langue.",
+          "J'ai déjà oublié deux d'entre eux, mais je retiens « merci », qui m'a valu un second dessert."
+        ],
+        [
+          "Aujourd'hui, nous avons emprunté un viaduc impressionnant, tout en pierre, qui enjambe un torrent plusieurs dizaines de mètres plus bas.",
+          "Je n'ai pas osé regarder par la fenêtre au début, puis la curiosité l'a emporté.",
+          "Tu aurais adoré ce paysage, toi qui rêves de montagnes depuis toujours."
+        ],
+        [
+          "Ce que je préfère, c'est le tunnel en spirale.",
+          "Le train s'enfonce dans la roche et tourne sur lui-même, comme une vis, pour gagner de la hauteur sans que la pente soit trop raide.",
+          "Quand on en ressort, on se retrouve juste au-dessus de l'endroit où l'on est entré, et le village paraît minuscule."
+        ],
+        [
+          "Demain, nous marcherons jusqu'au bord du plus grand glacier de la région.",
+          "Papi affirme qu'il faut partir à l'aube pour ne pas croiser la foule, ce qui ne m'enchante guère, car j'adore dormir.",
+          "Je te promets pourtant de rapporter une pierre bien lisse pour ta collection."
+        ],
+        [
+          "Écris-moi vite pour me dire si tu as réussi ton saut en hauteur, et donne le bonjour à Ismaël.",
+          "Je pense très fort à toi.",
+          "Ton ami, Hugo."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Qu'est-ce que Papi a mangé presque en entier ?",
+          "choix": [
+            "Les sandwichs du pique-nique",
+            "Les desserts de l'auberge",
+            "Les fruits du jardin"
+          ],
+          "reponse": "Les sandwichs du pique-nique",
+          "indice": "Cherche ce que Mamie avait préparé.",
+          "explication": "Papi « a mangé presque tous les sandwichs » du pique-nique.",
+          "preuve": 4
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Combien de cascades Hugo a-t-il comptées ?",
+          "choix": [
+            "Sept",
+            "Douze",
+            "Vingt"
+          ],
+          "reponse": "Douze",
+          "indice": "Cherche la phrase qui parle des vallées et des sapins.",
+          "explication": "Hugo écrit : « j'ai compté douze cascades ».",
+          "preuve": 6
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi Hugo n'est-il pas enchanté de partir à l'aube ?",
+          "choix": [
+            "Il a peur de la foule",
+            "Il aime beaucoup dormir",
+            "Il déteste marcher"
+          ],
+          "reponse": "Il aime beaucoup dormir",
+          "indice": "Cherche ce que Hugo avoue adorer.",
+          "explication": "Hugo « adore dormir » : se lever à l'aube ne l'enchante guère.",
+          "preuve": 17
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-detail",
+          "question": "Quel objet Amina semble-t-elle collectionner ?",
+          "choix": [
+            "Des coquillages",
+            "Des cartes postales",
+            "Des pierres"
+          ],
+          "reponse": "Des pierres",
+          "indice": "Regarde ce que Hugo promet de rapporter pour elle.",
+          "explication": "Hugo rapportera « une pierre bien lisse pour ta collection » : Amina collectionne des pierres.",
+          "preuve": 18
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "viaduc",
+          "question": "Que veut dire « viaduc » dans le texte ?",
+          "choix": [
+            "Un tunnel creusé dans la roche",
+            "Une route qui monte doucement",
+            "Un grand pont qui franchit une vallée"
+          ],
+          "reponse": "Un grand pont qui franchit une vallée",
+          "indice": "Regarde ce que le viaduc enjambe, bien plus bas.",
+          "explication": "Le viaduc « enjambe un torrent » situé plusieurs mètres plus bas : c'est un grand pont.",
+          "preuve": 10
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "pittoresque",
+          "question": "Que veut dire « pittoresque » dans le texte ?",
+          "choix": [
+            "Qui a du charme et attire le regard",
+            "Très ancien et abîmé",
+            "Bruyant et mal éclairé"
+          ],
+          "reponse": "Qui a du charme et attire le regard",
+          "indice": "Regarde comment les balcons sont décorés.",
+          "explication": "L'auberge a des balcons fleuris de géraniums : elle est « pittoresque », pleine de charme.",
+          "preuve": 7
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n3-004",
+      "type": "texte",
+      "niveau": 3,
+      "genre": "recit",
+      "titre": "Le perroquet de Tante Odile",
+      "paragraphes": [
+        [
+          "Tante Odile possédait un perroquet gris nommé Cornichon, célèbre dans tout l'immeuble pour son bavardage incessant.",
+          "Odile jurait qu'il comprenait tout ce qu'on lui racontait.",
+          "Il imitait la sonnette, le grille-pain et même le rire de la voisine du dessus, au point que personne ne savait plus si le bruit venait de lui."
+        ],
+        [
+          "Un dimanche, toute la famille était invitée à déjeuner pour fêter l'anniversaire de Tante Odile.",
+          "Nina, la plus jeune des cousines, avait reçu une mission capitale : surveiller Cornichon pour qu'il ne dise rien d'embarrassant devant le nouveau voisin.",
+          "Ce monsieur très sérieux, qui exerçait le métier de notaire, était celui que Tante Odile voulait impressionner."
+        ],
+        [
+          "Tout se passa bien pendant l'apéritif.",
+          "L'invité parla de son travail avec tant de gravité que Nina s'efforçait de ne pas bâiller.",
+          "Il détailla même avec passion une histoire de clôtures et de haies mitoyennes, ce qui n'amusait personne.",
+          "Cornichon, perché sur son bâton, n'émettait qu'un doux sifflement, ce qui rassura tout le monde."
+        ],
+        [
+          "Mais au moment où Tante Odile apporta le gâteau, l'oiseau se redressa et lança, d'une voix parfaitement identique à celle de sa maîtresse : « Quel ennui, ce monsieur ! Encore une demi-heure et je lui sers le café froid ! »",
+          "Un silence glacial tomba sur la table."
+        ],
+        [
+          "Nina, rouge jusqu'aux oreilles, se précipita sur la cage et jeta un torchon dessus.",
+          "Hélas, sous le tissu, Cornichon redoubla d'efforts et imita d'abord une porte qui grince, puis une tronçonneuse.",
+          "Les invités, qui se retenaient jusque-là, éclatèrent de rire."
+        ],
+        [
+          "Le voisin, loin d'être vexé, s'essuya les yeux avec sa serviette et avoua qu'il n'avait pas ri aussi fort depuis des années.",
+          "Il demanda même à Tante Odile de lui présenter le perroquet.",
+          "Cornichon, flatté, siffla le début d'une chanson et réclama un biscuit.",
+          "Les autres convives n'en revenaient pas."
+        ],
+        [
+          "Depuis ce jour, le voisin vient chaque dimanche prendre le café, et c'est lui, désormais, que Cornichon imite le mieux.",
+          "Tante Odile affirme que c'est la preuve d'une grande amitié."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-personnage",
+          "question": "Quel métier exerce le nouveau voisin ?",
+          "choix": [
+            "Médecin",
+            "Notaire",
+            "Boulanger"
+          ],
+          "reponse": "Notaire",
+          "indice": "Cherche la phrase qui présente le monsieur très sérieux.",
+          "explication": "Le voisin « exerçait le métier de notaire ».",
+          "preuve": 5
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Quel bruit Cornichon imite-t-il d'abord sous le torchon ?",
+          "choix": [
+            "Une porte qui grince",
+            "Une sonnette",
+            "Une tronçonneuse"
+          ],
+          "reponse": "Une porte qui grince",
+          "indice": "Fais attention au mot « d'abord ».",
+          "explication": "Cornichon « imita d'abord une porte qui grince, puis une tronçonneuse ».",
+          "preuve": 13
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-sentiment",
+          "question": "Comment Nina se sent-elle quand le perroquet parle ?",
+          "choix": [
+            "Amusée par la situation",
+            "Indifférente",
+            "Très gênée"
+          ],
+          "reponse": "Très gênée",
+          "indice": "Observe ce que fait Nina et la couleur de son visage.",
+          "explication": "Nina est « rouge jusqu'aux oreilles » et cache la cage : elle est très gênée.",
+          "preuve": 12
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-caractere",
+          "question": "Que montre la réaction du voisin ?",
+          "choix": [
+            "Qu'il est très timide",
+            "Qu'il a le sens de l'humour",
+            "Qu'il est pressé de partir"
+          ],
+          "reponse": "Qu'il a le sens de l'humour",
+          "indice": "Regarde comment il réagit après la phrase du perroquet.",
+          "explication": "Il rit aux larmes et n'est pas vexé : il a le sens de l'humour.",
+          "preuve": 15
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "incessant",
+          "question": "Que veut dire « incessant » dans le texte ?",
+          "choix": [
+            "Qui ne se comprend pas",
+            "Qui ne s'arrête jamais",
+            "Qui fait très peur"
+          ],
+          "reponse": "Qui ne s'arrête jamais",
+          "indice": "Pense à un perroquet « célèbre » dans l'immeuble.",
+          "explication": "Le bavardage de Cornichon est « incessant » : il ne s'arrête jamais.",
+          "preuve": 0
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "vexé",
+          "question": "Que veut dire « vexé » dans le texte ?",
+          "choix": [
+            "Blessé dans son amour-propre",
+            "Très en retard",
+            "Fatigué par la route"
+          ],
+          "reponse": "Blessé dans son amour-propre",
+          "indice": "Regarde ce que fait le voisin au lieu de se fâcher.",
+          "explication": "Le voisin n'est pas « vexé » : il n'est pas blessé par la remarque, il rit.",
+          "preuve": 15
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n3-005",
+      "type": "texte",
+      "niveau": 3,
+      "genre": "documentaire",
+      "titre": "Une ruche bien organisée",
+      "paragraphes": [
+        [
+          "Dans une ruche vivent jusqu'à cinquante mille abeilles, et pourtant tout s'y passe dans un ordre remarquable.",
+          "Chaque abeille a un rôle précis, qui change au fil de sa vie, très courte : environ six semaines en été."
+        ],
+        [
+          "Au centre de la colonie se trouve la reine, la seule femelle capable de pondre des œufs.",
+          "Elle peut en déposer plus de mille par jour, un par un, dans de petites alvéoles de cire.",
+          "Les ouvrières, des femelles plus petites, la nourrissent et la nettoient sans relâche."
+        ],
+        [
+          "Les jeunes ouvrières commencent par entretenir la ruche : elles nettoient les rayons, soignent les larves et fabriquent la cire avec des glandes situées sous leur abdomen.",
+          "Vers le milieu de leur vie, elles gardent l'entrée et chassent les intrus, comme les guêpes."
+        ],
+        [
+          "Les plus âgées deviennent butineuses : elles partent à la recherche de fleurs, parfois à plus de trois kilomètres, pour rapporter du nectar et du pollen.",
+          "Le nectar, aspiré avec leur langue, est stocké dans une poche de leur corps.",
+          "Au cours d'une journée, une butineuse visite des centaines de fleurs."
+        ],
+        [
+          "Pour indiquer aux autres où trouver les meilleures fleurs, la butineuse exécute une danse sur les rayons.",
+          "Si elle trace des huit en remuant l'abdomen, l'angle de la danse indique la direction à suivre par rapport au soleil, et sa durée renseigne sur la distance."
+        ],
+        [
+          "Une fois à la ruche, le nectar est transmis à d'autres ouvrières, qui le mâchent et l'étalent dans les alvéoles.",
+          "En s'évaporant, l'eau qu'il contient disparaît peu à peu et le nectar épaissit, jusqu'à devenir du miel.",
+          "Les abeilles referment alors chaque alvéole avec un couvercle de cire."
+        ],
+        [
+          "Grâce à cette organisation, la colonie survit à l'hiver en se serrant autour de la reine et en se nourrissant de ses réserves de miel.",
+          "Les mâles, appelés faux-bourdons, sont chassés avant les grands froids, car ils ne participent pas aux travaux de la ruche.",
+          "Au printemps, quand les fleurs reviennent, la ruche se remet à bourdonner d'activité."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-personnage",
+          "question": "Quelle abeille est la seule à pondre des œufs ?",
+          "choix": [
+            "Une butineuse",
+            "La reine",
+            "Un faux-bourdon"
+          ],
+          "reponse": "La reine",
+          "indice": "Cherche la phrase qui parle du centre de la colonie.",
+          "explication": "La reine est « la seule femelle capable de pondre des œufs ».",
+          "preuve": 2
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Avec quoi les jeunes ouvrières fabriquent-elles la cire ?",
+          "choix": [
+            "Avec le nectar",
+            "Avec leur langue",
+            "Avec des glandes sous leur abdomen"
+          ],
+          "reponse": "Avec des glandes sous leur abdomen",
+          "indice": "Cherche ce que font les jeunes ouvrières en premier.",
+          "explication": "Elles fabriquent la cire « avec des glandes situées sous leur abdomen ».",
+          "preuve": 5
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-cause",
+          "question": "Pourquoi les faux-bourdons sont-ils chassés avant l'hiver ?",
+          "choix": [
+            "Parce qu'ils sont malades",
+            "Parce qu'ils ne travaillent pas pour la ruche",
+            "Parce qu'ils volent le miel"
+          ],
+          "reponse": "Parce qu'ils ne travaillent pas pour la ruche",
+          "indice": "Regarde ce que fait, ou ne fait pas, un faux-bourdon.",
+          "explication": "Les faux-bourdons « ne participent pas aux travaux de la ruche » : on les chasse avant l'hiver.",
+          "preuve": 16
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "butineuses",
+          "question": "Que veut dire « butineuses » dans le texte ?",
+          "choix": [
+            "Des abeilles qui récoltent le nectar sur les fleurs",
+            "Des abeilles qui gardent la ruche",
+            "Des abeilles qui pondent des œufs"
+          ],
+          "reponse": "Des abeilles qui récoltent le nectar sur les fleurs",
+          "indice": "Lis la suite de la phrase : que font ces abeilles ?",
+          "explication": "Les butineuses partent chercher « du nectar et du pollen » sur les fleurs.",
+          "preuve": 7
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "alvéoles",
+          "question": "Que veut dire « alvéoles » dans le texte ?",
+          "choix": [
+            "Des branches d'arbre",
+            "De petites gouttes de miel",
+            "De petites cases d'un rayon"
+          ],
+          "reponse": "De petites cases d'un rayon",
+          "indice": "Regarde où la reine dépose ses œufs, un par un.",
+          "explication": "La reine dépose un œuf dans chaque case : ce sont les « alvéoles ».",
+          "preuve": 3
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "intrus",
+          "question": "Que veut dire « intrus » dans le texte ?",
+          "choix": [
+            "Des abeilles de retour",
+            "Des visiteurs non invités",
+            "Des fleurs parfumées"
+          ],
+          "reponse": "Des visiteurs non invités",
+          "indice": "Pense à ce que fait un gardien à la porte.",
+          "explication": "Les abeilles gardent l'entrée et chassent les « intrus » comme les guêpes : des visiteurs non invités.",
+          "preuve": 6
+        }
+      ]
+    },
+    {
+      "id": "lec-tex-n3-006",
+      "type": "texte",
+      "niveau": 3,
+      "genre": "recit",
+      "titre": "Le dernier relais",
+      "paragraphes": [
+        [
+          "Le jour des interclasses, le stade du collège vibrait de cris et de tambourins.",
+          "Dans les gradins, les parents agitaient des écharpes aux couleurs des classes.",
+          "Nour, qui courait le dernier relais pour sa classe, serrait le témoin dans sa main moite."
+        ],
+        [
+          "Ses trois coéquipiers, Malo, Léna et Tidiane, avaient fait une belle course, mais l'équipe adverse avait pris quelques mètres d'avance.",
+          "Nour le savait : elle devait rattraper ce retard, sans quoi tous leurs entraînements du mercredi n'auraient servi à rien."
+        ],
+        [
+          "Pourtant, elle n'était pas la plus rapide des quatre.",
+          "Sa spécialité, c'était l'endurance, pas le sprint, et elle avait failli renoncer en apprenant qu'on lui confiait le dernier relais.",
+          "C'est Tidiane qui l'avait convaincue, en lui rappelant qu'un relais se gagne toujours à plusieurs."
+        ],
+        [
+          "Le coup de pistolet retentit.",
+          "Les spectateurs se levèrent d'un bond.",
+          "Malo s'élança comme une flèche et passa le témoin à Léna sans la moindre hésitation.",
+          "Léna tint bon jusqu'au bout de sa partie avant de le confier à Tidiane, qui fonça dans la dernière ligne droite."
+        ],
+        [
+          "Quand Nour saisit enfin le témoin, l'équipe adverse avait encore cinq mètres d'avance.",
+          "Elle entendit ses camarades hurler son prénom depuis la pelouse et sentit ses jambes devenir légères.",
+          "Elle grignota peu à peu son retard à grandes foulées, tandis que le bruit de la foule s'éloignait.",
+          "Elle ne pensait plus qu'à sa respiration et au ruban blanc tendu au bout de la piste."
+        ],
+        [
+          "À vingt mètres de l'arrivée, elle se retrouva à la hauteur de sa rivale.",
+          "Dans un dernier effort, elle jeta la poitrine en avant.",
+          "Les juges durent examiner la photo de l'arrivée pendant de longues minutes avant de rendre leur verdict."
+        ],
+        [
+          "Finalement, l'équipe de Nour termina à quelques centièmes de seconde de la victoire.",
+          "Elle pleura un peu, puis sourit en voyant ses coéquipiers courir vers elle.",
+          "Tidiane lui dit simplement que sa course était la plus belle de la journée.",
+          "Ensemble, ils reçurent une médaille d'argent."
+        ]
+      ],
+      "questions": [
+        {
+          "type": "ecrit",
+          "competence": "ecrit-personnage",
+          "question": "Qui convainc Nour de courir le dernier relais ?",
+          "choix": [
+            "Malo",
+            "Tidiane",
+            "Léna"
+          ],
+          "reponse": "Tidiane",
+          "indice": "Cherche la phrase qui explique pourquoi elle a accepté.",
+          "explication": "« C'est Tidiane qui l'avait convaincue » de courir le dernier relais.",
+          "preuve": 7
+        },
+        {
+          "type": "ecrit",
+          "competence": "ecrit-detail",
+          "question": "Quelle médaille l'équipe de Nour reçoit-elle ?",
+          "choix": [
+            "Une médaille d'or",
+            "Une médaille de bronze",
+            "Une médaille d'argent"
+          ],
+          "reponse": "Une médaille d'argent",
+          "indice": "Lis la toute dernière phrase du texte.",
+          "explication": "À la fin, ils « reçurent une médaille d'argent ».",
+          "preuve": 22
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-sentiment",
+          "question": "Que ressent Nour quand ses camarades crient son prénom ?",
+          "choix": [
+            "Elle se sent plus légère et plus forte",
+            "Elle se sent gênée",
+            "Elle se sent perdue"
+          ],
+          "reponse": "Elle se sent plus légère et plus forte",
+          "indice": "Regarde ce qui arrive à ses jambes.",
+          "explication": "En entendant ses camarades, Nour « sentit ses jambes devenir légères » : les cris l'encouragent.",
+          "preuve": 13
+        },
+        {
+          "type": "deviner",
+          "competence": "deviner-caractere",
+          "question": "Que pense Tidiane de la course de Nour ?",
+          "choix": [
+            "Qu'elle aurait dû courir plus vite",
+            "Qu'elle a très bien couru",
+            "Qu'elle a gâché la victoire"
+          ],
+          "reponse": "Qu'elle a très bien couru",
+          "indice": "Relis ce que Tidiane lui dit à la fin.",
+          "explication": "Tidiane dit que sa course était « la plus belle de la journée ».",
+          "preuve": 21
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "témoin",
+          "question": "Que veut dire « témoin » dans le texte ?",
+          "choix": [
+            "Une personne qui a vu un accident",
+            "Un chronomètre",
+            "Le bâton que les coureurs se transmettent"
+          ],
+          "reponse": "Le bâton que les coureurs se transmettent",
+          "indice": "Pense à ce que Nour tient dans sa main avant de courir.",
+          "explication": "Nour serre le « témoin » dans sa main : c'est l'objet que les coureurs d'un relais se passent.",
+          "preuve": 2
+        },
+        {
+          "type": "mot",
+          "competence": "mot-contexte",
+          "mot": "foulées",
+          "question": "Que veut dire « foulées » dans le texte ?",
+          "choix": [
+            "Des pas de course",
+            "Des cris de joie",
+            "Des virages serrés"
+          ],
+          "reponse": "Des pas de course",
+          "indice": "Regarde comment Nour rattrape son retard.",
+          "explication": "Nour grignote son retard « à grandes foulées » : à grands pas de course.",
+          "preuve": 14
+        }
+      ]
+    },
+    {
+      "id": "lec-ord-n3-001",
+      "type": "ordre",
+      "niveau": 3,
+      "competence": "ordre-chronologie",
+      "titre": "La course d'orientation",
+      "paragraphes": [
+        "Quand le réveil a sonné, Lucas a sauté du lit. Ce jour-là, il participait à sa première course d'orientation.",
+        "Après un petit déjeuner rapide, il a rejoint ses camarades devant le collège. Le professeur leur a donné une carte et une boussole.",
+        "Dès le coup de sifflet, les équipes se sont élancées dans le bois. Lucas et Noémie ont suivi un sentier bordé de fougères.",
+        "Au bout d'une heure, ils ont trouvé la quatrième balise, cachée derrière un tronc couvert de mousse.",
+        "Peu avant midi, ils ont aperçu la ligne d'arrivée et ont couru jusqu'au bout.",
+        "L'après-midi, tout le monde s'est réuni sous le préau pour connaître le classement. Lucas et Noémie ont fini troisièmes."
+      ],
+      "indice": "Cherche les repères de temps : le réveil, le coup de sifflet, midi, l'après-midi.",
+      "explication": "On suit la journée : le réveil, le départ, la course, la balise, l'arrivée avant midi, puis le classement l'après-midi."
+    },
+    {
+      "id": "lec-ord-n3-002",
+      "type": "ordre",
+      "niveau": 3,
+      "competence": "ordre-recette",
+      "titre": "Fabriquer un herbier",
+      "paragraphes": [
+        "Pour réaliser un herbier, commence par te promener et cueillir quelques feuilles et fleurs. Choisis-en de formes variées, sans jamais abîmer l'endroit où tu les trouves.",
+        "Ensuite, rapporte tes trouvailles et étale-les entre deux feuilles de papier journal. Évite qu'elles se chevauchent.",
+        "Place alors plusieurs gros livres sur le papier journal pour presser les plantes. Laisse-les ainsi une dizaine de jours.",
+        "Quand les plantes sont bien sèches, colle-les délicatement sur des feuilles blanches avec de petites bandes de ruban adhésif.",
+        "Écris ensuite sous chaque plante son nom, la date et l'endroit où tu l'as trouvée.",
+        "Enfin, range toutes les feuilles dans une chemise cartonnée et décore la couverture à ton goût."
+      ],
+      "indice": "Cherche « commence par », « ensuite », « alors », « quand » et « enfin ».",
+      "explication": "On cueille d'abord les plantes, on les met à sécher sous des livres, on les colle, on les nomme, puis on range l'herbier."
+    },
+    {
+      "id": "lec-ord-n3-003",
+      "type": "ordre",
+      "niveau": 3,
+      "competence": "ordre-cause",
+      "titre": "La route de la neige",
+      "paragraphes": [
+        "Pendant la nuit, la neige est tombée sans arrêt sur la montagne. Au réveil, la route du village disparaissait sous une couche épaisse.",
+        "Comme la route était bloquée, le car de l'école n'a pas pu partir ce matin-là. Les enfants sont donc restés à la maison.",
+        "Vers midi, le chasse-neige est enfin arrivé de la ville voisine. Il a poussé la neige sur le bord, et la route est redevenue praticable.",
+        "Le lendemain matin, le car a pu rouler de nouveau, car le chauffeur avait mis des chaînes à ses roues.",
+        "Grâce à cela, les enfants ont retrouvé leur classe, où la maîtresse les attendait avec impatience.",
+        "Pour finir, la maîtresse leur a demandé de dessiner la montagne blanche, et tous ont raconté leur journée de neige."
+      ],
+      "indice": "Cherche ce qui provoque ce qui suit : « comme », « donc », « le lendemain », « grâce à », « pour finir ».",
+      "explication": "La neige bloque la route, donc le car ne part pas ; le chasse-neige dégage la route, le car roule le lendemain, puis la classe se retrouve."
+    },
+    {
+      "id": "lec-ord-n3-004",
+      "type": "ordre",
+      "niveau": 3,
+      "competence": "ordre-chronologie",
+      "titre": "La clé du grenier",
+      "paragraphes": [
+        "Le premier jour des vacances, Yasmine a trouvé une vieille clé au fond d'un tiroir. À quelle porte pouvait-elle bien aller ?",
+        "Toute la matinée, elle l'a essayée dans chaque serrure de la maison, sans succès.",
+        "Soudain, elle a remarqué une petite trappe au plafond du couloir. La clé a tourné doucement dans la serrure.",
+        "Au grenier, elle a découvert une malle poussiéreuse pleine de cartes postales envoyées par son arrière-grand-père.",
+        "Le soir, elle les a lues à ses parents, qui ont reconnu un village au bord de la mer.",
+        "Le lendemain, toute la famille est partie visiter ce village. Yasmine avait glissé la clé dans son sac."
+      ],
+      "indice": "Cherche le début de l'histoire, puis les repères : toute la matinée, soudain, le soir, le lendemain.",
+      "explication": "Yasmine trouve la clé, l'essaie partout, ouvre la trappe, découvre la malle, lit les cartes le soir, puis la famille part le lendemain."
+    },
+    {
+      "id": "lec-ord-n3-005",
+      "type": "ordre",
+      "niveau": 3,
+      "competence": "ordre-recette",
+      "titre": "Préparer des crêpes",
+      "paragraphes": [
+        "Pour préparer des crêpes, commence par verser la farine dans un grand saladier. Creuse un trou au milieu avec le dos d'une cuillère.",
+        "Casse ensuite les œufs dans ce creux et ajoute une pincée de sel. Mélange doucement avec un fouet.",
+        "Verse alors le lait petit à petit, sans cesser de remuer. Tu dois obtenir une pâte lisse, sans grumeaux.",
+        "Laisse reposer cette pâte au moins une heure. Elle deviendra plus souple et plus légère.",
+        "Fais chauffer une poêle huilée, puis verse une petite louche de pâte. Quand les bords se détachent, retourne la crêpe.",
+        "Fais glisser chaque crêpe cuite sur une assiette. Il ne te reste plus qu'à les garnir."
+      ],
+      "indice": "Cherche l'ordre des gestes : la farine, les œufs, le lait, le repos, la cuisson, puis la fin.",
+      "explication": "On prépare la pâte (farine, œufs, lait), on la laisse reposer, on cuit les crêpes, puis on les garnit."
+    },
+    {
+      "id": "lec-ord-n3-006",
+      "type": "ordre",
+      "niveau": 3,
+      "competence": "ordre-cause",
+      "titre": "La plante qui se penche",
+      "paragraphes": [
+        "Léa avait posé un pot de lentilles sur le rebord de la fenêtre, du côté le plus ensoleillé. Au bout de quelques jours, de petites tiges vertes ont percé la terre.",
+        "Comme la lumière arrivait seulement d'un côté, les tiges se sont mises à pousser en se penchant vers la vitre. Léa a trouvé cela étrange.",
+        "Intriguée, elle a tourné le pot d'un demi-tour pour voir ce qui se passerait. Le lendemain, les tiges semblaient perdues.",
+        "Mais dès le surlendemain, elles avaient commencé à se redresser dans l'autre direction, toujours vers la lumière.",
+        "À cause de ce changement de direction, certaines tiges étaient devenues tordues et fragiles. L'une d'elles s'est même cassée.",
+        "Léa a donc compris qu'il fallait laisser le pot toujours au même endroit. Elle a noté sa conclusion dans son carnet."
+      ],
+      "indice": "Cherche ce qui explique chaque événement : « comme », « intriguée », « mais dès », « à cause de », « donc ».",
+      "explication": "Les tiges se penchent vers la lumière ; quand Léa tourne le pot, elles changent de direction, se fragilisent, et Léa en tire sa conclusion."
+    },
+    {
+      "id": "lec-fla-n1-001",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "maison",
+      "leurres": [
+        "saison",
+        "raison",
+        "moisson"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « maison »."
+    },
+    {
+      "id": "lec-fla-n1-002",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "jardin",
+      "leurres": [
+        "jargon",
+        "gardien",
+        "mardi"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « jardin »."
+    },
+    {
+      "id": "lec-fla-n1-003",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "bateau",
+      "leurres": [
+        "gâteau",
+        "bureau",
+        "plateau"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « bateau »."
+    },
+    {
+      "id": "lec-fla-n1-004",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "cheval",
+      "leurres": [
+        "chenal",
+        "cheveu",
+        "rival"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « cheval »."
+    },
+    {
+      "id": "lec-fla-n1-005",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "soleil",
+      "leurres": [
+        "sommeil",
+        "orteil",
+        "seuil"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « soleil »."
+    },
+    {
+      "id": "lec-fla-n1-006",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "poisson",
+      "leurres": [
+        "poison",
+        "boisson",
+        "pinson"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « poisson »."
+    },
+    {
+      "id": "lec-fla-n1-007",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "voisin",
+      "leurres": [
+        "cousin",
+        "vision",
+        "coussin"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « voisin »."
+    },
+    {
+      "id": "lec-fla-n1-008",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "lumière",
+      "leurres": [
+        "manière",
+        "rivière",
+        "prière"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « lumière »."
+    },
+    {
+      "id": "lec-fla-n1-009",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "tortue",
+      "leurres": [
+        "tordue",
+        "torture",
+        "fortune"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « tortue »."
+    },
+    {
+      "id": "lec-fla-n1-010",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "crayon",
+      "leurres": [
+        "rayon",
+        "croyons",
+        "crampon"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « crayon »."
+    },
+    {
+      "id": "lec-fla-n1-011",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "miroir",
+      "leurres": [
+        "tiroir",
+        "rasoir",
+        "mirage"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « miroir »."
+    },
+    {
+      "id": "lec-fla-n1-012",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "cuisine",
+      "leurres": [
+        "cuisse",
+        "cousine",
+        "voisine"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « cuisine »."
+    },
+    {
+      "id": "lec-fla-n1-013",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "chemin",
+      "leurres": [
+        "chemise",
+        "cheminée",
+        "chimie"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « chemin »."
+    },
+    {
+      "id": "lec-fla-n1-014",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "panier",
+      "leurres": [
+        "palier",
+        "papier",
+        "premier"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « panier »."
+    },
+    {
+      "id": "lec-fla-n1-015",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "oiseau",
+      "leurres": [
+        "ciseau",
+        "roseau",
+        "poireau"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « oiseau »."
+    },
+    {
+      "id": "lec-fla-n1-016",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "nuage",
+      "leurres": [
+        "usage",
+        "orage",
+        "nuance"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « nuage »."
+    },
+    {
+      "id": "lec-fla-n1-017",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "rivage",
+      "leurres": [
+        "visage",
+        "ravage",
+        "village"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « rivage »."
+    },
+    {
+      "id": "lec-fla-n1-018",
+      "type": "flash",
+      "niveau": 1,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "lapin",
+      "leurres": [
+        "sapin",
+        "lutin",
+        "matin"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « lapin »."
+    },
+    {
+      "id": "lec-fla-n2-001",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "tempête",
+      "leurres": [
+        "tempéré",
+        "temple",
+        "tempe"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « tempête »."
+    },
+    {
+      "id": "lec-fla-n2-002",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "bouquet",
+      "leurres": [
+        "bouquin",
+        "bonnet",
+        "boucher"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « bouquet »."
+    },
+    {
+      "id": "lec-fla-n2-003",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "petit pain",
+      "leurres": [
+        "petit pin",
+        "petit plan",
+        "petite main"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « petit pain »."
+    },
+    {
+      "id": "lec-fla-n2-004",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "tableau",
+      "leurres": [
+        "tablier",
+        "table",
+        "stable"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « tableau »."
+    },
+    {
+      "id": "lec-fla-n2-005",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "belle fleur",
+      "leurres": [
+        "belle peur",
+        "belle lueur",
+        "bonne fleur"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « belle fleur »."
+    },
+    {
+      "id": "lec-fla-n2-006",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "sourire",
+      "leurres": [
+        "souris",
+        "soupire",
+        "sourcil"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « sourire »."
+    },
+    {
+      "id": "lec-fla-n2-007",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "grand champ",
+      "leurres": [
+        "grand chant",
+        "grand camp",
+        "grande chance"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « grand champ »."
+    },
+    {
+      "id": "lec-fla-n2-008",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "couloir",
+      "leurres": [
+        "couleur",
+        "coulis",
+        "poulain"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « couloir »."
+    },
+    {
+      "id": "lec-fla-n2-009",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "deux frères",
+      "leurres": [
+        "deux fers",
+        "deux freins",
+        "dix frères"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « deux frères »."
+    },
+    {
+      "id": "lec-fla-n2-010",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "chanson",
+      "leurres": [
+        "champion",
+        "chignon",
+        "chaton"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « chanson »."
+    },
+    {
+      "id": "lec-fla-n2-011",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "mon voisin",
+      "leurres": [
+        "mon cousin",
+        "mon poisson",
+        "son voisin"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « mon voisin »."
+    },
+    {
+      "id": "lec-fla-n2-012",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "fourmi",
+      "leurres": [
+        "fourni",
+        "fourbe",
+        "fourche"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « fourmi »."
+    },
+    {
+      "id": "lec-fla-n2-013",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "ma sœur",
+      "leurres": [
+        "ma sueur",
+        "ma peur",
+        "ta sœur"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « ma sœur »."
+    },
+    {
+      "id": "lec-fla-n2-014",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "pigeon",
+      "leurres": [
+        "pignon",
+        "prison",
+        "pigment"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « pigeon »."
+    },
+    {
+      "id": "lec-fla-n2-015",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "le matin",
+      "leurres": [
+        "le mutin",
+        "le marin",
+        "le satin"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « le matin »."
+    },
+    {
+      "id": "lec-fla-n2-016",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-mot",
+      "forme": "mot",
+      "cible": "danger",
+      "leurres": [
+        "ranger",
+        "manger",
+        "changer"
+      ],
+      "indice": "Lis chaque lettre, du début à la fin.",
+      "explication": "Le mot était « danger »."
+    },
+    {
+      "id": "lec-fla-n2-017",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "gros chat",
+      "leurres": [
+        "gros char",
+        "gros rat",
+        "gros chats"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « gros chat »."
+    },
+    {
+      "id": "lec-fla-n2-018",
+      "type": "flash",
+      "niveau": 2,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "la rivière",
+      "leurres": [
+        "la lumière",
+        "la prière",
+        "la rivale"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « la rivière »."
+    },
+    {
+      "id": "lec-fla-n3-001",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "un petit chemin",
+      "leurres": [
+        "un petit chien",
+        "un petit matin",
+        "un petit chemisier"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « un petit chemin »."
+    },
+    {
+      "id": "lec-fla-n3-002",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "la porte du jardin",
+      "leurres": [
+        "la porte du gardien",
+        "la corde du jardin",
+        "la tarte du jardin"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « la porte du jardin »."
+    },
+    {
+      "id": "lec-fla-n3-003",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "elle ouvre la fenêtre",
+      "leurres": [
+        "elle couvre la fenêtre",
+        "elle ouvre la forêt",
+        "elle offre la fenêtre"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « elle ouvre la fenêtre »."
+    },
+    {
+      "id": "lec-fla-n3-004",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "le chat dort ici",
+      "leurres": [
+        "le chat sort ici",
+        "le char dort ici",
+        "le rat dort ici"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « le chat dort ici »."
+    },
+    {
+      "id": "lec-fla-n3-005",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "nous mangeons des pommes",
+      "leurres": [
+        "nous mangions des pommes",
+        "vous mangez des pommes",
+        "nous mangeons des pompes"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « nous mangeons des pommes »."
+    },
+    {
+      "id": "lec-fla-n3-006",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "la petite fille rit",
+      "leurres": [
+        "la petite famille rit",
+        "la petite fille lit",
+        "la petite fille fuit"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « la petite fille rit »."
+    },
+    {
+      "id": "lec-fla-n3-007",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "un grand bateau blanc",
+      "leurres": [
+        "un grand gâteau blanc",
+        "un grand bureau blanc",
+        "un grand bateau blond"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « un grand bateau blanc »."
+    },
+    {
+      "id": "lec-fla-n3-008",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "dans la forêt profonde",
+      "leurres": [
+        "dans la forêt féconde",
+        "dans la rivière profonde",
+        "dans la forêt prochaine"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « dans la forêt profonde »."
+    },
+    {
+      "id": "lec-fla-n3-009",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "la pluie tombe fort",
+      "leurres": [
+        "la suie tombe fort",
+        "la plaie tombe fort",
+        "la pluie monte fort"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « la pluie tombe fort »."
+    },
+    {
+      "id": "lec-fla-n3-010",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "un vieux livre poussiéreux",
+      "leurres": [
+        "un vieux lièvre poussiéreux",
+        "un vieux livre précieux",
+        "un vieux livret poussiéreux"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « un vieux livre poussiéreux »."
+    },
+    {
+      "id": "lec-fla-n3-011",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "ils chantent en chœur",
+      "leurres": [
+        "ils changent en chœur",
+        "ils chantent en chaleur",
+        "ils hantent en chœur"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « ils chantent en chœur »."
+    },
+    {
+      "id": "lec-fla-n3-012",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "le train part demain",
+      "leurres": [
+        "le trait part demain",
+        "le train passe demain",
+        "le grain part demain"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « le train part demain »."
+    },
+    {
+      "id": "lec-fla-n3-013",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "nous allons à l'école",
+      "leurres": [
+        "nous avons à l'école",
+        "nous allons à l'écoute",
+        "nous allons à l'église"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « nous allons à l'école »."
+    },
+    {
+      "id": "lec-fla-n3-014",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "une souris grise dort",
+      "leurres": [
+        "une souris grise sort",
+        "une cerise grise dort",
+        "une souris grosse dort"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « une souris grise dort »."
+    },
+    {
+      "id": "lec-fla-n3-015",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "la lune est ronde",
+      "leurres": [
+        "la lune est blonde",
+        "la dune est ronde",
+        "la prune est ronde"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « la lune est ronde »."
+    },
+    {
+      "id": "lec-fla-n3-016",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "tu manges trop vite",
+      "leurres": [
+        "tu mangeais trop vite",
+        "tu mènes trop vite",
+        "tu manges trop tard"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « tu manges trop vite »."
+    },
+    {
+      "id": "lec-fla-n3-017",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "mon frère joue dehors",
+      "leurres": [
+        "mon frein joue dehors",
+        "mon frère noue dehors",
+        "mon frère joue debout"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « mon frère joue dehors »."
+    },
+    {
+      "id": "lec-fla-n3-018",
+      "type": "flash",
+      "niveau": 3,
+      "competence": "flash-groupe",
+      "forme": "groupe",
+      "cible": "le vent souffle fort",
+      "leurres": [
+        "le vent soufflait fort",
+        "le vent souffre fort",
+        "le sang souffle fort"
+      ],
+      "indice": "Regarde chaque mot du groupe : un ou deux mots peuvent changer.",
+      "explication": "Le groupe était « le vent souffle fort »."
+    }
+  ]
+}

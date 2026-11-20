@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « tongs » pour Pompon, emplacement pieds. Même viewBox que pompon.svg. -->
+  <g>
+    <ellipse cx="102" cy="268" rx="21" ry="12" fill="#E0457B" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="138" cy="268" rx="21" ry="12" fill="#E0457B" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M94 260 L102 268 L110 260 M130 260 L138 268 L146 260" fill="none" stroke="#FFC93C" stroke-width="3"/>
+  </g>
+</svg>

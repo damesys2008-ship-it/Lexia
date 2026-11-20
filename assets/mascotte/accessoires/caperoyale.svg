@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « caperoyale » pour Pompon, emplacement dos. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M72 160 Q38 232 56 280 L184 280 Q202 232 168 160 Z" fill="#D6246E" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M56 280 L184 280 L184 270 L56 270 Z" fill="#fff" stroke="#241B4B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="66" cy="275" r="1.8" fill="#241B4B"/>
+    <circle cx="80" cy="275" r="1.8" fill="#241B4B"/>
+    <circle cx="94" cy="275" r="1.8" fill="#241B4B"/>
+    <circle cx="108" cy="275" r="1.8" fill="#241B4B"/>
+    <circle cx="122" cy="275" r="1.8" fill="#241B4B"/>
+    <circle cx="136" cy="275" r="1.8" fill="#241B4B"/>
+    <circle cx="150" cy="275" r="1.8" fill="#241B4B"/>
+    <circle cx="164" cy="275" r="1.8" fill="#241B4B"/>
+    <circle cx="178" cy="275" r="1.8" fill="#241B4B"/>
+  </g>
+</svg>

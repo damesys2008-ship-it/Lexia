@@ -1,0 +1,30 @@
+/*
+ * Lecture flash : la cible dans un cadre de hauteur fixe, puis les quatre choix du composant choix.
+ * Le cadre garde sa hauteur quand la cible disparaît, pour que la page ne bouge pas.
+ */
+
+.lecture-flash__cible {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 6rem;
+  margin: 0 0 var(--espace-4);
+  padding: var(--espace-3);
+  background: var(--module-lecture-clair);
+  border: var(--bordure);
+  border-radius: var(--rayon-moyen);
+  box-shadow: 0 5px 0 var(--prune);
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-1);
+  font-weight: 700;
+  text-align: center;
+}
+
+.lecture-flash__choix {
+  margin-bottom: var(--espace-4);
+}
+
+.lecture-flash__bouton {
+  display: flex;
+  justify-content: flex-end;
+}

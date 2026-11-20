@@ -1,0 +1,34 @@
+/* Grammaire, les phrases en étiquettes : la phrase construite, les actions et les autres ordres acceptés. */
+
+.grammaire-etiquettes__apercu {
+  min-height: 3.5rem;
+  margin-top: var(--espace-4);
+  font-weight: 700;
+}
+
+.grammaire-etiquettes__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-3);
+  justify-content: flex-end;
+  margin-top: var(--espace-4);
+}
+
+.grammaire-etiquettes__autres {
+  margin-top: var(--espace-4);
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-moyen);
+  font-size: var(--taille-exercice);
+}
+
+.grammaire-etiquettes__autres-titre {
+  margin: 0 0 var(--espace-2);
+  font-size: var(--taille-exercice);
+}
+
+.grammaire-etiquettes__autres-liste {
+  margin: 0;
+  padding-left: var(--espace-5);
+}

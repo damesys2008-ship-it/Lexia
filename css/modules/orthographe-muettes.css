@@ -1,0 +1,82 @@
+/* Lettres muettes : la phrase avec le trou, le champ de saisie, puis la famille de mots. */
+
+.orthographe-muettes__debut-du-mot {
+  font-weight: 700;
+}
+
+.orthographe-muettes__trou {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 3.5rem;
+  min-height: 2.875rem;
+  padding: 0 var(--espace-2);
+  vertical-align: middle;
+  text-align: center;
+  line-height: 2.5rem;
+  background: var(--menthe-clair);
+  border: var(--epaisseur-bordure) dashed var(--menthe);
+  border-radius: var(--rayon-petit);
+}
+
+.orthographe-muettes__trou--rempli {
+  font-weight: 700;
+  border-style: solid;
+}
+
+.orthographe-muettes__nombre {
+  margin: var(--espace-3) 0;
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+  color: var(--menthe);
+}
+
+.orthographe-muettes__commandes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-3);
+  margin-top: var(--espace-3);
+}
+
+.orthographe-muettes__saisie .champ-texte {
+  max-width: 28rem;
+}
+
+/* Un champ refusé : bordure épaisse en plus de la couleur (le ✗ est dans le retour de la séance). */
+.orthographe-muettes__saisie .champ-texte__saisie.orthographe__etat--faux {
+  background: var(--soleil-clair);
+  border: var(--epaisseur-bordure) dashed var(--soleil-fonce);
+}
+
+.orthographe-muettes__zone-famille {
+  margin-top: var(--espace-4);
+}
+
+.orthographe-muettes__zone-famille:empty {
+  display: none;
+}
+
+.orthographe-muettes__titre-famille {
+  margin: 0 0 var(--espace-2);
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+}
+
+.orthographe-muettes__famille {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-2);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: var(--taille-exercice);
+}
+
+.orthographe-muettes__lettre {
+  padding: 0 var(--espace-1);
+  font-weight: 700;
+  color: var(--prune);
+  background: var(--menthe-clair);
+  border-radius: var(--rayon-petit);
+}
+
+/* Aucune animation dans ces styles : rien à couper pour .animations-reduites ou prefers-reduced-motion. */

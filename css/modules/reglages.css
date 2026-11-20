@@ -1,0 +1,348 @@
+/*
+ * Écran « Réglages » : des cartes blanches (rayon 32, ombre pleine), 1000 px de contenu.
+ * « Moi et ma mascotte » en haut, « Le son » et « La voix » côte à côte, puis l'affichage, la sauvegarde,
+ * « Pour les grands » et « Tout recommencer ». Cibles tactiles d'au moins 44 px.
+ */
+
+main:has(.reglages) {
+  --largeur-contenu: 68.5rem; /* 1000 px de contenu, marges comprises */
+}
+
+.reglages.contenu__centre {
+  max-width: none;
+}
+
+.reglages {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--espace-5);
+}
+
+.reglages > * {
+  grid-column: 1 / -1;
+}
+
+.reglages > .reglages__groupe--demi {
+  grid-column: auto;
+}
+
+.reglages > .bouton {
+  justify-self: start;
+}
+
+.reglages__titre {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-1);
+  line-height: 1.1;
+}
+
+.reglages__groupe {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-4);
+  padding: 1.625rem; /* 26 px */
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-grand);
+  box-shadow: var(--ombre-carte);
+}
+
+.reglages__titre-groupe,
+.reglages__sous-titre {
+  margin: 0;
+  font-family: var(--police-titre);
+}
+
+.reglages__titre-groupe {
+  font-size: 1.75rem; /* 28 px */
+}
+
+.reglages__sous-titre {
+  font-size: var(--taille-exercice);
+}
+
+.reglages__groupe,
+.reglages__bloc {
+  min-width: 0;
+}
+
+.reglages__bloc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--espace-3);
+}
+
+.reglages__ligne {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espace-3);
+  min-height: 3rem; /* 48 px */
+  font-size: var(--taille-exercice);
+}
+
+.reglages__ligne--champ {
+  align-items: flex-start;
+}
+
+.reglages__libelle {
+  font-family: var(--police-titre);
+  font-size: 1.3125rem; /* 21 px */
+  font-weight: 600;
+}
+
+.reglages__texte {
+  display: flex;
+  flex-direction: column;
+}
+
+.reglages__explication {
+  font-size: var(--taille-texte);
+  color: var(--prune-doux);
+}
+
+/* La bascule : une case à cocher dessinée en interrupteur de 64 x 36 px, menthe quand elle est activée. */
+.reglages__case {
+  position: relative;
+  flex: none;
+  width: 4rem;
+  height: 2.25rem;
+  margin: 0;
+  appearance: none;
+  background: var(--trait-bascule);
+  border: var(--epaisseur-bordure) solid var(--prune);
+  border-radius: 99px;
+  cursor: pointer;
+  transition: background-color var(--duree-courte) ease;
+}
+
+.reglages__case::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  box-sizing: border-box;
+  width: 1.625rem;
+  height: 1.625rem;
+  background: var(--blanc);
+  border: var(--epaisseur-bordure) solid var(--prune);
+  border-radius: 50%;
+  transition: transform var(--duree-courte) ease;
+}
+
+.reglages__case:checked {
+  background: var(--menthe);
+}
+
+.reglages__case:checked::before {
+  transform: translateX(1.75rem);
+}
+
+.reglages__case:focus-visible,
+.reglages__curseur:focus-visible,
+.reglages__radio:focus-visible + .reglages__segment-texte {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.reglages__curseur {
+  flex: 1 1 12rem;
+  min-height: var(--cible-minimale);
+  accent-color: var(--framboise);
+}
+
+.reglages__choix,
+.reglages__reponse,
+.reglages__code {
+  min-height: var(--cible-minimale);
+  padding: var(--espace-2) var(--espace-3);
+  font: inherit;
+  color: var(--texte);
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: var(--rayon-petit);
+}
+
+/* La vitesse de la voix : trois choix collés dans une pilule, le choisi est en prune. */
+.reglages__segments {
+  display: inline-flex;
+  overflow: hidden;
+  border: var(--bordure);
+  border-radius: var(--rayon-rond);
+}
+
+.reglages__segment {
+  display: flex;
+  cursor: pointer;
+}
+
+.reglages__radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.reglages__segment-texte {
+  display: flex;
+  align-items: center;
+  min-height: var(--cible-minimale);
+  padding: 0 var(--espace-4);
+  font-family: var(--police-titre);
+  font-weight: 600;
+  background: var(--blanc);
+}
+
+.reglages__radio:checked + .reglages__segment-texte {
+  background: var(--prune);
+  color: var(--blanc);
+}
+
+/* Moi et ma mascotte : l'aperçu de Pompon, les deux champs, puis « Changer ses habits ». */
+.reglages__profil {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem; /* 20 px */
+}
+
+.reglages__apercu {
+  padding: 0.625rem 1.25rem 0;
+  background: var(--bonbon);
+  border-radius: 1.5rem; /* 24 px */
+}
+
+.reglages__apercu .mascotte {
+  width: 8.75rem;
+}
+
+.reglages__champs {
+  display: flex;
+  flex: 1 1 16rem;
+  flex-direction: column;
+  gap: 0.875rem; /* 14 px */
+}
+
+.reglages__habits {
+  align-self: flex-start;
+}
+
+.reglages__code {
+  width: 100%;
+  font-family: monospace;
+  word-break: break-all;
+}
+
+.reglages__code[hidden] {
+  display: none;
+}
+
+.reglages__fichier {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  font: inherit;
+}
+
+.reglages__message,
+.reglages__aide,
+.reglages__confirmation {
+  margin: 0;
+  font-size: var(--taille-exercice);
+}
+
+.reglages__message:empty {
+  display: none;
+}
+
+/* « Pour les grands » : un <details> fermé ; le titre est cliquable et reste une cible de 44 px. */
+.reglages__resume {
+  display: flex;
+  align-items: center;
+  min-height: var(--cible-minimale);
+  gap: var(--espace-2);
+  cursor: pointer;
+}
+
+/* Marqueur à la place du triangle retiré par display: flex ; le texte vide après « / » le rend muet aux lecteurs d'écran. */
+.reglages__resume::before {
+  content: '▸';
+  content: '▸' / '';
+}
+
+.reglages__groupe[open] > .reglages__resume::before {
+  content: '▾';
+  content: '▾' / '';
+}
+
+.reglages__groupe[open] > .reglages__resume {
+  margin-bottom: var(--espace-3);
+}
+
+/* « Pour les grands » : le contenu (ou le défi) sous le titre, et les groupes rangés dedans, sans second cadre en relief. */
+.reglages__corps {
+  display: flex;
+  flex-direction: column;
+}
+
+.reglages__bloc--large {
+  align-items: stretch;
+  gap: var(--espace-4);
+}
+
+.reglages__bloc--large > .bouton {
+  align-self: flex-start;
+}
+
+.reglages__groupe--imbrique {
+  box-shadow: none;
+}
+
+/* Petit écran : la carte imbriquée garde moins de marge, sinon la zone de code et le choix de fichier débordent. */
+@media (max-width: 480px) {
+  .reglages__groupe--imbrique {
+    padding: var(--espace-3);
+  }
+}
+
+/* Le défi : l'opération bien lisible, puis le champ et « Entrer » côte à côte. */
+.reglages__operation {
+  margin: 0;
+  font-family: var(--police-titre);
+  font-size: var(--taille-titre-2);
+  font-weight: 700;
+}
+
+.reglages__defi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espace-3);
+}
+
+.reglages__reponse {
+  width: 9rem;
+  font-size: var(--taille-exercice);
+}
+
+/* Tablette : une seule colonne, bascules et boutons plus grands. */
+@media (max-width: 1180px) {
+  .reglages {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .reglages > .reglages__groupe--demi {
+    grid-column: 1 / -1;
+  }
+
+  .reglages__ligne {
+    min-height: 3.75rem; /* 60 px */
+  }
+
+  .reglages__segment-texte {
+    min-height: 3.75rem;
+  }
+}

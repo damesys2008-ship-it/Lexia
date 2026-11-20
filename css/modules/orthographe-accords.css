@@ -1,0 +1,79 @@
+/* Les accords dans le groupe nominal : le groupe d'arrivée, avec un champ par mot à écrire. */
+
+.orthographe-accords__depart {
+  margin-bottom: var(--espace-2);
+}
+
+.orthographe-accords__consigne {
+  margin: 0 0 var(--espace-4);
+  font-size: var(--taille-exercice);
+  color: var(--texte-discret);
+}
+
+.orthographe-accords__groupe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espace-3);
+  margin-bottom: var(--espace-4);
+}
+
+/* Le nom est donné : il se lit comme un mot de la phrase, sans cadre. */
+.orthographe-accords__nom {
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+  color: var(--prune);
+}
+
+.orthographe-accords__saisie {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espace-2);
+}
+
+/* La largeur suit la longueur du mot attendu (posée par le script) ; jamais plus large que l'écran. La règle est plus précise que .champ-texte__saisie (width: 100 %), qui est chargée après. */
+.orthographe-accords__saisie .orthographe-accords__champ {
+  width: var(--largeur-mot, 8ch);
+  min-width: 6rem;
+  max-width: 100%;
+}
+
+/* ✓ ou ✗ : une marque lisible, jamais la couleur seule. */
+.orthographe-accords__marque {
+  min-width: 1.5rem;
+  font-size: var(--taille-exercice);
+  font-weight: 700;
+}
+
+.orthographe-accords__marque--juste {
+  color: var(--menthe);
+}
+
+/* « Presque ! » : le ✗ est en prune (jamais de rouge). */
+.orthographe-accords__marque--faux {
+  color: var(--prune);
+}
+
+.orthographe-accords__champ[readonly] {
+  background: var(--creme);
+}
+
+
+.orthographe-accords__commandes {
+  margin-top: var(--espace-4);
+}
+
+.orthographe-accords__fin:empty {
+  display: none;
+}
+
+.orthographe-accords__fin {
+  margin-top: var(--espace-4);
+}
+
+.orthographe-accords__fin p {
+  margin: 0;
+  font-size: var(--taille-exercice);
+}
+
+/* Aucune animation dans ces styles : rien à couper pour .animations-reduites ou prefers-reduced-motion. */

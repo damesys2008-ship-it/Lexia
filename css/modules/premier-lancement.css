@@ -1,0 +1,169 @@
+/*
+ * Premier lancement : la bulle au-dessus, Pompon sur son ellipse rose, l'étape en cours dessous, puis la frise des trois étapes.
+ * Contenu de 900 px de large (marges comprises : 996 px sur PC, 972 px sur tablette).
+ */
+
+main:has(.premier-lancement) {
+  --largeur-contenu: 62.25rem;
+}
+
+@media (max-width: 1180px) {
+  main:has(.premier-lancement) {
+    --largeur-contenu: 60.75rem;
+  }
+}
+
+.premier-lancement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espace-5);
+  text-align: center;
+}
+
+/* La bulle est grande et en Fredoka : c'est Pompon qui parle à l'élève. */
+.premier-lancement .bulle {
+  max-width: 38.5rem;
+  padding: var(--espace-4) var(--espace-6);
+  border-radius: 1.75rem;
+}
+
+.premier-lancement .bulle__texte {
+  font-family: var(--police-titre);
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+/* Pompon se pose sur une ellipse rose de 420 × 80 px. */
+.premier-lancement__scene {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-block: var(--espace-5);
+}
+
+.premier-lancement__scene::before {
+  content: "";
+  position: absolute;
+  bottom: var(--espace-4);
+  width: 26.25rem;
+  max-width: 100%;
+  height: 5rem;
+  background: var(--socle-pompon);
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.premier-lancement .mascotte {
+  position: relative;
+  max-width: 20rem;
+}
+
+.premier-lancement__zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espace-4);
+  width: 100%;
+  max-width: 32rem;
+}
+
+.premier-lancement__gros {
+  min-height: 3.75rem;
+  padding: 1.125rem 2.75rem;
+  font-size: 1.75rem;
+}
+
+/*
+ * Écran de bienvenue : « J'ai déjà un compte » et « Jouer sans compte » sont des boutons discrets.
+ * Leur boîte déborde du texte visible (marge intérieure + bordure transparente, ou hauteur minimale
+ * des boutons sur tablette) : `--marge-invisible` est ce débordement, au-dessus et sous le texte.
+ * Pour que les deux espaces visibles soient égaux sans que les zones de toucher se chevauchent,
+ * les deux liens se touchent (le `gap` est annulé entre eux) : leur espace visible vaut alors
+ * 2 × la marge invisible, et on règle sous le bouton plein pour obtenir la même valeur.
+ */
+.premier-lancement__choix-discret {
+  /* 1.2em = hauteur d'une ligne de texte (line-height de .bouton). */
+  --marge-invisible: max(0.875rem + var(--epaisseur-bordure), (var(--hauteur-bouton) - 1.2em) / 2);
+}
+
+.premier-lancement__choix-discret + .premier-lancement__choix-discret {
+  margin-block-start: calc(-1 * var(--espace-4));
+}
+
+/* Sous le bouton plein : 5 px d'ombre 3D (box-shadow de .bouton) dépassent déjà de sa boîte. */
+.premier-lancement__gros + .premier-lancement__choix-discret {
+  margin-block-start: calc(var(--marge-invisible) + 5px - var(--espace-4));
+}
+
+.premier-lancement__formulaire {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--espace-3);
+  width: 100%;
+}
+
+.premier-lancement__suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--espace-3);
+}
+
+.premier-lancement__message {
+  margin: 0;
+  font-size: var(--taille-exercice);
+}
+
+.premier-lancement__message:empty {
+  display: none;
+}
+
+/* La frise : trois repères, le courant en framboise, les passés avec une coche. */
+.premier-lancement__frise {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--espace-3) var(--espace-5);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.premier-lancement__repere {
+  display: flex;
+  align-items: center;
+  gap: var(--espace-3);
+}
+
+.premier-lancement__rond {
+  display: grid;
+  place-items: center;
+  width: 2.375rem;
+  height: 2.375rem;
+  background: var(--blanc);
+  border: var(--bordure);
+  border-radius: 50%;
+  font-family: var(--police-titre);
+  font-weight: 700;
+}
+
+.premier-lancement__repere.est-fait .premier-lancement__rond {
+  background: var(--bonbon);
+}
+
+.premier-lancement__repere.est-actif .premier-lancement__rond {
+  background: var(--framboise);
+  color: var(--blanc);
+}
+
+.premier-lancement__libelle {
+  font-size: 1rem;
+}
+
+.premier-lancement__repere.est-actif .premier-lancement__libelle {
+  font-weight: 600;
+}

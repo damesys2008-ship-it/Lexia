@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 240 290" width="240" height="290">
+  <!-- Calque « foulard » pour Pompon, emplacement col. Même viewBox que pompon.svg. -->
+  <g>
+    <path d="M90 220 Q120 232 150 220 L120 250 Z" fill="#C94A1F" stroke="#241B4B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="114" cy="230" r="2" fill="#fff"/>
+    <circle cx="126" cy="232" r="2" fill="#fff"/>
+    <circle cx="120" cy="240" r="2" fill="#fff"/>
+  </g>
+</svg>
