@@ -1,6 +1,6 @@
 # Lexia
 
-Lexia est un site d'entraînement au français pour le CM2. Il propose des exercices courts et ludiques, avec une mascotte (Pompon) qui encourage l'élève.
+Lexia est un site d'entraînement au français pour le CM2. Il propose des exercices courts et ludiques, avec une mascotte qui encourage l'élève.
 
 Le site fonctionne sans connexion une fois chargé, s'installe comme une application sur PC et tablette, et ne demande aucun compte pour jouer.
 
